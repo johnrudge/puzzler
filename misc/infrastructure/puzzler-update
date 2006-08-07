@@ -19,7 +19,6 @@ set -e
 umask 002
 
 projdir=/home/groups/p/pu/puzzler
-project=puzzler
 dest=$projdir/htdocs
 snapshotdir=$projdir/snapshots
 
@@ -59,13 +58,14 @@ find . -type d -print0 | xargs -0 chmod ug+rwxs 2> /dev/null || true
 
 # create the snapshots
 exclude='--exclude=.svn'
-tar -cz $exclude -f $project-snapshot.tgz $project
+tar -cz $exclude -f puzzler-snapshot.tgz puzzler
+tar -cz $exclude -f solutions-snapshot.tgz solutions
 
 # plant the snapshots
 mv -f *snapshot.tgz $dest
 
 # update htdocs
-cp -ruf $project/* $dest
+cp -ruf puzzler/* $dest
 cp -ruf web/* $dest  # web/.[^.]*
 
 # remove SVN crud
