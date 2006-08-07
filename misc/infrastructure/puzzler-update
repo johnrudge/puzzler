@@ -1,5 +1,5 @@
 #! /bin/sh
-# $Id: puzzler-update 557 2006-06-13 20:59:26Z david $
+# $Id$
 #
 # This script is installed as a cron job to automatically update the
 # Polyform Puzzler web site whenever the files change in the repository.  
@@ -90,7 +90,9 @@ for htmlfile in `find .. -name '*.html'` ; do
     if [ -e $txtfile ] ; then
         if [ $unconditional -eq 1 -o $txtfile -nt $htmlfile ] ; then
             echo $txtfile
-            ~/bin/python ~/bin/rst2html.py --config=$dir/docutils.conf $txtfile $htmlfile
+            PYTHONPATH=$projdir/lib \
+                ~/bin/python ~/bin/rst2html.py --config=$dir/docutils.conf \
+                $txtfile $htmlfile
         fi
     fi
 done
