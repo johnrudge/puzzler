@@ -1,0 +1,103 @@
+#! /bin/sh
+# $Id: puzzler-update 557 2006-06-13 20:59:26Z david $
+#
+# This script is installed as a cron job to automatically update the
+# Polyform Puzzler web site whenever the files change in the repository.  
+# Any .html document with a corresponding .txt file is regenerated
+# whenever the .txt file changes.
+#
+# Options:
+#   -f    Provide feedback at start and end of program run.
+#   -t    Run the script in trace mode ("set -o xtrace").
+#   -u    Regenerate .html unconditionally.
+#   -v    Run verbosely.
+
+# exit on error
+set -e
+
+# make all newly created files group writeable
+umask 002
+
+projdir=/home/groups/p/pu/puzzler
+project=puzzler
+dest=$projdir/htdocs
+snapshotdir=$projdir/snapshots
+
+feedback=0
+trace=0
+unconditional=0
+verbose=0
+
+while getopts eftuv opt
+do
+    case $opt in
+        f)  feedback=1;;
+        t)  trace=1;;
+        u)  unconditional=1;;
+        v)  verbose=1
+            feedback=1;;
+        \?) exit 2;;
+    esac
+done
+shift `expr $OPTIND - 1`
+
+if [ $feedback -eq 1 ] ; then
+    echo 'Starting puzzler-update run...'
+fi
+
+if [ $trace -eq 1 -o $verbose -eq 1 ] ; then
+    set -o xtrace
+fi
+
+# gather the materials
+cd $snapshotdir
+svn update
+
+# ensure proper permissions are set
+find . -type f -print0 | xargs -0 chmod ug+rw 2> /dev/null || true
+find . -type d -print0 | xargs -0 chmod ug+rwxs 2> /dev/null || true
+
+# create the snapshots
+exclude='--exclude=.svn'
+tar -cz $exclude -f $project-snapshot.tgz $project
+
+# plant the snapshots
+mv -f *snapshot.tgz $dest
+
+# update htdocs
+cp -ruf $project/* $dest
+cp -ruf web/* $dest  # web/.[^.]*
+
+# remove SVN crud
+cd $dest
+find -name .svn -type d -exec rm -rf {} \; -prune
+
+# ensure proper permissions are set
+cd $dest
+find . -type f -print0 | xargs -0 chmod ug+rw 2> /dev/null || true
+find . -type d -print0 | xargs -0 chmod ug+rwxs 2> /dev/null || true
+
+if [ $trace -eq 0 ] ; then
+    set +o xtrace
+fi
+
+for htmlfile in `find .. -name '*.html'` ; do
+    dir=`dirname $htmlfile`
+    base=`basename $htmlfile .html`
+    txtfile=$dir/$base.txt
+    if [ -e $txtfile ] ; then
+        if [ $unconditional -eq 1 -o $txtfile -nt $htmlfile ] ; then
+            echo $txtfile
+            ~/bin/python ~/bin/rst2html.py --config=$dir/docutils.conf $txtfile $htmlfile
+            fi
+        fi
+    fi
+done
+
+if [ $feedback -eq 1 ] ; then
+    echo '...puzzler-update done.'
+fi
+
+# Local Variables:
+# indent-tabs-mode: nil
+# End:
