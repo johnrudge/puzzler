@@ -66,6 +66,7 @@ mv -f *snapshot.tgz $dest
 
 # update htdocs
 cp -ruf puzzler/* $dest
+cp -ruf misc solutions $dest
 cp -ruf web/* $dest  # web/.[^.]*
 
 # remove SVN crud
