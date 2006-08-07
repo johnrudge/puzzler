@@ -49,6 +49,7 @@ if [ $trace -eq 1 -o $verbose -eq 1 ] ; then
 fi
 
 # gather the materials
+# requires pre-existing $shapshotdir with svn checkout
 cd $snapshotdir
 svn update
 
@@ -90,7 +91,6 @@ for htmlfile in `find .. -name '*.html'` ; do
         if [ $unconditional -eq 1 -o $txtfile -nt $htmlfile ] ; then
             echo $txtfile
             ~/bin/python ~/bin/rst2html.py --config=$dir/docutils.conf $txtfile $htmlfile
-            fi
         fi
     fi
 done
