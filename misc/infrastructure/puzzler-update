@@ -51,7 +51,7 @@ fi
 # gather the materials
 # requires pre-existing $shapshotdir with svn checkout
 cd $snapshotdir
-svn update
+svn update --quiet
 
 # ensure proper permissions are set
 find . -type f -print0 | xargs -0 chmod ug+rw 2> /dev/null || true
