@@ -8,6 +8,7 @@
 #
 # Options:
 #   -f    Provide feedback at start and end of program run.
+#   -q    Run quietly.
 #   -t    Run the script in trace mode ("set -o xtrace").
 #   -u    Regenerate .html unconditionally.
 #   -v    Run verbosely.
@@ -23,14 +24,16 @@ dest=$projdir/htdocs
 snapshotdir=$projdir/snapshots
 
 feedback=0
+quiet=0
 trace=0
 unconditional=0
 verbose=0
 
-while getopts eftuv opt
+while getopts fqtuv opt
 do
     case $opt in
         f)  feedback=1;;
+        q)  quiet=1;;
         t)  trace=1;;
         u)  unconditional=1;;
         v)  verbose=1
@@ -51,7 +54,11 @@ fi
 # gather the materials
 # requires pre-existing $shapshotdir with svn checkout
 cd $snapshotdir
-svn update --quiet
+if [ $quiet -eq 1 ] ; then
+    svn update --quiet
+else
+    svn update
+fi
 
 # ensure proper permissions are set
 find . -type f -print0 | xargs -0 chmod ug+rw 2> /dev/null || true
@@ -89,7 +96,9 @@ for htmlfile in `find .. -name '*.html'` ; do
     txtfile=$dir/$base.txt
     if [ -e $txtfile ] ; then
         if [ $unconditional -eq 1 -o $txtfile -nt $htmlfile ] ; then
-            echo $txtfile
+            if [ $quiet -eq 0 ] ; then
+                echo $txtfile
+            fi
             PYTHONPATH=$projdir/lib \
                 ~/bin/python ~/bin/rst2html.py --config=$dir/docutils.conf \
                 $txtfile $htmlfile
