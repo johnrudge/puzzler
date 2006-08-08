@@ -11,7 +11,7 @@
 Latest News
 ===========
 
-(2006-08-07) Polyform Puzzler: project open for business
+**(2006-08-07) Polyform Puzzler: project open for business**
     Registered on SourceForge in 2000, this project has been dormant
     since.  Not any more!  We now have code in a Subversion
     repository, a mailing list, and our first snapshot.  Get puzzling!
