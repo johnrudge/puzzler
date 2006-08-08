@@ -56,8 +56,10 @@ Feedback
 Documentation
 =============
 
+* `README <README.html>`_
 * `Frequently Asked Questions <docs/FAQ.html>`_
 * `To Do List <docs/todo.html>`_
+* `Copying Polyform Puzzler <COPYING.html>`_
 
 
 .. footer:: Hosted by |SourceForge|_ · Powered by |Python|_
