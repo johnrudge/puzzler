@@ -30,19 +30,31 @@ puzzles can easily be defined and added.
 License
 -------
 
-Polyform Puzzler is copyright ©1998-2006 by David J. Goodger and
+Polyform Puzzler is copyright ©1998-2006 by `David J. Goodger`_ and
 licensed under the `GNU General Public License version 2
-<GPL2.txt>`__.
+<GPL2.txt>`_.
 
 
 Download
 --------
 
-* get the latest `project snapshot`_ (recommended; updated daily)
-* access the `SVN repository`_ directly, and get `checkin
-  notifications`_ by mail: use ``svn co
-  https://svn.sourceforge.net/svnroot/puzzler/trunk/puzzler``
-* get releases from the `project files page`_ (infrequent)
+* Get the latest `project snapshot`_ (recommended; it's updated
+  continuously).
+
+* To access the `SVN repository`_ directly use the following
+  Subversion command::
+
+      svn co https://svn.sourceforge.net/svnroot/puzzler/trunk/puzzler
+
+  `Subscribe to the checkins mailing list`__ to get checkin
+  notifications by mail.
+
+  __ https://lists.sourceforge.net/mailman/listinfo/puzzler-checkins
+
+* Get releases from the `project files page`_ (infrequent).
+
+* Get `a tarball of the solutions <solutions-snapshot.tgz>`__ (or
+  `view the solutions online here <solutions/>`__).
 
 
 Feedback
@@ -62,14 +74,20 @@ Documentation
 * `Copying Polyform Puzzler <COPYING.html>`_
 
 
+Solutions
+=========
+
+We include a `directory containing solutions to the puzzles Polyform
+Puzzler solves <solutions/>`__.  These solutions are also available
+`as a tarball <solutions-snapshot.tgz>`__.
+
 .. footer:: Hosted by |SourceForge|_ · Powered by |Python|_
 
+.. _David J. Goodger: http://python.net/~goodger
 .. _project files page:
    http://sourceforge.net/project/showfiles.php?group_id=7049
 .. _project snapshot: puzzler-snapshot.tgz
 .. _SVN repository: https://sourceforge.net/svn/?group_id=7049
-.. _checkin notifications:
-   https://lists.sourceforge.net/mailman/listinfo/puzzler-checkins
 .. _subscribe:
    https://lists.sourceforge.net/mailman/listinfo/puzzler-users
 .. _SourceForge patch manager:
