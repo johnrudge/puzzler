@@ -82,6 +82,15 @@ We include a `directory containing solutions to the puzzles Polyform
 Puzzler solves <solutions/>`__.  These solutions are also available
 `as a tarball <solutions-snapshot.tgz>`__.
 
+
+Extras
+======
+
+In addition to the main Polyform Puzzler code, in the "`<misc>`_"
+repository there is some `maze-generating code`__.
+
+__ misc/maze
+
 .. footer:: Hosted by |SourceForge|_ · Powered by |Python|_
 
 .. _David J. Goodger: http://python.net/~goodger
