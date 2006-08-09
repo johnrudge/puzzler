@@ -1,5 +1,9 @@
 #! /usr/bin/env python
 
+# Author: David Goodger <goodger@python.org>
+# Copyright: (C) 1998-2006 by David J. Goodger
+# License: GPL 2 (see maze.py)
+
 import unittest
 import maze
 
