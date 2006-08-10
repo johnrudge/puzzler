@@ -27,6 +27,11 @@ Python library that does the heavy lifting.  New polyforms and new
 puzzles can easily be defined and added.  Python 2.4 or higher is
 required.
 
+To get up & running quickly, see the Quick-Start_ section of the
+README_ file.
+
+.. _Quick-Start: README.html#quick-start
+
 
 License
 -------
