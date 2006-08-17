@@ -12,9 +12,9 @@ Latest News
 ===========
 
 **(2006-08-08) Polyform Puzzler 1: first release**
-    Ready for download_.  But recommend downloading the project
-    snapshot or accessing the SVN repository directly for up-to-date
-    code.
+    Ready for download_.  But I recommend downloading the `project
+    snapshot`_ or accessing the `SVN repository`_ directly for
+    up-to-date code.
 
 **(2006-08-07) Polyform Puzzler: project open for business**
     Registered on SourceForge in 2000, this project has been dormant
@@ -62,7 +62,8 @@ Download
 
   __ https://lists.sourceforge.net/mailman/listinfo/puzzler-checkins
 
-* Get releases from the `project files page`_ (infrequent).
+* Get releases from the `project files page`_ (infrequent and probably
+  out of date; I recommend the `project snapshot`_ instead).
 
 * Get `a tarball of the solutions <solutions-snapshot.tgz>`__ (or
   `view the solutions online here <solutions/>`__).
