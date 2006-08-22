@@ -11,6 +11,10 @@
 Latest News
 ===========
 
+**(2006-08-21) Tetrahex & Pentahex Puzzles Added**
+    Four hexagon-grid-based puzzles added, along with initial unit
+    tests.
+
 **(2006-08-08) Polyform Puzzler 1: first release**
     Ready for download_.  But I recommend downloading the `project
     snapshot`_ or accessing the `SVN repository`_ directly for
