@@ -9,11 +9,11 @@ solution 1:
 0,0,0 1,0,0 1,1,0 2,1,0 Z
 0,0,1 0,0,2 0,1,2 1,0,1 a
 
-p                                                            
-p p          p                                               
-L L L        b            b                                  
-L Z Z T      b b          a            V                     
-Z Z T T T    a a          a            V            V        
+p
+p p          p
+L L L        b            b
+L Z Z T      b b          a            V
+Z Z T T T    a a          a            V            V
 
 solution 2:
 2,0,0 3,0,0 3,1,0 4,0,0 T
@@ -24,11 +24,11 @@ solution 2:
 0,1,1 0,2,1 0,2,2 1,1,1 b
 0,0,1 0,0,2 0,1,2 1,0,1 a
 
-p                                                            
-p p          p                                               
-L L Z        b            b                                  
-L Z Z T      b b          a            V                     
-L Z T T T    a a          a            V            V        
+p
+p p          p
+L L Z        b            b
+L Z Z T      b b          a            V
+L Z T T T    a a          a            V            V
 
 solution 3:
 2,0,0 3,0,0 3,1,0 4,0,0 T
@@ -39,11 +39,11 @@ solution 3:
 0,0,1 0,0,2 0,1,1 V
 0,0,0 0,1,0 1,0,0 1,0,1 a
 
-p                                                            
-p p          p                                               
-L L b        L            L                                  
-a b b T      V b          Z            Z                     
-a a T T T    V a          V            Z            Z        
+p
+p p          p
+L L b        L            L
+a b b T      V b          Z            Z
+a a T T T    V a          V            Z            Z
 
 solution 4:
 3,0,0 3,1,0 4,0,0 V
@@ -54,11 +54,11 @@ solution 4:
 0,0,0 0,0,1 0,1,1 0,1,2 Z
 1,0,0 1,0,1 2,0,0 2,1,0 b
 
-p                                                            
-p p          p                                               
-L a a        L            L                                  
-L a b V      Z a          Z            T                     
-Z b b V V    Z b          T            T            T        
+p
+p p          p
+L a a        L            L
+L a b V      Z a          Z            T
+Z b b V V    Z b          T            T            T
 
 solution 5:
 3,0,0 3,1,0 4,0,0 V
@@ -69,11 +69,11 @@ solution 5:
 1,1,0 1,1,1 1,2,0 2,2,0 a
 1,0,0 1,0,1 2,0,0 2,1,0 b
 
-p                                                            
-p p          p                                               
-L a a        L            Z                                  
-L a b V      Z a          Z            T                     
-L b b V V    Z b          T            T            T        
+p
+p p          p
+L a a        L            Z
+L a b V      Z a          Z            T
+L b b V V    Z b          T            T            T
 
 solution 6:
 3,0,0 3,1,0 4,0,0 V
@@ -84,11 +84,11 @@ solution 6:
 1,0,0 1,0,1 2,0,0 2,1,0 b
 0,0,0 0,0,1 0,0,2 0,1,1 T
 
-p                                                            
-p p          p                                               
-L a a        L            L                                  
-L a b V      T a          Z            Z                     
-T b b V V    T b          T            Z            Z        
+p
+p p          p
+L a a        L            L
+L a b V      T a          Z            Z
+T b b V V    T b          T            Z            Z
 
 solution 7:
 3,0,0 3,1,0 4,0,0 V
@@ -99,11 +99,11 @@ solution 7:
 1,1,0 1,1,1 1,2,0 2,2,0 a
 1,0,0 1,0,1 2,0,0 2,1,0 b
 
-p                                                            
-p p          p                                               
-T a a        T            T                                  
-L a b V      T a          Z            Z                     
-L b b V V    L b          L            Z            Z        
+p
+p p          p
+T a a        T            T
+L a b V      T a          Z            Z
+L b b V V    L b          L            Z            Z
 
 solution 8:
 2,1,0 3,0,0 3,1,0 4,0,0 Z
@@ -114,11 +114,11 @@ solution 8:
 1,0,0 1,1,0 2,0,0 V
 0,0,0 0,0,1 0,1,0 1,0,1 b
 
-p                                                            
-p p          p                                               
-L L L        L            a                                  
-b V Z Z      a a          a            T                     
-b V V Z Z    b b          T            T            T        
+p
+p p          p
+L L L        L            a
+b V Z Z      a a          a            T
+b V V Z Z    b b          T            T            T
 
 solution 9:
 2,1,0 3,0,0 3,1,0 4,0,0 Z
@@ -129,11 +129,11 @@ solution 9:
 0,0,1 0,0,2 0,1,2 1,0,1 a
 0,0,0 1,0,0 1,1,0 2,0,0 T
 
-p                                                            
-p p          p                                               
-L L L        b            b                                  
-L T Z Z      b b          a            V                     
-T T T Z Z    a a          a            V            V        
+p
+p p          p
+L L L        b            b
+L T Z Z      b b          a            V
+T T T Z Z    a a          a            V            V
 
 solution 10:
 2,1,0 3,0,0 3,1,0 4,0,0 Z
@@ -144,10 +144,10 @@ solution 10:
 0,1,1 0,2,1 0,2,2 1,1,1 b
 0,0,1 0,0,2 0,1,2 1,0,1 a
 
-p                                                            
-p p          p                                               
-T T T        b            b                                  
-L T Z Z      b b          a            V                     
-L L L Z Z    a a          a            V            V        
+p
+p p          p
+T T T        b            b
+L T Z Z      b b          a            V
+L L L Z Z    a a          a            V            V
 
 10 solutions, 270 searches, duration 0:00:00.180000

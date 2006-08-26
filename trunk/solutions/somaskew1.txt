@@ -9,8 +9,8 @@ solution 1:
 0,2,2 1,1,2 1,2,2 2,1,2 Z
 1,1,1 1,2,1 2,2,1 2,2,2 b
 
-a a p        a b b        Z Z b    
-  a p p        b p V        Z Z T  
+a a p        a b b        Z Z b
+  a p p        b p V        Z Z T
     L L L        L V V        T T T
 
 solution 2:
@@ -22,8 +22,8 @@ solution 2:
 0,2,0 1,1,0 1,2,0 2,1,0 Z
 1,1,1 1,2,1 2,2,0 2,2,1 a
 
-Z Z a        b a a        b b T    
-  Z Z p        a p p        b T T  
+Z Z a        b a a        b b T
+  Z Z p        a p p        b T T
     L L L        L p V        T V V
 
 solution 3:
@@ -35,8 +35,8 @@ solution 3:
 0,2,1 0,2,2 1,2,2 V
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-p p b        V p b        V V a    
-  p b b        a Z Z        a a T  
+p p b        V p b        V V a
+  p b b        a Z Z        a a T
     L L L        L Z Z        T T T
 
 solution 4:
@@ -48,8 +48,8 @@ solution 4:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V Z Z        Z Z p    
-  b b a        b p a        p p T  
+V V b        V Z Z        Z Z p
+  b b a        b p a        p p T
     L L L        L a a        T T T
 
 solution 5:
@@ -61,8 +61,8 @@ solution 5:
 1,1,1 1,2,1 2,2,1 2,2,2 b
 1,1,0 2,1,0 2,1,1 2,2,0 p
 
-V V p        V b b        Z Z b    
-  p p a        b p a        Z Z T  
+V V p        V b b        Z Z b
+  p p a        b p a        Z Z T
     L L L        L a a        T T T
 
 solution 6:
@@ -74,8 +74,8 @@ solution 6:
 1,2,1 2,1,1 2,2,1 2,2,2 p
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V p p        Z Z p    
-  b b a        b p a        Z Z T  
+V V b        V p p        Z Z p
+  b b a        b p a        Z Z T
     L L L        L a a        T T T
 
 solution 7:
@@ -87,8 +87,8 @@ solution 7:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-Z Z b        V Z Z        V V p    
-  b b a        b p a        p p T  
+Z Z b        V Z Z        V V p
+  b b a        b p a        p p T
     L L L        L a a        T T T
 
 solution 8:
@@ -100,8 +100,8 @@ solution 8:
 0,2,0 1,1,0 1,2,0 2,1,0 Z
 1,1,1 1,2,1 2,2,0 2,2,1 a
 
-Z Z a        V a a        V V T    
-  Z Z p        a p p        T T b  
+Z Z a        V a a        V V T
+  Z Z p        a p p        T T b
     L L L        L p b        T b b
 
 solution 9:
@@ -113,8 +113,8 @@ solution 9:
 2,0,2 3,0,1 3,0,2 3,1,2 p
 2,0,0 2,1,0 3,1,0 3,1,1 b
 
-T T T        V a a        V V Z    
-  T b b        a Z b        a Z p  
+T T T        V a a        V V Z
+  T b b        a Z b        a Z p
     b L L        Z p L        p p L
 
 solution 10:
@@ -126,8 +126,8 @@ solution 10:
 2,0,1 2,0,2 3,0,1 3,1,1 b
 2,0,0 2,1,0 2,1,1 3,1,0 p
 
-T T T        V a a        V V Z    
-  T p p        a p b        a Z Z  
+T T T        V a a        V V Z
+  T p p        a p b        a Z Z
     p L L        b b L        b Z L
 
 solution 11:
@@ -139,8 +139,8 @@ solution 11:
 2,0,1 2,0,2 2,1,1 3,0,1 p
 2,0,0 2,1,0 3,1,0 3,1,1 b
 
-T T T        V a a        V V Z    
-  T b b        a p b        a Z Z  
+T T T        V a a        V V Z
+  T b b        a p b        a Z Z
     b L L        p p L        p Z L
 
 solution 12:
@@ -152,8 +152,8 @@ solution 12:
 2,0,2 3,0,1 3,0,2 3,1,2 p
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-T T T        V b b        V V b    
-  T a a        b Z Z        Z Z p  
+T T T        V b b        V V b
+  T a a        b Z Z        Z Z p
     a L L        a p L        p p L
 
 solution 13:
@@ -165,8 +165,8 @@ solution 13:
 2,0,1 3,0,1 3,1,1 3,1,2 a
 2,0,0 2,1,0 2,1,1 3,1,0 p
 
-T T T        V b b        V V b    
-  T p p        b p a        Z Z a  
+T T T        V b b        V V b
+  T p p        b p a        Z Z a
     p L L        a a L        Z Z L
 
 solution 14:
@@ -178,8 +178,8 @@ solution 14:
 2,1,1 3,0,1 3,1,1 3,1,2 p
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-T T T        V b b        V V b    
-  T a a        b p p        Z Z p  
+T T T        V b b        V V b
+  T a a        b p p        Z Z p
     a L L        a p L        Z Z L
 
 solution 15:
@@ -191,8 +191,8 @@ solution 15:
 2,0,2 3,0,1 3,0,2 3,1,2 p
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-T T T        V V b        Z Z b    
-  T a a        V b b        Z Z p  
+T T T        V V b        Z Z b
+  T a a        V b b        Z Z p
     a L L        a p L        p p L
 
 solution 16:
@@ -204,8 +204,8 @@ solution 16:
 3,0,1 3,0,2 3,1,0 3,1,1 Z
 2,0,2 2,1,1 2,1,2 3,1,2 p
 
-V V a        V a a        T T T    
-  b b Z        a p Z        T p p  
+V V a        V a a        T T T
+  b b Z        a p Z        T p p
     b L L        b Z L        p Z L
 
 solution 17:
@@ -217,8 +217,8 @@ solution 17:
 2,1,1 2,1,2 3,1,0 3,1,1 Z
 2,0,2 3,0,1 3,0,2 3,1,2 p
 
-V V a        V a a        T T T    
-  b b Z        a Z Z        T Z p  
+V V a        V a a        T T T
+  b b Z        a Z Z        T Z p
     b L L        b p L        p p L
 
 solution 18:
@@ -230,8 +230,8 @@ solution 18:
 3,0,1 3,0,2 3,1,0 3,1,1 Z
 2,0,1 2,0,2 2,1,2 3,1,2 b
 
-V V a        V a a        T T T    
-  p p Z        a p Z        T b b  
+V V a        V a a        T T T
+  p p Z        a p Z        T b b
     p L L        b Z L        b Z L
 
 solution 19:
@@ -243,8 +243,8 @@ solution 19:
 2,0,0 2,0,1 2,1,1 2,1,2 Z
 2,0,2 3,0,1 3,0,2 3,1,2 p
 
-V V a        V b b        T T T    
-  b a a        b Z a        T Z p  
+V V a        V b b        T T T
+  b a a        b Z a        T Z p
     Z L L        Z p L        p p L
 
 solution 20:
@@ -256,8 +256,8 @@ solution 20:
 2,0,0 2,0,1 3,0,1 3,0,2 Z
 2,0,2 2,1,1 2,1,2 3,1,2 p
 
-V V a        V b b        T T T    
-  b a a        b p a        T p p  
+V V a        V b b        T T T
+  b a a        b p a        T p p
     Z L L        Z Z L        p Z L
 
 solution 21:
@@ -269,8 +269,8 @@ solution 21:
 2,0,0 2,0,1 3,0,1 3,0,2 Z
 2,0,2 2,1,2 3,1,1 3,1,2 a
 
-V V p        V b b        T T T    
-  b p p        b p a        T a a  
+V V p        V b b        T T T
+  b p p        b p a        T a a
     Z L L        Z Z L        a Z L
 
 solution 22:
@@ -282,8 +282,8 @@ solution 22:
 2,0,0 2,0,1 3,0,1 3,0,2 Z
 2,0,2 2,1,2 3,1,1 3,1,2 a
 
-V V b        V p b        T T T    
-  p b b        p p a        T a a  
+V V b        V p b        T T T
+  p b b        p p a        T a a
     Z L L        Z Z L        a Z L
 
 solution 23:
@@ -295,8 +295,8 @@ solution 23:
 3,0,1 3,0,2 3,1,0 3,1,1 Z
 2,0,1 2,0,2 2,1,2 3,1,2 b
 
-V V p        V p p        T T T    
-  a a Z        a p Z        T b b  
+V V p        V p p        T T T
+  a a Z        a p Z        T b b
     a L L        b Z L        b Z L
 
 solution 24:
@@ -308,8 +308,8 @@ solution 24:
 2,0,2 3,0,1 3,0,2 3,1,2 p
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-V V T        V Z Z        Z Z a    
-  T T T        a b b        a a p  
+V V T        V Z Z        Z Z a
+  T T T        a b b        a a p
     b L L        b p L        p p L
 
 solution 25:
@@ -321,8 +321,8 @@ solution 25:
 2,0,2 3,0,2 3,1,1 3,1,2 b
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-V V T        V Z Z        Z Z a    
-  T T T        a p b        a a b  
+V V T        V Z Z        Z Z a
+  T T T        a p b        a a b
     p L L        p p L        b b L
 
 solution 26:
@@ -334,8 +334,8 @@ solution 26:
 2,1,1 3,0,1 3,1,0 3,1,1 p
 1,1,0 2,0,0 2,1,0 2,2,0 T
 
-V V T        V b b        Z Z b    
-  T T p        b p p        Z Z a  
+V V T        V b b        Z Z b
+  T T p        b p p        Z Z a
     T L L        a p L        a a L
 
 solution 27:
@@ -347,8 +347,8 @@ solution 27:
 2,0,1 2,1,1 3,1,0 3,1,1 a
 1,1,0 2,0,0 2,1,0 2,2,0 T
 
-V V T        V b b        Z Z b    
-  T T a        b a a        Z Z p  
+V V T        V b b        Z Z b
+  T T a        b a a        Z Z p
     T L L        a p L        p p L
 
 solution 28:
@@ -360,8 +360,8 @@ solution 28:
 3,0,1 3,0,2 3,1,0 3,1,1 Z
 2,0,2 2,1,1 2,1,2 3,1,2 p
 
-V V T        V T T        a a T    
-  b b Z        a p Z        a p p  
+V V T        V T T        a a T
+  b b Z        a p Z        a p p
     b L L        b Z L        p Z L
 
 solution 29:
@@ -373,8 +373,8 @@ solution 29:
 2,1,1 2,1,2 3,1,0 3,1,1 Z
 2,0,2 3,0,1 3,0,2 3,1,2 p
 
-V V T        V T T        a a T    
-  b b Z        a Z Z        a Z p  
+V V T        V T T        a a T
+  b b Z        a Z Z        a Z p
     b L L        b p L        p p L
 
 solution 30:
@@ -386,8 +386,8 @@ solution 30:
 3,0,1 3,0,2 3,1,0 3,1,1 Z
 2,0,1 2,0,2 2,1,2 3,1,2 b
 
-V V T        V T T        a a T    
-  p p Z        a p Z        a b b  
+V V T        V T T        a a T
+  p p Z        a p Z        a b b
     p L L        b Z L        b Z L
 
 solution 31:
@@ -399,8 +399,8 @@ solution 31:
 1,1,0 2,0,0 2,1,0 2,2,0 T
 2,0,1 2,0,2 2,1,2 3,1,2 b
 
-V V T        V p p        a a p    
-  T T Z        a p Z        a b b  
+V V T        V p p        a a p
+  T T Z        a p Z        a b b
     T L L        b Z L        b Z L
 
 solution 32:
@@ -412,8 +412,8 @@ solution 32:
 2,1,2 2,2,2 3,0,2 3,1,2 Z
 2,0,1 2,0,2 3,0,1 3,1,1 b
 
-V V p        V p p        a a Z    
-  T T T        a p b        a Z Z  
+V V p        V p p        a a Z
+  T T T        a p b        a Z Z
     T L L        b b L        b Z L
 
 solution 33:
@@ -425,8 +425,8 @@ solution 33:
 2,0,2 2,1,2 2,2,2 3,1,2 T
 3,0,1 3,0,2 3,1,0 3,1,1 Z
 
-V V p        V p p        a a T    
-  b b Z        a p Z        a T T  
+V V p        V p p        a a T
+  b b Z        a p Z        a T T
     b L L        b Z L        T Z L
 
 solution 34:
@@ -438,8 +438,8 @@ solution 34:
 3,0,1 3,0,2 3,1,0 3,1,1 Z
 2,0,1 2,0,2 2,1,2 3,1,2 b
 
-V V T        V p T        p p T    
-  a a Z        a T Z        p b b  
+V V T        V p T        p p T
+  a a Z        a T Z        p b b
     a L L        b Z L        b Z L
 
 solution 35:
@@ -451,8 +451,8 @@ solution 35:
 1,1,0 1,1,1 2,1,1 2,2,1 a
 2,0,0 2,1,0 2,2,0 3,1,0 T
 
-V V T        V p a        p p Z    
-  a T T        a a b        p Z Z  
+V V T        V p a        p p Z
+  a T T        a a b        p Z Z
     T L L        b b L        b Z L
 
 solution 36:
@@ -464,8 +464,8 @@ solution 36:
 1,1,0 2,0,0 2,1,0 2,2,0 T
 2,0,1 2,0,2 2,1,2 3,1,2 b
 
-V V T        V p a        p p a    
-  T T Z        a a Z        p b b  
+V V T        V p a        p p a
+  T T Z        a a Z        p b b
     T L L        b Z L        b Z L
 
 solution 37:
@@ -477,8 +477,8 @@ solution 37:
 2,0,0 2,0,1 2,0,2 2,1,1 T
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V p a        p p a    
-  b b Z        b T Z        p a a  
+V V b        V p a        p p a
+  b b Z        b T Z        p a a
     T L L        T Z L        T Z L
 
 solution 38:
@@ -490,8 +490,8 @@ solution 38:
 1,1,1 2,0,1 2,0,2 2,1,1 b
 1,1,0 2,0,0 2,1,0 2,2,0 T
 
-V V T        V p a        p p a    
-  T T Z        b b Z        p a a  
+V V T        V p a        p p a
+  T T Z        b b Z        p a a
     T L L        b Z L        b Z L
 
 solution 39:
@@ -503,8 +503,8 @@ solution 39:
 2,0,2 3,0,1 3,0,2 3,1,2 p
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-Z Z T        V Z Z        V V a    
-  T T T        a b b        a a p  
+Z Z T        V Z Z        V V a
+  T T T        a b b        a a p
     b L L        b p L        p p L
 
 solution 40:
@@ -516,8 +516,8 @@ solution 40:
 2,0,2 3,0,2 3,1,1 3,1,2 b
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-Z Z T        V Z Z        V V a    
-  T T T        a p b        a a b  
+Z Z T        V Z Z        V V a
+  T T T        a p b        a a b
     p L L        p p L        b b L
 
 solution 41:
@@ -529,8 +529,8 @@ solution 41:
 2,0,2 3,0,1 3,0,2 3,1,2 p
 2,0,0 2,1,0 3,1,0 3,1,1 b
 
-a a T        a T T        Z Z T    
-  a b b        V V b        Z Z p  
+a a T        a T T        Z Z T
+  a b b        V V b        Z Z p
     b L L        V p L        p p L
 
 solution 42:
@@ -542,8 +542,8 @@ solution 42:
 2,0,1 2,0,2 2,1,1 3,0,1 p
 3,0,2 3,1,1 3,1,2 V
 
-a a T        a b b        Z Z b    
-  a T T        b p V        Z Z V  
+a a T        a b b        Z Z b
+  a T T        b p V        Z Z V
     T L L        p p L        p V L
 
 solution 43:
@@ -555,8 +555,8 @@ solution 43:
 2,0,2 3,0,1 3,0,2 3,1,2 p
 2,0,1 2,1,1 3,1,1 V
 
-a a T        a b b        Z Z b    
-  a T T        b V V        Z Z p  
+a a T        a b b        Z Z b
+  a T T        b V V        Z Z p
     T L L        V p L        p p L
 
 solution 44:
@@ -568,8 +568,8 @@ solution 44:
 2,1,1 3,0,1 3,1,1 3,1,2 p
 2,0,1 2,0,2 3,0,2 V
 
-a a T        a b b        Z Z b    
-  a T T        b p p        Z Z p  
+a a T        a b b        Z Z b
+  a T T        b p p        Z Z p
     T L L        V p L        V V L
 
 solution 45:
@@ -581,8 +581,8 @@ solution 45:
 2,0,0 2,0,1 2,0,2 3,0,1 T
 3,0,2 3,1,1 3,1,2 V
 
-a a p        a b b        Z Z b    
-  a p p        b p V        Z Z V  
+a a p        a b b        Z Z b
+  a p p        b p V        Z Z V
     T L L        T T L        T V L
 
 solution 46:
@@ -594,8 +594,8 @@ solution 46:
 2,0,1 2,0,2 3,0,1 3,1,1 b
 1,1,1 2,1,1 2,2,1 V
 
-a a T        a p V        p p Z    
-  a T T        V V b        p Z Z  
+a a T        a p V        p p Z
+  a T T        V V b        p Z Z
     T L L        b b L        b Z L
 
 solution 47:
@@ -607,8 +607,8 @@ solution 47:
 2,1,2 2,2,1 2,2,2 V
 2,0,2 3,0,2 3,1,1 3,1,2 b
 
-a a T        a p V        p p V    
-  a T T        Z Z b        p V b  
+a a T        a p V        p p V
+  a T T        Z Z b        p V b
     T L L        Z Z L        b b L
 
 solution 48:
@@ -620,8 +620,8 @@ solution 48:
 2,1,2 2,2,2 3,0,2 3,1,2 Z
 2,1,0 3,1,0 3,1,1 V
 
-a a b        a p b        p p Z    
-  a V V        b b V        p Z Z  
+a a b        a p b        p p Z
+  a V V        b b V        p Z Z
     T L L        T T L        T Z L
 
 solution 49:
@@ -633,8 +633,8 @@ solution 49:
 2,0,0 2,0,1 3,0,1 3,0,2 Z
 2,1,0 3,1,0 3,1,1 V
 
-a a b        a p b        p p T    
-  a V V        b b V        p T T  
+a a b        a p b        p p T
+  a V V        b b V        p T T
     Z L L        Z Z L        T Z L
 
 solution 50:
@@ -646,8 +646,8 @@ solution 50:
 3,0,1 3,0,2 3,1,0 3,1,1 Z
 2,0,0 2,0,1 2,1,0 V
 
-a a b        a p b        p p T    
-  a V Z        b b Z        p T T  
+a a b        a p b        p p T
+  a V Z        b b Z        p T T
     V L L        V Z L        T Z L
 
 solution 51:
@@ -659,8 +659,8 @@ solution 51:
 2,0,2 3,0,1 3,0,2 3,1,2 p
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-b b T        V T T        V V T    
-  b a a        b Z Z        Z Z p  
+b b T        V T T        V V T
+  b a a        b Z Z        Z Z p
     a L L        a p L        p p L
 
 solution 52:
@@ -672,8 +672,8 @@ solution 52:
 2,0,1 3,0,1 3,1,1 3,1,2 a
 2,0,0 2,1,0 2,1,1 3,1,0 p
 
-b b T        V T T        V V T    
-  b p p        b p a        Z Z a  
+b b T        V T T        V V T
+  b p p        b p a        Z Z a
     p L L        a a L        Z Z L
 
 solution 53:
@@ -685,8 +685,8 @@ solution 53:
 2,1,1 3,0,1 3,1,1 3,1,2 p
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-b b T        V T T        V V T    
-  b a a        b p p        Z Z p  
+b b T        V T T        V V T
+  b a a        b p p        Z Z p
     a L L        a p L        Z Z L
 
 solution 54:
@@ -698,8 +698,8 @@ solution 54:
 1,1,2 2,0,2 2,1,2 3,0,2 Z
 2,0,1 3,0,1 3,1,1 3,1,2 a
 
-b b T        V p p        V V p    
-  b T T        b p a        Z Z a  
+b b T        V p p        V V p
+  b T T        b p a        Z Z a
     T L L        a a L        Z Z L
 
 solution 55:
@@ -711,8 +711,8 @@ solution 55:
 1,1,2 2,0,2 2,1,2 3,1,2 T
 2,0,0 2,0,1 3,0,1 3,0,2 Z
 
-b b a        V p p        V V p    
-  b a a        b p a        T T T  
+b b a        V p p        V V p
+  b a a        b p a        T T T
     Z L L        Z Z L        T Z L
 
 solution 56:
@@ -724,8 +724,8 @@ solution 56:
 2,1,2 2,2,2 3,0,2 3,1,2 Z
 1,1,1 1,1,2 2,1,1 2,2,1 b
 
-p p a        V p b        V V Z    
-  p a a        b b a        b Z Z  
+p p a        V p b        V V Z
+  p a a        b b a        b Z Z
     T L L        T T L        T Z L
 
 solution 57:
@@ -737,8 +737,8 @@ solution 57:
 1,1,1 1,1,2 2,1,1 2,2,1 b
 2,0,2 2,1,2 2,2,2 3,1,2 T
 
-p p a        V p b        V V T    
-  p a a        b b a        b T T  
+p p a        V p b        V V T
+  p a a        b b a        b T T
     Z L L        Z Z L        T Z L
 
 solution 58:
@@ -750,8 +750,8 @@ solution 58:
 1,1,1 2,0,0 2,0,1 2,1,1 a
 2,0,2 2,1,2 2,2,2 3,1,2 T
 
-p p V        b p V        b b T    
-  p V Z        a a Z        b T T  
+p p V        b p V        b b T
+  p V Z        a a Z        b T T
     a L L        a Z L        T Z L
 
 solution 59:
@@ -763,8 +763,8 @@ solution 59:
 2,1,2 2,2,2 3,0,2 3,1,2 Z
 1,1,1 2,1,1 2,2,1 V
 
-p p a        b p V        b b Z    
-  p a a        V V a        b Z Z  
+p p a        b p V        b b Z
+  p a a        V V a        b Z Z
     T L L        T T L        T Z L
 
 solution 60:
@@ -776,8 +776,8 @@ solution 60:
 1,1,1 2,1,1 2,2,1 V
 2,0,0 2,0,1 3,0,1 3,0,2 Z
 
-p p a        b p V        b b T    
-  p a a        V V a        b T T  
+p p a        b p V        b b T
+  p a a        V V a        b T T
     Z L L        Z Z L        T Z L
 
 solution 61:
@@ -789,8 +789,8 @@ solution 61:
 1,1,1 1,1,2 2,1,2 2,2,2 a
 2,0,1 3,0,1 3,1,0 3,1,1 b
 
-V V p        V Z Z        Z Z a    
-  p p b        a p b        a a T  
+V V p        V Z Z        Z Z a
+  p p b        a p b        a a T
     L L L        b b L        T T T
 
 solution 62:
@@ -802,8 +802,8 @@ solution 62:
 1,1,1 1,1,2 2,1,2 2,2,2 a
 2,0,1 3,0,1 3,1,0 3,1,1 b
 
-Z Z p        V Z Z        V V a    
-  p p b        a p b        a a T  
+Z Z p        V Z Z        V V a
+  p p b        a p b        a a T
     L L L        b b L        T T T
 
 solution 63:
@@ -815,8 +815,8 @@ solution 63:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 0,2,1 0,2,2 1,2,2 V
 
-Z Z a        V a a        V V p    
-  Z Z b        a p b        p p T  
+Z Z a        V a a        V V p
+  Z Z b        a p b        p p T
     L L L        b b L        T T T
 
 solution 64:
@@ -828,8 +828,8 @@ solution 64:
 0,2,1 0,2,2 1,2,2 V
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-Z Z p        V p p        V V a    
-  Z Z b        a p b        a a T  
+Z Z p        V p p        V V a
+  Z Z b        a p b        a a T
     L L L        b b L        T T T
 
 solution 65:
@@ -841,8 +841,8 @@ solution 65:
 2,1,0 2,1,1 2,2,0 3,1,0 p
 2,0,1 3,0,1 3,1,1 V
 
-a a p        a b b        Z Z b    
-  a p p        b p V        Z Z T  
+a a p        a b b        Z Z b
+  a p p        b p V        Z Z T
     L L L        V V L        T T T
 
 solution 66:
@@ -854,8 +854,8 @@ solution 66:
 1,1,1 2,0,1 2,1,1 3,0,1 Z
 1,1,2 2,1,2 2,2,1 2,2,2 b
 
-p p a        V p b        V V b    
-  p a a        Z Z a        b b T  
+p p a        V p b        V V b
+  p a a        Z Z a        b b T
     L L L        Z Z L        T T T
 
 solution 67:
@@ -867,8 +867,8 @@ solution 67:
 1,1,1 2,0,1 2,1,1 3,0,1 Z
 2,1,0 2,2,0 3,1,0 3,1,1 a
 
-p p a        b p V        b b V    
-  p a a        Z Z a        b V T  
+p p a        b p V        b b V
+  p a a        Z Z a        b V T
     L L L        Z Z L        T T T
 
 solution 68:
@@ -880,8 +880,8 @@ solution 68:
 0,2,2 1,1,2 1,2,1 1,2,2 p
 2,0,2 2,1,2 2,2,2 3,1,2 T
 
-a a b        a p b        p p T    
-  a V V        b b V        p T T  
+a a b        a p b        p p T
+  a V V        b b V        p T T
     L L L        Z Z L        T Z Z
 
 solution 69:
@@ -893,8 +893,8 @@ solution 69:
 0,2,2 1,1,2 1,2,2 2,2,2 T
 2,0,2 2,1,1 2,1,2 3,1,2 p
 
-V V a        V b b        T T T    
-  b a a        b p a        T p p  
+V V a        V b b        T T T
+  b a a        b p a        T p p
     L L L        Z Z L        p Z Z
 
 solution 70:
@@ -906,8 +906,8 @@ solution 70:
 1,2,1 2,1,1 2,2,1 2,2,2 p
 1,1,2 2,0,2 2,1,2 3,1,2 T
 
-b b a        V p p        V V p    
-  b a a        b p a        T T T  
+b b a        V p p        V V p
+  b a a        b p a        T T T
     L L L        Z Z L        T Z Z
 
 solution 71:
@@ -919,8 +919,8 @@ solution 71:
 1,1,1 1,1,2 2,1,1 2,2,1 b
 2,0,2 2,1,2 2,2,2 3,1,2 T
 
-p p a        V p b        V V T    
-  p a a        b b a        b T T  
+p p a        V p b        V V T
+  p a a        b b a        b T T
     L L L        Z Z L        T Z Z
 
 solution 72:
@@ -932,8 +932,8 @@ solution 72:
 2,0,2 2,1,2 2,2,2 3,1,2 T
 1,1,1 2,1,1 2,2,1 V
 
-p p a        b p V        b b T    
-  p a a        V V a        b T T  
+p p a        b p V        b b T
+  p a a        V V a        b T T
     L L L        Z Z L        T Z Z
 
 solution 73:
@@ -945,8 +945,8 @@ solution 73:
 1,1,0 1,1,1 1,2,1 2,1,1 p
 0,2,0 0,2,1 1,2,0 V
 
-V V b        V p b        T T T    
-  p b b        p p a        T a a  
+V V b        V p b        T T T
+  p b b        p p a        T a a
     L L L        Z Z L        a Z Z
 
 solution 74:
@@ -958,8 +958,8 @@ solution 74:
 1,1,0 1,1,1 1,2,1 2,2,1 b
 0,2,2 1,1,2 1,2,2 2,2,2 T
 
-V V p        V b b        T T T    
-  b p p        b p a        T a a  
+V V p        V b b        T T T
+  b p p        b p a        T a a
     L L L        Z Z L        a Z Z
 
 solution 75:
@@ -971,8 +971,8 @@ solution 75:
 0,2,2 1,1,1 1,1,2 1,2,2 a
 1,2,1 2,1,1 2,2,1 2,2,2 p
 
-V V T        V p p        a a p    
-  T T T        a p b        a Z Z  
+V V T        V p p        a a p
+  T T T        a p b        a Z Z
     L L L        b b L        b Z Z
 
 solution 76:
@@ -984,8 +984,8 @@ solution 76:
 0,2,2 1,1,2 1,2,1 1,2,2 p
 1,1,1 2,1,1 2,2,1 2,2,2 a
 
-V V T        V p a        p p a    
-  T T T        a a b        p Z Z  
+V V T        V p a        p p a
+  T T T        a a b        p Z Z
     L L L        b b L        b Z Z
 
 solution 77:
@@ -997,8 +997,8 @@ solution 77:
 1,1,2 1,2,2 2,2,1 2,2,2 a
 1,1,0 1,1,1 1,2,0 V
 
-T V p        T T a        T a a    
-  V p p        V p b        a Z Z  
+T V p        T T a        T a a
+  V p p        V p b        a Z Z
     L L L        b b L        b Z Z
 
 solution 78:
@@ -1010,8 +1010,8 @@ solution 78:
 0,2,2 1,1,2 1,2,2 2,2,2 T
 1,1,1 1,2,1 2,2,1 V
 
-a a p        a V V        T T T    
-  a p p        V p b        T Z Z  
+a a p        a V V        T T T
+  a p p        V p b        T Z Z
     L L L        b b L        b Z Z
 
 solution 79:
@@ -1023,8 +1023,8 @@ solution 79:
 1,1,0 1,1,1 1,2,1 2,2,1 b
 0,2,2 1,1,2 1,2,2 2,2,2 T
 
-V V a        V b b        T T T    
-  b a a        b p a        T Z Z  
+V V a        V b b        T T T
+  b a a        b p a        T Z Z
     L L L        p p L        p Z Z
 
 solution 80:
@@ -1036,8 +1036,8 @@ solution 80:
 0,2,0 1,1,0 1,2,0 1,2,1 p
 0,2,1 0,2,2 1,2,2 V
 
-p p b        V p b        V V T    
-  p b b        Z Z a        T T a  
+p p b        V p b        V V T
+  p b b        Z Z a        T T a
     L L L        Z Z L        T a a
 
 solution 81:
@@ -1049,8 +1049,8 @@ solution 81:
 0,2,2 1,1,2 1,2,2 2,1,2 Z
 1,1,1 1,2,1 2,2,1 2,2,2 b
 
-V V T        V b b        Z Z b    
-  T T T        b p a        Z Z a  
+V V T        V b b        Z Z b
+  T T T        b p a        Z Z a
     L L L        p p L        p a a
 
 solution 82:
@@ -1062,8 +1062,8 @@ solution 82:
 1,1,0 1,1,1 2,0,1 2,1,1 b
 1,1,2 2,0,2 2,1,2 2,2,2 T
 
-V V a        V Z Z        Z Z T    
-  b a a        b b a        T T p  
+V V a        V Z Z        Z Z T
+  b a a        b b a        T T p
     L L L        b p L        T p p
 
 solution 83:
@@ -1075,8 +1075,8 @@ solution 83:
 1,1,2 2,0,2 2,1,2 2,2,2 T
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V Z Z        Z Z T    
-  b b a        b a a        T T p  
+V V b        V Z Z        Z Z T
+  b b a        b a a        T T p
     L L L        a p L        T p p
 
 solution 84:
@@ -1088,8 +1088,8 @@ solution 84:
 1,1,0 2,1,0 2,2,0 3,1,0 T
 1,1,1 1,2,1 2,2,1 2,2,2 b
 
-V V T        V b b        Z Z b    
-  T T T        b a a        Z Z p  
+V V T        V b b        Z Z b
+  T T T        b a a        Z Z p
     L L L        a p L        a p p
 
 solution 85:
@@ -1101,8 +1101,8 @@ solution 85:
 1,1,0 1,1,1 2,0,1 2,1,1 b
 1,1,2 2,0,2 2,1,2 2,2,2 T
 
-Z Z a        V Z Z        V V T    
-  b a a        b b a        T T p  
+Z Z a        V Z Z        V V T
+  b a a        b b a        T T p
     L L L        b p L        T p p
 
 solution 86:
@@ -1114,8 +1114,8 @@ solution 86:
 1,1,2 2,0,2 2,1,2 2,2,2 T
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-Z Z b        V Z Z        V V T    
-  b b a        b a a        T T p  
+Z Z b        V Z Z        V V T
+  b b a        b a a        T T p
     L L L        a p L        T p p
 
 solution 87:
@@ -1127,8 +1127,8 @@ solution 87:
 1,1,1 1,1,2 2,0,2 2,1,2 b
 0,2,1 0,2,2 1,2,2 V
 
-Z Z T        V T T        V V T    
-  Z Z a        b a a        b b p  
+Z Z T        V T T        V V T
+  Z Z a        b a a        b b p
     L L L        a p L        b p p
 
 solution 88:
@@ -1140,8 +1140,8 @@ solution 88:
 1,2,1 2,2,0 2,2,1 2,2,2 T
 2,1,0 3,1,0 3,1,1 V
 
-a a T        a T T        Z Z T    
-  a V V        b b V        Z Z p  
+a a T        a T T        Z Z T
+  a V V        b b V        Z Z p
     L L L        b p L        b p p
 
 solution 89:
@@ -1153,8 +1153,8 @@ solution 89:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V Z Z        Z Z p    
-  b b a        b p a        p p T  
+V V b        V Z Z        Z Z p
+  b b a        b p a        p p T
     a a L        L L L        T T T
 
 solution 90:
@@ -1166,8 +1166,8 @@ solution 90:
 1,1,1 1,2,1 2,2,1 2,2,2 b
 1,1,0 2,1,0 2,1,1 2,2,0 p
 
-V V p        V b b        Z Z b    
-  p p a        b p a        Z Z T  
+V V p        V b b        Z Z b
+  p p a        b p a        Z Z T
     a a L        L L L        T T T
 
 solution 91:
@@ -1179,8 +1179,8 @@ solution 91:
 1,2,1 2,1,1 2,2,1 2,2,2 p
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V p p        Z Z p    
-  b b a        b p a        Z Z T  
+V V b        V p p        Z Z p
+  b b a        b p a        Z Z T
     a a L        L L L        T T T
 
 solution 92:
@@ -1192,8 +1192,8 @@ solution 92:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-Z Z b        V Z Z        V V p    
-  b b a        b p a        p p T  
+Z Z b        V Z Z        V V p
+  b b a        b p a        p p T
     a a L        L L L        T T T
 
 solution 93:
@@ -1205,8 +1205,8 @@ solution 93:
 2,0,1 2,0,2 2,1,0 2,1,1 Z
 2,0,0 3,0,0 3,0,1 3,1,0 p
 
-T T T        V a a        V V b    
-  T Z p        a Z b        a b b  
+T T T        V a a        V V b
+  T Z p        a Z b        a b b
     p p L        Z p L        Z L L
 
 solution 94:
@@ -1218,8 +1218,8 @@ solution 94:
 2,0,1 2,0,2 3,0,0 3,0,1 Z
 2,0,0 2,1,0 2,1,1 3,1,0 p
 
-T T T        V a a        V V b    
-  T p p        a p b        a b b  
+T T T        V a a        V V b
+  T p p        a p b        a b b
     p Z L        Z Z L        Z L L
 
 solution 95:
@@ -1231,8 +1231,8 @@ solution 95:
 2,0,1 2,0,2 3,0,0 3,0,1 Z
 2,0,0 2,1,0 3,1,0 3,1,1 b
 
-T T T        V a a        V V p    
-  T b b        a p b        a p p  
+T T T        V a a        V V p
+  T b b        a p b        a p p
     b Z L        Z Z L        Z L L
 
 solution 96:
@@ -1244,8 +1244,8 @@ solution 96:
 3,0,0 3,0,1 3,1,1 3,1,2 Z
 2,0,0 2,1,0 2,1,1 3,1,0 p
 
-T T T        V b b        V V b    
-  T p p        b p Z        a a Z  
+T T T        V b b        V V b
+  T p p        b p Z        a a Z
     p Z L        a Z L        a L L
 
 solution 97:
@@ -1257,8 +1257,8 @@ solution 97:
 2,1,0 2,1,1 3,1,1 3,1,2 Z
 2,0,0 3,0,0 3,0,1 3,1,0 p
 
-T T T        V b b        V V b    
-  T Z p        b Z Z        a a Z  
+T T T        V b b        V V b
+  T Z p        b Z Z        a a Z
     p p L        a p L        a L L
 
 solution 98:
@@ -1270,8 +1270,8 @@ solution 98:
 3,0,0 3,0,1 3,1,1 3,1,2 Z
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-T T T        V b b        V V b    
-  T a a        b p Z        p p Z  
+T T T        V b b        V V b
+  T a a        b p Z        p p Z
     a Z L        a Z L        p L L
 
 solution 99:
@@ -1283,8 +1283,8 @@ solution 99:
 2,0,1 2,0,2 3,0,0 3,0,1 Z
 2,0,0 2,1,0 3,1,0 3,1,1 b
 
-T T T        V p a        V V a    
-  T b b        p p b        p a a  
+T T T        V p a        V V a
+  T b b        p p b        p a a
     b Z L        Z Z L        Z L L
 
 solution 100:
@@ -1296,8 +1296,8 @@ solution 100:
 3,0,0 3,0,1 3,1,1 3,1,2 Z
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-T T T        V p p        V V p    
-  T a a        b p Z        b b Z  
+T T T        V p p        V V p
+  T a a        b p Z        b b Z
     a Z L        a Z L        b L L
 
 solution 101:
@@ -1309,8 +1309,8 @@ solution 101:
 2,0,0 3,0,0 3,0,1 3,1,0 p
 2,0,1 2,0,2 2,1,2 3,1,2 b
 
-V V a        V a a        T T T    
-  Z Z p        a Z Z        T b b  
+V V a        V a a        T T T
+  Z Z p        a Z Z        T b b
     p p L        b p L        b L L
 
 solution 102:
@@ -1322,8 +1322,8 @@ solution 102:
 2,0,1 3,0,1 3,1,0 3,1,1 b
 2,0,2 2,1,1 2,1,2 3,1,2 p
 
-V V a        V a a        T T T    
-  Z Z b        a p b        T p p  
+V V a        V a a        T T T
+  Z Z b        a p b        T p p
     Z Z L        b b L        p L L
 
 solution 103:
@@ -1335,8 +1335,8 @@ solution 103:
 2,1,1 3,0,1 3,1,0 3,1,1 p
 2,0,1 2,0,2 2,1,2 3,1,2 b
 
-V V a        V a a        T T T    
-  Z Z p        a p p        T b b  
+V V a        V a a        T T T
+  Z Z p        a p p        T b b
     Z Z L        b p L        b L L
 
 solution 104:
@@ -1348,8 +1348,8 @@ solution 104:
 2,0,0 3,0,0 3,0,1 3,1,0 p
 2,0,2 2,1,2 3,1,1 3,1,2 a
 
-V V Z        V b b        T T T    
-  b Z p        b Z a        T a a  
+V V Z        V b b        T T T
+  b Z p        b Z a        T a a
     p p L        Z p L        a L L
 
 solution 105:
@@ -1361,8 +1361,8 @@ solution 105:
 2,0,0 2,0,1 3,0,1 3,1,1 a
 2,0,2 2,1,1 2,1,2 3,1,2 p
 
-V V Z        V b b        T T T    
-  b Z Z        b p a        T p p  
+V V Z        V b b        T T T
+  b Z Z        b p a        T p p
     a Z L        a a L        p L L
 
 solution 106:
@@ -1374,8 +1374,8 @@ solution 106:
 2,0,0 2,0,1 2,1,1 3,0,1 p
 2,0,2 2,1,2 3,1,1 3,1,2 a
 
-V V Z        V b b        T T T    
-  b Z Z        b p a        T a a  
+V V Z        V b b        T T T
+  b Z Z        b p a        T a a
     p Z L        p p L        a L L
 
 solution 107:
@@ -1387,8 +1387,8 @@ solution 107:
 2,0,1 2,0,2 2,1,1 3,0,1 p
 1,1,2 2,1,2 2,2,2 3,1,2 T
 
-V V b        V Z Z        Z Z T    
-  b b a        b p a        T T T  
+V V b        V Z Z        Z Z T
+  b b a        b p a        T T T
     a a L        p p L        p L L
 
 solution 108:
@@ -1400,8 +1400,8 @@ solution 108:
 2,0,1 2,0,2 2,1,1 3,1,1 a
 1,1,2 2,1,2 2,2,2 3,1,2 T
 
-V V b        V Z Z        Z Z T    
-  b b p        b a a        T T T  
+V V b        V Z Z        Z Z T
+  b b p        b a a        T T T
     p p L        a p L        a L L
 
 solution 109:
@@ -1413,8 +1413,8 @@ solution 109:
 2,0,0 3,0,0 3,0,1 3,1,0 p
 2,0,1 2,0,2 2,1,2 3,1,2 b
 
-V V T        V T T        a a T    
-  Z Z p        a Z Z        a b b  
+V V T        V T T        a a T
+  Z Z p        a Z Z        a b b
     p p L        b p L        b L L
 
 solution 110:
@@ -1426,8 +1426,8 @@ solution 110:
 2,0,1 3,0,1 3,1,0 3,1,1 b
 2,0,2 2,1,1 2,1,2 3,1,2 p
 
-V V T        V T T        a a T    
-  Z Z b        a p b        a p p  
+V V T        V T T        a a T
+  Z Z b        a p b        a p p
     Z Z L        b b L        p L L
 
 solution 111:
@@ -1439,8 +1439,8 @@ solution 111:
 2,1,1 3,0,1 3,1,0 3,1,1 p
 2,0,1 2,0,2 2,1,2 3,1,2 b
 
-V V T        V T T        a a T    
-  Z Z p        a p p        a b b  
+V V T        V T T        a a T
+  Z Z p        a p p        a b b
     Z Z L        b p L        b L L
 
 solution 112:
@@ -1452,8 +1452,8 @@ solution 112:
 1,1,0 2,0,0 2,1,0 3,0,0 Z
 2,0,1 3,0,1 3,1,0 3,1,1 b
 
-V V p        V p p        a a T    
-  Z Z b        a p b        a T T  
+V V p        V p p        a a T
+  Z Z b        a p b        a T T
     Z Z L        b b L        T L L
 
 solution 113:
@@ -1465,8 +1465,8 @@ solution 113:
 1,1,0 2,0,0 2,1,0 3,1,0 T
 2,0,1 2,0,2 3,0,0 3,0,1 Z
 
-V V p        V p p        a a b    
-  T T T        a p b        a b b  
+V V p        V p p        a a b
+  T T T        a p b        a b b
     T Z L        Z Z L        Z L L
 
 solution 114:
@@ -1478,8 +1478,8 @@ solution 114:
 2,1,0 2,2,0 3,0,0 3,1,0 Z
 1,1,0 1,1,1 2,1,1 2,2,1 a
 
-V V Z        V p a        p p b    
-  a Z Z        a a b        p b b  
+V V Z        V p a        p p b
+  a Z Z        a a b        p b b
     T Z L        T T L        T L L
 
 solution 115:
@@ -1491,8 +1491,8 @@ solution 115:
 1,1,0 1,1,1 2,1,1 2,2,1 a
 2,0,0 2,1,0 2,2,0 3,1,0 T
 
-V V T        V p a        p p b    
-  a T T        a a b        p b b  
+V V T        V p a        p p b
+  a T T        a a b        p b b
     T Z L        Z Z L        Z L L
 
 solution 116:
@@ -1504,8 +1504,8 @@ solution 116:
 2,0,1 2,0,2 2,1,1 3,0,1 p
 1,1,2 2,1,2 2,2,2 3,1,2 T
 
-Z Z b        V Z Z        V V T    
-  b b a        b p a        T T T  
+Z Z b        V Z Z        V V T
+  b b a        b p a        T T T
     a a L        p p L        p L L
 
 solution 117:
@@ -1517,8 +1517,8 @@ solution 117:
 2,0,1 2,0,2 2,1,1 3,1,1 a
 1,1,2 2,1,2 2,2,2 3,1,2 T
 
-Z Z b        V Z Z        V V T    
-  b b p        b a a        T T T  
+Z Z b        V Z Z        V V T
+  b b p        b a a        T T T
     p p L        a p L        a L L
 
 solution 118:
@@ -1530,8 +1530,8 @@ solution 118:
 2,0,0 3,0,0 3,0,1 3,1,0 p
 2,0,2 2,1,2 3,1,1 3,1,2 a
 
-Z Z T        b T T        b b T    
-  Z Z p        V V a        b a a  
+Z Z T        b T T        b b T
+  Z Z p        V V a        b a a
     p p L        V p L        a L L
 
 solution 119:
@@ -1543,8 +1543,8 @@ solution 119:
 0,2,2 1,1,2 1,2,2 2,2,2 T
 0,2,1 1,1,1 1,2,1 V
 
-Z Z a        V V a        T T T    
-  Z Z p        V a a        T b b  
+Z Z a        V V a        T T T
+  Z Z p        V a a        T b b
     p p L        b p L        b L L
 
 solution 120:
@@ -1556,8 +1556,8 @@ solution 120:
 2,1,1 3,0,1 3,1,1 3,1,2 p
 1,1,2 2,0,2 2,1,2 2,2,2 T
 
-Z Z a        V a a        V V T    
-  Z Z b        a p p        T T p  
+Z Z a        V a a        V V T
+  Z Z b        a p p        T T p
     b b L        b p L        T L L
 
 solution 121:
@@ -1569,8 +1569,8 @@ solution 121:
 2,0,1 2,1,1 3,1,1 3,1,2 b
 1,1,2 2,0,2 2,1,2 2,2,2 T
 
-Z Z a        V a a        V V T    
-  Z Z p        a b b        T T b  
+Z Z a        V a a        V V T
+  Z Z p        a b b        T T b
     p p L        b p L        T L L
 
 solution 122:
@@ -1582,8 +1582,8 @@ solution 122:
 2,0,0 2,0,1 2,1,1 3,0,1 p
 3,0,0 3,1,0 3,1,1 V
 
-Z Z a        b a a        b b T    
-  Z Z V        a p V        b T T  
+Z Z a        b a a        b b T
+  Z Z V        a p V        b T T
     p V L        p p L        T L L
 
 solution 123:
@@ -1595,8 +1595,8 @@ solution 123:
 2,0,0 3,0,0 3,0,1 3,1,0 p
 2,0,1 2,1,1 3,1,1 V
 
-Z Z a        b a a        b b T    
-  Z Z p        a V V        b T T  
+Z Z a        b a a        b b T
+  Z Z p        a V V        b T T
     p p L        V p L        T L L
 
 solution 124:
@@ -1608,8 +1608,8 @@ solution 124:
 2,1,1 3,0,1 3,1,0 3,1,1 p
 2,0,0 2,0,1 3,0,0 V
 
-Z Z a        b a a        b b T    
-  Z Z p        a p p        b T T  
+Z Z a        b a a        b b T
+  Z Z p        a p p        b T T
     V V L        V p L        T L L
 
 solution 125:
@@ -1621,8 +1621,8 @@ solution 125:
 2,0,0 2,0,1 2,0,2 3,0,1 T
 3,0,0 3,1,0 3,1,1 V
 
-Z Z a        b a a        b b p    
-  Z Z V        a p V        b p p  
+Z Z a        b a a        b b p
+  Z Z V        a p V        b p p
     T V L        T T L        T L L
 
 solution 126:
@@ -1634,8 +1634,8 @@ solution 126:
 1,1,1 2,0,1 2,0,2 2,1,1 b
 3,0,0 3,0,1 3,1,1 3,1,2 Z
 
-a a T        a p V        p p V    
-  a T T        b b Z        p V Z  
+a a T        a p V        p p V
+  a T T        b b Z        p V Z
     T Z L        b Z L        b L L
 
 solution 127:
@@ -1647,8 +1647,8 @@ solution 127:
 2,1,0 2,2,0 3,0,0 3,1,0 Z
 1,1,1 2,1,1 2,2,1 V
 
-a a Z        a p V        p p b    
-  a Z Z        V V b        p b b  
+a a Z        a p V        p p b
+  a Z Z        V V b        p b b
     T Z L        T T L        T L L
 
 solution 128:
@@ -1660,8 +1660,8 @@ solution 128:
 1,1,1 2,1,1 2,2,1 V
 2,0,1 2,0,2 3,0,0 3,0,1 Z
 
-a a T        a p V        p p b    
-  a T T        V V b        p b b  
+a a T        a p V        p p b
+  a T T        V V b        p b b
     T Z L        Z Z L        Z L L
 
 solution 129:
@@ -1673,8 +1673,8 @@ solution 129:
 3,0,0 3,0,1 3,1,1 3,1,2 Z
 2,0,0 2,1,0 2,1,1 3,1,0 p
 
-b b T        V T T        V V T    
-  b p p        b p Z        a a Z  
+b b T        V T T        V V T
+  b p p        b p Z        a a Z
     p Z L        a Z L        a L L
 
 solution 130:
@@ -1686,8 +1686,8 @@ solution 130:
 2,1,0 2,1,1 3,1,1 3,1,2 Z
 2,0,0 3,0,0 3,0,1 3,1,0 p
 
-b b T        V T T        V V T    
-  b Z p        b Z Z        a a Z  
+b b T        V T T        V V T
+  b Z p        b Z Z        a a Z
     p p L        a p L        a L L
 
 solution 131:
@@ -1699,8 +1699,8 @@ solution 131:
 3,0,0 3,0,1 3,1,1 3,1,2 Z
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-b b T        V T T        V V T    
-  b a a        b p Z        p p Z  
+b b T        V T T        V V T
+  b a a        b p Z        p p Z
     a Z L        a Z L        p L L
 
 solution 132:
@@ -1712,8 +1712,8 @@ solution 132:
 2,1,0 2,2,0 3,0,0 3,1,0 Z
 2,0,0 2,0,1 3,0,1 3,1,1 a
 
-b b Z        V p p        V V p    
-  b Z Z        b p a        T T T  
+b b Z        V p p        V V p
+  b Z Z        b p a        T T T
     a Z L        a a L        T L L
 
 solution 133:
@@ -1725,8 +1725,8 @@ solution 133:
 2,0,0 2,1,0 2,2,0 3,1,0 T
 3,0,0 3,0,1 3,1,1 3,1,2 Z
 
-b b T        V p p        V V p    
-  b T T        b p Z        a a Z  
+b b T        V p p        V V p
+  b T T        b p Z        a a Z
     T Z L        a Z L        a L L
 
 solution 134:
@@ -1738,8 +1738,8 @@ solution 134:
 1,1,2 2,0,2 2,1,2 2,2,2 T
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-b b p        V p p        V V T    
-  b a a        b p Z        T T Z  
+b b p        V p p        V V T
+  b a a        b p Z        T T Z
     a Z L        a Z L        T L L
 
 solution 135:
@@ -1751,8 +1751,8 @@ solution 135:
 3,0,0 3,0,1 3,1,1 3,1,2 Z
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-p p T        V p T        V V T    
-  p a a        b T Z        b b Z  
+p p T        V p T        V V T
+  p a a        b T Z        b b Z
     a Z L        a Z L        b L L
 
 solution 136:
@@ -1764,8 +1764,8 @@ solution 136:
 1,1,1 1,1,2 2,1,1 2,2,1 b
 2,0,2 2,1,2 2,2,2 3,1,2 T
 
-p p Z        V p b        V V T    
-  p Z Z        b b a        b T T  
+p p Z        V p b        V V T
+  p Z Z        b b a        b T T
     a Z L        a a L        T L L
 
 solution 137:
@@ -1777,8 +1777,8 @@ solution 137:
 2,0,0 2,0,1 2,0,2 2,1,1 T
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-p p b        V p b        V V a    
-  p b b        a T Z        a a Z  
+p p b        V p b        V V a
+  p b b        a T Z        a a Z
     T Z L        T Z L        T L L
 
 solution 138:
@@ -1790,8 +1790,8 @@ solution 138:
 1,1,1 2,0,0 2,0,1 2,1,1 a
 1,1,2 2,0,2 2,1,2 2,2,2 T
 
-p p b        V p b        V V T    
-  p b b        a a Z        T T Z  
+p p b        V p b        V V T
+  p b b        a a Z        T T Z
     a Z L        a Z L        T L L
 
 solution 139:
@@ -1803,8 +1803,8 @@ solution 139:
 1,1,2 2,0,2 2,1,2 2,2,2 T
 2,0,0 2,0,1 2,1,0 3,1,0 a
 
-p p b        V p b        V V T    
-  p a a        b b Z        T T Z  
+p p b        V p b        V V T
+  p a a        b b Z        T T Z
     a Z L        a Z L        T L L
 
 solution 140:
@@ -1816,8 +1816,8 @@ solution 140:
 2,0,0 2,0,1 3,0,1 3,1,1 a
 1,1,1 2,1,1 2,2,1 V
 
-p p Z        b p V        b b T    
-  p Z Z        V V a        b T T  
+p p Z        b p V        b b T
+  p Z Z        V V a        b T T
     a Z L        a a L        T L L
 
 solution 141:
@@ -1829,8 +1829,8 @@ solution 141:
 2,1,0 2,2,0 2,2,1 V
 2,0,0 3,0,0 3,1,0 3,1,1 a
 
-p p V        b p V        b b T    
-  p V a        Z Z a        b T T  
+p p V        b p V        b b T
+  p V a        Z Z a        b T T
     a a L        Z Z L        T L L
 
 solution 142:
@@ -1842,8 +1842,8 @@ solution 142:
 2,1,0 2,2,0 3,0,0 3,1,0 Z
 2,1,2 3,1,1 3,1,2 V
 
-p p Z        b p a        b b a    
-  p Z Z        a a V        b V V  
+p p Z        b p a        b b a
+  p Z Z        a a V        b V V
     T Z L        T T L        T L L
 
 solution 143:
@@ -1855,8 +1855,8 @@ solution 143:
 3,0,0 3,0,1 3,1,1 3,1,2 Z
 2,0,1 2,0,2 2,1,2 V
 
-p p T        b p a        b b a    
-  p T T        a a Z        b V Z  
+p p T        b p a        b b a
+  p T T        a a Z        b V Z
     T Z L        V Z L        V L L
 
 solution 144:
@@ -1868,8 +1868,8 @@ solution 144:
 2,0,1 2,0,2 3,0,0 3,0,1 Z
 2,1,2 3,1,1 3,1,2 V
 
-p p T        b p a        b b a    
-  p T T        a a V        b V V  
+p p T        b p a        b b a
+  p T T        a a V        b V V
     T Z L        Z Z L        Z L L
 
 solution 145:
@@ -1881,8 +1881,8 @@ solution 145:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V Z Z        Z Z p    
-  b b T        b p a        p p a  
+V V b        V Z Z        Z Z p
+  b b T        b p a        p p a
     T T T        L L L        L a a
 
 solution 146:
@@ -1894,8 +1894,8 @@ solution 146:
 1,1,1 1,2,1 2,2,1 2,2,2 b
 1,1,0 2,1,0 2,1,1 2,2,0 p
 
-V V p        V b b        Z Z b    
-  p p T        b p a        Z Z a  
+V V p        V b b        Z Z b
+  p p T        b p a        Z Z a
     T T T        L L L        L a a
 
 solution 147:
@@ -1907,8 +1907,8 @@ solution 147:
 1,2,1 2,1,1 2,2,1 2,2,2 p
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V p p        Z Z p    
-  b b T        b p a        Z Z a  
+V V b        V p p        Z Z p
+  b b T        b p a        Z Z a
     T T T        L L L        L a a
 
 solution 148:
@@ -1920,8 +1920,8 @@ solution 148:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-Z Z b        V Z Z        V V p    
-  b b T        b p a        p p a  
+Z Z b        V Z Z        V V p
+  b b T        b p a        p p a
     T T T        L L L        L a a
 
 solution 149:
@@ -1933,8 +1933,8 @@ solution 149:
 1,1,0 2,1,0 2,1,1 2,2,0 p
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-V V p        V Z Z        Z Z a    
-  p p T        a p b        a a b  
+V V p        V Z Z        Z Z a
+  p p T        a p b        a a b
     T T T        L L L        b b L
 
 solution 150:
@@ -1946,8 +1946,8 @@ solution 150:
 1,1,0 2,1,0 2,1,1 2,2,0 p
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-Z Z p        V Z Z        V V a    
-  p p T        a p b        a a b  
+Z Z p        V Z Z        V V a
+  p p T        a p b        a a b
     T T T        L L L        b b L
 
 solution 151:
@@ -1959,8 +1959,8 @@ solution 151:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 0,2,1 0,2,2 1,2,2 V
 
-Z Z a        V a a        V V p    
-  Z Z T        a p b        p p b  
+Z Z a        V a a        V V p
+  Z Z T        a p b        p p b
     T T T        L L L        b b L
 
 solution 152:
@@ -1972,8 +1972,8 @@ solution 152:
 0,2,1 0,2,2 1,2,2 V
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-Z Z p        V p p        V V a    
-  Z Z T        a p b        a a b  
+Z Z p        V p p        V V a
+  Z Z T        a p b        a a b
     T T T        L L L        b b L
 
 solution 153:
@@ -1985,8 +1985,8 @@ solution 153:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 2,0,1 3,0,1 3,1,1 3,1,2 a
 
-V V b        V Z Z        Z Z p    
-  b b T        b p a        p p a  
+V V b        V Z Z        Z Z p
+  b b T        b p a        p p a
     T T T        a a L        L L L
 
 solution 154:
@@ -1998,8 +1998,8 @@ solution 154:
 1,1,1 1,2,1 2,2,1 2,2,2 b
 1,1,0 2,1,0 2,1,1 2,2,0 p
 
-V V p        V b b        Z Z b    
-  p p T        b p a        Z Z a  
+V V p        V b b        Z Z b
+  p p T        b p a        Z Z a
     T T T        a a L        L L L
 
 solution 155:
@@ -2011,8 +2011,8 @@ solution 155:
 1,2,1 2,1,1 2,2,1 2,2,2 p
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V p p        Z Z p    
-  b b T        b p a        Z Z a  
+V V b        V p p        Z Z p
+  b b T        b p a        Z Z a
     T T T        a a L        L L L
 
 solution 156:
@@ -2024,8 +2024,8 @@ solution 156:
 1,1,1 2,0,1 2,1,1 3,0,1 Z
 2,1,2 2,2,2 3,1,1 3,1,2 b
 
-V V a        V p a        p p b    
-  a a T        Z Z b        p b b  
+V V a        V p a        p p b
+  a a T        Z Z b        p b b
     T T T        Z Z L        L L L
 
 solution 157:
@@ -2037,8 +2037,8 @@ solution 157:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 2,0,1 3,0,1 3,1,1 3,1,2 a
 
-Z Z b        V Z Z        V V p    
-  b b T        b p a        p p a  
+Z Z b        V Z Z        V V p
+  b b T        b p a        p p a
     T T T        a a L        L L L
 
 solution 158:
@@ -2050,8 +2050,8 @@ solution 158:
 2,1,1 2,1,2 2,2,2 3,1,2 p
 2,0,1 3,0,1 3,1,1 V
 
-Z Z a        b a a        b b p    
-  Z Z T        a p V        b p p  
+Z Z a        b a a        b b p
+  Z Z T        a p V        b p p
     T T T        V V L        L L L
 
 solution 159:
@@ -2063,8 +2063,8 @@ solution 159:
 1,1,1 2,0,1 2,1,1 3,0,1 Z
 2,1,2 2,2,2 3,1,1 3,1,2 b
 
-a a V        a p V        p p b    
-  a V T        Z Z b        p b b  
+a a V        a p V        p p b
+  a V T        Z Z b        p b b
     T T T        Z Z L        L L L
 
 solution 160:
@@ -2076,8 +2076,8 @@ solution 160:
 0,2,0 1,1,0 1,2,0 2,1,0 Z
 1,1,1 1,2,1 2,2,0 2,2,1 a
 
-Z Z a        b a a        b b p    
-  Z Z T        a p V        b p p  
+Z Z a        b a a        b b p
+  Z Z T        a p V        b p p
     T T T        L V V        L L L
 
 solution 161:
@@ -2089,8 +2089,8 @@ solution 161:
 0,2,0 0,2,1 1,1,0 1,2,0 a
 2,1,0 2,2,0 2,2,1 2,2,2 L
 
-a a L        a p L        p p L    
-  a L T        b b V        p Z Z  
+a a L        a p L        p p L
+  a L T        b b V        p Z Z
     T T T        b V V        b Z Z
 
 solution 162:
@@ -2102,8 +2102,8 @@ solution 162:
 0,2,1 0,2,2 1,1,2 1,2,2 b
 2,1,0 2,2,0 2,2,1 2,2,2 L
 
-p p L        b p L        b b L    
-  p L T        Z Z a        b a a  
+p p L        b p L        b b L
+  p L T        Z Z a        b a a
     T T T        Z Z V        a V V
 
 solution 163:
@@ -2115,8 +2115,8 @@ solution 163:
 1,2,1 2,1,1 2,2,0 2,2,1 p
 0,2,1 0,2,2 1,2,2 2,2,2 L
 
-Z Z p        L p p        L L L    
-  Z Z T        b p a        b b a  
+Z Z p        L p p        L L L
+  Z Z T        b p a        b b a
     T T T        a a V        b V V
 
 solution 164:
@@ -2128,8 +2128,8 @@ solution 164:
 0,2,0 1,2,0 1,2,1 2,2,1 Z
 0,2,1 0,2,2 1,2,2 2,2,2 L
 
-Z Z p        L Z Z        L L L    
-  p p T        b p a        b b a  
+Z Z p        L Z Z        L L L
+  p p T        b p a        b b a
     T T T        a a V        b V V
 
 solution 165:
@@ -2141,8 +2141,8 @@ solution 165:
 0,2,0 1,2,0 1,2,1 2,2,1 Z
 0,2,1 0,2,2 1,2,2 2,2,2 L
 
-Z Z b        L Z Z        L L L    
-  b b T        b p a        p p a  
+Z Z b        L Z Z        L L L
+  b b T        b p a        p p a
     T T T        a a V        p V V
 
 solution 166:
@@ -2154,8 +2154,8 @@ solution 166:
 0,2,0 0,2,1 1,1,0 1,2,0 a
 2,1,0 2,2,0 2,2,1 2,2,2 L
 
-a a L        a p L        p p L    
-  a L T        Z Z b        p Z Z  
+a a L        a p L        p p L
+  a L T        Z Z b        p Z Z
     T T T        b b V        b V V
 
 solution 167:
@@ -2167,8 +2167,8 @@ solution 167:
 0,2,1 1,2,1 2,2,0 2,2,1 L
 0,2,2 1,1,1 1,1,2 1,2,2 a
 
-Z Z L        L L L        a a p    
-  Z Z T        a p b        a p p  
+Z Z L        L L L        a a p
+  Z Z T        a p b        a p p
     T T T        b b V        b V V
 
 solution 168:
@@ -2180,8 +2180,8 @@ solution 168:
 0,2,1 1,2,1 2,2,0 2,2,1 L
 0,2,2 1,1,1 1,1,2 1,2,2 a
 
-Z Z L        L L L        a a b    
-  Z Z T        a p b        a b b  
+Z Z L        L L L        a a b
+  Z Z T        a p b        a b b
     T T T        p p V        p V V
 
 solution 169:
@@ -2193,8 +2193,8 @@ solution 169:
 0,2,0 1,1,0 1,2,0 2,1,0 Z
 1,1,1 1,2,1 2,2,0 2,2,1 a
 
-Z Z a        b a a        b b L    
-  Z Z T        a p p        b L p  
+Z Z a        b a a        b b L
+  Z Z T        a p p        b L p
     T T T        L p V        L V V
 
 solution 170:
@@ -2206,8 +2206,8 @@ solution 170:
 0,2,0 1,2,0 1,2,1 2,2,1 Z
 0,2,1 0,2,2 1,2,2 2,2,2 L
 
-Z Z b        L Z Z        L L L    
-  b b T        b p p        a a p  
+Z Z b        L Z Z        L L L
+  b b T        b p p        a a p
     T T T        a p V        a V V
 
 solution 171:
@@ -2219,8 +2219,8 @@ solution 171:
 0,2,0 0,2,1 1,2,0 V
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V p a        p p a    
-  b b T        b Z Z        p a a  
+V V b        V p a        p p a
+  b b T        b Z Z        p a a
     T T T        L Z Z        L L L
 
 solution 172:
@@ -2232,8 +2232,8 @@ solution 172:
 0,2,1 0,2,2 1,1,2 1,2,2 b
 2,1,0 2,2,0 2,2,1 2,2,2 L
 
-p p L        b p L        b b L    
-  p L T        Z Z a        b Z Z  
+p p L        b p L        b b L
+  p L T        Z Z a        b Z Z
     T T T        V a a        V V a
 
 solution 173:
@@ -2245,8 +2245,8 @@ solution 173:
 0,2,0 0,2,1 1,2,0 V
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V p L        p p Z    
-  b b T        b L a        p Z Z  
+V V b        V p L        p p Z
+  b b T        b L a        p Z Z
     T T T        L a a        L Z a
 
 solution 174:
@@ -2258,8 +2258,8 @@ solution 174:
 1,1,0 2,1,0 2,1,1 2,2,0 p
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-V V p        V Z Z        Z Z a    
-  p p T        a p b        a a b  
+V V p        V Z Z        Z Z a
+  p p T        a p b        a a b
     T T T        L b b        L L L
 
 solution 175:
@@ -2271,8 +2271,8 @@ solution 175:
 1,1,0 2,1,0 2,1,1 2,2,0 p
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-Z Z p        V Z Z        V V a    
-  p p T        a p b        a a b  
+Z Z p        V Z Z        V V a
+  p p T        a p b        a a b
     T T T        L b b        L L L
 
 solution 176:
@@ -2284,8 +2284,8 @@ solution 176:
 1,1,2 2,1,1 2,1,2 2,2,2 p
 0,2,1 0,2,2 1,2,2 V
 
-Z Z a        V a a        V V p    
-  Z Z T        a p b        p p b  
+Z Z a        V a a        V V p
+  Z Z T        a p b        p p b
     T T T        L b b        L L L
 
 solution 177:
@@ -2297,8 +2297,8 @@ solution 177:
 0,2,1 0,2,2 1,2,2 V
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-Z Z p        V p p        V V a    
-  Z Z T        a p b        a a b  
+Z Z p        V p p        V V a
+  Z Z T        a p b        a a b
     T T T        L b b        L L L
 
 solution 178:
@@ -2310,8 +2310,8 @@ solution 178:
 1,1,1 1,2,1 2,2,0 2,2,1 a
 0,2,1 0,2,2 1,2,2 2,2,2 L
 
-Z Z a        L a a        L L L    
-  Z Z T        a p V        p p b  
+Z Z a        L a a        L L L
+  Z Z T        a p V        p p b
     T T T        V V b        p b b
 
 solution 179:
@@ -2323,8 +2323,8 @@ solution 179:
 0,2,1 0,2,2 1,1,1 1,2,1 a
 1,2,2 2,2,0 2,2,1 2,2,2 L
 
-Z Z L        a a L        a L L    
-  Z Z T        a p V        p p b  
+Z Z L        a a L        a L L
+  Z Z T        a p V        p p b
     T T T        V V b        p b b
 
 solution 180:
@@ -2336,8 +2336,8 @@ solution 180:
 0,2,2 1,1,2 1,2,2 2,1,2 Z
 1,1,1 1,2,1 2,2,1 2,2,2 b
 
-a a p        a b b        Z Z b    
-  a p p        b p V        Z Z V  
+a a p        a b b        Z Z b
+  a p p        b p V        Z Z V
     L L T        L T T        L V T
 
 solution 181:
@@ -2349,8 +2349,8 @@ solution 181:
 1,1,1 2,1,1 2,2,0 2,2,1 b
 0,2,2 1,1,2 1,2,1 1,2,2 p
 
-a a b        a p b        p p Z    
-  a V V        b b V        p Z Z  
+a a b        a p b        p p Z
+  a V V        b b V        p Z Z
     L L T        L T T        L Z T
 
 solution 182:
@@ -2362,8 +2362,8 @@ solution 182:
 1,1,1 1,1,2 2,1,1 2,2,1 b
 0,2,1 0,2,2 1,2,2 V
 
-p p a        V p b        V V Z    
-  p a a        b b a        b Z Z  
+p p a        V p b        V V Z
+  p a a        b b a        b Z Z
     L L T        L T T        L Z T
 
 solution 183:
@@ -2375,8 +2375,8 @@ solution 183:
 0,2,1 0,2,2 1,1,2 1,2,2 b
 1,1,1 2,1,1 2,2,1 V
 
-p p a        b p V        b b Z    
-  p a a        V V a        b Z Z  
+p p a        b p V        b b Z
+  p a a        V V a        b Z Z
     L L T        L T T        L Z T
 
 solution 184:
@@ -2388,8 +2388,8 @@ solution 184:
 0,2,0 0,2,1 1,1,0 1,2,0 a
 2,1,2 2,2,0 2,2,1 2,2,2 L
 
-a a L        a p L        p p L    
-  a Z Z        Z Z b        p L b  
+a a L        a p L        p p L
+  a Z Z        Z Z b        p L b
     V V T        V T T        b b T
 
 solution 185:
@@ -2401,8 +2401,8 @@ solution 185:
 0,2,0 1,1,0 1,2,0 2,1,0 Z
 1,1,1 1,2,1 2,2,0 2,2,1 a
 
-Z Z a        b a a        b b p    
-  Z Z V        a p V        b p p  
+Z Z a        b a a        b b p
+  Z Z V        a p V        b p p
     L V T        L T T        L L T
 
 solution 186:
@@ -2414,8 +2414,8 @@ solution 186:
 1,1,1 2,1,1 2,2,0 2,2,1 b
 0,2,2 1,1,2 1,2,1 1,2,2 p
 
-a a b        a p b        p p Z    
-  a L V        b b V        p Z Z  
+a a b        a p b        p p Z
+  a L V        b b V        p Z Z
     L V T        L T T        L Z T
 
 solution 187:
@@ -2427,8 +2427,8 @@ solution 187:
 0,2,2 1,1,2 1,2,1 1,2,2 p
 0,2,0 0,2,1 1,1,0 1,2,0 a
 
-a a L        a p L        p p Z    
-  a L V        b b V        p Z Z  
+a a L        a p L        p p Z
+  a L V        b b V        p Z Z
     L V T        b T T        b Z T
 
 solution 188:
@@ -2440,8 +2440,8 @@ solution 188:
 0,2,0 0,2,1 1,1,1 1,2,1 b
 1,2,0 2,2,0 2,2,1 2,2,2 L
 
-b L L        b b L        Z Z L    
-  p p V        b p V        Z Z a  
+b L L        b b L        Z Z L
+  p p V        b p V        Z Z a
     p V T        a T T        a a T
 
 solution 189:
@@ -2453,8 +2453,8 @@ solution 189:
 0,2,1 0,2,2 1,1,2 1,2,2 b
 1,1,1 2,1,1 2,2,1 2,2,2 a
 
-p p Z        b p a        b b a    
-  p Z Z        a a V        b L V  
+p p Z        b p a        b b a
+  p Z Z        a a V        b L V
     L Z T        L T T        L V T
 
 solution 190:
@@ -2466,8 +2466,8 @@ solution 190:
 2,1,2 2,2,2 3,1,1 3,1,2 b
 0,2,2 1,1,2 1,2,1 1,2,2 p
 
-V V Z        V p a        p p b    
-  a Z Z        a a b        p b b  
+V V Z        V p a        p p b
+  a Z Z        a a b        p b b
     L Z T        L T T        L L T
 
 solution 191:
@@ -2479,8 +2479,8 @@ solution 191:
 1,1,1 2,1,1 2,2,1 V
 2,1,2 2,2,2 3,1,1 3,1,2 b
 
-a a Z        a p V        p p b    
-  a Z Z        V V b        p b b  
+a a Z        a p V        p p b
+  a Z Z        V V b        p b b
     L Z T        L T T        L L T
 
 solution 192:
@@ -2492,8 +2492,8 @@ solution 192:
 1,1,1 2,1,1 2,2,1 2,2,2 a
 2,1,2 3,1,1 3,1,2 V
 
-p p Z        b p a        b b a    
-  p Z Z        a a V        b V V  
+p p Z        b p a        b b a
+  p Z Z        a a V        b V V
     L Z T        L T T        L L T
 
 solution 193:
@@ -2505,8 +2505,8 @@ solution 193:
 0,2,1 0,2,2 1,2,2 V
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-p p Z        V p L        V V a    
-  p Z Z        a L b        a a b  
+p p Z        V p L        V V a
+  p Z Z        a L b        a a b
     L Z T        L T T        b b T
 
 solution 194:
@@ -2518,8 +2518,8 @@ solution 194:
 2,0,2 2,1,2 2,2,1 2,2,2 L
 3,0,2 3,1,1 3,1,2 V
 
-p p Z        b p L        b b L    
-  p Z Z        a a V        b L V  
+p p Z        b p L        b b L
+  p Z Z        a a V        b L V
     a Z T        a T T        L V T
 
 solution 195:
@@ -2531,8 +2531,8 @@ solution 195:
 0,2,1 0,2,2 1,1,2 1,2,2 b
 2,1,0 2,2,0 2,2,1 2,2,2 L
 
-p p L        b p L        b b L    
-  p L a        Z Z a        b Z Z  
+p p L        b p L        b b L
+  p L a        Z Z a        b Z Z
     a a T        V T T        V V T
 
 solution 196:
@@ -2544,8 +2544,8 @@ solution 196:
 0,2,0 0,2,1 1,2,0 V
 1,1,0 1,1,1 2,1,0 2,2,0 b
 
-V V b        V p L        p p Z    
-  b b a        b L a        p Z Z  
+V V b        V p L        p p Z
+  b b a        b L a        p Z Z
     a a T        L T T        L Z T
 
 solution 197:
@@ -2557,8 +2557,8 @@ solution 197:
 1,1,1 1,2,1 2,2,0 2,2,1 a
 0,2,1 0,2,2 1,2,2 2,2,2 L
 
-Z Z a        L a a        L L L    
-  Z Z b        a p V        p p V  
+Z Z a        L a a        L L L
+  Z Z b        a p V        p p V
     b b T        b T T        p V T
 
 solution 198:
@@ -2570,8 +2570,8 @@ solution 198:
 0,2,1 0,2,2 1,1,1 1,2,1 a
 1,2,2 2,2,0 2,2,1 2,2,2 L
 
-Z Z L        a a L        a L L    
-  Z Z b        a p V        p p V  
+Z Z L        a a L        a L L
+  Z Z b        a p V        p p V
     b b T        b T T        p V T
 
 solution 199:
@@ -2583,8 +2583,8 @@ solution 199:
 0,2,2 1,1,2 1,2,2 2,1,2 Z
 1,1,1 1,2,1 2,2,1 2,2,2 b
 
-a a T        a b b        Z Z b    
-  a T T        b p p        Z Z p  
+a a T        a b b        Z Z b
+  a T T        b p p        Z Z p
     T V V        L p V        L L L
 
 solution 200:
@@ -2596,8 +2596,8 @@ solution 200:
 0,2,0 0,2,1 1,1,0 1,2,0 a
 2,1,2 2,2,0 2,2,1 2,2,2 L
 
-a a L        a p L        p p L    
-  a b b        Z Z b        p L T  
+a a L        a p L        p p L
+  a b b        Z Z b        p L T
     b V V        Z Z V        T T T
 
 solution 201:
@@ -2609,8 +2609,8 @@ solution 201:
 0,2,1 0,2,2 1,1,2 1,2,2 b
 2,1,2 2,2,0 2,2,1 2,2,2 L
 
-p p L        b p L        b b L    
-  p Z Z        Z Z a        b L T  
+p p L        b p L        b b L
+  p Z Z        Z Z a        b L T
     a V V        a a V        T T T
 
 solution 202:
@@ -2622,8 +2622,8 @@ solution 202:
 0,2,1 1,2,1 2,2,1 2,2,2 L
 0,2,0 1,1,0 1,1,1 1,2,0 b
 
-b b p        L L L        Z Z L    
-  b p p        b p a        Z Z T  
+b b p        L L L        Z Z L
+  b p p        b p a        Z Z T
     a V V        a a V        T T T
 
 solution 203:
@@ -2635,8 +2635,8 @@ solution 203:
 0,2,1 1,2,1 2,2,1 2,2,2 L
 0,2,0 1,1,0 1,1,1 1,2,0 b
 
-b b a        L L L        Z Z L    
-  b a a        b p a        Z Z T  
+b b a        L L L        Z Z L
+  b a a        b p a        Z Z T
     p V V        p p V        T T T
 
 solution 204:
@@ -2648,8 +2648,8 @@ solution 204:
 0,2,2 1,1,2 1,2,2 2,1,2 Z
 1,1,1 1,2,1 2,2,1 2,2,2 b
 
-a a L        a b b        Z Z b    
-  a L p        b p p        Z Z T  
+a a L        a b b        Z Z b
+  a L p        b p p        Z Z T
     L V V        L p V        T T T
 
 solution 205:
@@ -2661,8 +2661,8 @@ solution 205:
 0,2,1 0,2,2 1,2,2 2,2,2 L
 1,1,1 1,1,2 2,1,1 2,2,1 b
 
-p p T        L p b        L L L    
-  p T T        b b a        b a a  
+p p T        L p b        L L L
+  p T T        b b a        b a a
     T V V        Z Z V        a Z Z
 
 solution 206:
@@ -2674,8 +2674,8 @@ solution 206:
 0,2,0 1,1,0 1,2,0 1,2,1 p
 0,2,1 0,2,2 1,2,2 2,2,2 L
 
-p p T        L p a        L L L    
-  p T T        b a a        b b a  
+p p T        L p a        L L L
+  p T T        b a a        b b a
     T V V        Z Z V        b Z Z
 
 solution 207:
@@ -2687,8 +2687,8 @@ solution 207:
 0,2,2 1,1,2 1,2,2 2,2,2 T
 0,2,1 1,2,1 2,2,0 2,2,1 L
 
-b b L        L L L        T T T    
-  b p p        b p a        T a a  
+b b L        L L L        T T T
+  b p p        b p a        T a a
     p V V        Z Z V        a Z Z
 
 solution 208:
@@ -2700,8 +2700,8 @@ solution 208:
 0,2,1 0,2,2 1,2,2 2,2,2 L
 1,1,1 1,1,2 2,1,1 2,2,1 b
 
-p p a        L p b        L L L    
-  p a a        b b a        b Z Z  
+p p a        L p b        L L L
+  p a a        b b a        b Z Z
     T V V        T T V        T Z Z
 
 solution 209:
@@ -2713,8 +2713,8 @@ solution 209:
 0,2,2 1,2,2 2,2,1 2,2,2 L
 1,1,1 1,1,2 1,2,1 2,1,1 p
 
-a a T        a p L        L L L    
-  a T T        p p b        p Z Z  
+a a T        a p L        L L L
+  a T T        p p b        p Z Z
     T V V        b b V        b Z Z
 
 solution 210:
@@ -2726,8 +2726,8 @@ solution 210:
 0,2,1 0,2,2 1,1,2 1,2,2 b
 2,1,2 2,2,0 2,2,1 2,2,2 L
 
-p p L        b p L        b b L    
-  p Z Z        Z Z a        b L a  
+p p L        b p L        b b L
+  p Z Z        Z Z a        b L a
     T V V        T T V        T a a
 
 solution 211:
@@ -2739,8 +2739,8 @@ solution 211:
 0,2,1 1,2,1 2,2,1 2,2,2 L
 0,2,0 1,1,0 1,1,1 1,2,0 b
 
-b b p        L L L        Z Z L    
-  b p p        b p a        Z Z a  
+b b p        L L L        Z Z L
+  b p p        b p a        Z Z a
     T V V        T T V        T a a
 
 solution 212:
@@ -2752,8 +2752,8 @@ solution 212:
 0,2,0 1,1,0 1,2,0 1,2,1 p
 2,0,0 2,1,0 2,2,0 3,1,0 T
 
-p p T        b p L        b b L    
-  p T T        Z Z a        b L a  
+p p T        b p L        b b L
+  p T T        Z Z a        b L a
     T V V        Z Z V        L a a
 
 solution 213:
@@ -2765,8 +2765,8 @@ solution 213:
 0,2,1 1,2,1 2,2,1 2,2,2 L
 0,2,0 1,1,0 1,1,1 1,2,0 b
 
-b b T        L L L        Z Z L    
-  b T T        b p a        Z Z a  
+b b T        L L L        Z Z L
+  b T T        b p a        Z Z a
     T V V        p p V        p a a
 
 solution 214:
@@ -2778,8 +2778,8 @@ solution 214:
 0,2,0 0,2,1 1,1,1 1,2,1 b
 1,2,0 2,2,0 2,2,1 2,2,2 L
 
-b L L        b b L        Z Z L    
-  T T T        b p a        Z Z a  
+b L L        b b L        Z Z L
+  T T T        b p a        Z Z a
     T V V        p p V        p a a
 
 solution 215:
@@ -2791,8 +2791,8 @@ solution 215:
 0,2,0 1,2,0 1,2,1 2,2,1 Z
 0,2,1 0,2,2 1,2,2 2,2,2 L
 
-Z Z T        L Z Z        L L L    
-  T T T        b p a        b b a  
+Z Z T        L Z Z        L L L
+  T T T        b p a        b b a
     p V V        p p V        b a a
 
 solution 216:
@@ -2804,8 +2804,8 @@ solution 216:
 2,0,1 2,1,1 3,1,0 3,1,1 a
 1,1,0 2,0,0 2,1,0 2,2,0 T
 
-Z Z T        L Z Z        L L L    
-  T T a        b a a        b b p  
+Z Z T        L Z Z        L L L
+  T T a        b a a        b b p
     T V V        a p V        b p p
 
 solution 217:
@@ -2817,8 +2817,8 @@ solution 217:
 1,2,0 2,2,0 2,2,1 2,2,2 L
 1,1,0 2,0,0 2,1,0 3,1,0 T
 
-b L L        b b L        Z Z L    
-  T T T        b a a        Z Z p  
+b L L        b b L        Z Z L
+  T T T        b a a        Z Z p
     T V V        a p V        a p p
 
 solution 218:
@@ -2830,8 +2830,8 @@ solution 218:
 1,1,2 2,0,1 2,0,2 2,1,2 a
 0,2,1 0,2,2 1,2,2 2,2,2 L
 
-b b T        L Z Z        L L L    
-  b T T        b Z Z        a a p  
+b b T        L Z Z        L L L
+  b T T        b Z Z        a a p
     T V V        a p V        a p p
 
 solution 219:
@@ -2843,8 +2843,8 @@ solution 219:
 0,2,2 1,1,2 1,2,2 2,1,2 Z
 0,2,1 1,2,1 2,2,1 2,2,2 L
 
-b b T        L L L        Z Z L    
-  b T T        b a a        Z Z p  
+b b T        L L L        Z Z L
+  b T T        b a a        Z Z p
     T V V        a p V        a p p
 
 solution 220:
@@ -2856,8 +2856,8 @@ solution 220:
 0,2,2 1,1,2 1,2,2 2,1,2 Z
 0,2,1 1,2,1 2,2,1 2,2,2 L
 
-b b a        L L L        Z Z L    
-  b a a        b T a        Z Z p  
+b b a        L L L        Z Z L
+  b a a        b T a        Z Z p
     T V V        T p V        T p p
 
 solution 221:
@@ -2869,8 +2869,8 @@ solution 221:
 1,1,1 2,1,1 2,2,1 V
 2,1,2 2,2,2 3,1,1 3,1,2 b
 
-a a T        a p V        p p b    
-  a T T        V V b        p b b  
+a a T        a p V        p p b
+  a T T        V V b        p b b
     T Z Z        Z Z L        L L L
 
 solution 222:
@@ -2882,8 +2882,8 @@ solution 222:
 1,1,1 2,1,1 2,2,1 2,2,2 a
 2,1,2 3,1,1 3,1,2 V
 
-p p T        b p a        b b a    
-  p T T        a a V        b V V  
+p p T        b p a        b b a
+  p T T        a a V        b V V
     T Z Z        Z Z L        L L L
 
 solution 223:
@@ -2895,8 +2895,8 @@ solution 223:
 0,2,1 0,2,2 1,2,2 2,2,2 L
 1,1,1 1,1,2 2,1,1 2,2,1 b
 
-p p T        L p b        L L L    
-  p T T        b b a        b a a  
+p p T        L p b        L L L
+  p T T        b b a        b a a
     T Z Z        Z Z V        a V V
 
 solution 224:
@@ -2908,8 +2908,8 @@ solution 224:
 0,2,0 1,1,0 1,2,0 1,2,1 p
 0,2,1 0,2,2 1,2,2 2,2,2 L
 
-p p T        L p a        L L L    
-  p T T        b a a        b b a  
+p p T        L p a        L L L
+  p T T        b a a        b b a
     T Z Z        Z Z V        b V V
 
 solution 225:
@@ -2921,8 +2921,8 @@ solution 225:
 0,2,2 1,1,2 1,2,2 2,2,2 T
 0,2,1 1,2,1 2,2,0 2,2,1 L
 
-b b L        L L L        T T T    
-  b p p        b p a        T a a  
+b b L        L L L        T T T
+  b p p        b p a        T a a
     p Z Z        Z Z V        a V V
 
 solution 226:
@@ -2934,8 +2934,8 @@ solution 226:
 0,2,0 1,1,0 1,1,1 1,2,0 b
 1,2,1 2,1,1 2,2,0 2,2,1 p
 
-b b p        V p p        V V T    
-  b Z Z        b p a        T T T  
+b b p        V p p        V V T
+  b Z Z        b p a        T T T
     L Z Z        L a a        L L a
 
 solution 227:
@@ -2947,8 +2947,8 @@ solution 227:
 0,2,0 1,1,0 1,2,0 1,2,1 p
 1,1,1 2,1,1 2,2,0 2,2,1 b
 
-p p b        V p b        V V T    
-  p Z Z        b b a        T T T  
+p p b        V p b        V V T
+  p Z Z        b b a        T T T
     L Z Z        L a a        L L a
 
 solution 228:
@@ -2960,8 +2960,8 @@ solution 228:
 0,2,0 1,1,0 1,1,1 1,2,0 b
 1,2,1 2,1,1 2,2,0 2,2,1 p
 
-b b p        V p p        V V T    
-  b Z Z        b p a        T T a  
+b b p        V p p        V V T
+  b Z Z        b p a        T T a
     L Z Z        L L L        T a a
 
 solution 229:
@@ -2973,8 +2973,8 @@ solution 229:
 0,2,0 1,1,0 1,2,0 1,2,1 p
 1,1,1 2,1,1 2,2,0 2,2,1 b
 
-p p b        V p b        V V T    
-  p Z Z        b b a        T T a  
+p p b        V p b        V V T
+  p Z Z        b b a        T T a
     L Z Z        L L L        T a a
 
 solution 230:
@@ -2986,8 +2986,8 @@ solution 230:
 2,1,1 2,2,0 2,2,1 2,2,2 T
 0,2,1 0,2,2 1,2,2 V
 
-p p T        V p T        V V T    
-  p Z Z        b T a        b b a  
+p p T        V p T        V V T
+  p Z Z        b T a        b b a
     L Z Z        L L L        b a a
 
 solution 231:
@@ -2999,8 +2999,8 @@ solution 231:
 1,2,1 2,2,0 2,2,1 2,2,2 T
 0,2,0 1,1,0 1,1,1 1,2,0 b
 
-b b T        V T T        V V T    
-  b Z Z        b p a        p p a  
+b b T        V T T        V V T
+  b Z Z        b p a        p p a
     L Z Z        L L L        p a a
 
 solution 232:
@@ -3012,8 +3012,8 @@ solution 232:
 0,2,1 0,2,2 1,2,2 2,2,2 L
 1,1,1 1,1,2 2,1,2 V
 
-p p a        L p a        L L L    
-  p Z Z        V a a        V V b  
+p p a        L p a        L L L
+  p Z Z        V a a        V V b
     T Z Z        T T b        T b b
 
 solution 233:
@@ -3025,8 +3025,8 @@ solution 233:
 0,2,0 1,1,0 1,1,1 1,2,0 b
 1,2,1 2,1,1 2,2,0 2,2,1 p
 
-b b p        V p p        V V T    
-  b Z Z        b p a        T T T  
+b b p        V p p        V V T
+  b Z Z        b p a        T T T
     a Z Z        a a L        L L L
 
 solution 234:
@@ -3038,8 +3038,8 @@ solution 234:
 0,2,0 1,1,0 1,2,0 1,2,1 p
 1,1,1 2,1,1 2,2,0 2,2,1 b
 
-p p b        V p b        V V T    
-  p Z Z        b b a        T T T  
+p p b        V p b        V V T
+  p Z Z        b b a        T T T
     a Z Z        a a L        L L L
 
 solution 235:
@@ -3051,8 +3051,8 @@ solution 235:
 0,2,0 1,1,0 1,1,1 1,2,0 b
 1,2,1 2,1,1 2,2,0 2,2,1 p
 
-b b p        L p p        L L L    
-  b Z Z        b p a        T T T  
+b b p        L p p        L L L
+  b Z Z        b p a        T T T
     a Z Z        a a V        T V V
 
 solution 236:
@@ -3064,8 +3064,8 @@ solution 236:
 0,2,0 1,1,0 1,2,0 1,2,1 p
 1,1,1 2,1,1 2,2,0 2,2,1 b
 
-p p b        L p b        L L L    
-  p Z Z        b b a        T T T  
+p p b        L p b        L L L
+  p Z Z        b b a        T T T
     a Z Z        a a V        T V V
 
 solution 237:
@@ -3077,8 +3077,8 @@ solution 237:
 0,2,2 1,1,2 1,2,2 2,2,2 T
 0,2,1 1,2,1 2,2,0 2,2,1 L
 
-b b L        L L L        T T T    
-  b Z Z        b p a        T p p  
+b b L        L L L        T T T
+  b Z Z        b p a        T p p
     a Z Z        a a V        p V V
 
 solution 238:
@@ -3090,8 +3090,8 @@ solution 238:
 0,2,1 0,2,2 1,1,2 1,2,2 b
 2,1,2 2,2,0 2,2,1 2,2,2 L
 
-p p L        b p L        b b L    
-  p Z Z        a a V        b L T  
+p p L        b p L        b b L
+  p Z Z        a a V        b L T
     a Z Z        a V V        T T T
 
 solution 239:
@@ -3103,8 +3103,8 @@ solution 239:
 0,2,2 1,1,2 1,2,2 2,2,2 T
 0,2,1 1,2,1 2,2,0 2,2,1 L
 
-b b L        L L L        T T T    
-  b Z Z        b p a        T a a  
+b b L        L L L        T T T
+  b Z Z        b p a        T a a
     p Z Z        p p V        a V V
 
 solution 240:
@@ -3116,8 +3116,8 @@ solution 240:
 0,2,0 0,2,1 1,1,1 1,2,1 b
 1,2,0 2,2,0 2,2,1 2,2,2 L
 
-b L L        b b L        Z Z L    
-  p p a        b p V        Z Z T  
+b L L        b b L        Z Z L
+  p p a        b p V        Z Z T
     p a a        V V a        T T T
 
 solution 241:
@@ -3129,8 +3129,8 @@ solution 241:
 2,0,0 2,0,1 2,0,2 2,1,2 L
 1,2,0 2,2,0 2,2,1 V
 
-b V V        b b V        T T T    
-  Z Z a        b Z Z        T L p  
+b V V        b b V        T T T
+  Z Z a        b Z Z        T L p
     L a a        L p a        L p p
 
 solution 242:
@@ -3142,8 +3142,8 @@ solution 242:
 1,2,1 2,2,0 2,2,1 2,2,2 T
 0,2,1 0,2,2 1,2,2 V
 
-b b T        V T T        V V T    
-  b L a        b Z Z        Z Z p  
+b b T        V T T        V V T
+  b L a        b Z Z        Z Z p
     L a a        L p a        L p p
 
 solution 243:
@@ -3155,8 +3155,8 @@ solution 243:
 0,2,1 0,2,2 1,2,2 V
 1,1,2 2,0,2 2,1,2 2,2,2 T
 
-b b L        V Z Z        V V T    
-  b L a        b Z Z        T T p  
+b b L        V Z Z        V V T
+  b L a        b Z Z        T T p
     L a a        L p a        T p p
 
 solution 244:
@@ -3168,8 +3168,8 @@ solution 244:
 0,2,1 0,2,2 1,2,2 V
 1,1,1 1,1,2 2,1,2 2,2,2 a
 
-p p Z        V p L        V V a    
-  p Z Z        a L b        a a T  
+p p Z        V p L        V V a
+  p Z Z        a L b        a a T
     L Z b        L b b        T T T
 
 244 solutions, 19724 searches, duration 0:00:11.146000

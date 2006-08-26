@@ -9,7 +9,7 @@ solution 1:
 3,1,0 4,0,0 4,1,0 4,1,1 p
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  T T T        Z T b        Z b b  
+  T T T        Z T b        Z b b
 L Z   p p    V Z   b p    V V   a a
 L       p    L       a    L       a
 
@@ -22,7 +22,7 @@ solution 2:
 3,1,1 4,0,2 4,1,1 4,1,2 a
 3,1,0 4,0,0 4,0,1 4,1,0 b
 
-  T T T        Z T p        Z p p  
+  T T T        Z T p        Z p p
 L Z   b b    V Z   a a    V V   p a
 L       b    L       b    L       a
 
@@ -35,7 +35,7 @@ solution 3:
 3,1,0 3,1,1 3,2,0 4,1,0 p
 3,1,2 3,2,1 3,2,2 4,1,2 a
 
-  b b p        V b a        Z Z a  
+  b b p        V b a        Z Z a
 L b   p p    V V   p T    Z Z   a a
 L       T    L       T    L       T
 
@@ -48,7 +48,7 @@ solution 4:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  b b T        V b T        Z Z T  
+  b b T        V b T        Z Z T
 L b   p p    V V   T p    Z Z   a a
 L       p    L       a    L       a
 
@@ -61,7 +61,7 @@ solution 5:
 3,1,1 3,1,2 3,2,2 4,1,2 p
 3,1,0 3,2,0 3,2,1 4,1,0 b
 
-  a V b        V V b        Z Z p  
+  a V b        V V b        Z Z p
 L a   b b    a a   p T    Z Z   p p
 L       T    L       T    L       T
 
@@ -74,7 +74,7 @@ solution 6:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,2 4,1,1 4,1,2 p
 
-  a V T        V V T        Z Z T  
+  a V T        V V T        Z Z T
 L a   b b    a a   T p    Z Z   p p
 L       b    L       b    L       p
 
@@ -87,7 +87,7 @@ solution 7:
 3,1,2 4,0,1 4,0,2 4,1,2 a
 3,1,1 3,2,1 3,2,2 4,1,1 b
 
-  T T T        p T b        Z Z b  
+  T T T        p T b        Z Z b
 L p   V V    p p   b b    Z Z   a a
 L       V    L       a    L       a
 
@@ -100,7 +100,7 @@ solution 8:
 3,1,1 4,0,1 4,0,2 4,1,1 b
 3,1,2 3,2,1 3,2,2 4,1,2 a
 
-  T T T        p T a        Z Z a  
+  T T T        p T a        Z Z a
 L p   V V    p p   b b    Z Z   a a
 L       V    L       b    L       b
 
@@ -113,7 +113,7 @@ solution 9:
 3,1,1 4,0,2 4,1,1 4,1,2 a
 3,1,2 3,2,1 3,2,2 V
 
-  T T T        p T V        Z Z V  
+  T T T        p T V        Z Z V
 L p   b b    p p   a a    Z Z   V a
 L       b    L       b    L       a
 
@@ -126,7 +126,7 @@ solution 10:
 3,1,0 4,0,0 4,1,0 4,1,1 p
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  T T T        V T b        V b b  
+  T T T        V T b        V b b
 L Z   p p    Z Z   b p    Z V   a a
 L       p    L       a    L       a
 
@@ -139,7 +139,7 @@ solution 11:
 3,1,1 4,0,2 4,1,1 4,1,2 a
 3,1,0 4,0,0 4,0,1 4,1,0 b
 
-  T T T        V T p        V p p  
+  T T T        V T p        V p p
 L Z   b b    Z Z   a a    Z V   p a
 L       b    L       b    L       a
 
@@ -152,7 +152,7 @@ solution 12:
 3,1,2 4,0,1 4,0,2 4,1,2 a
 3,1,1 3,2,1 3,2,2 4,1,1 b
 
-  T T T        p T b        p p b  
+  T T T        p T b        p p b
 L Z   V V    Z Z   b b    Z p   a a
 L       V    L       a    L       a
 
@@ -165,7 +165,7 @@ solution 13:
 3,1,1 4,0,1 4,0,2 4,1,1 b
 3,1,2 3,2,1 3,2,2 4,1,2 a
 
-  T T T        p T a        p p a  
+  T T T        p T a        p p a
 L Z   V V    Z Z   b b    Z p   a a
 L       V    L       b    L       b
 
@@ -178,7 +178,7 @@ solution 14:
 3,1,1 4,0,2 4,1,1 4,1,2 a
 3,1,2 3,2,1 3,2,2 V
 
-  T T T        p T V        p p V  
+  T T T        p T V        p p V
 L Z   b b    Z Z   a a    Z p   V a
 L       b    L       b    L       a
 
@@ -191,7 +191,7 @@ solution 15:
 3,1,1 3,1,2 3,2,2 4,1,2 p
 3,1,0 3,2,0 3,2,1 4,1,0 b
 
-  V V b        V a b        a a p  
+  V V b        V a b        a a p
 L Z   b b    Z Z   p T    Z a   p p
 L       T    L       T    L       T
 
@@ -204,7 +204,7 @@ solution 16:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,2 4,1,1 4,1,2 p
 
-  V V T        V a T        a a T  
+  V V T        V a T        a a T
 L Z   b b    Z Z   T p    Z a   p p
 L       b    L       b    L       p
 
@@ -217,7 +217,7 @@ solution 17:
 3,1,1 3,1,2 3,2,2 4,1,2 p
 2,2,1 2,2,2 3,2,1 V
 
-  a Z Z        b V V        b V p  
+  a Z Z        b V V        b V p
 L a   Z Z    a a   p T    b b   p p
 L       T    L       T    L       T
 
@@ -230,7 +230,7 @@ solution 18:
 2,2,2 3,1,2 3,2,2 4,1,2 Z
 2,2,0 2,2,1 3,2,1 V
 
-  a V p        b V V        b Z Z  
+  a V p        b V V        b Z Z
 L a   p p    a a   p T    b b   Z Z
 L       T    L       T    L       T
 
@@ -243,7 +243,7 @@ solution 19:
 3,1,1 3,1,2 3,2,2 4,1,2 p
 4,0,1 4,0,2 4,1,1 V
 
-  a T Z        b T T        b T p  
+  a T Z        b T T        b T p
 L a   Z Z    a a   p V    b b   p p
 L       Z    L       V    L       V
 
@@ -256,7 +256,7 @@ solution 20:
 3,1,2 3,2,2 4,0,2 4,1,2 Z
 4,0,0 4,0,1 4,1,1 V
 
-  a T p        b T T        b T Z  
+  a T p        b T T        b T Z
 L a   p p    a a   p V    b b   Z Z
 L       V    L       V    L       Z
 
@@ -269,7 +269,7 @@ solution 21:
 3,1,2 4,0,2 4,1,1 4,1,2 p
 3,1,0 4,0,0 4,0,1 4,1,0 b
 
-  Z a a        Z T a        T T T  
+  Z a a        Z T a        T T T
 V V   b b    V Z   a p    L Z   p p
 L       b    L       b    L       p
 
@@ -282,7 +282,7 @@ solution 22:
 3,1,1 4,0,0 4,1,0 4,1,1 b
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  Z p p        Z T p        T T T  
+  Z p p        Z T p        T T T
 V V   p b    V Z   b b    L Z   a a
 L       b    L       a    L       a
 
@@ -295,7 +295,7 @@ solution 23:
 3,1,2 4,0,2 4,1,1 4,1,2 p
 3,1,0 4,0,0 4,0,1 4,1,0 b
 
-  V a a        V T a        T T T  
+  V a a        V T a        T T T
 Z V   b b    Z Z   a p    L Z   p p
 L       b    L       b    L       p
 
@@ -308,7 +308,7 @@ solution 24:
 3,1,1 4,0,0 4,1,0 4,1,1 b
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  V p p        V T p        T T T  
+  V p p        V T p        T T T
 Z V   p b    Z Z   b b    L Z   a a
 L       b    L       a    L       a
 
@@ -321,7 +321,7 @@ solution 25:
 3,1,0 3,1,1 3,2,0 4,1,0 p
 3,1,2 3,2,1 3,2,2 4,1,2 a
 
-  b b p        V b a        V V a  
+  b b p        V b a        V V a
 Z b   p p    Z Z   p T    L Z   a a
 L       T    L       T    L       T
 
@@ -334,7 +334,7 @@ solution 26:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  b b T        V b T        V V T  
+  b b T        V b T        V V T
 Z b   p p    Z Z   T p    L Z   a a
 L       p    L       a    L       a
 
@@ -347,7 +347,7 @@ solution 27:
 3,1,0 3,2,0 3,2,1 4,1,0 b
 3,1,2 4,0,2 4,1,2 V
 
-  p p b        p T b        T T T  
+  p p b        p T b        T T T
 Z p   b b    Z Z   a a    L Z   V V
 L       a    L       a    L       V
 
@@ -360,7 +360,7 @@ solution 28:
 3,1,1 3,2,0 3,2,1 4,1,1 a
 3,1,2 4,0,2 4,1,2 V
 
-  p p a        p T a        T T T  
+  p p a        p T a        T T T
 Z p   b b    Z Z   a a    L Z   V V
 L       b    L       b    L       V
 
@@ -373,7 +373,7 @@ solution 29:
 3,1,2 4,0,1 4,0,2 4,1,2 a
 3,1,0 3,2,0 3,2,1 V
 
-  p p V        p T V        T T T  
+  p p V        p T V        T T T
 Z p   V b    Z Z   b b    L Z   a a
 L       b    L       a    L       a
 
@@ -386,7 +386,7 @@ solution 30:
 3,1,1 3,1,2 3,2,2 4,1,2 p
 3,1,0 3,2,0 3,2,1 4,1,0 b
 
-  Z Z b        V a b        a a p  
+  Z Z b        V a b        a a p
 Z Z   b b    V V   p T    L a   p p
 L       T    L       T    L       T
 
@@ -399,7 +399,7 @@ solution 31:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,2 4,1,1 4,1,2 p
 
-  Z Z T        V a T        a a T  
+  Z Z T        V a T        a a T
 Z Z   b b    V V   T p    L a   p p
 L       b    L       b    L       p
 
@@ -412,7 +412,7 @@ solution 32:
 3,1,0 3,1,1 3,2,0 4,1,0 p
 3,1,2 3,2,1 3,2,2 4,1,2 a
 
-  Z Z p        V V a        b V a  
+  Z Z p        V V a        b V a
 Z Z   p p    b b   p T    L b   a a
 L       T    L       T    L       T
 
@@ -425,7 +425,7 @@ solution 33:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  Z Z T        V V T        b V T  
+  Z Z T        V V T        b V T
 Z Z   p p    b b   T p    L b   a a
 L       p    L       a    L       a
 
@@ -438,7 +438,7 @@ solution 34:
 3,1,0 3,2,0 3,2,1 4,1,0 b
 3,1,2 4,0,2 4,1,2 V
 
-  Z Z b        p T b        T T T  
+  Z Z b        p T b        T T T
 Z Z   b b    p p   a a    L p   V V
 L       a    L       a    L       V
 
@@ -451,7 +451,7 @@ solution 35:
 3,1,1 3,2,0 3,2,1 4,1,1 a
 3,1,2 4,0,2 4,1,2 V
 
-  Z Z a        p T a        T T T  
+  Z Z a        p T a        T T T
 Z Z   b b    p p   a a    L p   V V
 L       b    L       b    L       V
 
@@ -464,7 +464,7 @@ solution 36:
 3,1,2 4,0,1 4,0,2 4,1,2 a
 3,1,0 3,2,0 3,2,1 V
 
-  Z Z V        p T V        T T T  
+  Z Z V        p T V        T T T
 Z Z   V b    p p   b b    L p   a a
 L       b    L       a    L       a
 
@@ -477,7 +477,7 @@ solution 37:
 3,1,1 3,1,2 3,2,2 4,1,2 p
 2,2,1 2,2,2 3,2,1 V
 
-  a Z Z        a V V        b V p  
+  a Z Z        a V V        b V p
 a a   Z Z    b b   p T    L b   p p
 L       T    L       T    L       T
 
@@ -490,7 +490,7 @@ solution 38:
 2,2,2 3,1,2 3,2,2 4,1,2 Z
 2,2,0 2,2,1 3,2,1 V
 
-  a V p        a V V        b Z Z  
+  a V p        a V V        b Z Z
 a a   p p    b b   p T    L b   Z Z
 L       T    L       T    L       T
 
@@ -503,7 +503,7 @@ solution 39:
 3,1,1 3,1,2 3,2,2 4,1,2 p
 4,0,1 4,0,2 4,1,1 V
 
-  a T Z        a T T        b T p  
+  a T Z        a T T        b T p
 a a   Z Z    b b   p V    L b   p p
 L       Z    L       V    L       V
 
@@ -516,7 +516,7 @@ solution 40:
 3,1,2 3,2,2 4,0,2 4,1,2 Z
 4,0,0 4,0,1 4,1,1 V
 
-  a T p        a T T        b T Z  
+  a T p        a T T        b T Z
 a a   p p    b b   p V    L b   Z Z
 L       V    L       V    L       Z
 
@@ -529,7 +529,7 @@ solution 41:
 3,1,0 4,0,0 4,0,1 4,1,0 b
 4,0,2 4,1,1 4,1,2 V
 
-  Z Z p        a p p        L L L  
+  Z Z p        a p p        L L L
 Z Z   b b    T a   p V    a a   L V
 T       b    T       b    T       V
 
@@ -542,7 +542,7 @@ solution 42:
 3,1,1 4,0,2 4,1,1 4,1,2 a
 3,1,0 4,0,0 4,0,1 4,1,0 b
 
-  Z Z L        L L L        p V V  
+  Z Z L        L L L        p V V
 Z Z   b b    T p   a a    p p   V a
 T       b    T       b    T       a
 
@@ -555,7 +555,7 @@ solution 43:
 3,1,0 4,0,0 4,0,1 4,1,0 b
 4,0,2 4,1,1 4,1,2 V
 
-  Z Z L        L L L        p a a  
+  Z Z L        L L L        p a a
 Z Z   b b    T p   a V    p p   a V
 T       b    T       b    T       V
 
@@ -568,7 +568,7 @@ solution 44:
 3,1,2 3,2,0 3,2,1 3,2,2 L
 3,1,1 4,0,2 4,1,1 4,1,2 a
 
-  Z Z L        V V L        p V L  
+  Z Z L        V V L        p V L
 Z Z   b b    T p   a a    p p   L a
 T       b    T       b    T       a
 
@@ -581,7 +581,7 @@ solution 45:
 3,1,0 3,2,0 3,2,1 3,2,2 L
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  Z Z L        V V L        p V L  
+  Z Z L        V V L        p V L
 Z Z   L b    T p   b b    p p   a a
 T       b    T       a    T       a
 
@@ -594,7 +594,7 @@ solution 46:
 3,1,1 3,1,2 3,2,1 4,1,2 b
 4,0,1 4,0,2 4,1,1 V
 
-  a L Z        a L b        p L L  
+  a L Z        a L b        p L L
 a a   Z Z    T p   b V    p p   b b
 T       Z    T       V    T       V
 
@@ -607,7 +607,7 @@ solution 47:
 3,1,1 3,1,2 3,2,0 3,2,1 Z
 2,2,0 2,2,1 2,2,2 3,2,2 L
 
-  a L Z        a L Z        p L L  
+  a L Z        a L Z        p L L
 a a   b b    T p   Z V    p p   Z V
 T       b    T       b    T       V
 
@@ -620,7 +620,7 @@ solution 48:
 2,2,0 2,2,1 2,2,2 3,2,0 L
 3,1,1 3,2,1 4,1,1 V
 
-  a L L        a L V        p L Z  
+  a L L        a L V        p L Z
 a a   b b    T p   V V    p p   Z Z
 T       b    T       b    T       Z
 
@@ -633,7 +633,7 @@ solution 49:
 3,1,2 4,0,1 4,0,2 4,1,2 a
 2,2,1 3,1,1 3,2,1 3,2,2 p
 
-  L L L        b p p        Z Z p  
+  L L L        b p p        Z Z p
 b b   L V    T b   p V    Z Z   a a
 T       V    T       a    T       a
 
@@ -646,7 +646,7 @@ solution 50:
 3,1,1 4,0,0 4,1,0 4,1,1 b
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  p V V        L L L        Z Z L  
+  p V V        L L L        Z Z L
 p p   V b    T p   b b    Z Z   a a
 T       b    T       a    T       a
 
@@ -659,7 +659,7 @@ solution 51:
 3,1,2 4,0,1 4,0,2 4,1,2 a
 4,0,0 4,1,0 4,1,1 V
 
-  p b b        L L L        Z Z L  
+  p b b        L L L        Z Z L
 p p   b V    T p   b V    Z Z   a a
 T       V    T       a    T       a
 
@@ -672,7 +672,7 @@ solution 52:
 3,1,2 3,2,0 3,2,1 3,2,2 L
 3,1,1 4,0,2 4,1,1 4,1,2 a
 
-  p V L        V V L        Z Z L  
+  p V L        V V L        Z Z L
 p p   b b    T p   a a    Z Z   L a
 T       b    T       b    T       a
 
@@ -685,7 +685,7 @@ solution 53:
 3,1,0 3,2,0 3,2,1 3,2,2 L
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  p V L        V V L        Z Z L  
+  p V L        V V L        Z Z L
 p p   L b    T p   b b    Z Z   a a
 T       b    T       a    T       a
 
@@ -698,7 +698,7 @@ solution 54:
 2,2,0 2,2,1 2,2,2 3,2,0 L
 3,1,0 3,1,1 3,2,1 4,1,0 a
 
-  p L L        b L a        b L Z  
+  p L L        b L a        b L Z
 p p   a a    T p   a V    b b   Z Z
 T       V    T       V    T       Z
 
@@ -711,7 +711,7 @@ solution 55:
 3,1,0 3,1,1 3,2,1 3,2,2 Z
 2,2,0 2,2,1 2,2,2 3,2,0 L
 
-  p L L        b L Z        b L Z  
+  p L L        b L Z        b L Z
 p p   Z V    T p   Z V    b b   a a
 T       V    T       a    T       a
 
@@ -724,7 +724,7 @@ solution 56:
 3,1,1 3,2,1 4,1,1 V
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  p L Z        b L V        b L L  
+  p L Z        b L V        b L L
 p p   Z Z    T p   V V    b b   a a
 T       Z    T       a    T       a
 
@@ -737,7 +737,7 @@ solution 57:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  L L T        b L T        Z L T  
+  L L T        b L T        Z L T
 b b   p p    V b   T p    Z Z   a a
 V       p    V       a    Z       a
 
@@ -750,7 +750,7 @@ solution 58:
 3,1,2 3,2,0 3,2,1 3,2,2 L
 3,1,1 4,0,2 4,1,1 4,1,2 a
 
-  p T L        T T L        Z T L  
+  p T L        T T L        Z T L
 p p   b b    V p   a a    Z Z   L a
 V       b    V       b    Z       a
 
@@ -763,7 +763,7 @@ solution 59:
 3,1,0 3,2,0 3,2,1 3,2,2 L
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  p T L        T T L        Z T L  
+  p T L        T T L        Z T L
 p p   L b    V p   b b    Z Z   a a
 V       b    V       a    Z       a
 
@@ -776,7 +776,7 @@ solution 60:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  L L T        Z L T        Z L T  
+  L L T        Z L T        Z L T
 V Z   p p    V Z   T p    b b   a a
 V       p    b       a    b       a
 
@@ -789,7 +789,7 @@ solution 61:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,2 4,1,1 4,1,2 p
 
-  Z L T        a L T        L L T  
+  Z L T        a L T        L L T
 Z Z   b b    V a   T p    a a   p p
 Z       b    V       b    V       p
 
@@ -802,7 +802,7 @@ solution 62:
 3,1,2 3,2,0 3,2,1 3,2,2 L
 3,1,1 4,0,2 4,1,1 4,1,2 a
 
-  Z T L        T T L        p T L  
+  Z T L        T T L        p T L
 Z Z   b b    V p   a a    p p   L a
 Z       b    V       b    V       a
 
@@ -815,7 +815,7 @@ solution 63:
 3,1,0 3,2,0 3,2,1 3,2,2 L
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  Z T L        T T L        p T L  
+  Z T L        T T L        p T L
 Z Z   L b    V p   b b    p p   a a
 Z       b    V       a    V       a
 
@@ -828,7 +828,7 @@ solution 64:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,1 4,0,2 4,1,2 a
 
-  Z L T        V L T        L L T  
+  Z L T        V L T        L L T
 Z Z   p p    V V   T p    b b   a a
 Z       p    b       a    b       a
 
@@ -841,7 +841,7 @@ solution 65:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,2 4,1,1 4,1,2 p
 
-  Z L T        Z L T        L L T  
+  Z L T        Z L T        L L T
 a a   b b    V Z   T p    V Z   p p
 a       b    a       b    V       p
 
@@ -854,7 +854,7 @@ solution 66:
 3,1,1 3,2,0 3,2,1 3,2,2 T
 3,1,2 4,0,2 4,1,1 4,1,2 p
 
-  L L T        V L T        Z L T  
+  L L T        V L T        Z L T
 a a   b b    V V   T p    Z Z   p p
 a       b    a       b    Z       p
 
