@@ -11,6 +11,10 @@
 Latest News
 ===========
 
+**(2006-08-26) Hexiamond Puzzles Added**
+    Eight hexiamond (order-6 polyiamond, triangle-grid-based) puzzles
+    added.
+
 **(2006-08-21) Tetrahex & Pentahex Puzzles Added**
     Four hexagon-grid-based puzzles added, along with initial unit
     tests.
