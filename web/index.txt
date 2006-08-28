@@ -11,6 +11,10 @@
 Latest News
 ===========
 
+**(2006-08-28) Heptiamond Puzzles Added**
+    Four heptiamond (order-7 polyiamond, triangle-grid-based) puzzles
+    added.
+
 **(2006-08-26) Hexiamond Puzzles Added**
     Eight hexiamond (order-6 polyiamond, triangle-grid-based) puzzles
     added.
