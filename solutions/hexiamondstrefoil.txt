@@ -21120,4 +21120,4 @@ solution 640:
                \_______\/
 
 
-640 solutions, 131140 searches, duration 0:10:42.069142
+640 solutions, 131140 searches, duration 0:01:10.301000

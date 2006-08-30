@@ -1,4 +1,4 @@
-solving WeldedTetraSticks4x4Matrix:
+solving WeldedTetrasticks4x4matrix:
 
 solution 1:
 1,1h 2,0v 2,1h 2,1i 2,1v X

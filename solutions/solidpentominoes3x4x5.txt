@@ -74860,4 +74860,4 @@ N X X X W    N P P P W    L P P T V
 N U X U W    I I I I I    L T T T V
 N U U U V    Y Y Y Y V    L L Y T V
 
-3940 solutions, 13543443 searches, duration 4:40:40.657209
+3940 solutions, 13543443 searches, duration 1:31:01.417000
