@@ -8816,4 +8816,4 @@ solution 304:
      \_______\___\_______\/
 
 
-304 solutions, 135376 searches, duration 0:11:16.196641
+304 solutions, 135376 searches, duration 0:01:18.263000
