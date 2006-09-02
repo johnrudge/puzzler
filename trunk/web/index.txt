@@ -47,6 +47,7 @@ required.
 Here are some examples of polyform puzzles:
 
 .. list-table::
+   :class: borderless
 
    * - .. figure:: docs/images/pentominoes-6x10.png
 
@@ -56,7 +57,7 @@ Here are some examples of polyform puzzles:
 
           Hexominoes Trefoil
 
-     - .. figure:: docs/images/polyhex-5x8.png
+     - .. figure:: docs/images/pentahex-10x11.png
 
           10 |x| 11 Pentahex Parallelogram
 
