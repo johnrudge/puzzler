@@ -45,7 +45,7 @@ puzzles can easily be defined and added.  Python 2.4 or higher is
 required.
 
 Here are some examples of polyform puzzles (SVG drawings by Polyform
-Puzzler, exported as PNG images by Inkscape):
+Puzzler, exported as PNG images with Inkscape):
 
 .. list-table::
    :class: borderless
