@@ -44,6 +44,22 @@ Python library that does the heavy lifting.  New polyforms and new
 puzzles can easily be defined and added.  Python 2.4 or higher is
 required.
 
+Here are some examples of polyform puzzles:
+
+.. list-table::
+
+   * - .. figure:: docs/images/pentominoes-6x10.png
+
+          6 |x| 10 Pentominoes
+
+     - .. figure:: docs/images/hexiamonds-trefoil.png
+
+          Hexominoes Trefoil
+
+     - .. figure:: docs/images/polyhex-5x8.png
+
+          10 |x| 11 Pentahex Parallelogram
+
 All the details are in the `FAQ <docs/FAQ.html>`_.
 
 To get up & running quickly, see the Quick-Start_ section of the
@@ -145,6 +161,11 @@ __ misc/maze
    :width: 178
    :height: 45
 .. _Python: http://www.python.org
+.. |---| unicode:: U+2014  .. em dash
+   :trim:
+.. |c| unicode:: U+00A9 .. copyright sign
+.. |x| unicode:: U+00D7 .. multiplication sign
+   :trim:
 
 
 ..
