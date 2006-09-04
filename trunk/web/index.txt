@@ -126,6 +126,7 @@ Documentation
 * `README <README.html>`_
 * `Copying (license) <COPYING.html>`_
 * `Frequently Asked Questions <docs/FAQ.html>`_
+* `Solutions <solutions.html>`_
 * `History (change log) <docs/history.html>`_
 * `To Do List <docs/todo.html>`_
 
@@ -133,9 +134,10 @@ Documentation
 Solutions
 =========
 
-We include a `directory containing solutions to the puzzles Polyform
-Puzzler solves <solutions/>`__.  These solutions are also available
-`as a tarball <solutions-snapshot.tgz>`__.
+The Solutions_ document lists all implemented puzzles and solution
+counts where known.  We include a `directory containing solutions to
+the puzzles Polyform Puzzler solves <solutions/>`__.  These solutions
+are also available `as a tarball <solutions-snapshot.tgz>`__.
 
 
 Extras
