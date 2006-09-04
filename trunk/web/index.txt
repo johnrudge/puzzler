@@ -73,7 +73,8 @@ Puzzler, converted to PNG images with Inkscape):
 
           Soma Cubes "Cornerstone"
 
-All the details are in the `FAQ <docs/FAQ.html>`_.
+All the details are in the `FAQ <docs/FAQ.html>`_ and the `Puzzles &
+Solutions`_ doc.
 
 To get up & running quickly, see the Quick-Start_ section of the
 README_ file.
@@ -126,7 +127,7 @@ Documentation
 * `README <README.html>`_
 * `Copying (license) <COPYING.html>`_
 * `Frequently Asked Questions <docs/FAQ.html>`_
-* `Solutions <solutions.html>`_
+* `Puzzles & Solutions <puzzles.html>`_
 * `History (change log) <docs/history.html>`_
 * `To Do List <docs/todo.html>`_
 
@@ -134,10 +135,11 @@ Documentation
 Solutions
 =========
 
-The Solutions_ document lists all implemented puzzles and solution
-counts where known.  We include a `directory containing solutions to
-the puzzles Polyform Puzzler solves <solutions/>`__.  These solutions
-are also available `as a tarball <solutions-snapshot.tgz>`__.
+The `Puzzles & Solutions`_ document lists all implemented puzzles and
+solution counts where known.  We include a `directory containing
+solutions to the puzzles Polyform Puzzler solves <solutions/>`__.
+These solutions are also available `as a tarball
+<solutions-snapshot.tgz>`__.
 
 
 Extras
