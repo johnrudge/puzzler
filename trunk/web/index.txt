@@ -48,6 +48,7 @@ Here are some examples of polyform puzzles (SVG drawings by Polyform
 Puzzler, converted to PNG images with Inkscape):
 
 .. list-table::
+   :widths: 3 2 4
    :class: borderless
 
    * - .. figure:: docs/images/pentominoes-6x10.png
