@@ -127,7 +127,7 @@ Documentation
 * `README <README.html>`_
 * `Copying (license) <COPYING.html>`_
 * `Frequently Asked Questions <docs/FAQ.html>`_
-* `Puzzles & Solutions <puzzles.html>`_
+* `Puzzles & Solutions <docs/puzzles.html>`_
 * `History (change log) <docs/history.html>`_
 * `To Do List <docs/todo.html>`_
 
