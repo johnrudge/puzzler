@@ -62,6 +62,17 @@ Puzzler, converted to PNG images with Inkscape):
 
           10 |x| 11 Pentahex Parallelogram
 
+.. list-table::
+   :class: borderless
+
+   * - .. figure:: docs/images/solid-pentominoes-3x4x5.png
+
+          3 |x| 4 |x| 5 Solid Pentominoes
+
+     - .. figure:: docs/images/soma-cornerstone.png
+
+          Soma Cubes "Cornerstone"
+
 All the details are in the `FAQ <docs/FAQ.html>`_.
 
 To get up & running quickly, see the Quick-Start_ section of the
