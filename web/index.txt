@@ -11,6 +11,13 @@
 Latest News
 ===========
 
+**(2006-09-04) Tetracube and Pentacube Puzzles Added**
+    Several initial tetracube and pentacube puzzles were added; more
+    to come.
+
+**(2006-08-31 -- 09-03) SVG Image Generation Added**
+    For polyominoes, polyiamonds, polyhexes, and polycubes (so far).
+
 **(2006-08-28) Heptiamond Puzzles Added**
     Four heptiamond (order-7 polyiamond, triangle-grid-based) puzzles
     added.
@@ -73,6 +80,10 @@ Puzzler, converted to PNG images with Inkscape):
      - .. figure:: docs/images/soma-cornerstone.png
 
           Soma Cubes "Cornerstone"
+
+     - .. figure:: docs/images/pentacubes-5x5x6-tower.png
+
+          5 |x| 5 |x| 6 Pentacube Tower
 
 All the details are in the `FAQ <docs/FAQ.html>`_ and the `Puzzles &
 Solutions`_ doc.
