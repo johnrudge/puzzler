@@ -64,7 +64,7 @@ Puzzler, converted to PNG images with Inkscape):
 
      - .. figure:: docs/images/hexiamonds-trefoil.png
 
-          Hexominoes Trefoil
+          Hexiamond Trefoil
 
      - .. figure:: docs/images/pentahex-10x11.png
 
