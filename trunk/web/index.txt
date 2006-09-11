@@ -51,8 +51,8 @@ Python library that does the heavy lifting.  New polyforms and new
 puzzles can easily be defined and added.  Python 2.4 or higher is
 required.
 
-Here are some examples of polyform puzzles (SVG drawings by Polyform
-Puzzler, converted to PNG images with Inkscape):
+Here are some examples of polyform puzzles (SVG images by Polyform
+Puzzler, converted to PNG with Inkscape):
 
 .. list-table::
    :widths: 3 2 4
