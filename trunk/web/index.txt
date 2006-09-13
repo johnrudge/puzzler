@@ -106,7 +106,7 @@ Download
 --------
 
 * Get the latest `project snapshot`_ (recommended; it's updated
-  continuously).
+  continually).
 
 * To access the `SVN repository`_ directly use the following
   Subversion command::
