@@ -1,4 +1,4 @@
-solving Pentominoes4x15MatrixA:
+solving Pentominoes4x15A:
 
 solution 1:
 01,1 02,0 02,1 02,2 03,1 X
@@ -6346,7 +6346,7 @@ V V V Z N N X U U T F P P W L
 V Z Z Z Y X X X U T F F W W L
 V Z Y Y Y Y X U U F F W W L L
 
-solving Pentominoes4x15MatrixB:
+solving Pentominoes4x15B:
 
 solution 335:
 06,1 07,0 07,1 07,2 08,1 X
@@ -6995,5 +6995,5 @@ V L L L L Z X X X T F F W W P
 I I I I I Z Z X T T T F F W W
 
 368 solutions, 210031 searches, duration 0:04:15.617000
-(Pentominoes4x15MatrixA: 334 solutions, 163660 searches)
-(Pentominoes4x15MatrixB: 34 solutions, 46371 searches)
+(Pentominoes4x15A: 334 solutions, 163660 searches)
+(Pentominoes4x15B: 34 solutions, 46371 searches)

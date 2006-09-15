@@ -1,4 +1,4 @@
-solving Pentominoes8x8CenterHoleMatrixA:
+solving Pentominoes8x8CenterHoleA:
 
 solution 1:
 1,1 2,0 2,1 2,2 3,1 X
@@ -897,7 +897,7 @@ V P P X F F W L
 V P X X X W W L
 V V V X W W L L
 
-solving Pentominoes8x8CenterHoleMatrixB:
+solving Pentominoes8x8CenterHoleB:
 
 solution 40:
 1,2 2,1 2,2 2,3 3,2 X
@@ -1498,5 +1498,5 @@ I Y X W W F F L
 Y Y Y Y L L L L
 
 65 solutions, 37823 searches, duration 0:00:49.581000
-(Pentominoes8x8CenterHoleMatrixA: 39 solutions, 23502 searches)
-(Pentominoes8x8CenterHoleMatrixB: 26 solutions, 14321 searches)
+(Pentominoes8x8CenterHoleA: 39 solutions, 23502 searches)
+(Pentominoes8x8CenterHoleB: 26 solutions, 14321 searches)

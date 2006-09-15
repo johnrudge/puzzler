@@ -1,4 +1,4 @@
-solving SolidPentominoes2x3x10Matrix:
+solving SolidPentominoes2x3x10:
 
 solution 1:
 0,1,0 1,0,0 1,1,0 1,2,0 2,1,0 X

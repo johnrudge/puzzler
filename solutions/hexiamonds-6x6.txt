@@ -1,4 +1,4 @@
-solving Hexiamonds6x6Matrix:
+solving Hexiamonds6x6:
 
 solution 1:
 0,0,0 0,0,1 0,1,0 0,1,1 1,1,0 1,1,1 C6

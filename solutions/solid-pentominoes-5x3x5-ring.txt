@@ -1,4 +1,4 @@
-solving SolidPentominoes5x3x5RingMatrix:
+solving SolidPentominoes5x3x5Ring:
 
 solution 1:
 0,0,1 0,1,0 0,1,1 0,1,2 0,2,1 X

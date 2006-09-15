@@ -1,4 +1,4 @@
-solving Tetracubes2x4x4Matrix:
+solving Tetracubes2x4x4:
 
 solution 1:
 0,0,0 0,0,1 0,1,0 1,0,0 V2

@@ -1,4 +1,4 @@
-solving Tetrahex4x7Matrix:
+solving Tetrahex4x7:
 
 solution 1:
 0,0 0,1 0,2 0,3 I4

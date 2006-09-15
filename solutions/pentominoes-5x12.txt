@@ -1,4 +1,4 @@
-solving Pentominoes5x12MatrixA:
+solving Pentominoes5x12A:
 
 solution 1:
 01,1 02,0 02,1 02,2 03,1 X
@@ -14240,7 +14240,7 @@ V U Z Z F X W W N N N T
 V U U Z X X X W Y P P P
 V V V Z Z X Y Y Y Y P P
 
-solving Pentominoes5x12MatrixB:
+solving Pentominoes5x12B:
 
 solution 713:
 00,2 01,1 01,2 01,3 02,2 X
@@ -20203,5 +20203,5 @@ P P P N Y X L T T T Z V
 P P Y Y Y Y L L L L Z Z
 
 1010 solutions, 594926 searches, duration 0:12:07.405000
-(Pentominoes5x12MatrixA: 712 solutions, 377484 searches)
-(Pentominoes5x12MatrixB: 298 solutions, 217442 searches)
+(Pentominoes5x12A: 712 solutions, 377484 searches)
+(Pentominoes5x12B: 298 solutions, 217442 searches)

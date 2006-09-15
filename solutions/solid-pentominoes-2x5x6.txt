@@ -1,4 +1,4 @@
-solving SolidPentominoes2x5x6MatrixA:
+solving SolidPentominoes2x5x6A:
 
 solution 1:
 0,1,0 1,0,0 1,1,0 1,2,0 2,1,0 X
@@ -4460,7 +4460,7 @@ P F X U U V    P N Z W T L
 P X X X U V    P N Z Z Z L
 P Y X U U L    Y Y Y Y Z L
 
-solving SolidPentominoes2x5x6MatrixB:
+solving SolidPentominoes2x5x6B:
 
 solution 224:
 0,2,0 1,1,0 1,2,0 1,3,0 2,2,0 X
@@ -5283,5 +5283,5 @@ U U X F F F    Y Y W W T L
 I I I I I F    Y W W T T T
 
 264 solutions, 470764 searches, duration 0:10:53.272812
-(SolidPentominoes2x5x6MatrixA: 223 solutions, 326824 searches)
-(SolidPentominoes2x5x6MatrixB: 41 solutions, 143940 searches)
+(SolidPentominoes2x5x6A: 223 solutions, 326824 searches)
+(SolidPentominoes2x5x6B: 41 solutions, 143940 searches)

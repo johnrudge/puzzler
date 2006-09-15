@@ -1,4 +1,4 @@
-solving HexiamondsRing2Matrix:
+solving HexiamondsRing2:
 
 solution 1:
 6,4,1 6,5,0 7,2,1 7,3,0 7,3,1 7,4,0 C6

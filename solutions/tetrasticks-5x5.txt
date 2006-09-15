@@ -1,4 +1,4 @@
-solving Tetrasticks5x5Matrix:
+solving Tetrasticks5x5:
 
 solution 1:
 0,1h 1,0v 1,1h 1,1i 1,1v X
