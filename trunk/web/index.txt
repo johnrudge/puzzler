@@ -11,6 +11,11 @@
 Latest News
 ===========
 
+**(2006-09-12) Pentacubes Plus Puzzles Added**
+    Sold under the name "`Super Deluxe Quintillions`_" by Kadon, these
+    30 pieces are the 29 pentacubes plus a second L3 piece
+    (a.k.a. J3), allowing the construction of box shapes.
+
 **(2006-09-04) Tetracube and Pentacube Puzzles Added**
     Several initial tetracube and pentacube puzzles were added; more
     to come.
@@ -44,12 +49,12 @@ Latest News
 Overview
 ========
 
-**Polyform Puzzler** is a software toolkit for exploring & solving
-polyform puzzles, like Pentominoes and Soma Cubes.  It consists of a
-set of front-end applications for specific polyform puzzles and a
-Python library that does the heavy lifting.  New polyforms and new
-puzzles can easily be defined and added.  Python 2.4 or higher is
-required.
+**Polyform Puzzler** is a set of solvers for many polyform puzzles
+(like Pentominoes and Soma Cubes), and a software toolkit for
+exploring & solving polyform puzzles.  It consists of a set of
+front-end applications for specific polyform puzzles and a Python
+library that does the heavy lifting.  New polyforms and new puzzles
+can easily be defined and added.  Python 2.4 or higher is required.
 
 Here are some examples of polyform puzzles (SVG images by Polyform
 Puzzler, converted to PNG with Inkscape):
@@ -175,6 +180,7 @@ __ misc/maze
    http://sourceforge.net/tracker/?group_id=7049&atid=307049
 .. _SourceForge bug tracker:
    http://sourceforge.net/tracker/?group_id=7049&atid=107049
+.. _Super Deluxe Quintillions: http://www.gamepuzzles.com/polycube.htm#SQd
 .. |Polyform Puzzler| image:: docs/images/puzzler.png
 .. |SourceForge| image:: http://sourceforge.net/sflogo.php?group_id=7049
    :alt: SourceForge
