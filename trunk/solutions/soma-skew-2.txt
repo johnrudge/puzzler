@@ -1,4 +1,4 @@
-solving SomaSkew2Matrix:
+solving SomaSkew2:
 
 solution 1:
 4,0,0 4,1,0 5,0,0 6,0,0 L

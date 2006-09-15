@@ -1,4 +1,4 @@
-solving SolidPentominoes3x3x9RingMatrix:
+solving SolidPentominoes3x3x9Ring:
 
 solution 1:
 0,0,1 0,1,0 0,1,1 0,1,2 0,2,1 X

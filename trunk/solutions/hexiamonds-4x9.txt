@@ -1,4 +1,4 @@
-solving Hexiamonds4x9Matrix:
+solving Hexiamonds4x9:
 
 solution 1:
 0,0,0 0,0,1 0,1,0 0,1,1 1,1,0 1,1,1 C6

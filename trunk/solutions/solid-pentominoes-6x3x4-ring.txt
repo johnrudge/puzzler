@@ -1,4 +1,4 @@
-solving SolidPentominoes6x3x4RingMatrix:
+solving SolidPentominoes6x3x4Ring:
 
 solution 1:
 0,0,1 0,1,0 0,1,1 0,1,2 0,2,1 X

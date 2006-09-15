@@ -1,4 +1,4 @@
-solving Tetrahex3x10ClippedMatrix:
+solving Tetrahex3x10Clipped:
 
 solution 1:
 6,1 7,1 7,2 8,0 Y4

@@ -1,4 +1,4 @@
-solving Pentominoes3x20Matrix:
+solving Pentominoes3x20:
 
 solution 1:
 01,1 02,0 02,1 02,2 03,1 X

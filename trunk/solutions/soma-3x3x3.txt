@@ -1,4 +1,4 @@
-solving Soma3x3x3Matrix:
+solving Soma3x3x3:
 
 solution 1:
 0,0,0 0,1,0 0,2,0 1,1,0 T
