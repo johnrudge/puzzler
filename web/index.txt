@@ -8,8 +8,8 @@
    :class: sidebar
 
 
-Latest News
-===========
+News
+====
 
 **(2006-09-12) Pentacubes Plus Puzzles Added**
     Sold under the name "`Super Deluxe Quintillions`_" by Kadon, these
@@ -155,7 +155,7 @@ Solutions
 The `Puzzles & Solutions`_ document lists all implemented puzzles and
 solution counts where known.  We include a `directory containing
 solutions to the puzzles Polyform Puzzler solves <solutions/>`__.
-These solutions are also available `as a tarball
+These solutions are also available `as a Gzip-compressed tarball
 <solutions-snapshot.tgz>`__.
 
 
