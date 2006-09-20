@@ -13,7 +13,7 @@ News
 
 **(2006-09-19) Automatic Save/Restore State Added
     Added the ability to automatically save & restore the session
-    state to a user-specified file (``-S``/``--store-search-state``
+    state to a user-specified file (``-S``/``--save-search-state``
     option).
 
 **(2006-09-12) Pentacubes Plus Puzzles Added**
