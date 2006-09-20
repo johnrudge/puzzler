@@ -11,7 +11,7 @@
 News
 ====
 
-**(2006-09-19) Automatic Save/Restore State Added
+**(2006-09-19) Automatic Save/Restore State Added**
     Added the ability to automatically save & restore the session
     state to a user-specified file (``-S``/``--save-search-state``
     option).
