@@ -11,6 +11,11 @@
 News
 ====
 
+**(2006-09-19) Automatic Save/Restore State Added
+    Added the ability to automatically save & restore the session
+    state to a user-specified file (``-S``/``--store-search-state``
+    option).
+
 **(2006-09-12) Pentacubes Plus Puzzles Added**
     Sold under the name "`Super Deluxe Quintillions`_" by Kadon, these
     30 pieces are the 29 pentacubes plus a second L3 piece
