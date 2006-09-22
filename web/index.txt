@@ -86,14 +86,15 @@ Puzzler, converted to PNG with Inkscape):
 
 .. list-table::
    :class: borderless
+   :widths: 2 2 3
 
    * - .. figure:: docs/images/solid-pentominoes-3x4x5.png
 
           3 |x| 4 |x| 5 Solid Pentominoes
 
-     - .. figure:: docs/images/soma-cornerstone.png
+     - .. figure:: docs/images/soma-long-wall.png
 
-          Soma Cubes "Cornerstone"
+          Soma Cubes Long Wall
 
      - .. figure:: docs/images/pentacubes-5x9x9-fortress.png
 
