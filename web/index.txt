@@ -95,9 +95,9 @@ Puzzler, converted to PNG with Inkscape):
 
           Soma Cubes "Cornerstone"
 
-     - .. figure:: docs/images/pentacubes-5x5x6-tower.png
+     - .. figure:: docs/images/pentacubes-5x9x9-fortress.png
 
-          5 |x| 5 |x| 6 Pentacube Tower
+          5 |x| 9 |x| 9 Pentacube Fortress
 
 All the details are in the `FAQ <docs/FAQ.html>`_ and the `Puzzles &
 Solutions`_ doc.
