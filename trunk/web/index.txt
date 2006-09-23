@@ -11,7 +11,7 @@
 News
 ====
 
-**(2006-09-22) X3D Model Generation Added**
+**(2006-09-22) X3D 3-D Model Generation Added**
     For polycubes (pentacubes, tetracubes, solid pentominoes, soma
     cubes).
 
@@ -69,7 +69,7 @@ Here are some examples of polyform puzzles (SVG images by Polyform
 Puzzler, converted to PNG with Inkscape):
 
 .. list-table::
-   :widths: 3 2 4
+   :widths: 2 1 3
    :class: borderless
 
    * - .. figure:: docs/images/pentominoes-6x10.png
