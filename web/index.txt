@@ -11,7 +11,7 @@
 News
 ====
 
-**(2006-10-03) Added "How to Extend Polyform Puzzler" doc**
+**(2006-10-03) Added "How to Extend Polyform Puzzler" Document**
     The beginnings of development instructions; `available here
     <docs/extend.html>`__.
 
