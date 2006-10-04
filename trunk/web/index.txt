@@ -11,6 +11,10 @@
 News
 ====
 
+**(2006-10-03) Added "How to Extend Polyform Puzzler" doc**
+    The beginnings of development instructions; `available here
+    <docs/extend.html>`__
+
 **(2006-09-22) X3D 3-D Model Generation Added**
     For polycubes (pentacubes, tetracubes, solid pentominoes, soma
     cubes).
@@ -155,6 +159,7 @@ Documentation
 * `Copying (license) <COPYING.html>`_
 * `Frequently Asked Questions <docs/FAQ.html>`_
 * `Puzzles & Solutions <docs/puzzles.html>`_
+* `How to Extend Polyform Puzzler <docs/extend.html>`_
 * `History (change log) <docs/history.html>`_
 * `To Do List <docs/todo.html>`_
 
