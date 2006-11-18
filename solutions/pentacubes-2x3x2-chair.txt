@@ -1,0 +1,1355 @@
+solving Pentacubes2x3x2Chair_A_F:
+
+solving Pentacubes2x3x2Chair_A_I:
+
+solving Pentacubes2x3x2Chair_A_J1:
+
+solving Pentacubes2x3x2Chair_A_J2:
+
+solving Pentacubes2x3x2Chair_A_J4:
+
+solving Pentacubes2x3x2Chair_A_L:
+
+solving Pentacubes2x3x2Chair_A_L1:
+
+solving Pentacubes2x3x2Chair_A_L2:
+
+solving Pentacubes2x3x2Chair_A_L3:
+
+solving Pentacubes2x3x2Chair_A_L4:
+
+solving Pentacubes2x3x2Chair_A_N:
+
+solving Pentacubes2x3x2Chair_A_N1:
+
+solving Pentacubes2x3x2Chair_A_N2:
+
+solving Pentacubes2x3x2Chair_A_P:
+
+solving Pentacubes2x3x2Chair_A_Q:
+
+solution 1:
+0,1,0 0,1,1 0,2,0 1,1,1 1,2,0 A
+0,0,0 0,0,1 1,0,0 1,0,1 1,1,0 Q
+
+A  A
+A  Q      A  A
+Q  Q      Q  Q
+
+solving Pentacubes2x3x2Chair_A_S1:
+
+solving Pentacubes2x3x2Chair_A_S2:
+
+solving Pentacubes2x3x2Chair_A_T:
+
+solving Pentacubes2x3x2Chair_A_T1:
+
+solving Pentacubes2x3x2Chair_A_T2:
+
+solving Pentacubes2x3x2Chair_A_U:
+
+solving Pentacubes2x3x2Chair_A_V:
+
+solving Pentacubes2x3x2Chair_A_V1:
+
+solving Pentacubes2x3x2Chair_A_V2:
+
+solving Pentacubes2x3x2Chair_A_W:
+
+solving Pentacubes2x3x2Chair_A_X:
+
+solving Pentacubes2x3x2Chair_A_Y:
+
+solving Pentacubes2x3x2Chair_A_Z:
+
+solving Pentacubes2x3x2Chair_F_I:
+
+solving Pentacubes2x3x2Chair_F_J1:
+
+solving Pentacubes2x3x2Chair_F_J2:
+
+solving Pentacubes2x3x2Chair_F_J4:
+
+solving Pentacubes2x3x2Chair_F_L:
+
+solving Pentacubes2x3x2Chair_F_L1:
+
+solving Pentacubes2x3x2Chair_F_L2:
+
+solving Pentacubes2x3x2Chair_F_L3:
+
+solving Pentacubes2x3x2Chair_F_L4:
+
+solving Pentacubes2x3x2Chair_F_N:
+
+solving Pentacubes2x3x2Chair_F_N1:
+
+solving Pentacubes2x3x2Chair_F_N2:
+
+solving Pentacubes2x3x2Chair_F_P:
+
+solving Pentacubes2x3x2Chair_F_Q:
+
+solving Pentacubes2x3x2Chair_F_S1:
+
+solving Pentacubes2x3x2Chair_F_S2:
+
+solving Pentacubes2x3x2Chair_F_T:
+
+solving Pentacubes2x3x2Chair_F_T1:
+
+solving Pentacubes2x3x2Chair_F_T2:
+
+solving Pentacubes2x3x2Chair_F_U:
+
+solving Pentacubes2x3x2Chair_F_V:
+
+solving Pentacubes2x3x2Chair_F_V1:
+
+solving Pentacubes2x3x2Chair_F_V2:
+
+solving Pentacubes2x3x2Chair_F_W:
+
+solving Pentacubes2x3x2Chair_F_X:
+
+solving Pentacubes2x3x2Chair_F_Y:
+
+solving Pentacubes2x3x2Chair_F_Z:
+
+solving Pentacubes2x3x2Chair_I_J1:
+
+solving Pentacubes2x3x2Chair_I_J2:
+
+solving Pentacubes2x3x2Chair_I_J4:
+
+solving Pentacubes2x3x2Chair_I_L:
+
+solving Pentacubes2x3x2Chair_I_L1:
+
+solving Pentacubes2x3x2Chair_I_L2:
+
+solving Pentacubes2x3x2Chair_I_L3:
+
+solving Pentacubes2x3x2Chair_I_L4:
+
+solving Pentacubes2x3x2Chair_I_N:
+
+solving Pentacubes2x3x2Chair_I_N1:
+
+solving Pentacubes2x3x2Chair_I_N2:
+
+solving Pentacubes2x3x2Chair_I_P:
+
+solving Pentacubes2x3x2Chair_I_Q:
+
+solving Pentacubes2x3x2Chair_I_S1:
+
+solving Pentacubes2x3x2Chair_I_S2:
+
+solving Pentacubes2x3x2Chair_I_T:
+
+solving Pentacubes2x3x2Chair_I_T1:
+
+solving Pentacubes2x3x2Chair_I_T2:
+
+solving Pentacubes2x3x2Chair_I_U:
+
+solving Pentacubes2x3x2Chair_I_V:
+
+solving Pentacubes2x3x2Chair_I_V1:
+
+solving Pentacubes2x3x2Chair_I_V2:
+
+solving Pentacubes2x3x2Chair_I_W:
+
+solving Pentacubes2x3x2Chair_I_X:
+
+solving Pentacubes2x3x2Chair_I_Y:
+
+solving Pentacubes2x3x2Chair_I_Z:
+
+solving Pentacubes2x3x2Chair_J1_J2:
+
+solving Pentacubes2x3x2Chair_J1_J4:
+
+solving Pentacubes2x3x2Chair_J1_L:
+
+solving Pentacubes2x3x2Chair_J1_L1:
+
+solving Pentacubes2x3x2Chair_J1_L2:
+
+solving Pentacubes2x3x2Chair_J1_L3:
+
+solving Pentacubes2x3x2Chair_J1_L4:
+
+solving Pentacubes2x3x2Chair_J1_N:
+
+solving Pentacubes2x3x2Chair_J1_N1:
+
+solving Pentacubes2x3x2Chair_J1_N2:
+
+solving Pentacubes2x3x2Chair_J1_P:
+
+solving Pentacubes2x3x2Chair_J1_Q:
+
+solution 2:
+0,0,0 0,0,1 0,1,0 0,2,0 1,2,0 J1
+0,1,1 1,0,0 1,0,1 1,1,0 1,1,1 Q
+
+J1 J1
+J1 Q      Q  Q
+J1 Q      J1 Q
+
+solving Pentacubes2x3x2Chair_J1_S1:
+
+solving Pentacubes2x3x2Chair_J1_S2:
+
+solving Pentacubes2x3x2Chair_J1_T:
+
+solving Pentacubes2x3x2Chair_J1_T1:
+
+solving Pentacubes2x3x2Chair_J1_T2:
+
+solving Pentacubes2x3x2Chair_J1_U:
+
+solving Pentacubes2x3x2Chair_J1_V:
+
+solving Pentacubes2x3x2Chair_J1_V1:
+
+solving Pentacubes2x3x2Chair_J1_V2:
+
+solving Pentacubes2x3x2Chair_J1_W:
+
+solving Pentacubes2x3x2Chair_J1_X:
+
+solving Pentacubes2x3x2Chair_J1_Y:
+
+solving Pentacubes2x3x2Chair_J1_Z:
+
+solving Pentacubes2x3x2Chair_J2_J4:
+
+solving Pentacubes2x3x2Chair_J2_L:
+
+solving Pentacubes2x3x2Chair_J2_L1:
+
+solving Pentacubes2x3x2Chair_J2_L2:
+
+solving Pentacubes2x3x2Chair_J2_L3:
+
+solving Pentacubes2x3x2Chair_J2_L4:
+
+solving Pentacubes2x3x2Chair_J2_N:
+
+solving Pentacubes2x3x2Chair_J2_N1:
+
+solution 3:
+0,0,0 1,0,0 1,1,0 1,1,1 1,2,0 J2
+0,0,1 0,1,0 0,1,1 0,2,0 1,0,1 N1
+
+N1 J2
+N1 J2     N1 J2
+J2 J2     N1 N1
+
+solving Pentacubes2x3x2Chair_J2_N2:
+
+solving Pentacubes2x3x2Chair_J2_P:
+
+solving Pentacubes2x3x2Chair_J2_Q:
+
+solution 4:
+0,0,0 0,1,0 0,1,1 0,2,0 1,2,0 J2
+0,0,1 1,0,0 1,0,1 1,1,0 1,1,1 Q
+
+J2 J2
+J2 Q      J2 Q
+J2 Q      Q  Q
+
+solving Pentacubes2x3x2Chair_J2_S1:
+
+solving Pentacubes2x3x2Chair_J2_S2:
+
+solving Pentacubes2x3x2Chair_J2_T:
+
+solving Pentacubes2x3x2Chair_J2_T1:
+
+solving Pentacubes2x3x2Chair_J2_T2:
+
+solving Pentacubes2x3x2Chair_J2_U:
+
+solving Pentacubes2x3x2Chair_J2_V:
+
+solving Pentacubes2x3x2Chair_J2_V1:
+
+solving Pentacubes2x3x2Chair_J2_V2:
+
+solving Pentacubes2x3x2Chair_J2_W:
+
+solving Pentacubes2x3x2Chair_J2_X:
+
+solving Pentacubes2x3x2Chair_J2_Y:
+
+solving Pentacubes2x3x2Chair_J2_Z:
+
+solving Pentacubes2x3x2Chair_J4_L:
+
+solving Pentacubes2x3x2Chair_J4_L1:
+
+solving Pentacubes2x3x2Chair_J4_L2:
+
+solving Pentacubes2x3x2Chair_J4_L3:
+
+solving Pentacubes2x3x2Chair_J4_L4:
+
+solving Pentacubes2x3x2Chair_J4_N:
+
+solving Pentacubes2x3x2Chair_J4_N1:
+
+solving Pentacubes2x3x2Chair_J4_N2:
+
+solving Pentacubes2x3x2Chair_J4_P:
+
+solving Pentacubes2x3x2Chair_J4_Q:
+
+solving Pentacubes2x3x2Chair_J4_S1:
+
+solving Pentacubes2x3x2Chair_J4_S2:
+
+solving Pentacubes2x3x2Chair_J4_T:
+
+solving Pentacubes2x3x2Chair_J4_T1:
+
+solving Pentacubes2x3x2Chair_J4_T2:
+
+solution 5:
+0,0,0 0,0,1 0,1,0 0,2,0 1,0,1 J4
+0,1,1 1,0,0 1,1,0 1,1,1 1,2,0 T2
+
+J4 T2
+J4 T2     T2 T2
+J4 T2     J4 J4
+
+solving Pentacubes2x3x2Chair_J4_U:
+
+solving Pentacubes2x3x2Chair_J4_V:
+
+solving Pentacubes2x3x2Chair_J4_V1:
+
+solution 6:
+0,0,0 0,0,1 1,0,0 1,1,0 1,2,0 J4
+0,1,0 0,1,1 0,2,0 1,0,1 1,1,1 V1
+
+V1 J4
+V1 J4     V1 V1
+J4 J4     J4 V1
+
+solving Pentacubes2x3x2Chair_J4_V2:
+
+solving Pentacubes2x3x2Chair_J4_W:
+
+solving Pentacubes2x3x2Chair_J4_X:
+
+solving Pentacubes2x3x2Chair_J4_Y:
+
+solving Pentacubes2x3x2Chair_J4_Z:
+
+solving Pentacubes2x3x2Chair_L_L1:
+
+solving Pentacubes2x3x2Chair_L_L2:
+
+solving Pentacubes2x3x2Chair_L_L3:
+
+solving Pentacubes2x3x2Chair_L_L4:
+
+solving Pentacubes2x3x2Chair_L_N:
+
+solving Pentacubes2x3x2Chair_L_N1:
+
+solving Pentacubes2x3x2Chair_L_N2:
+
+solving Pentacubes2x3x2Chair_L_P:
+
+solving Pentacubes2x3x2Chair_L_Q:
+
+solving Pentacubes2x3x2Chair_L_S1:
+
+solving Pentacubes2x3x2Chair_L_S2:
+
+solving Pentacubes2x3x2Chair_L_T:
+
+solving Pentacubes2x3x2Chair_L_T1:
+
+solving Pentacubes2x3x2Chair_L_T2:
+
+solving Pentacubes2x3x2Chair_L_U:
+
+solving Pentacubes2x3x2Chair_L_V:
+
+solving Pentacubes2x3x2Chair_L_V1:
+
+solving Pentacubes2x3x2Chair_L_V2:
+
+solving Pentacubes2x3x2Chair_L_W:
+
+solving Pentacubes2x3x2Chair_L_X:
+
+solving Pentacubes2x3x2Chair_L_Y:
+
+solving Pentacubes2x3x2Chair_L_Z:
+
+solving Pentacubes2x3x2Chair_L1_L2:
+
+solving Pentacubes2x3x2Chair_L1_L3:
+
+solving Pentacubes2x3x2Chair_L1_L4:
+
+solving Pentacubes2x3x2Chair_L1_N:
+
+solving Pentacubes2x3x2Chair_L1_N1:
+
+solving Pentacubes2x3x2Chair_L1_N2:
+
+solving Pentacubes2x3x2Chair_L1_P:
+
+solving Pentacubes2x3x2Chair_L1_Q:
+
+solution 7:
+0,2,0 1,0,0 1,0,1 1,1,0 1,2,0 L1
+0,0,0 0,0,1 0,1,0 0,1,1 1,1,1 Q
+
+L1 L1
+Q  L1     Q  Q
+Q  L1     Q  L1
+
+solving Pentacubes2x3x2Chair_L1_S1:
+
+solving Pentacubes2x3x2Chair_L1_S2:
+
+solving Pentacubes2x3x2Chair_L1_T:
+
+solving Pentacubes2x3x2Chair_L1_T1:
+
+solving Pentacubes2x3x2Chair_L1_T2:
+
+solving Pentacubes2x3x2Chair_L1_U:
+
+solving Pentacubes2x3x2Chair_L1_V:
+
+solving Pentacubes2x3x2Chair_L1_V1:
+
+solving Pentacubes2x3x2Chair_L1_V2:
+
+solving Pentacubes2x3x2Chair_L1_W:
+
+solving Pentacubes2x3x2Chair_L1_X:
+
+solving Pentacubes2x3x2Chair_L1_Y:
+
+solving Pentacubes2x3x2Chair_L1_Z:
+
+solving Pentacubes2x3x2Chair_L2_L3:
+
+solving Pentacubes2x3x2Chair_L2_L4:
+
+solving Pentacubes2x3x2Chair_L2_N:
+
+solving Pentacubes2x3x2Chair_L2_N1:
+
+solving Pentacubes2x3x2Chair_L2_N2:
+
+solving Pentacubes2x3x2Chair_L2_P:
+
+solving Pentacubes2x3x2Chair_L2_Q:
+
+solution 8:
+0,2,0 1,0,0 1,1,0 1,1,1 1,2,0 L2
+0,0,0 0,0,1 0,1,0 0,1,1 1,0,1 Q
+
+L2 L2
+Q  L2     Q  L2
+Q  L2     Q  Q
+
+solving Pentacubes2x3x2Chair_L2_S1:
+
+solution 9:
+0,0,0 0,1,0 0,1,1 0,2,0 1,0,0 L2
+0,0,1 1,0,1 1,1,0 1,1,1 1,2,0 S1
+
+L2 S1
+L2 S1     L2 S1
+L2 L2     S1 S1
+
+solving Pentacubes2x3x2Chair_L2_S2:
+
+solving Pentacubes2x3x2Chair_L2_T:
+
+solving Pentacubes2x3x2Chair_L2_T1:
+
+solving Pentacubes2x3x2Chair_L2_T2:
+
+solving Pentacubes2x3x2Chair_L2_U:
+
+solving Pentacubes2x3x2Chair_L2_V:
+
+solving Pentacubes2x3x2Chair_L2_V1:
+
+solving Pentacubes2x3x2Chair_L2_V2:
+
+solving Pentacubes2x3x2Chair_L2_W:
+
+solving Pentacubes2x3x2Chair_L2_X:
+
+solving Pentacubes2x3x2Chair_L2_Y:
+
+solving Pentacubes2x3x2Chair_L2_Z:
+
+solving Pentacubes2x3x2Chair_L3_L4:
+
+solving Pentacubes2x3x2Chair_L3_N:
+
+solving Pentacubes2x3x2Chair_L3_N1:
+
+solving Pentacubes2x3x2Chair_L3_N2:
+
+solution 10:
+0,0,0 1,0,0 1,0,1 1,1,0 1,2,0 L3
+0,0,1 0,1,0 0,1,1 0,2,0 1,1,1 N2
+
+N2 L3
+N2 L3     N2 N2
+L3 L3     N2 L3
+
+solving Pentacubes2x3x2Chair_L3_P:
+
+solving Pentacubes2x3x2Chair_L3_Q:
+
+solving Pentacubes2x3x2Chair_L3_S1:
+
+solving Pentacubes2x3x2Chair_L3_S2:
+
+solution 11:
+0,0,0 0,0,1 0,1,0 0,2,0 1,0,0 L3
+0,1,1 1,0,1 1,1,0 1,1,1 1,2,0 S2
+
+L3 S2
+L3 S2     S2 S2
+L3 L3     L3 S2
+
+solving Pentacubes2x3x2Chair_L3_T:
+
+solving Pentacubes2x3x2Chair_L3_T1:
+
+solving Pentacubes2x3x2Chair_L3_T2:
+
+solving Pentacubes2x3x2Chair_L3_U:
+
+solving Pentacubes2x3x2Chair_L3_V:
+
+solving Pentacubes2x3x2Chair_L3_V1:
+
+solving Pentacubes2x3x2Chair_L3_V2:
+
+solving Pentacubes2x3x2Chair_L3_W:
+
+solving Pentacubes2x3x2Chair_L3_X:
+
+solving Pentacubes2x3x2Chair_L3_Y:
+
+solving Pentacubes2x3x2Chair_L3_Z:
+
+solving Pentacubes2x3x2Chair_L4_N:
+
+solving Pentacubes2x3x2Chair_L4_N1:
+
+solving Pentacubes2x3x2Chair_L4_N2:
+
+solving Pentacubes2x3x2Chair_L4_P:
+
+solving Pentacubes2x3x2Chair_L4_Q:
+
+solving Pentacubes2x3x2Chair_L4_S1:
+
+solving Pentacubes2x3x2Chair_L4_S2:
+
+solving Pentacubes2x3x2Chair_L4_T:
+
+solving Pentacubes2x3x2Chair_L4_T1:
+
+solving Pentacubes2x3x2Chair_L4_T2:
+
+solution 12:
+0,0,1 1,0,0 1,0,1 1,1,0 1,2,0 L4
+0,0,0 0,1,0 0,1,1 0,2,0 1,1,1 T2
+
+T2 L4
+T2 L4     T2 T2
+T2 L4     L4 L4
+
+solving Pentacubes2x3x2Chair_L4_U:
+
+solving Pentacubes2x3x2Chair_L4_V:
+
+solving Pentacubes2x3x2Chair_L4_V1:
+
+solving Pentacubes2x3x2Chair_L4_V2:
+
+solution 13:
+0,0,0 0,1,0 0,2,0 1,0,0 1,0,1 L4
+0,0,1 0,1,1 1,1,0 1,1,1 1,2,0 V2
+
+L4 V2
+L4 V2     V2 V2
+L4 L4     V2 L4
+
+solving Pentacubes2x3x2Chair_L4_W:
+
+solving Pentacubes2x3x2Chair_L4_X:
+
+solving Pentacubes2x3x2Chair_L4_Y:
+
+solving Pentacubes2x3x2Chair_L4_Z:
+
+solving Pentacubes2x3x2Chair_N_N1:
+
+solving Pentacubes2x3x2Chair_N_N2:
+
+solving Pentacubes2x3x2Chair_N_P:
+
+solving Pentacubes2x3x2Chair_N_Q:
+
+solving Pentacubes2x3x2Chair_N_S1:
+
+solving Pentacubes2x3x2Chair_N_S2:
+
+solving Pentacubes2x3x2Chair_N_T:
+
+solving Pentacubes2x3x2Chair_N_T1:
+
+solving Pentacubes2x3x2Chair_N_T2:
+
+solving Pentacubes2x3x2Chair_N_U:
+
+solving Pentacubes2x3x2Chair_N_V:
+
+solving Pentacubes2x3x2Chair_N_V1:
+
+solving Pentacubes2x3x2Chair_N_V2:
+
+solving Pentacubes2x3x2Chair_N_W:
+
+solving Pentacubes2x3x2Chair_N_X:
+
+solving Pentacubes2x3x2Chair_N_Y:
+
+solving Pentacubes2x3x2Chair_N_Z:
+
+solving Pentacubes2x3x2Chair_N1_N2:
+
+solving Pentacubes2x3x2Chair_N1_P:
+
+solving Pentacubes2x3x2Chair_N1_Q:
+
+solution 14:
+0,0,1 0,1,0 0,1,1 0,2,0 1,2,0 N1
+0,0,0 1,0,0 1,0,1 1,1,0 1,1,1 Q
+
+N1 N1
+N1 Q      N1 Q
+Q  Q      N1 Q
+
+solving Pentacubes2x3x2Chair_N1_S1:
+
+solving Pentacubes2x3x2Chair_N1_S2:
+
+solving Pentacubes2x3x2Chair_N1_T:
+
+solving Pentacubes2x3x2Chair_N1_T1:
+
+solving Pentacubes2x3x2Chair_N1_T2:
+
+solving Pentacubes2x3x2Chair_N1_U:
+
+solving Pentacubes2x3x2Chair_N1_V:
+
+solving Pentacubes2x3x2Chair_N1_V1:
+
+solving Pentacubes2x3x2Chair_N1_V2:
+
+solving Pentacubes2x3x2Chair_N1_W:
+
+solving Pentacubes2x3x2Chair_N1_X:
+
+solving Pentacubes2x3x2Chair_N1_Y:
+
+solving Pentacubes2x3x2Chair_N1_Z:
+
+solving Pentacubes2x3x2Chair_N2_P:
+
+solving Pentacubes2x3x2Chair_N2_Q:
+
+solving Pentacubes2x3x2Chair_N2_S1:
+
+solving Pentacubes2x3x2Chair_N2_S2:
+
+solving Pentacubes2x3x2Chair_N2_T:
+
+solving Pentacubes2x3x2Chair_N2_T1:
+
+solving Pentacubes2x3x2Chair_N2_T2:
+
+solving Pentacubes2x3x2Chair_N2_U:
+
+solving Pentacubes2x3x2Chair_N2_V:
+
+solving Pentacubes2x3x2Chair_N2_V1:
+
+solving Pentacubes2x3x2Chair_N2_V2:
+
+solving Pentacubes2x3x2Chair_N2_W:
+
+solving Pentacubes2x3x2Chair_N2_X:
+
+solving Pentacubes2x3x2Chair_N2_Y:
+
+solving Pentacubes2x3x2Chair_N2_Z:
+
+solving Pentacubes2x3x2Chair_P_Q:
+
+solution 15:
+0,0,0 0,1,0 0,2,0 1,1,0 1,2,0 P
+0,0,1 0,1,1 1,0,0 1,0,1 1,1,1 Q
+
+P  P
+P  P      Q  Q
+P  Q      Q  Q
+
+solving Pentacubes2x3x2Chair_P_S1:
+
+solving Pentacubes2x3x2Chair_P_S2:
+
+solving Pentacubes2x3x2Chair_P_T:
+
+solving Pentacubes2x3x2Chair_P_T1:
+
+solving Pentacubes2x3x2Chair_P_T2:
+
+solving Pentacubes2x3x2Chair_P_U:
+
+solving Pentacubes2x3x2Chair_P_V:
+
+solving Pentacubes2x3x2Chair_P_V1:
+
+solving Pentacubes2x3x2Chair_P_V2:
+
+solving Pentacubes2x3x2Chair_P_W:
+
+solving Pentacubes2x3x2Chair_P_X:
+
+solving Pentacubes2x3x2Chair_P_Y:
+
+solving Pentacubes2x3x2Chair_P_Z:
+
+solving Pentacubes2x3x2Chair_Q_S1:
+
+solution 16:
+0,2,0 1,0,1 1,1,0 1,1,1 1,2,0 S1
+0,0,0 0,0,1 0,1,0 0,1,1 1,0,0 Q
+
+S1 S1
+Q  S1     Q  S1
+Q  Q      Q  S1
+
+solving Pentacubes2x3x2Chair_Q_S2:
+
+solving Pentacubes2x3x2Chair_Q_T:
+
+solving Pentacubes2x3x2Chair_Q_T1:
+
+solving Pentacubes2x3x2Chair_Q_T2:
+
+solving Pentacubes2x3x2Chair_Q_U:
+
+solution 17:
+0,0,0 0,1,0 0,2,0 1,0,0 1,2,0 U
+0,0,1 0,1,1 1,0,1 1,1,0 1,1,1 Q
+
+U  U
+U  Q      Q  Q
+U  U      Q  Q
+
+solving Pentacubes2x3x2Chair_Q_V:
+
+solving Pentacubes2x3x2Chair_Q_V1:
+
+solving Pentacubes2x3x2Chair_Q_V2:
+
+solving Pentacubes2x3x2Chair_Q_W:
+
+solving Pentacubes2x3x2Chair_Q_X:
+
+solving Pentacubes2x3x2Chair_Q_Y:
+
+solving Pentacubes2x3x2Chair_Q_Z:
+
+solving Pentacubes2x3x2Chair_S1_S2:
+
+solving Pentacubes2x3x2Chair_S1_T:
+
+solving Pentacubes2x3x2Chair_S1_T1:
+
+solving Pentacubes2x3x2Chair_S1_T2:
+
+solving Pentacubes2x3x2Chair_S1_U:
+
+solving Pentacubes2x3x2Chair_S1_V:
+
+solving Pentacubes2x3x2Chair_S1_V1:
+
+solving Pentacubes2x3x2Chair_S1_V2:
+
+solving Pentacubes2x3x2Chair_S1_W:
+
+solving Pentacubes2x3x2Chair_S1_X:
+
+solving Pentacubes2x3x2Chair_S1_Y:
+
+solving Pentacubes2x3x2Chair_S1_Z:
+
+solving Pentacubes2x3x2Chair_S2_T:
+
+solving Pentacubes2x3x2Chair_S2_T1:
+
+solving Pentacubes2x3x2Chair_S2_T2:
+
+solving Pentacubes2x3x2Chair_S2_U:
+
+solving Pentacubes2x3x2Chair_S2_V:
+
+solving Pentacubes2x3x2Chair_S2_V1:
+
+solving Pentacubes2x3x2Chair_S2_V2:
+
+solving Pentacubes2x3x2Chair_S2_W:
+
+solving Pentacubes2x3x2Chair_S2_X:
+
+solving Pentacubes2x3x2Chair_S2_Y:
+
+solving Pentacubes2x3x2Chair_S2_Z:
+
+solving Pentacubes2x3x2Chair_T_T1:
+
+solving Pentacubes2x3x2Chair_T_T2:
+
+solving Pentacubes2x3x2Chair_T_U:
+
+solving Pentacubes2x3x2Chair_T_V:
+
+solving Pentacubes2x3x2Chair_T_V1:
+
+solving Pentacubes2x3x2Chair_T_V2:
+
+solving Pentacubes2x3x2Chair_T_W:
+
+solving Pentacubes2x3x2Chair_T_X:
+
+solving Pentacubes2x3x2Chair_T_Y:
+
+solving Pentacubes2x3x2Chair_T_Z:
+
+solving Pentacubes2x3x2Chair_T1_T2:
+
+solving Pentacubes2x3x2Chair_T1_U:
+
+solving Pentacubes2x3x2Chair_T1_V:
+
+solving Pentacubes2x3x2Chair_T1_V1:
+
+solving Pentacubes2x3x2Chair_T1_V2:
+
+solving Pentacubes2x3x2Chair_T1_W:
+
+solving Pentacubes2x3x2Chair_T1_X:
+
+solving Pentacubes2x3x2Chair_T1_Y:
+
+solving Pentacubes2x3x2Chair_T1_Z:
+
+solving Pentacubes2x3x2Chair_T2_U:
+
+solving Pentacubes2x3x2Chair_T2_V:
+
+solving Pentacubes2x3x2Chair_T2_V1:
+
+solving Pentacubes2x3x2Chair_T2_V2:
+
+solving Pentacubes2x3x2Chair_T2_W:
+
+solving Pentacubes2x3x2Chair_T2_X:
+
+solving Pentacubes2x3x2Chair_T2_Y:
+
+solving Pentacubes2x3x2Chair_T2_Z:
+
+solving Pentacubes2x3x2Chair_U_V:
+
+solving Pentacubes2x3x2Chair_U_V1:
+
+solving Pentacubes2x3x2Chair_U_V2:
+
+solving Pentacubes2x3x2Chair_U_W:
+
+solving Pentacubes2x3x2Chair_U_X:
+
+solving Pentacubes2x3x2Chair_U_Y:
+
+solving Pentacubes2x3x2Chair_U_Z:
+
+solving Pentacubes2x3x2Chair_V_V1:
+
+solving Pentacubes2x3x2Chair_V_V2:
+
+solving Pentacubes2x3x2Chair_V_W:
+
+solving Pentacubes2x3x2Chair_V_X:
+
+solving Pentacubes2x3x2Chair_V_Y:
+
+solving Pentacubes2x3x2Chair_V_Z:
+
+solving Pentacubes2x3x2Chair_V1_V2:
+
+solving Pentacubes2x3x2Chair_V1_W:
+
+solving Pentacubes2x3x2Chair_V1_X:
+
+solving Pentacubes2x3x2Chair_V1_Y:
+
+solving Pentacubes2x3x2Chair_V1_Z:
+
+solving Pentacubes2x3x2Chair_V2_W:
+
+solving Pentacubes2x3x2Chair_V2_X:
+
+solving Pentacubes2x3x2Chair_V2_Y:
+
+solving Pentacubes2x3x2Chair_V2_Z:
+
+solving Pentacubes2x3x2Chair_W_X:
+
+solving Pentacubes2x3x2Chair_W_Y:
+
+solving Pentacubes2x3x2Chair_W_Z:
+
+solving Pentacubes2x3x2Chair_X_Y:
+
+solving Pentacubes2x3x2Chair_X_Z:
+
+solving Pentacubes2x3x2Chair_Y_Z:
+
+17 solutions, 577 searches, duration 0:00:27.361000
+(Pentacubes2x3x2Chair_A_F: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_A_I: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_A_J1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_A_J2: 0 solutions, 4 searches)
+(Pentacubes2x3x2Chair_A_J4: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_A_L: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_A_L1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_A_L2: 0 solutions, 4 searches)
+(Pentacubes2x3x2Chair_A_L3: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_A_L4: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_A_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_A_N1: 0 solutions, 4 searches)
+(Pentacubes2x3x2Chair_A_N2: 0 solutions, 5 searches)
+(Pentacubes2x3x2Chair_A_P: 0 solutions, 7 searches)
+(Pentacubes2x3x2Chair_A_Q: 1 solutions, 6 searches)
+(Pentacubes2x3x2Chair_A_S1: 0 solutions, 4 searches)
+(Pentacubes2x3x2Chair_A_S2: 0 solutions, 5 searches)
+(Pentacubes2x3x2Chair_A_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_A_T1: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_A_T2: 0 solutions, 5 searches)
+(Pentacubes2x3x2Chair_A_U: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_A_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_A_V1: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_A_V2: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_A_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_A_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_A_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_A_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_I: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_J1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_J2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_J4: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_L: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_L1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_L2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_L3: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_L4: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_N1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_N2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_P: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_Q: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_S1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_S2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_F_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_J1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_J2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_J4: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_L: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_L1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_L2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_L3: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_L4: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_N1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_N2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_P: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_Q: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_S1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_S2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_I_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_J2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_J4: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_L: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_L1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_L2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J1_L3: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_L4: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_N1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_N2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_P: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J1_Q: 1 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J1_S1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_S2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J1_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J1_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_J4: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_L: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_L1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_L2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_L3: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_L4: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_N1: 1 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_N2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_P: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_Q: 1 solutions, 4 searches)
+(Pentacubes2x3x2Chair_J2_S1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_S2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_V1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_V2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J2_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J2_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_L: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_L1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_L2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J4_L3: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_L4: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_N1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_N2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J4_P: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J4_Q: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_J4_S1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_S2: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_J4_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_T1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J4_T2: 1 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J4_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_V1: 1 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J4_V2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_J4_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_J4_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_L1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_L2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_L3: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_L4: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_N1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_N2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_P: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_Q: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_S1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_S2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_L2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_L3: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_L4: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_N1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_N2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L1_P: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L1_Q: 1 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L1_S1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_S2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L1_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_L3: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L2_L4: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L2_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_N1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L2_N2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L2_P: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L2_Q: 1 solutions, 4 searches)
+(Pentacubes2x3x2Chair_L2_S1: 1 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L2_S2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_V1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L2_V2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L2_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L2_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_L4: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_N1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_N2: 1 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L3_P: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L3_Q: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_L3_S1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_S2: 1 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L3_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_T1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L3_T2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L3_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_V1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L3_V2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L3_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L3_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L4_N: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L4_N1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L4_N2: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_L4_P: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L4_Q: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_L4_S1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L4_S2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L4_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L4_T1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L4_T2: 1 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L4_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L4_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L4_V1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L4_V2: 1 solutions, 2 searches)
+(Pentacubes2x3x2Chair_L4_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L4_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L4_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_L4_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_N1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_N2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_P: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_Q: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_S1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_S2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N1_N2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N1_P: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_N1_Q: 1 solutions, 4 searches)
+(Pentacubes2x3x2Chair_N1_S1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_N1_S2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_N1_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N1_T1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_N1_T2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_N1_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N1_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N1_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N1_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N1_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N1_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N1_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N1_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_P: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_N2_Q: 0 solutions, 5 searches)
+(Pentacubes2x3x2Chair_N2_S1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_N2_S2: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_N2_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_N2_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_P_Q: 1 solutions, 7 searches)
+(Pentacubes2x3x2Chair_P_S1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_P_S2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_P_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_P_T1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_P_T2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_P_U: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_P_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_P_V1: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_P_V2: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_P_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_P_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_P_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_P_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_Q_S1: 1 solutions, 4 searches)
+(Pentacubes2x3x2Chair_Q_S2: 0 solutions, 5 searches)
+(Pentacubes2x3x2Chair_Q_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_Q_T1: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_Q_T2: 0 solutions, 5 searches)
+(Pentacubes2x3x2Chair_Q_U: 1 solutions, 3 searches)
+(Pentacubes2x3x2Chair_Q_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_Q_V1: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_Q_V2: 0 solutions, 3 searches)
+(Pentacubes2x3x2Chair_Q_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_Q_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_Q_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_Q_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S1_S2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S1_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S1_T1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_S1_T2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_S1_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S1_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S1_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S1_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S1_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S1_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S1_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S1_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_T: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_S2_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T_T1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T1_T2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T1_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T1_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T1_V1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_T1_V2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_T1_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T1_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T1_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T1_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T2_U: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T2_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T2_V1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_T2_V2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_T2_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T2_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T2_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_T2_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_U_V: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_U_V1: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_U_V2: 0 solutions, 2 searches)
+(Pentacubes2x3x2Chair_U_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_U_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_U_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_U_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V_V1: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V1_V2: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V1_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V1_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V1_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V1_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V2_W: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V2_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V2_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_V2_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_W_X: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_W_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_W_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_X_Y: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_X_Z: 0 solutions, 1 searches)
+(Pentacubes2x3x2Chair_Y_Z: 0 solutions, 1 searches)
