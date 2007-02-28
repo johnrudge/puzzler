@@ -206,3 +206,9 @@ L2 L2 F                                          F  F  F                        
 
 Session interrupted by user.
 4 solutions, 2578660663 searches, duration 2 days, 17:44:17.272000
+
+Resuming session (4 solutions, 2578660663 searches).
+
+solving PentacubesGreatWall:
+
+4 solutions, 2578660665 searches, duration 0:01:49.553000
