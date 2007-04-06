@@ -22,10 +22,10 @@
        state to a user-specified file (``-S``/``--save-search-state``
        option).
 
-   **(2006-09-12) Pentacubes Plus Puzzles Added**
-       Sold under the name "`Super Deluxe Quintillions`_" by Kadon, these
-       30 pieces are the 29 pentacubes plus a second L3 piece.p
-       (a.k.a. J3), allowing the construction of box shapes.
+   **(2006-09-12) Pentacubes Plus Puzzles Added** Sold under the name
+       "`Super Deluxe Quintillions`_" by Kadon, these 30 pieces are
+       the 29 pentacubes plus a second L3 piece (a.k.a. J3), allowing
+       the construction of box shapes.
 
    **(2006-09-04) Tetracube and Pentacube Puzzles Added**
        Several initial tetracube and pentacube puzzles were added; more
