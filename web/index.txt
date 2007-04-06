@@ -4,63 +4,70 @@
  |Polyform Puzzler|
 ====================
 
+.. sidebar:: News
+
+   **(2007-04-06) SVG Image Generation Added for Polysticks**
+       And a couple of new polystick puzzles too!
+
+   **(2006-10-03) Added "How to Extend Polyform Puzzler" Document**
+       The beginnings of development instructions; `available here
+       <docs/extend.html>`__.
+
+   **(2006-09-22) X3D 3-D Model Generation Added**
+       For polycubes (pentacubes, tetracubes, solid pentominoes, soma
+       cubes).
+
+   **(2006-09-19) Automatic Save/Restore State Added**
+       Added the ability to automatically save & restore the session
+       state to a user-specified file (``-S``/``--save-search-state``
+       option).
+
+   **(2006-09-12) Pentacubes Plus Puzzles Added**
+       Sold under the name "`Super Deluxe Quintillions`_" by Kadon, these
+       30 pieces are the 29 pentacubes plus a second L3 piece.p
+       (a.k.a. J3), allowing the construction of box shapes.
+
+   **(2006-09-04) Tetracube and Pentacube Puzzles Added**
+       Several initial tetracube and pentacube puzzles were added; more
+       to come.
+
+   **(2006-08-31 -- 09-03) SVG Image Generation Added**
+       For polyominoes, polyiamonds, polyhexes, and polycubes (so far).
+
+   **(2006-08-28) Heptiamond Puzzles Added**
+       Four heptiamond (order-7 polyiamond, triangle-grid-based) puzzles
+       added.
+
+   **(2006-08-26) Hexiamond Puzzles Added**
+       Eight hexiamond (order-6 polyiamond, triangle-grid-based) puzzles
+       added.
+
+   **(2006-08-21) Tetrahex & Pentahex Puzzles Added**
+       Four hexagon-grid-based puzzles added, along with initial unit
+       tests.
+
+   **(2006-08-08) Polyform Puzzler 1: first release**
+       Ready for download_.  But I recommend downloading the `project
+       snapshot`_ or accessing the `SVN repository`_ directly for
+       up-to-date code.
+
+   **(2006-08-07) Polyform Puzzler: project open for business**
+       Registered on SourceForge in 2000, this project has been dormant
+       since.  Not any more!  We now have code in a Subversion
+       repository, a mailing list and snapshots.  Get puzzling!
+
+
 .. contents::
-   :class: sidebar
-
-
-News
-====
-
-**(2006-10-03) Added "How to Extend Polyform Puzzler" Document**
-    The beginnings of development instructions; `available here
-    <docs/extend.html>`__.
-
-**(2006-09-22) X3D 3-D Model Generation Added**
-    For polycubes (pentacubes, tetracubes, solid pentominoes, soma
-    cubes).
-
-**(2006-09-19) Automatic Save/Restore State Added**
-    Added the ability to automatically save & restore the session
-    state to a user-specified file (``-S``/``--save-search-state``
-    option).
-
-**(2006-09-12) Pentacubes Plus Puzzles Added**
-    Sold under the name "`Super Deluxe Quintillions`_" by Kadon, these
-    30 pieces are the 29 pentacubes plus a second L3 piece.p
-    (a.k.a. J3), allowing the construction of box shapes.
-
-**(2006-09-04) Tetracube and Pentacube Puzzles Added**
-    Several initial tetracube and pentacube puzzles were added; more
-    to come.
-
-**(2006-08-31 -- 09-03) SVG Image Generation Added**
-    For polyominoes, polyiamonds, polyhexes, and polycubes (so far).
-
-**(2006-08-28) Heptiamond Puzzles Added**
-    Four heptiamond (order-7 polyiamond, triangle-grid-based) puzzles
-    added.
-
-**(2006-08-26) Hexiamond Puzzles Added**
-    Eight hexiamond (order-6 polyiamond, triangle-grid-based) puzzles
-    added.
-
-**(2006-08-21) Tetrahex & Pentahex Puzzles Added**
-    Four hexagon-grid-based puzzles added, along with initial unit
-    tests.
-
-**(2006-08-08) Polyform Puzzler 1: first release**
-    Ready for download_.  But I recommend downloading the `project
-    snapshot`_ or accessing the `SVN repository`_ directly for
-    up-to-date code.
-
-**(2006-08-07) Polyform Puzzler: project open for business**
-    Registered on SourceForge in 2000, this project has been dormant
-    since.  Not any more!  We now have code in a Subversion
-    repository, a mailing list and snapshots.  Get puzzling!
 
 
 Overview
 ========
+
+**Polyforms** are sets of all possible shapes constructed from
+multiple basic units (squares, triangles, etc.) following some simple
+rules.  These shapes can then be combined into larger shapes, often in
+many different ways.  These are **polyform puzzles**.  (More info in
+the FAQ_.)
 
 **Polyform Puzzler** is a set of solvers for many polyform puzzles
 (like Pentominoes and Soma Cubes), and a software toolkit for
@@ -69,40 +76,36 @@ front-end applications for specific polyform puzzles and a Python
 library that does the heavy lifting.  New polyforms and new puzzles
 can easily be defined and added.  Python 2.4 or higher is required.
 
-Here are some examples of polyform puzzles (SVG images by Polyform
-Puzzler, converted to PNG with Inkscape):
+Here are some examples of polyform puzzles (all solved & drawn by
+Polyform Puzzler!):
 
-.. list-table::
-   :widths: 2 1 3
-   :class: borderless
+.. figure:: docs/images/pentominoes-6x10.png
 
-   * - .. figure:: docs/images/pentominoes-6x10.png
+   6 |x| 10 Pentominoes
 
-          6 |x| 10 Pentominoes
+.. figure:: docs/images/hexiamonds-trefoil.png
 
-     - .. figure:: docs/images/hexiamonds-trefoil.png
+   Hexiamond Trefoil
 
-          Hexiamond Trefoil
+.. figure:: docs/images/pentahex-10x11.png
 
-     - .. figure:: docs/images/pentahex-10x11.png
+   10 |x| 11 Pentahex Parallelogram
 
-          10 |x| 11 Pentahex Parallelogram
+.. figure:: docs/images/solid-pentominoes-3x4x5.png
 
-.. list-table::
-   :class: borderless
-   :widths: 2 2 3
+   3 |x| 4 |x| 5 Solid Pentominoes
 
-   * - .. figure:: docs/images/solid-pentominoes-3x4x5.png
+.. figure:: docs/images/soma-long-wall.png
 
-          3 |x| 4 |x| 5 Solid Pentominoes
+   Soma Cubes Long Wall
 
-     - .. figure:: docs/images/soma-long-wall.png
+.. figure:: docs/images/pentacubes-5x9x9-fortress.png
 
-          Soma Cubes Long Wall
+   5 |x| 9 |x| 9 Pentacube Fortress
 
-     - .. figure:: docs/images/pentacubes-5x9x9-fortress.png
+.. figure:: docs/images/polysticks-3x7-diamond-lattice.png
 
-          5 |x| 9 |x| 9 Pentacube Fortress
+   Polysticks of Order 1-4 in a 3 |x| 7 Diamond Lattice
 
 All the details are in the `FAQ <docs/FAQ.html>`_ and the `Puzzles &
 Solutions`_ doc.
