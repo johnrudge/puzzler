@@ -1,4 +1,4 @@
-solving PolySticks1234_6x6A:
+solving PolySticks1234_7x7A:
 
 solution 1:
 0,1,0 1,0,1 1,1,0 1,1i 1,1,1 X

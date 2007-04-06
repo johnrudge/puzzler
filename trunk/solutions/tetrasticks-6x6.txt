@@ -1,4 +1,4 @@
-solving Tetrasticks5x5:
+solving Tetrasticks6x6:
 
 solution 1:
 0,1,0 1,0,1 1,1,0 1,1,1 1,1i X
