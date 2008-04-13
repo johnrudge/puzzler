@@ -6,6 +6,12 @@
 
 .. sidebar:: News
 
+   **(2008-04-13) Polyform Puzzler Talk Video (Montreal Python)**
+       `Video of my February 7 talk at the Montreal Python users group
+       meeting is now up on the web.
+       <http://video.google.com/videoplay?docid=4654600992090030361>`__
+       It was a lot of fun, and the group seemed to enjoy it.
+
    **(2007-04-06) SVG Image Generation Added for Polysticks**
        And a couple of new polystick puzzles too!
 
