@@ -139,7 +139,7 @@ Download
 * To access the `SVN repository`_ directly use the following
   Subversion command::
 
-      svn co https://puzzler.svn.sourceforge.net/svnroot/puzzler/trunk
+      svn co https://puzzler.svn.sourceforge.net/svnroot/puzzler/trunk/puzzler
 
   `Subscribe to the checkins mailing list`__ to get checkin
   notifications by mail.
