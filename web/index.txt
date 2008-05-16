@@ -123,7 +123,7 @@ README_ file.
 
 
 License
--------
+=======
 
 Polyform Puzzler is copyright ©1998-2007 by `David J. Goodger`_ and
 licensed under the `GNU General Public License version 2
@@ -131,7 +131,7 @@ licensed under the `GNU General Public License version 2
 
 
 Download
---------
+========
 
 * Get the latest `project snapshot`_ (recommended; it's updated
   continually).
@@ -139,7 +139,7 @@ Download
 * To access the `SVN repository`_ directly use the following
   Subversion command::
 
-      svn co https://svn.sourceforge.net/svnroot/puzzler/trunk/puzzler
+      svn co https://puzzler.svn.sourceforge.net/svnroot/puzzler/trunk
 
   `Subscribe to the checkins mailing list`__ to get checkin
   notifications by mail.
@@ -154,7 +154,7 @@ Download
 
 
 Feedback
---------
+========
 
 :Mailing list: puzzler-users@lists.sourceforge.net (subscribe_)
 :Patches:      via the `SourceForge patch manager`_
