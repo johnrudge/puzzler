@@ -1,4 +1,4 @@
-#! /bin/sh
+#! /bin/bash
 # $Id$
 #
 # This script updates the Polyform Puzzler web site.  Any .html document with
@@ -29,15 +29,17 @@ projdir=/home/groups/p/pu/puzzler
 dest=$projdir/htdocs
 
 function update_htdocs_source {
-    cp -ruf puzzler/* $htdocs
-    cp -ruf misc solutions $htdocs
-    cp -ruf web/* $htdocs  # web/.[^.]*
+    cd working
+    cp -ruf puzzler/* ../htdocs
+    cp -ruf misc solutions ../htdocs
+    cp -ruf web/* ../htdocs  # web/.[^.]*
     # remove SVN crud
-    cd htdocs
+    cd ../htdocs
     find -name .svn -type d -exec rm -rf {} \; -prune
     # ensure proper permissions are set
     find . -type f -print0 | xargs -0 chmod ug+rw 2> /dev/null || true
     find . -type d -print0 | xargs -0 chmod ug+rwxs 2> /dev/null || true
+    cd ..
 }
 
 feedback=0
@@ -47,7 +49,7 @@ trace=0
 unconditional=0
 verbose=0
 
-while getopts fqtuv opt
+while getopts fqstuv opt
 do
     case $opt in
         f)  feedback=1;;
@@ -72,10 +74,18 @@ fi
 
 if [ $setup -eq 1 ] ; then
     echo 'Initial setup...'
-    mkdir $htdocs
-    svn checkout $svnurl $workingdir
+    if [ ! -d htdocs ] ; then
+        mkdir htdocs
+    fi
+    if [ -d working ] ; then
+        cd working
+        svn update
+        cd ..
+    else
+        svn checkout $svnurl working
+    fi
     update_htdocs_source
-    cd $htdocs
+    cd htdocs
     buildhtml.py
     echo '...puzzler-update-local done.'
     exit
@@ -99,8 +109,10 @@ exclude='--exclude=.svn'
 tar -cz $exclude -f puzzler-snapshot.tgz puzzler
 tar -cz $exclude -f solutions-snapshot.tgz solutions
 
+cd ..
+
 # plant the snapshots
-mv -f *snapshot.tgz ../htdocs
+mv -f working/*snapshot.tgz htdocs
 
 update_htdocs_source
 
@@ -123,12 +135,16 @@ for htmlfile in `find .. -name '*.html'` ; do
     fi
 done
 
+if [ $trace -eq 1 -o $verbose -eq 1 ] ; then
+    set -o xtrace
+fi
+
 # copy files to sourceforge:
 if [ $quiet -eq 1 ] ; then
     rsync -e ssh -r ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
 else
     echo 'rsyncing to SourceForge:'
-    rsync -v -e ssh -r ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
+    rsync -v -e ssh -r ./ web.sourceforge.net:$remotehtdocs
 fi
 
 if [ $feedback -eq 1 ] ; then
