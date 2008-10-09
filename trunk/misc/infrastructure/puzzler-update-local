@@ -144,7 +144,7 @@ if [ $quiet -eq 1 ] ; then
     rsync -e ssh -r ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
 else
     echo 'rsyncing to SourceForge:'
-    rsync -v -e ssh -r ./ web.sourceforge.net:$remotehtdocs
+    rsync -v -e ssh -r ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
 fi
 
 if [ $feedback -eq 1 ] ; then
