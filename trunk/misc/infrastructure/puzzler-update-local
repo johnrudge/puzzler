@@ -6,8 +6,9 @@
 #
 # Options:
 #   -f    Provide feedback at start and end of program run.
+#   -i    Do initial setup only (create directories, SVN checkout, HTML build).
 #   -q    Run quietly.
-#   -s    Do initial setup (create directories, SVN checkout, HTML build).
+#   -s    Skip synchronization with SourceForge.
 #   -t    Run the script in trace mode ("set -o xtrace").
 #   -u    Regenerate .html unconditionally.
 #   -v    Run verbosely.
@@ -45,16 +46,18 @@ function update_htdocs_source {
 feedback=0
 quiet=0
 setup=0
+skipsync=0
 trace=0
 unconditional=0
 verbose=0
 
-while getopts fqstuv opt
+while getopts fiqstuv opt
 do
     case $opt in
         f)  feedback=1;;
+        i)  setup=1;;
         q)  quiet=1;;
-        s)  setup=1;;
+        s)  skipsync=1;;
         t)  trace=1;;
         u)  unconditional=1;;
         v)  verbose=1
@@ -87,7 +90,7 @@ if [ $setup -eq 1 ] ; then
     update_htdocs_source
     cd htdocs
     buildhtml.py
-    echo '...puzzler-update-local done.'
+    echo '...puzzler-update-local initial setup done.'
     exit
 fi
 
@@ -139,12 +142,14 @@ if [ $trace -eq 1 -o $verbose -eq 1 ] ; then
     set -o xtrace
 fi
 
-# copy files to sourceforge:
-if [ $quiet -eq 1 ] ; then
-    rsync -e ssh -r ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
-else
-    echo 'rsyncing to SourceForge:'
-    rsync -v -e ssh -r ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
+if [ $skipsync -eq 0 ] ; then
+    # copy files to sourceforge:
+    if [ $quiet -eq 1 ] ; then
+        rsync -e ssh -r ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
+    else
+        echo 'rsyncing to SourceForge:'
+        rsync -v -e ssh -r ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
+    fi
 fi
 
 if [ $feedback -eq 1 ] ; then
