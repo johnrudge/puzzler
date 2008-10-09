@@ -1,0 +1,140 @@
+#! /bin/sh
+# $Id$
+#
+# This script updates the Polyform Puzzler web site.  Any .html document with
+# a corresponding .txt file is regenerated if the .txt file has changed.
+#
+# Options:
+#   -f    Provide feedback at start and end of program run.
+#   -q    Run quietly.
+#   -s    Do initial setup (create directories, SVN checkout, HTML build).
+#   -t    Run the script in trace mode ("set -o xtrace").
+#   -u    Regenerate .html unconditionally.
+#   -v    Run verbosely.
+
+# exit on error
+set -e
+
+# make all newly created files group writeable
+umask 002
+
+# URL for SVN project checkout:
+svnurl=https://puzzler.svn.sourceforge.net/svnroot/puzzler/trunk
+
+# htdocs directory on SF.net
+remoteproject=/home/groups/p/pu/puzzler
+remotehtdocs=$remoteproject/htdocs
+
+projdir=/home/groups/p/pu/puzzler
+dest=$projdir/htdocs
+
+function update_htdocs_source {
+    cp -ruf puzzler/* $htdocs
+    cp -ruf misc solutions $htdocs
+    cp -ruf web/* $htdocs  # web/.[^.]*
+    # remove SVN crud
+    cd htdocs
+    find -name .svn -type d -exec rm -rf {} \; -prune
+    # ensure proper permissions are set
+    find . -type f -print0 | xargs -0 chmod ug+rw 2> /dev/null || true
+    find . -type d -print0 | xargs -0 chmod ug+rwxs 2> /dev/null || true
+}
+
+feedback=0
+quiet=0
+setup=0
+trace=0
+unconditional=0
+verbose=0
+
+while getopts fqtuv opt
+do
+    case $opt in
+        f)  feedback=1;;
+        q)  quiet=1;;
+        s)  setup=1;;
+        t)  trace=1;;
+        u)  unconditional=1;;
+        v)  verbose=1
+            feedback=1;;
+        \?) exit 2;;
+    esac
+done
+shift `expr $OPTIND - 1`
+
+if [ $feedback -eq 1 -o $setup -eq 1 ] ; then
+    echo 'Starting puzzler-update-local run...'
+fi
+
+if [ $trace -eq 1 -o $verbose -eq 1 ] ; then
+    set -o xtrace
+fi
+
+if [ $setup -eq 1 ] ; then
+    echo 'Initial setup...'
+    mkdir $htdocs
+    svn checkout $svnurl $workingdir
+    update_htdocs_source
+    cd $htdocs
+    buildhtml.py
+    echo '...puzzler-update-local done.'
+    exit
+fi
+
+# gather the materials.
+# update the svn checkout:
+cd working
+if [ $quiet -eq 1 ] ; then
+    svn update --quiet
+else
+    svn update
+fi
+
+# ensure proper permissions are set
+find . -type f -print0 | xargs -0 chmod ug+rw 2> /dev/null || true
+find . -type d -print0 | xargs -0 chmod ug+rwxs 2> /dev/null || true
+
+# create the snapshots
+exclude='--exclude=.svn'
+tar -cz $exclude -f puzzler-snapshot.tgz puzzler
+tar -cz $exclude -f solutions-snapshot.tgz solutions
+
+# plant the snapshots
+mv -f *snapshot.tgz ../htdocs
+
+update_htdocs_source
+
+if [ $trace -eq 0 ] ; then
+    set +o xtrace
+fi
+
+cd htdocs
+for htmlfile in `find .. -name '*.html'` ; do
+    dir=`dirname $htmlfile`
+    base=`basename $htmlfile .html`
+    txtfile=$dir/$base.txt
+    if [ -e $txtfile ] ; then
+        if [ $unconditional -eq 1 -o $txtfile -nt $htmlfile ] ; then
+            if [ $quiet -eq 0 ] ; then
+                echo $txtfile
+            fi
+            rst2html.py --config=$dir/docutils.conf $txtfile $htmlfile
+        fi
+    fi
+done
+
+# copy files to sourceforge:
+if [ $quiet -eq 1 ] ; then
+    rsync -e ssh -r ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
+else
+    echo 'rsyncing to SourceForge:'
+    rsync -v -e ssh -r ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
+fi
+
+if [ $feedback -eq 1 ] ; then
+    echo '...puzzler-update-local done.'
+fi
+
+# Local Variables:
+# indent-tabs-mode: nil
+# End:
