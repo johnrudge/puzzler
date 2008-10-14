@@ -68,7 +68,7 @@ done
 shift `expr $OPTIND - 1`
 
 if [ $feedback -eq 1 -o $setup -eq 1 ] ; then
-    echo 'Starting puzzler-update-local run...'
+    echo "Starting puzzler-update-local run (`date +%F\ %T`)..."
 fi
 
 if [ $trace -eq 1 -o $verbose -eq 1 ] ; then
