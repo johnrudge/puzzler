@@ -6,6 +6,10 @@
 
 .. sidebar:: News
 
+   **(2008-11-05) Sudoku Solver Added**
+       Added software to solve Sudoku puzzles, using the same core
+       engine that solves polyform puzzles.
+
    **(2008-04-13) Polyform Puzzler Talk Video (Montreal Python)**
        `Video of my February 7 talk at the Montreal Python users group
        meeting is now up on the web.
