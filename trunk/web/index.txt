@@ -8,7 +8,8 @@
 
    **(2008-11-05) Sudoku Solver Added**
        Added software to solve Sudoku puzzles, using the same core
-       engine that solves polyform puzzles.
+       engine that solves polyform puzzles.  `See the Sudoku section of
+       the README file. <README.html#sudoku>`__
 
    **(2008-04-13) Polyform Puzzler Talk Video (Montreal Python)**
        `Video of my February 7 talk at the Montreal Python users group
