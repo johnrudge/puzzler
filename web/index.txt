@@ -95,31 +95,35 @@ Polyform Puzzler!):
 
 .. figure:: docs/images/pentominoes-6x10.png
 
-   6 |x| 10 Pentominoes
+   6 |x| 10 Pentominoes (`pentominoes <docs/pentominoes.html>`__)
 
 .. figure:: docs/images/hexiamonds-trefoil.png
 
-   Hexiamond Trefoil
+   Hexiamond Trefoil (`hexiamonds <docs/hexiamonds.html>`__,
+   `heptiamonds <docs/heptiamonds.html>`__)
 
 .. figure:: docs/images/pentahex-10x11.png
 
-   10 |x| 11 Pentahex Parallelogram
+   10 |x| 11 Pentahex Parallelogram (`pentahexes
+   <docs/pentahexes.html>`__, `polyhexes <docs/polyhexes.html>`__)
 
 .. figure:: docs/images/solid-pentominoes-3x4x5.png
 
-   3 |x| 4 |x| 5 Solid Pentominoes
+   3 |x| 4 |x| 5 Solid Pentominoes (`solid pentominoes
+   <docs/solid-pentominoes.html>`__)
 
 .. figure:: docs/images/soma-long-wall.png
 
-   Soma Cubes Long Wall
+   Soma Cubes Long Wall (`polycubes <docs/polycubes.html>`__)
 
 .. figure:: docs/images/pentacubes-5x9x9-fortress.png
 
-   5 |x| 9 |x| 9 Pentacube Fortress
+   5 |x| 9 |x| 9 Pentacube Fortress (`pentacubes <docs/pentacubes.html>`__)
 
 .. figure:: docs/images/polysticks-3x7-diamond-lattice.png
 
-   Polysticks of Order 1-4 in a 3 |x| 7 Diamond Lattice
+   Polysticks of Order 1-4 in a 3 |x| 7 Diamond Lattice (`polysticks
+   <docs/polysticks.html>`__)
 
 All the details are in the `FAQ <docs/FAQ.html>`_ and the `Puzzles &
 Solutions`_ doc.
