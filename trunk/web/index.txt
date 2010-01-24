@@ -137,7 +137,7 @@ README_ file.
 License
 =======
 
-Polyform Puzzler is copyright ©1998-2009 by `David J. Goodger`_ and
+Polyform Puzzler is copyright ©1998-2010 by `David J. Goodger`_ and
 licensed under the `GNU General Public License version 2
 <GPL2.txt>`_.
 
