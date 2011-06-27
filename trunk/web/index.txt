@@ -6,6 +6,19 @@
 
 .. sidebar:: News
 
+   **(2011-06-26) Hexiamonds Puzzles Added**
+       `Several hexiamonds puzzles added <docs/hexiamonds.html>`__,
+       including a one-sided hexiamonds puzzle, "O'Beirne's hexagon".
+
+   **(2010-09-26) Polyform Puzzler Talk (`PyCon India 2010`_)**
+       Gave a talk at `PyCon India 2010 <http://in.pycon.org/2010>`_
+       in Bangalore: `Polyform Puzzler and a Pythonic Algorithm X`_.
+
+   **(2010-09-25) New Solver Backend**
+       Added a second implementation of the exact cover solver, faster
+       and simpler (exact_cover_x2.py).  Based on `code by Ali Assaf
+       <http://www.cs.mcgill.ca/~aassaf9/python/algorithm_x.html>`__.
+
    **(2008-11-05) Sudoku Solver Added**
        Added software to solve Sudoku puzzles, using the same core
        engine that solves polyform puzzles.  `See the Sudoku section of
@@ -137,7 +150,7 @@ README_ file.
 License
 =======
 
-Polyform Puzzler is copyright ©1998-2010 by `David J. Goodger`_ and
+Polyform Puzzler is copyright ©1998-2011 by `David J. Goodger`_ and
 licensed under the `GNU General Public License version 2
 <GPL2.txt>`_.
 
