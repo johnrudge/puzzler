@@ -6,6 +6,12 @@
 
 .. sidebar:: News
 
+   **(2011-09-16) New Puzzle Type: Polytrigs! (Triangular Polysticks)**
+       `Several polytrigs puzzles added. <docs/polytrigs.html>`__
+
+   **(2011-09-16) Python 2.5 or Later Now Required**
+       The latest Python_ 2.x.y is recommended (2.7.2 as of this writing).
+
    **(2011-06-26) Hexiamonds Puzzles Added**
        `Several hexiamonds puzzles added <docs/hexiamonds.html>`__,
        including a one-sided hexiamonds puzzle, "O'Beirne's hexagon".
@@ -98,9 +104,10 @@ the FAQ_.)
 exploring & solving polyform puzzles.  It consists of a set of
 front-end applications for specific polyform puzzles and a Python
 library that does the heavy lifting.  New polyforms and new puzzles
-can easily be defined and added.  Python 2.4 or higher is required.
+can easily be defined and added.  Python 2.5 or higher is required,
+but the latest 2.x.y is recommended.
 
-A Sudoku puzzle solver is also included.  The same back-end puzzle
+A **Sudoku** puzzle solver is also included.  The same back-end puzzle
 solving engine is used to solve Sudoku puzzles and polyform puzzles.
 
 Here are some examples of polyform puzzles (all solved & drawn by
@@ -137,6 +144,11 @@ Polyform Puzzler!):
 
    Polysticks of Order 1-4 in a 3 |x| 7 Diamond Lattice (`polysticks
    <docs/polysticks.html>`__)
+
+.. figure:: docs/images/tritrigs-hex-3x1-ring-small.png
+
+   Tritrigs 3x1 semi-regular hexagon ring (`polytrigs
+   <docs/polytrigs.html>`__)
 
 All the details are in the `FAQ <docs/FAQ.html>`_ and the `Puzzles &
 Solutions`_ doc.
