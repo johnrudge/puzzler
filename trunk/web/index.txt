@@ -147,8 +147,8 @@ Polyform Puzzler!):
 
 .. figure:: docs/images/tritrigs-hex-3x1-ring-small.png
 
-   Tritrigs 3x1 semi-regular hexagon ring (`polytrigs (triangular
-   polysticks) <docs/polytrigs.html>`__)
+   Tritrigs 3x1 semi-regular hexagon ring (`polytrigs [triangular
+   polysticks] <docs/polytrigs.html>`__)
 
 All the details are in the `FAQ <docs/FAQ.html>`_ and the `Puzzles &
 Solutions`_ doc.
