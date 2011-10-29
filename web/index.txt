@@ -10,7 +10,7 @@
        `19 heptiamonds <docs/heptiamonds.html>`__ & `1 one-sided
        hexiamonds <docs/hexiamonds.html>`__ puzzles added.
 
-   **(2011-09-16) New Puzzle Type: Polytrigs! (Triangular Polysticks)**
+   **(2011-09-16) New Puzzle Type: Polytrigs! (Triangular-Grid Polysticks)**
        `Several polytrigs puzzles added. <docs/polytrigs.html>`__
 
    **(2011-09-16) Python 2.5 or Later Now Required**
@@ -151,7 +151,7 @@ Polyform Puzzler!):
 
 .. figure:: docs/images/tritrigs-hex-3x1-ring-small.png
 
-   Tritrigs 3x1 semi-regular hexagon ring (`polytrigs [triangular
+   Tritrigs 3x1 semi-regular hexagon ring (`polytrigs [triangular-grid
    polysticks] <docs/polytrigs.html>`__)
 
 All the details are in the `FAQ <docs/FAQ.html>`_ and the `Puzzles &
