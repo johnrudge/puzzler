@@ -6,18 +6,18 @@
 
 .. sidebar:: News
 
-   **(2011-10-01) Heptiamonds & Hexiamonds Puzzles Added**
-       `19 heptiamonds <docs/heptiamonds.html>`__ & `1 one-sided
+   **(2011-10-01) Heptiamond & Hexiamond Puzzles Added**
+       `19 heptiamond <docs/heptiamonds.html>`__ & `1 one-sided
        hexiamonds <docs/hexiamonds.html>`__ puzzles added.
 
    **(2011-09-16) New Puzzle Type: Polytrigs! (Triangular-Grid Polysticks)**
-       `Several polytrigs puzzles added. <docs/polytrigs.html>`__
+       `Several polytrig puzzles added. <docs/polytrigs.html>`__
 
    **(2011-09-16) Python 2.5 or Later Now Required**
        The latest Python_ 2.x.y is recommended (2.7.2 as of this writing).
 
-   **(2011-06-26) Hexiamonds Puzzles Added**
-       `Several hexiamonds puzzles added <docs/hexiamonds.html>`__,
+   **(2011-06-26) Hexiamond Puzzles Added**
+       `Several hexiamond puzzles added <docs/hexiamonds.html>`__,
        including a one-sided hexiamonds puzzle, "O'Beirne's hexagon".
 
    **(2010-09-26) Polyform Puzzler Talk (PyCon India 2010)**
