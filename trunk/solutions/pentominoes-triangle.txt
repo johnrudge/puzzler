@@ -1,0 +1,291 @@
+solving PentominoesTriangle:
+
+solution 1:
+5,0 6,0 7,0 8,0 9,0 I
+5,1 5,2 6,1 7,1 8,1 L
+4,3 5,3 6,2 6,3 7,2 N
+0,8 0,9 1,7 1,8 2,7 W
+0,5 0,6 0,7 1,6 2,6 T
+2,4 3,4 4,4 4,5 5,4 Y
+1,4 1,5 2,5 3,5 3,6 Z
+0,3 0,4 1,2 1,3 2,3 F
+0,0 0,1 0,2 1,0 1,1 P
+2,2 3,1 3,2 3,3 4,2 X
+2,0 2,1 3,0 4,0 4,1 U
+! V
+
+(V omitted)
+W
+W W
+T W W
+T T T Z
+T Z Z Z Y
+F Z Y Y Y Y
+F F F X N N N
+P F X X X L N N
+P P U X U L L L L
+P P U U U I I I I I
+
+solution 2:
+5,0 6,0 7,0 8,0 9,0 I
+5,1 5,2 6,1 7,1 8,1 L
+4,3 5,3 6,2 6,3 7,2 N
+0,6 0,7 0,8 0,9 1,8 Y
+3,5 3,6 4,4 4,5 5,4 W
+0,5 1,5 1,6 1,7 2,7 Z
+1,4 2,4 2,5 2,6 3,4 T
+0,3 0,4 1,2 1,3 2,3 F
+0,0 0,1 0,2 1,0 1,1 P
+2,2 3,1 3,2 3,3 4,2 X
+2,0 2,1 3,0 4,0 4,1 U
+! V
+
+(V omitted)
+Y
+Y Y
+Y Z Z
+Y Z T W
+Z Z T W W
+F T T T W W
+F F F X N N N
+P F X X X L N N
+P P U X U L L L L
+P P U U U I I I I I
+
+solution 3:
+5,0 6,0 7,0 8,0 9,0 I
+5,1 5,2 6,1 7,1 8,1 L
+5,3 5,4 6,2 6,3 7,2 W
+0,7 0,8 0,9 1,7 1,8 P
+! F
+1,6 2,5 2,6 2,7 3,6 X
+0,3 0,4 0,5 0,6 1,5 Y
+3,2 3,3 4,3 4,4 4,5 N
+1,3 1,4 2,4 3,4 3,5 Z
+2,0 3,0 4,0 4,1 4,2 V
+1,1 2,1 2,2 2,3 3,1 T
+0,0 0,1 0,2 1,0 1,2 U
+
+(F omitted)
+P
+P P
+P P X
+Y X X X
+Y Y X Z N
+Y Z Z Z N W
+Y Z T N N W W
+U U T N V L W W
+U T T T V L L L L
+U U V V V I I I I I
+
+solution 4:
+5,0 6,0 7,0 8,0 9,0 I
+5,1 5,2 6,1 7,1 8,1 L
+5,3 5,4 6,2 6,3 7,2 W
+0,7 0,8 0,9 1,7 1,8 P
+! F
+1,6 2,5 2,6 2,7 3,6 X
+0,3 0,4 0,5 0,6 1,5 Y
+3,3 3,5 4,3 4,4 4,5 U
+1,4 2,2 2,3 2,4 3,4 T
+2,0 3,0 4,0 4,1 4,2 V
+1,0 1,1 2,1 3,1 3,2 Z
+0,0 0,1 0,2 1,2 1,3 N
+
+(F omitted)
+P
+P P
+P P X
+Y X X X
+Y Y X U U
+Y T T T U W
+Y N T U U W W
+N N T Z V L W W
+N Z Z Z V L L L L
+N Z V V V I I I I I
+
+solution 5:
+5,0 6,0 7,0 8,0 9,0 I
+5,1 5,2 6,1 7,1 8,1 L
+5,3 5,4 6,2 6,3 7,2 W
+0,7 0,8 0,9 1,7 1,8 P
+! N
+0,6 1,5 1,6 2,6 2,7 F
+0,3 0,4 0,5 1,4 2,4 T
+2,5 3,4 3,5 3,6 4,5 X
+3,3 4,1 4,2 4,3 4,4 Y
+2,2 3,0 3,1 3,2 4,0 Z
+1,1 1,2 1,3 2,1 2,3 U
+0,0 0,1 0,2 1,0 2,0 V
+
+(N omitted)
+P
+P P
+P P F
+F F F X
+T F X X X
+T T T X Y W
+T U U Y Y W W
+V U Z Z Y L W W
+V U U Z Y L L L L
+V V V Z Z I I I I I
+
+solution 6:
+5,0 6,0 7,0 8,0 9,0 I
+5,1 5,2 6,1 7,1 8,1 L
+5,3 5,4 6,2 6,3 7,2 W
+0,7 0,8 0,9 1,7 1,8 P
+! X
+1,5 1,6 2,6 2,7 3,6 F
+0,3 0,4 0,5 0,6 1,4 Y
+2,4 2,5 3,5 4,4 4,5 U
+1,2 1,3 2,3 3,3 3,4 Z
+0,0 0,1 0,2 1,0 2,0 V
+1,1 2,1 3,0 3,1 4,0 N
+2,2 3,2 4,1 4,2 4,3 T
+
+(X omitted)
+P
+P P
+P P F
+Y F F F
+Y F U U U
+Y Y U Z U W
+Y Z Z Z T W W
+V Z T T T L W W
+V N N N T L L L L
+V V V N N I I I I I
+
+solution 7:
+5,0 6,0 7,0 8,0 9,0 I
+5,1 5,2 6,1 7,1 8,1 L
+5,3 5,4 6,2 6,3 7,2 W
+0,6 0,7 0,8 0,9 1,8 Y
+! V
+0,5 1,5 1,6 1,7 2,7 Z
+1,4 2,4 2,5 2,6 3,4 T
+3,5 3,6 4,3 4,4 4,5 N
+0,3 0,4 1,2 1,3 2,3 F
+0,0 0,1 0,2 1,0 1,1 P
+2,2 3,1 3,2 3,3 4,2 X
+2,0 2,1 3,0 4,0 4,1 U
+
+(V omitted)
+Y
+Y Y
+Y Z Z
+Y Z T N
+Z Z T N N
+F T T T N W
+F F F X N W W
+P F X X X L W W
+P P U X U L L L L
+P P U U U I I I I I
+
+solution 8:
+5,0 6,0 7,0 8,0 9,0 I
+5,2 6,2 7,1 7,2 8,1 N
+0,7 0,8 0,9 1,7 1,8 P
+4,0 4,1 4,2 5,1 6,1 T
+4,4 4,5 5,3 5,4 6,3 W
+! U
+0,2 1,1 1,2 1,3 2,2 X
+0,0 0,1 1,0 2,0 3,0 L
+2,1 3,1 3,2 3,3 4,3 Z
+0,3 0,4 0,5 1,5 2,5 V
+0,6 1,6 2,6 2,7 3,6 Y
+1,4 2,3 2,4 3,4 3,5 F
+
+(U omitted)
+P
+P P
+P P Y
+Y Y Y Y
+V V V F W
+V F F F W W
+V X F Z Z W W
+X X X Z T N N N
+L X Z Z T T T N N
+L L L L T I I I I I
+
+solution 9:
+5,0 6,0 7,0 8,0 9,0 I
+5,2 6,2 7,1 7,2 8,1 N
+0,7 0,8 0,9 1,7 1,8 P
+4,0 4,1 4,2 5,1 6,1 T
+4,4 4,5 5,3 5,4 6,3 W
+! V
+1,6 2,5 2,6 2,7 3,6 X
+0,3 0,4 0,5 0,6 1,5 Y
+1,3 1,4 2,4 3,4 3,5 Z
+3,0 3,1 3,2 3,3 4,3 L
+0,2 1,1 1,2 2,2 2,3 F
+0,0 0,1 1,0 2,0 2,1 U
+
+(V omitted)
+P
+P P
+P P X
+Y X X X
+Y Y X Z W
+Y Z Z Z W W
+Y Z F L L W W
+F F F L T N N N
+U F U L T T T N N
+U U U L T I I I I I
+
+solution 10:
+5,0 6,0 7,0 8,0 9,0 I
+5,2 6,2 7,1 7,2 8,1 N
+0,7 0,8 0,9 1,7 1,8 P
+4,0 4,1 4,2 5,1 6,1 T
+4,4 4,5 5,3 5,4 6,3 W
+! Y
+1,5 1,6 2,6 2,7 3,6 F
+0,4 0,5 0,6 1,4 2,4 V
+2,5 3,3 3,4 3,5 4,3 Z
+1,2 2,1 2,2 2,3 3,2 X
+0,1 0,2 0,3 1,1 1,3 U
+0,0 1,0 2,0 3,0 3,1 L
+
+(Y omitted)
+P
+P P
+P P F
+V F F F
+V F Z Z W
+V V V Z W W
+U U X Z Z W W
+U X X X T N N N
+U U X L T T T N N
+L L L L T I I I I I
+
+...
+
+solution 580:
+6,0 7,0 8,0 8,1 9,0 Y
+0,8 0,9 1,7 1,8 2,7 W
+! Z
+0,5 0,6 0,7 1,6 2,6 T
+2,5 3,4 3,5 3,6 4,5 X
+0,2 0,3 0,4 1,4 1,5 N
+0,0 1,0 2,0 3,0 4,0 I
+0,1 1,1 1,2 1,3 2,2 F
+2,3 2,4 3,3 4,3 4,4 U
+2,1 3,1 4,1 5,0 5,1 L
+3,2 4,2 5,2 5,3 5,4 V
+6,1 6,2 6,3 7,1 7,2 P
+
+(Z omitted)
+W
+W W
+T W W
+T T T X
+T N X X X
+N N U X U V
+N F U U U V P
+N F F V V V P P
+F F L L L L P P Y
+I I I I I L Y Y Y Y
+
+580 solutions, 434516 searches, duration 0:01:31.801367
