@@ -6,6 +6,9 @@
 
 .. sidebar:: News
 
+   **(2012-01-15) New Puzzle Type: Polytwigs! (Hexagonal-Grid Polysticks)**
+       `Many polytwig puzzles added. <docs/polytwigs.html>`__
+
    **(2011-10-01) Heptiamond & Hexiamond Puzzles Added**
        `19 heptiamond <docs/heptiamonds.html>`__ & `1 one-sided
        hexiamonds <docs/hexiamonds.html>`__ puzzles added.
@@ -119,40 +122,45 @@ Polyform Puzzler!):
 
 .. figure:: docs/images/pentominoes-6x10.png
 
-   6 |x| 10 Pentominoes (`pentominoes <docs/pentominoes.html>`__)
+   `Pentominoes <docs/pentominoes.html>`__: 6 |x| 10 Rectangle
 
 .. figure:: docs/images/hexiamonds-trefoil.png
 
-   Hexiamond Trefoil (`hexiamonds <docs/hexiamonds.html>`__,
-   `heptiamonds <docs/heptiamonds.html>`__)
+   Polyiamonds (`Hexiamonds: <docs/hexiamonds.html>`__ & `Heptiamonds
+   <docs/heptiamonds.html>`__): Hexiamond Trefoil
 
 .. figure:: docs/images/pentahex-10x11.png
 
-   10 |x| 11 Pentahex Parallelogram (`pentahexes
-   <docs/pentahexes.html>`__, `polyhexes <docs/polyhexes.html>`__)
+   `Polyhexes <docs/polyhexes.html>`__ & `Pentahexes
+   <docs/pentahexes.html>`__: 10 |x| 11 Pentahex Parallelogram
 
 .. figure:: docs/images/solid-pentominoes-3x4x5.png
 
-   3 |x| 4 |x| 5 Solid Pentominoes (`solid pentominoes
-   <docs/solid-pentominoes.html>`__)
+   `Solid Pentominoes <docs/solid-pentominoes.html>`__): 3 |x| 4 |x| 5
 
 .. figure:: docs/images/soma-long-wall.png
 
-   Soma Cubes Long Wall (`polycubes <docs/polycubes.html>`__)
+   `Polycubes <docs/polycubes.html>`__: Soma Cubes Long Wall
 
 .. figure:: docs/images/pentacubes-5x9x9-fortress.png
 
-   5 |x| 9 |x| 9 Pentacube Fortress (`pentacubes <docs/pentacubes.html>`__)
+   `Pentacubes <docs/pentacubes.html>`__: 5 |x| 9 |x| 9 Fortress
 
 .. figure:: docs/images/polysticks-3x7-diamond-lattice.png
 
-   Polysticks of Order 1-4 in a 3 |x| 7 Diamond Lattice (`polysticks
-   <docs/polysticks.html>`__)
+   `Polysticks <docs/polysticks.html>`__: 3 |x| 7 Diamond Lattice
 
-.. figure:: docs/images/tritrigs-hex-3x1-ring-small.png
+.. figure:: docs/images/tritrigs-hex-3x1-ring.png
 
-   Tritrigs 3x1 semi-regular hexagon ring (`polytrigs [triangular-grid
-   polysticks] <docs/polytrigs.html>`__)
+   `Polytrigs (triangular-grid polysticks) <docs/polytrigs.html>`__:
+   Tritrigs 3x1 Semi-Regular Hexagon Ring (also, `An Introduction to
+   Polytrigs <docs/polytrigs-intro.html>`_)
+
+.. figure:: docs/images/pentatwigs-triangle.png
+
+   `Polytwigs (hexagonal-grid polysticks) <docs/polytwigs.html>`__:
+   Pentatwigs Triangle (also, `An Introduction to Polytwigs
+   <docs/polytwigs-intro.html>`_)
 
 All the details are in the `FAQ <docs/FAQ.html>`_ and the `Puzzles &
 Solutions`_ doc.
