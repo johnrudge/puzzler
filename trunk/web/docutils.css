@@ -166,6 +166,12 @@ img.align-right {
 ol.simple, ul.simple {
   margin-bottom: 1em }
 
+ul li {
+  margin-bottom: 1em }
+
+ul.simple li {
+  margin-bottom: 0 }
+
 ol.arabic {
   list-style: decimal }
 
