@@ -149,6 +149,8 @@ Polyform Puzzler!):
 .. figure:: docs/images/polysticks-3x7-diamond-lattice.png
 
    `Polysticks <docs/polysticks.html>`__: 3 |x| 7 Diamond Lattice
+   (also, `An Introduction to Polysticks
+   <docs/polysticks-intro.html>`_)
 
 .. figure:: docs/images/tritrigs-hex-3x1-ring.png
 
