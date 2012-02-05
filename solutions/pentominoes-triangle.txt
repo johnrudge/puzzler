@@ -14,7 +14,6 @@ solution 1:
 08,8 08,9 09,7 09,8 09,9 P
 11,4 11,5 11,6 12,4 13,4 V
 
-
 I I I I I U U U P P
   L L L L U X U P P
     N N L X X X F P
@@ -39,7 +38,6 @@ solution 2:
 05,8 05,9 06,9 07,8 07,9 U
 08,8 08,9 09,7 09,8 09,9 P
 11,4 11,5 11,6 12,4 13,4 V
-
 
 I I I I I U U U P P
   L L L L U X U P P
@@ -66,7 +64,6 @@ solution 3:
 05,9 06,8 06,9 07,8 08,8 N
 05,6 05,7 05,8 06,7 07,7 T
 
-
 I I I I I N N V V V
   L L L L T N N N V
     W W L T T T Z V
@@ -91,7 +88,6 @@ solution 4:
 06,8 07,6 07,7 07,8 08,8 T
 08,7 08,9 09,7 09,8 09,9 U
 11,4 11,5 12,3 12,4 13,4 F
-
 
 I I I I I V V V U U
   L L L L V T T T U
@@ -118,7 +114,6 @@ solution 5:
 08,6 08,7 09,7 09,8 09,9 N
 11,4 11,5 12,3 12,4 13,4 F
 
-
 I I I I I V V V Z N
   L L L L V Z Z Z N
     W W L V Z T N N
@@ -143,7 +138,6 @@ solution 6:
 07,6 07,8 08,6 08,7 08,8 U
 07,9 08,9 09,7 09,8 09,9 V
 11,4 11,5 12,2 12,3 12,4 N
-
 
 I I I I I Z Z V V V
   L L L L Y Z U U V
@@ -170,7 +164,6 @@ solution 7:
 07,6 08,6 08,7 09,5 09,6 F
 11,4 11,5 11,6 12,4 13,4 V
 
-
 I I I I I U U U P P
   L L L L U X U P P
     W W L X X X F P
@@ -195,7 +188,6 @@ solution 8:
 07,2 07,4 08,2 08,3 08,4 U
 07,5 08,5 09,4 09,5 09,6 T
 11,4 12,3 12,4 12,5 13,4 X
-
 
 I I I I I V V V P P
   N N L L L L V P P
@@ -222,7 +214,6 @@ solution 9:
 06,7 06,8 06,9 07,9 08,9 V
 07,7 07,8 08,8 09,8 09,9 Z
 
-
 I I I I I T V V V Z
   N N T T T V Z Z Z
     N N N T V Z L L
@@ -247,7 +238,6 @@ solution 10:
 07,4 08,4 09,4 09,5 09,6 V
 07,6 07,7 08,7 08,8 09,7 F
 07,8 07,9 08,9 09,8 09,9 U
-
 
 I I I I I T L U U U
   N N T T T L U F U
@@ -274,7 +264,6 @@ solution 11:
 07,8 07,9 08,9 09,8 09,9 U
 11,4 11,5 11,6 12,4 13,4 V
 
-
 I I I I I T L U U U
   N N T T T L U F U
     N N N T L F F F
@@ -299,7 +288,6 @@ solution 12:
 07,5 08,5 09,3 09,4 09,5 V
 06,3 07,2 07,3 08,3 08,4 F
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 I I I I I T L L L L
   N N T T T L X U U
@@ -326,7 +314,6 @@ solution 13:
 06,3 07,2 07,3 08,3 08,4 F
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 I I I I I T U U U L
   N N T T T U X U L
     N N N T X X X L
@@ -351,7 +338,6 @@ solution 14:
 06,4 06,5 07,5 07,6 08,5 F
 06,3 07,2 07,3 08,3 09,3 Y
 11,4 11,5 11,6 12,4 12,6 U
-
 
 I I I I I T L L L L
   N N T T T Z Z X L
@@ -378,7 +364,6 @@ solution 15:
 06,3 07,2 07,3 08,3 09,3 Y
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 I I I I I T L U U U
   N N T T T L U X U
     N N N T L X X X
@@ -403,7 +388,6 @@ solution 16:
 07,5 08,5 09,5 09,6 09,7 V
 06,3 06,4 06,5 07,3 07,4 P
 07,2 08,2 08,3 08,4 09,4 Z
-
 
 I I I I I T L L L L
   N N T T T F U U L
@@ -430,7 +414,6 @@ solution 17:
 06,3 06,4 06,5 07,5 08,5 V
 08,4 08,6 09,4 09,5 09,6 U
 
-
 I I I I I T L L L L
   N N T T T Z Z F L
     N N N T Z F F F
@@ -455,7 +438,6 @@ solution 18:
 07,6 07,7 08,7 08,8 09,7 F
 07,8 07,9 08,9 09,8 09,9 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 I I I I I L L U U U
   N N V V V L U F U
@@ -482,7 +464,6 @@ solution 19:
 08,4 09,3 09,4 09,5 09,6 Y
 11,5 12,2 12,3 12,4 12,5 L
 
-
 I I I I I Z Z U U U
   N N V V V Z U F U
     N N N V Z Z F F
@@ -507,7 +488,6 @@ solution 20:
 06,3 06,4 06,5 07,3 07,4 P
 07,2 08,2 08,3 08,4 09,4 Z
 11,4 11,5 11,6 12,4 12,6 U
-
 
 I I I I I F F T T T
   N N V V V F F T L
@@ -534,7 +514,6 @@ solution 21:
 07,4 07,5 08,5 08,6 09,5 F
 07,6 07,7 08,7 09,6 09,7 U
 
-
 I I I I I T T T P P
   N N V V V T P P P
     N N N V T U U U
@@ -559,7 +538,6 @@ solution 22:
 08,5 09,5 09,6 09,7 09,8 L
 07,8 08,7 08,8 08,9 09,9 F
 11,4 11,5 11,6 12,4 12,6 U
-
 
 I I I I I T T T F F
   N N V V V T F F L
@@ -586,7 +564,6 @@ solution 23:
 07,9 08,9 09,7 09,8 09,9 V
 11,5 12,2 12,3 12,4 12,5 L
 
-
 I I I I I U U V V V
   W W T T T U Z Z V
     W W T U U F Z V
@@ -611,7 +588,6 @@ solution 24:
 07,5 08,5 08,6 08,7 09,6 F
 07,9 08,9 09,7 09,8 09,9 V
 11,5 12,2 12,3 12,4 12,5 L
-
 
 I I I I I U U V V V
   W W T T T U Z Z V
@@ -638,7 +614,6 @@ solution 25:
 06,8 06,9 07,8 08,7 08,8 Z
 07,9 08,9 09,7 09,8 09,9 V
 
-
 I I I I I F Z V V V
   W W F F F Z Z Z V
     W W F N N N Z V
@@ -663,7 +638,6 @@ solution 26:
 07,9 08,9 09,7 09,8 09,9 V
 05,9 06,8 06,9 07,8 08,8 N
 05,6 05,7 05,8 06,7 07,7 T
-
 
 I I I I I N N V V V
   W W L L T N N N V
@@ -690,7 +664,6 @@ solution 27:
 08,7 08,9 09,7 09,8 09,9 U
 11,4 11,5 12,3 12,4 13,4 F
 
-
 I I I I I V V V U U
   W W L L V T T T U
     W W L V N T U U
@@ -715,7 +688,6 @@ solution 28:
 06,7 06,8 07,8 08,8 08,9 Z
 08,6 08,7 09,7 09,8 09,9 N
 11,4 11,5 12,3 12,4 13,4 F
-
 
 I I I I I V V V Z N
   W W L L V Z Z Z N
@@ -742,7 +714,6 @@ solution 29:
 07,9 08,9 09,7 09,8 09,9 V
 11,4 11,5 12,2 12,3 12,4 N
 
-
 I I I I I Z Z V V V
   W W L L Y Z U U V
     W W L Y Z Z U V
@@ -767,7 +738,6 @@ solution 30:
 07,9 08,9 09,7 09,8 09,9 V
 08,5 08,6 08,7 08,8 09,6 Y
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 I I I I I N N V V V
   W W N N N L L Y V
@@ -794,7 +764,6 @@ solution 31:
 07,9 08,9 09,7 09,8 09,9 V
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 I I I I I N N V V V
   W W N N N T T T V
     W W U U U T F V
@@ -819,7 +788,6 @@ solution 32:
 06,7 06,8 07,8 07,9 08,8 F
 07,5 08,5 08,6 08,7 09,5 T
 08,9 09,6 09,7 09,8 09,9 L
-
 
 I I I I I N N F L L
   W W N N N F F F L
@@ -846,7 +814,6 @@ solution 33:
 07,7 07,8 07,9 08,9 09,9 V
 11,4 11,5 12,3 12,4 13,4 F
 
-
 I I I I I N N V V V
   W W N N N T V L L
     W W U U T V Y L
@@ -871,7 +838,6 @@ solution 34:
 08,9 09,6 09,7 09,8 09,9 L
 08,4 08,5 08,6 08,7 09,5 Y
 11,4 11,5 11,6 12,4 13,4 V
-
 
 I I I I I N N F L L
   W W N N N F F F L
@@ -898,7 +864,6 @@ solution 35:
 07,5 08,4 08,5 08,6 09,5 X
 11,4 11,5 11,6 12,4 13,4 V
 
-
 I I I I I L L L L Y
   W W N N L T T T Y
     W W N N N T Y Y
@@ -923,7 +888,6 @@ solution 36:
 07,2 07,3 08,3 09,3 09,4 Z
 07,5 08,4 08,5 08,6 09,5 X
 11,4 12,2 12,3 12,4 13,4 T
-
 
 I I I I I L L L L Y
   W W N N V V V L Y
@@ -950,7 +914,6 @@ solution 37:
 06,7 06,8 06,9 07,9 08,9 V
 07,7 07,8 08,8 09,8 09,9 Z
 
-
 I I I I I T V V V Z
   W W T T T V Z Z Z
     W W N T V Z L L
@@ -975,7 +938,6 @@ solution 38:
 07,4 08,4 09,4 09,5 09,6 V
 07,6 07,7 08,7 08,8 09,7 F
 07,8 07,9 08,9 09,8 09,9 U
-
 
 I I I I I T L U U U
   W W T T T L U F U
@@ -1002,7 +964,6 @@ solution 39:
 07,8 07,9 08,9 09,8 09,9 U
 11,4 11,5 11,6 12,4 13,4 V
 
-
 I I I I I T L U U U
   W W T T T L U F U
     W W N T L F F F
@@ -1027,7 +988,6 @@ solution 40:
 07,5 08,5 09,3 09,4 09,5 V
 06,3 07,2 07,3 08,3 08,4 F
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 I I I I I T L L L L
   W W T T T L X U U
@@ -1054,7 +1014,6 @@ solution 41:
 06,3 07,2 07,3 08,3 08,4 F
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 I I I I I T U U U L
   W W T T T U X U L
     W W N T X X X L
@@ -1079,7 +1038,6 @@ solution 42:
 06,4 06,5 07,5 07,6 08,5 F
 06,3 07,2 07,3 08,3 09,3 Y
 11,4 11,5 11,6 12,4 12,6 U
-
 
 I I I I I T L L L L
   W W T T T Z Z X L
@@ -1106,7 +1064,6 @@ solution 43:
 06,3 07,2 07,3 08,3 09,3 Y
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 I I I I I T L U U U
   W W T T T L U X U
     W W N T L X X X
@@ -1131,7 +1088,6 @@ solution 44:
 08,4 08,5 09,5 09,6 09,7 N
 06,7 06,8 07,8 08,7 08,8 U
 06,9 07,9 08,9 09,8 09,9 L
-
 
 I I I I I T L L L L
   W W T T T U U U L
@@ -1158,7 +1114,6 @@ solution 45:
 07,6 07,7 08,7 08,8 09,7 F
 11,4 12,3 12,4 12,5 13,4 X
 
-
 I I I I I T L L L L
   W W T T T Z Z F L
     W W V T Z F F F
@@ -1183,7 +1138,6 @@ solution 46:
 06,8 06,9 07,9 08,9 09,9 L
 08,6 08,8 09,6 09,7 09,8 U
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 I I I I I T L L L L
   W W T T T L X U U
@@ -1210,7 +1164,6 @@ solution 47:
 08,6 09,6 09,7 09,8 09,9 L
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 I I I I I T U U U L
   W W T T T U X U L
     W W Z T X X X L
@@ -1235,7 +1188,6 @@ solution 48:
 06,4 06,5 07,5 07,6 07,7 N
 07,8 08,6 08,7 08,8 09,6 Z
 07,9 08,9 09,7 09,8 09,9 V
-
 
 I I I I I L L V V V
   W W T T T L Z Z V
@@ -1262,7 +1214,6 @@ solution 49:
 04,5 05,4 05,5 05,6 06,6 F
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 I I I I I N N V V V
   W W T T T N N N V
     W W T Y Y Y Y V
@@ -1287,7 +1238,6 @@ solution 50:
 04,5 05,4 05,5 05,6 06,4 F
 05,7 06,7 07,6 07,7 08,7 Y
 11,4 11,5 11,6 12,4 12,6 U
-
 
 I I I I I N N V V V
   W W T T T N N N V
@@ -1314,7 +1264,6 @@ solution 51:
 06,3 07,2 07,3 08,3 08,4 F
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 I I I I I N N V V V
   W W T T T N N N V
     W W T L L L L V
@@ -1339,7 +1288,6 @@ solution 52:
 06,3 06,4 07,2 07,3 08,3 F
 08,5 09,3 09,4 09,5 09,6 Y
 11,4 11,5 11,6 12,4 12,6 U
-
 
 I I I I I N N V V V
   W W T T T N N N V
@@ -1366,7 +1314,6 @@ solution 53:
 06,3 07,2 07,3 08,3 08,4 F
 07,5 08,5 09,3 09,4 09,5 V
 
-
 I I I I I N N N L L
   W W T T T Z N N L
     W W T Y Z Z Z L
@@ -1391,7 +1338,6 @@ solution 54:
 07,5 08,5 08,6 08,7 08,8 L
 07,9 08,9 09,7 09,8 09,9 V
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 I I I I I U U V V V
   W W T T T U N L V
@@ -1418,7 +1364,6 @@ solution 55:
 07,9 08,9 09,7 09,8 09,9 V
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 I I I I I U U V V V
   W W T T T U L L V
     W W T U U N L V
@@ -1443,7 +1388,6 @@ solution 56:
 08,8 09,5 09,6 09,7 09,8 L
 07,7 07,8 07,9 08,9 09,9 V
 11,4 11,5 12,3 12,4 13,4 F
-
 
 I I I I I U U V V V
   W W T T T U V L L
@@ -1470,7 +1414,6 @@ solution 57:
 06,4 07,4 08,4 09,4 09,5 L
 11,4 11,5 12,2 12,3 12,4 N
 
-
 I I I I I U U V V V
   W W T T T U Z Z V
     W W T U U Z F V
@@ -1495,7 +1438,6 @@ solution 58:
 06,3 06,4 07,2 07,3 08,3 F
 08,4 09,3 09,4 09,5 09,6 Y
 11,5 12,2 12,3 12,4 12,5 L
-
 
 I I I I I U U V V V
   W W T T T U Z Z V
@@ -1522,7 +1464,6 @@ solution 59:
 06,4 07,4 08,4 09,4 09,5 L
 11,4 11,5 12,2 12,3 12,4 N
 
-
 I I I I I U U V V V
   W W T T T U Z Z V
     W W T U U F Z V
@@ -1547,7 +1488,6 @@ solution 60:
 11,4 12,3 12,4 12,5 13,4 X
 06,3 07,2 07,3 08,3 08,4 F
 07,5 08,5 09,3 09,4 09,5 V
-
 
 I I I I I Z Z N L L
   W W T T T Z N N L
@@ -1574,7 +1514,6 @@ solution 61:
 08,4 09,3 09,4 09,5 09,6 Y
 11,5 12,2 12,3 12,4 12,5 L
 
-
 I I I I I Z Z V V V
   W W T T T Z U U V
     W W T F Z Z U V
@@ -1599,7 +1538,6 @@ solution 62:
 07,6 07,7 08,7 08,8 09,7 F
 07,8 07,9 08,9 09,8 09,9 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 I I I I I L L U U U
   W W V V V L U F U
@@ -1626,7 +1564,6 @@ solution 63:
 08,4 09,3 09,4 09,5 09,6 Y
 11,5 12,2 12,3 12,4 12,5 L
 
-
 I I I I I Z Z U U U
   W W V V V Z U F U
     W W N V Z Z F F
@@ -1651,7 +1588,6 @@ solution 64:
 11,4 11,5 11,6 12,4 13,4 V
 06,4 07,4 07,5 07,6 08,4 T
 06,3 07,2 07,3 08,3 09,3 Y
-
 
 I I I I I U U X L L
   W W Z Z U X X X L
@@ -1678,7 +1614,6 @@ solution 65:
 05,9 06,9 07,9 08,8 08,9 L
 08,7 09,6 09,7 09,8 09,9 Y
 
-
 I I I I I L L L L Y
   W W Z Z U U U L Y
     W W Z U T U Y Y
@@ -1703,7 +1638,6 @@ solution 66:
 06,9 07,9 08,9 09,8 09,9 L
 07,6 07,7 08,7 08,8 09,7 F
 11,4 12,3 12,4 12,5 13,4 X
-
 
 I I I I I T L L L L
   W W Z Z T T T F L
@@ -1730,7 +1664,6 @@ solution 67:
 08,4 08,6 09,4 09,5 09,6 U
 07,6 07,7 08,7 08,8 09,7 F
 
-
 I I I I I T L L L L
   W W Z Z T T T F L
     W W Z T V F F F
@@ -1755,7 +1688,6 @@ solution 68:
 06,8 06,9 07,9 08,9 09,9 L
 05,7 05,8 05,9 06,6 06,7 N
 11,4 11,5 11,6 12,4 13,4 V
-
 
 I I I I I N L L L L
   W W Z Z N L U U U
@@ -1782,7 +1714,6 @@ solution 69:
 07,5 08,5 09,5 09,6 09,7 V
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 I I I I I F L L L L
   W W F F F X U U L
     W W F X X X U V
@@ -1807,7 +1738,6 @@ solution 70:
 06,8 06,9 07,8 08,7 08,8 Z
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,3 12,4 12,5 13,4 X
-
 
 I I I I I F Z V V V
   W W F F F Z Z Z V
@@ -1834,7 +1764,6 @@ solution 71:
 07,6 08,6 08,7 09,5 09,6 F
 11,4 11,5 11,6 12,4 13,4 V
 
-
 I I I I I U U U P P
   W W L L U X U P P
     W W L X X X F P
@@ -1859,7 +1788,6 @@ solution 72:
 07,5 08,5 09,5 09,6 09,7 V
 06,3 06,4 06,5 07,3 07,4 P
 07,2 08,2 08,3 08,4 09,4 Z
-
 
 I I I I I T L L L L
   W W T T T F U U L
@@ -1886,7 +1814,6 @@ solution 73:
 06,3 06,4 06,5 07,5 08,5 V
 08,4 08,6 09,4 09,5 09,6 U
 
-
 I I I I I T L L L L
   W W T T T Z Z F L
     W W N T Z F F F
@@ -1911,7 +1838,6 @@ solution 74:
 06,3 06,4 06,5 07,3 07,4 P
 07,2 08,2 08,3 08,4 09,4 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 I I I I I N N V V V
   W W T T T N N N V
@@ -1938,7 +1864,6 @@ solution 75:
 07,9 08,9 09,7 09,8 09,9 V
 08,6 08,7 08,8 09,5 09,6 N
 
-
 I I I I I U U V V V
   W W T T T U L N V
     W W T U U L N V
@@ -1963,7 +1888,6 @@ solution 76:
 07,5 07,6 08,6 08,7 08,8 N
 07,7 07,8 07,9 08,9 09,9 V
 08,5 09,5 09,6 09,7 09,8 L
-
 
 I I I I I U U V V V
   W W T T T U V N L
@@ -1990,7 +1914,6 @@ solution 77:
 07,8 07,9 08,6 08,7 08,8 N
 08,9 09,6 09,7 09,8 09,9 L
 
-
 I I I I I U U N L L
   W W T T T U N N L
     W W T U U V N L
@@ -2015,7 +1938,6 @@ solution 78:
 07,5 08,5 09,5 09,6 09,7 V
 08,6 08,7 08,8 09,8 09,9 N
 07,6 07,7 07,8 07,9 08,9 L
-
 
 I I I I I U U L L N
   W W T T T U L N N
@@ -2042,7 +1964,6 @@ solution 79:
 07,9 08,9 09,7 09,8 09,9 V
 11,4 11,5 12,3 12,4 13,4 F
 
-
 I I I I I U U V V V
   W W T T T U Z Z V
     W W T U U Z N V
@@ -2067,7 +1988,6 @@ solution 80:
 07,8 08,6 08,7 08,8 09,6 Z
 07,9 08,9 09,7 09,8 09,9 V
 11,5 12,2 12,3 12,4 12,5 L
-
 
 I I I I I U U V V V
   W W T T T U Z Z V
@@ -2094,7 +2014,6 @@ solution 81:
 07,9 08,9 09,7 09,8 09,9 V
 11,5 12,2 12,3 12,4 12,5 L
 
-
 I I I I I U U V V V
   W W T T T U Z Z V
     W W T U U Z F V
@@ -2119,7 +2038,6 @@ solution 82:
 06,3 06,4 06,5 07,3 07,4 P
 07,2 08,2 08,3 08,4 09,4 Z
 11,4 11,5 11,6 12,4 12,6 U
-
 
 I I I I I F F T T T
   W W V V V F F T L
@@ -2146,7 +2064,6 @@ solution 83:
 07,4 07,5 08,5 08,6 09,5 F
 07,6 07,7 08,7 09,6 09,7 U
 
-
 I I I I I T T T P P
   W W V V V T P P P
     W W N V T U U U
@@ -2171,7 +2088,6 @@ solution 84:
 08,5 09,5 09,6 09,7 09,8 L
 07,8 08,7 08,8 08,9 09,9 F
 11,4 11,5 11,6 12,4 12,6 U
-
 
 I I I I I T T T F F
   W W V V V T F F L
@@ -2198,7 +2114,6 @@ solution 85:
 06,8 07,6 07,7 07,8 08,8 T
 05,7 05,8 05,9 06,7 06,9 U
 
-
 I I I I I U U V V V
   W W Z Z U T T T V
     W W Z U U T N V
@@ -2223,7 +2138,6 @@ solution 86:
 06,8 07,7 07,8 07,9 08,8 X
 08,7 08,9 09,7 09,8 09,9 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 I I I I I Z Z X U U
   Y Y Y Y Z X X X U
@@ -2250,7 +2164,6 @@ solution 87:
 08,7 08,9 09,7 09,8 09,9 U
 11,4 11,5 11,6 12,4 13,4 V
 
-
 I I I I I Z Z X U U
   Y Y Y Y Z X X X U
     Y F Z Z N X U U
@@ -2275,7 +2188,6 @@ solution 88:
 07,7 08,7 08,8 08,9 09,9 Z
 07,6 08,6 09,6 09,7 09,8 V
 11,4 12,3 12,4 12,5 13,4 X
-
 
 I I I I I U U U Z Z
   Y Y Y Y U L U Z V
@@ -2302,7 +2214,6 @@ solution 89:
 06,8 06,9 07,9 08,9 09,9 L
 08,6 08,8 09,6 09,7 09,8 U
 
-
 I I I I I V L L L L
   Y Y Y Y V L X U U
     Y V V V X X X U
@@ -2327,7 +2238,6 @@ solution 90:
 11,6 12,4 12,5 12,6 13,4 Z
 06,8 06,9 07,9 08,8 08,9 U
 08,6 09,6 09,7 09,8 09,9 L
-
 
 I I I I I V U U U L
   Y Y Y Y V U X U L
@@ -2354,7 +2264,6 @@ solution 91:
 07,8 07,9 08,9 09,8 09,9 U
 11,4 11,5 11,6 12,4 13,4 V
 
-
 I I I I I Z Z U U U
   Y Y Y Y Z T U X U
     Y W Z Z T X X X
@@ -2379,7 +2288,6 @@ solution 92:
 04,7 05,6 05,7 05,8 06,7 X
 05,9 06,8 06,9 07,8 08,8 N
 11,4 12,2 12,3 12,4 13,4 T
-
 
 I I I I I N N V V V
   Y Y Y Y X N N N V
@@ -2406,7 +2314,6 @@ solution 93:
 07,5 07,7 08,5 08,6 08,7 U
 11,4 12,2 12,3 12,4 13,4 T
 
-
 I I I I I N N V V V
   Y Y Y Y Z N N N V
     Y Z Z Z X U U V
@@ -2431,7 +2338,6 @@ solution 94:
 05,9 06,6 06,7 06,8 06,9 L
 07,8 08,6 08,7 08,8 09,6 Z
 07,9 08,9 09,7 09,8 09,9 V
-
 
 I I I I I L L V V V
   Y Y Y Y T L Z Z V
@@ -2458,7 +2364,6 @@ solution 95:
 03,6 03,7 04,5 04,6 05,5 W
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 I I I I I N N V V V
   Y Y Y Y X N N N V
     Y W X X X U U V
@@ -2483,7 +2388,6 @@ solution 96:
 08,9 09,6 09,7 09,8 09,9 L
 06,7 06,8 07,7 08,6 08,7 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 I I I I I N N N L L
   Y Y Y Y T Z N N L
@@ -2510,7 +2414,6 @@ solution 97:
 08,9 09,6 09,7 09,8 09,9 L
 11,4 12,3 12,4 12,5 13,4 X
 
-
 I I I I I Z Z N L L
   Y Y Y Y T Z N N L
     Y T T T Z Z N L
@@ -2535,7 +2438,6 @@ solution 98:
 07,7 08,6 08,7 08,8 09,7 X
 07,8 07,9 08,9 09,8 09,9 U
 11,4 11,5 11,6 12,4 13,4 V
-
 
 I I I I I Z Z U U U
   Y Y Y Y Z T U X U
@@ -2562,7 +2464,6 @@ solution 99:
 08,7 08,9 09,7 09,8 09,9 U
 11,4 11,5 11,6 12,4 13,4 V
 
-
 I I I I I Z Z F U U
   Y Y Y Y Z F F F U
     Y W Z Z F T U U
@@ -2587,7 +2488,6 @@ solution 100:
 06,7 06,8 07,8 08,7 08,8 U
 07,9 08,9 09,7 09,8 09,9 V
 11,4 11,5 12,3 12,4 13,4 F
-
 
 I I I I I Z Z V V V
   Y Y Y Y Z U U U V
@@ -2614,7 +2514,6 @@ solution 101:
 05,4 05,6 06,4 06,5 06,6 U
 11,4 11,5 12,3 12,4 13,4 F
 
-
 I I I I I T Z V V V
   Y Y Y Y T Z Z Z V
     Y W T T T N Z V
@@ -2639,7 +2538,6 @@ solution 102:
 06,9 07,9 08,9 09,8 09,9 L
 05,8 05,9 06,7 06,8 07,8 F
 11,4 11,5 11,6 12,4 13,4 V
-
 
 I I I I I F L L L L
   Y Y Y Y F F F X L
@@ -2666,7 +2564,6 @@ solution 103:
 08,6 08,7 09,7 09,8 09,9 N
 11,5 12,2 12,3 12,4 12,5 L
 
-
 I I I I I T U U U N
   Y Y Y Y T U V U N
     Y W T T T V N N
@@ -2691,7 +2588,6 @@ solution 104:
 06,8 07,7 07,8 07,9 08,8 X
 08,7 08,9 09,7 09,8 09,9 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 I I I I I Z Z X U U
   Y Y Y Y Z X X X U
@@ -2718,7 +2614,6 @@ solution 105:
 08,7 08,9 09,7 09,8 09,9 U
 11,4 11,5 11,6 12,4 13,4 V
 
-
 I I I I I Z Z X U U
   Y Y Y Y Z X X X U
     Y F Z Z N X U U
@@ -2743,7 +2638,6 @@ solution 106:
 06,6 06,7 06,8 07,6 08,6 V
 08,5 08,7 09,5 09,6 09,7 U
 11,4 11,5 12,2 12,3 12,4 N
-
 
 I I I I I L L L L Z
   Y Y Y Y L V Z Z Z
@@ -2770,7 +2664,6 @@ solution 107:
 08,5 09,5 09,6 09,7 09,8 L
 11,4 11,5 12,2 12,3 12,4 N
 
-
 I I I I I U U U Z Z
   Y Y Y Y U V U Z L
     Y P P P V Z Z L
@@ -2795,7 +2688,6 @@ solution 108:
 06,6 07,6 08,6 08,7 08,8 V
 05,5 05,6 05,7 06,5 06,7 U
 03,6 03,7 04,5 04,6 04,7 P
-
 
 I I I I I Z L L L L
   Y Y Y Y Z Z Z V L
@@ -2822,7 +2714,6 @@ solution 109:
 03,6 03,7 04,5 04,6 04,7 P
 05,9 06,7 06,8 06,9 07,7 Z
 
-
 I I I I I Z Z U U U
   Y Y Y Y L Z U V U
     Y P P L Z Z V N
@@ -2847,7 +2738,6 @@ solution 110:
 05,5 05,6 05,7 06,5 06,7 U
 03,6 03,7 04,5 04,6 04,7 P
 11,4 12,3 12,4 12,5 13,4 X
-
 
 I I I I I Z L L L L
   Y Y Y Y Z Z Z N L
@@ -2874,7 +2764,6 @@ solution 111:
 05,9 06,7 06,8 06,9 07,7 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 I I I I I Z Z U U U
   Y Y Y Y L Z U N U
     Y P P L Z Z N N
@@ -2899,7 +2788,6 @@ solution 112:
 06,9 07,9 08,9 09,8 09,9 L
 07,6 07,7 08,7 08,8 09,7 F
 11,4 12,3 12,4 12,5 13,4 X
-
 
 I I I I I T L L L L
   Y Y Y Y T T T F L
@@ -2926,7 +2814,6 @@ solution 113:
 07,6 07,7 08,7 08,8 09,7 F
 11,4 12,3 12,4 12,5 13,4 X
 
-
 I I I I I T L L L L
   Y Y Y Y T T T F L
     Y P P T N F F F
@@ -2951,7 +2838,6 @@ solution 114:
 07,8 08,6 08,7 08,8 09,6 Z
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,3 12,4 12,5 13,4 X
-
 
 L L L L U U U V V V
   N N L U T U Z Z V
@@ -2978,7 +2864,6 @@ solution 115:
 08,7 08,9 09,7 09,8 09,9 U
 11,4 11,5 11,6 12,4 13,4 V
 
-
 L L L L P P P X U U
   N N L P P X X X U
     N N N F T X U U
@@ -3003,7 +2888,6 @@ solution 116:
 05,4 05,5 06,3 06,4 07,3 W
 07,2 07,4 08,2 08,3 08,4 U
 08,5 08,6 09,4 09,5 09,6 P
-
 
 L L L L I I I I I T
   N N L V V V T T T
@@ -3030,7 +2914,6 @@ solution 117:
 06,8 07,6 07,7 07,8 08,6 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 L L L L P P P T T T
   N N L P P Z Z T I
     N N N F V Z T I
@@ -3055,7 +2938,6 @@ solution 118:
 07,9 08,7 08,8 08,9 09,9 T
 06,7 07,6 07,7 07,8 08,6 F
 11,4 12,3 12,4 12,5 13,4 X
-
 
 L L L L U U U T T T
   N N L U V U F T I
@@ -3082,7 +2964,6 @@ solution 119:
 08,4 08,6 09,4 09,5 09,6 U
 11,4 12,3 12,4 12,5 13,4 X
 
-
 L L L L I I I I I T
   N N L Z Z F T T T
     N N N Z F F F T
@@ -3107,7 +2988,6 @@ solution 120:
 04,5 05,5 05,6 05,7 06,5 T
 04,6 04,7 04,8 04,9 05,8 Y
 05,9 06,7 06,8 06,9 07,7 Z
-
 
 L L L L Y Z Z U U U
   W W L Y Y Z U V U
@@ -3134,7 +3014,6 @@ solution 121:
 04,6 04,7 04,8 04,9 05,8 Y
 05,9 06,7 06,8 06,9 07,7 Z
 
-
 L L L L Y Z Z U U U
   W W L Y Y Z U N U
     W W Y T Z Z N N
@@ -3159,7 +3038,6 @@ solution 122:
 04,8 04,9 05,9 06,8 06,9 U
 07,8 08,6 08,7 08,8 09,6 Z
 07,9 08,9 09,7 09,8 09,9 V
-
 
 L L L L U U U V V V
   W W L U T U Z Z V
@@ -3186,7 +3064,6 @@ solution 123:
 04,6 04,7 04,8 05,6 05,8 U
 04,9 05,9 06,8 06,9 07,8 N
 
-
 L L L L N N N T T T
   W W L U U N N T Y
     W W U V V V T Y
@@ -3211,7 +3088,6 @@ solution 124:
 06,6 07,5 07,6 07,7 07,8 Y
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,2 12,3 12,4 13,4 T
-
 
 L L L L U U U V V V
   W W L U F U Y N V
@@ -3238,7 +3114,6 @@ solution 125:
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,2 12,3 12,4 13,4 T
 
-
 L L L L U U U V V V
   W W L U X U Y N V
     W W X X X Y N V
@@ -3263,7 +3138,6 @@ solution 126:
 05,6 06,6 07,5 07,6 07,7 T
 06,3 06,4 07,4 08,4 08,5 Z
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 L L L L U U X V V V
   W W L U X X X N V
@@ -3290,7 +3164,6 @@ solution 127:
 06,6 06,7 07,6 08,5 08,6 Z
 11,4 11,5 11,6 12,4 13,4 V
 
-
 L L L L T T T X U U
   W W L Y T X X X U
     W W Y T Z X U U
@@ -3315,7 +3188,6 @@ solution 128:
 04,7 05,6 05,7 05,8 06,7 X
 04,8 04,9 05,9 06,8 06,9 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 L L L L U U U V V V
   W W L U X U Z Z V
@@ -3342,7 +3214,6 @@ solution 129:
 04,8 04,9 05,9 06,8 06,9 U
 11,4 12,2 12,3 12,4 13,4 T
 
-
 L L L L U U U V V V
   W W L U F U Z Z V
     W W F F F Z Y V
@@ -3367,7 +3238,6 @@ solution 130:
 05,6 06,6 07,5 07,6 07,7 T
 05,4 06,3 06,4 06,5 07,4 X
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 L L L L Z I I I I I
   W W L Z Z Z V V V
@@ -3394,7 +3264,6 @@ solution 131:
 07,9 08,9 09,7 09,8 09,9 V
 11,4 11,5 12,2 12,3 12,4 N
 
-
 L L L L I Z Z V V V
   W W L I Y Z U U V
     W W I Y Z Z U V
@@ -3419,7 +3288,6 @@ solution 132:
 07,5 07,7 08,5 08,6 08,7 U
 07,8 08,8 09,6 09,7 09,8 V
 11,4 11,5 12,2 12,3 12,4 N
-
 
 L L L L Y I I I I I
   W W L Y Z Z V V V
@@ -3446,7 +3314,6 @@ solution 133:
 05,9 06,7 06,8 06,9 07,7 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 L L L L Y Z Z U U U
   W W L Y Y Z U V U
     W W Y T Z Z V I
@@ -3471,7 +3338,6 @@ solution 134:
 07,9 08,9 09,7 09,8 09,9 V
 05,9 06,8 06,9 07,8 08,8 N
 05,6 05,7 05,8 06,7 07,7 T
-
 
 L L L L I N N V V V
   W W L I T N N N V
@@ -3498,7 +3364,6 @@ solution 135:
 05,9 06,7 06,8 06,9 07,7 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 L L L L Y Z Z U U U
   W W L Y Y Z U V U
     W W Y T Z Z V I
@@ -3523,7 +3388,6 @@ solution 136:
 05,7 06,7 06,8 07,8 08,8 N
 07,6 07,7 08,7 09,7 09,8 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 L L L L Y I I I I I
   W W L Y Y N N N Z
@@ -3550,7 +3414,6 @@ solution 137:
 08,7 08,9 09,7 09,8 09,9 U
 11,4 11,5 12,3 12,4 13,4 F
 
-
 L L L L I V V V U U
   W W L I V T T T U
     W W I V N T U U
@@ -3575,7 +3438,6 @@ solution 138:
 06,7 06,8 07,8 08,8 08,9 Z
 08,6 08,7 09,7 09,8 09,9 N
 11,4 11,5 12,3 12,4 13,4 F
-
 
 L L L L I V V V Z N
   W W L I V Z Z Z N
@@ -3602,7 +3464,6 @@ solution 139:
 06,7 06,8 07,6 07,7 08,7 F
 08,4 08,6 09,4 09,5 09,6 U
 
-
 L L L L I I I I I T
   W W L Z Z F T T T
     W W V Z F F F T
@@ -3627,7 +3488,6 @@ solution 140:
 04,5 04,6 04,7 05,7 05,8 N
 05,4 05,5 05,6 06,4 07,4 V
 06,5 06,6 07,5 08,4 08,5 Z
-
 
 L L L L U U U T T T
   W W L U N U F T I
@@ -3654,7 +3514,6 @@ solution 141:
 05,4 05,5 06,3 06,4 07,4 F
 11,4 11,5 12,2 12,3 12,4 N
 
-
 L L L L T I I I I I
   W W L T T T V V V
     W W T Y Y Y Y V
@@ -3679,7 +3538,6 @@ solution 142:
 07,8 08,8 09,7 09,8 09,9 T
 06,7 06,8 07,6 07,7 08,7 F
 11,4 12,3 12,4 12,5 13,4 X
-
 
 L L L L I I I I I T
   W W L Z Z F T T T
@@ -3706,7 +3564,6 @@ solution 143:
 05,8 06,8 07,7 07,8 08,7 N
 11,4 12,3 12,4 12,5 13,4 X
 
-
 L L L L V I I I I I
   W W L V N N N U U
     W W V V V N N U
@@ -3731,7 +3588,6 @@ solution 144:
 08,5 08,6 08,7 09,5 09,6 P
 07,8 08,8 09,7 09,8 09,9 T
 11,4 12,3 12,4 12,5 13,4 X
-
 
 L L L L I I I I I T
   W W L N N N T T T
@@ -3758,7 +3614,6 @@ solution 145:
 08,8 08,9 09,7 09,8 09,9 P
 11,4 11,5 11,6 12,4 13,4 V
 
-
 L L L L I U U U P P
   W W L I U X U P P
     W W I X X X F P
@@ -3783,7 +3638,6 @@ solution 146:
 06,7 07,6 07,7 07,8 08,7 X
 08,6 08,8 09,6 09,7 09,8 U
 11,4 11,5 12,2 12,3 12,4 N
-
 
 L L L L T I I I I I
   W W L T T T X U U
@@ -3810,7 +3664,6 @@ solution 147:
 08,6 08,8 09,6 09,7 09,8 U
 11,4 11,5 12,2 12,3 12,4 N
 
-
 L L L L F I I I I I
   W W L F F F X U U
     W W T F X X X U
@@ -3835,7 +3688,6 @@ solution 148:
 07,6 07,7 08,7 08,8 09,7 F
 07,8 07,9 08,9 09,8 09,9 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 N N I I I I I U U U
   N N N V V V U F U
@@ -3862,7 +3714,6 @@ solution 149:
 07,4 07,5 08,5 09,4 09,5 U
 11,4 12,3 12,4 12,5 13,4 X
 
-
 N N I I I I I L Z Z
   N N N L L L L Z V
     W W T T T Z Z V
@@ -3887,7 +3738,6 @@ solution 150:
 07,2 07,3 08,3 09,3 09,4 Z
 05,4 06,3 06,4 06,5 07,4 X
 11,4 11,5 12,3 12,4 13,4 F
-
 
 N N I I I I I V V V
   N N N U U U V L L
@@ -3914,7 +3764,6 @@ solution 151:
 07,7 07,8 07,9 08,9 09,9 V
 08,8 09,5 09,6 09,7 09,8 L
 
-
 N N I I I I I V V V
   N N N U U U V L L
     W W U Y U V T L
@@ -3939,7 +3788,6 @@ solution 152:
 06,6 07,6 08,5 08,6 08,7 T
 07,7 07,8 07,9 08,9 09,9 V
 08,8 09,5 09,6 09,7 09,8 L
-
 
 N N I I I I I V V V
   N N N U U U V L L
@@ -3966,7 +3814,6 @@ solution 153:
 07,8 07,9 08,9 09,8 09,9 U
 11,4 12,2 12,3 12,4 13,4 T
 
-
 N N I I I I I U U U
   N N N V V V U F U
     W W L L V F F F
@@ -3991,7 +3838,6 @@ solution 154:
 05,8 06,8 07,8 07,9 08,8 Y
 08,7 08,9 09,7 09,8 09,9 U
 11,4 12,3 12,4 12,5 13,4 X
-
 
 N N I I I I I Y U U
   N N N Z Y Y Y Y U
@@ -4018,7 +3864,6 @@ solution 155:
 07,4 07,5 08,5 09,4 09,5 U
 11,4 12,3 12,4 12,5 13,4 X
 
-
 N N I I I I I L Z Z
   N N N L L L L Z V
     Y Y Y Y T Z Z V
@@ -4043,7 +3888,6 @@ solution 156:
 05,7 05,8 06,8 07,7 07,8 U
 07,6 08,6 08,7 08,8 09,6 T
 07,9 08,9 09,7 09,8 09,9 V
-
 
 N N I I I I I V V V
   N N N F U U U T V
@@ -4070,7 +3914,6 @@ solution 157:
 07,6 08,6 09,6 09,7 09,8 V
 07,9 08,7 08,8 08,9 09,9 T
 
-
 N N I I I I I T T T
   N N N F U U U T V
     F F F U Z U T V
@@ -4095,7 +3938,6 @@ solution 158:
 07,4 07,5 08,5 09,4 09,5 U
 05,4 05,5 06,3 06,4 06,5 P
 11,4 12,3 12,4 12,5 13,4 X
-
 
 N N I I I I I T T T
   N N N L L L L T V
@@ -4122,7 +3964,6 @@ solution 159:
 05,4 05,5 06,3 06,4 06,5 P
 11,4 12,3 12,4 12,5 13,4 X
 
-
 N N I I I I I V V V
   N N N L L L L T V
     Y Y Y Y Z L T V
@@ -4147,7 +3988,6 @@ solution 160:
 05,8 06,8 07,8 08,7 08,8 L
 07,9 08,9 09,7 09,8 09,9 V
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 N N I I I I I V V V
   N N N F L L L L V
@@ -4174,7 +4014,6 @@ solution 161:
 08,5 08,6 08,7 08,8 09,7 Y
 07,8 07,9 08,9 09,8 09,9 U
 
-
 N N L L L L T U U U
   N N N F L T U Y U
     F F F T T T Y Y
@@ -4199,7 +4038,6 @@ solution 162:
 06,8 06,9 07,8 08,7 08,8 Z
 07,9 08,9 09,7 09,8 09,9 V
 12,2 12,3 12,4 12,5 12,6 I
-
 
 N N L L L L Z V V V
   N N N F L Z Z Z V
@@ -4226,7 +4064,6 @@ solution 163:
 05,8 05,9 06,7 06,8 07,8 F
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 N N V V V F L L L L
   N N N V F F F X L
     W W V Y F X X X
@@ -4251,7 +4088,6 @@ solution 164:
 05,4 05,5 05,6 06,4 06,5 P
 06,3 07,3 07,4 07,5 08,5 Z
 11,4 11,5 11,6 12,4 12,6 U
-
 
 N N V V V L L L L F
   N N N V L X F F F
@@ -4278,7 +4114,6 @@ solution 165:
 07,6 08,6 08,7 09,5 09,6 F
 11,4 11,5 11,6 12,4 12,6 U
 
-
 N N V V V L L L L T
   N N N V L X T T T
     W W V X X X F T
@@ -4303,7 +4138,6 @@ solution 166:
 05,5 05,6 05,7 06,6 07,6 T
 05,8 05,9 06,7 06,8 06,9 P
 11,5 12,2 12,3 12,4 12,5 L
-
 
 N N V V V P P U U U
   N N N V P P U X U
@@ -4330,7 +4164,6 @@ solution 167:
 06,9 07,8 07,9 08,9 09,9 Y
 11,5 12,2 12,3 12,4 12,5 L
 
-
 N N V V V I Y Y Y Y
   N N N V I T Y U U
     W W V I T T T U
@@ -4355,7 +4188,6 @@ solution 168:
 07,7 07,9 08,7 08,8 08,9 U
 08,6 09,6 09,7 09,8 09,9 L
 11,4 12,2 12,3 12,4 13,4 T
-
 
 N N V V V I Y U U L
   N N N V I Y Y U L
@@ -4382,7 +4214,6 @@ solution 169:
 07,7 08,5 08,6 08,7 08,8 Y
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 N N V V V T L L L L
   N N N V T T T Y L
     W W V T X Y Y I
@@ -4407,7 +4238,6 @@ solution 170:
 05,6 05,7 05,8 06,7 07,7 T
 06,5 06,6 07,6 08,6 08,7 Z
 05,4 05,5 06,4 07,4 07,5 U
-
 
 N N V V V I I I I I
   N N N V T L L L L
@@ -4434,7 +4264,6 @@ solution 171:
 07,8 08,7 08,8 09,8 09,9 F
 11,5 12,2 12,3 12,4 12,5 L
 
-
 N N V V V Y Y Y Y F
   N N N V Z Y F F F
     W W V Z Z Z F I
@@ -4459,7 +4288,6 @@ solution 172:
 07,6 08,6 08,7 08,8 09,7 F
 07,8 07,9 08,9 09,8 09,9 U
 11,5 12,2 12,3 12,4 12,5 L
-
 
 N N V V V Z Z U U U
   N N N V I Z U F U
@@ -4486,7 +4314,6 @@ solution 173:
 07,8 07,9 08,9 09,8 09,9 U
 11,4 12,2 12,3 12,4 13,4 T
 
-
 N N V V V L L U U U
   N N N V I L U F U
     W W V I L F F F
@@ -4511,7 +4338,6 @@ solution 174:
 06,9 07,8 07,9 08,9 09,9 Y
 05,5 05,6 05,7 05,8 05,9 I
 06,6 06,7 06,8 07,7 08,7 T
-
 
 N N V V V I Y Y Y Y
   N N N V I T Y L L
@@ -4538,7 +4364,6 @@ solution 175:
 07,5 08,4 08,5 08,6 08,7 Y
 08,8 09,5 09,6 09,7 09,8 L
 
-
 N N V V V I I I I I
   N N N V U U U L L
     W W V U F U Y L
@@ -4563,7 +4388,6 @@ solution 176:
 07,5 08,4 08,5 08,6 08,7 Y
 09,5 09,6 09,7 09,8 09,9 I
 11,4 12,2 12,3 12,4 13,4 T
-
 
 N N V V V L L L L I
   N N N V U U U L I
@@ -4590,7 +4414,6 @@ solution 177:
 06,9 07,8 07,9 08,9 09,9 Y
 11,5 12,2 12,3 12,4 12,5 L
 
-
 N N V V V I Y Y Y Y
   N N N V I T Y U U
     W W V I T T T U
@@ -4615,7 +4438,6 @@ solution 178:
 07,7 07,9 08,7 08,8 08,9 U
 08,6 09,6 09,7 09,8 09,9 L
 11,4 12,2 12,3 12,4 13,4 T
-
 
 N N V V V I Y U U L
   N N N V I Y Y U L
@@ -4642,7 +4464,6 @@ solution 179:
 07,5 08,4 08,5 08,6 08,7 Y
 08,8 09,5 09,6 09,7 09,8 L
 
-
 N N V V V I I I I I
   N N N V U U U L L
     W W V U X U Y L
@@ -4667,7 +4488,6 @@ solution 180:
 07,5 08,4 08,5 08,6 08,7 Y
 09,5 09,6 09,7 09,8 09,9 I
 11,4 12,2 12,3 12,4 13,4 T
-
 
 N N V V V L L L L I
   N N N V U U U L I
@@ -4694,7 +4514,6 @@ solution 181:
 05,4 05,5 06,3 06,4 07,4 F
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 N N V V V I I I I I
   N N N V U U X L L
     W W V U X X X L
@@ -4719,7 +4538,6 @@ solution 182:
 06,5 07,5 08,4 08,5 08,6 T
 05,4 05,5 06,3 06,4 07,4 F
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 N N V V V L L L L I
   N N N V U U X L I
@@ -4746,7 +4564,6 @@ solution 183:
 05,4 05,5 06,3 06,4 07,4 F
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 N N V V V L U U U I
   N N N V L U X U I
     W W V L X X X I
@@ -4771,7 +4588,6 @@ solution 184:
 05,4 05,5 05,6 05,7 06,6 Y
 05,8 05,9 06,7 06,8 07,8 F
 12,2 12,3 12,4 12,5 12,6 I
-
 
 N N V V V F L L L L
   N N N V F F F X L
@@ -4798,7 +4614,6 @@ solution 185:
 06,7 06,8 07,7 07,8 08,8 P
 06,9 07,9 08,9 09,8 09,9 L
 
-
 N N V V V I L L L L
   N N N V I P P P L
     W W V I P P U U
@@ -4823,7 +4638,6 @@ solution 186:
 07,4 07,5 08,5 08,6 09,5 F
 07,6 07,7 08,7 09,6 09,7 U
 07,8 08,8 08,9 09,8 09,9 P
-
 
 N N V V V T T T P P
   N N N V I T P P P
@@ -4850,7 +4664,6 @@ solution 187:
 07,9 08,7 08,8 08,9 09,9 T
 11,4 11,5 11,6 12,4 12,6 U
 
-
 N N V V V F F T T T
   N N N V I F F T L
     W W V I F X T L
@@ -4875,7 +4688,6 @@ solution 188:
 05,9 06,7 06,8 06,9 07,9 T
 07,8 08,7 08,8 08,9 09,9 F
 11,4 11,5 11,6 12,4 12,6 U
-
 
 N N V V V T T T F F
   N N N V I T F F L
@@ -4902,7 +4714,6 @@ solution 189:
 06,9 07,9 08,7 08,8 08,9 V
 11,5 12,2 12,3 12,4 12,5 L
 
-
 N N Y Y Y Y V V V I
   N N N Y X U U V I
     W W X X X U V I
@@ -4927,7 +4738,6 @@ solution 190:
 06,6 07,6 08,6 08,7 08,8 V
 08,9 09,6 09,7 09,8 09,9 L
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 W W F F Y Y Y Y L L
   W W F F U Y U V L
@@ -4954,7 +4764,6 @@ solution 191:
 08,6 09,6 09,7 09,8 09,9 L
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 W W F F Z Z V V V L
   W W F F Z U U V L
     W F X Z Z U V L
@@ -4979,7 +4788,6 @@ solution 192:
 07,7 07,8 08,8 09,7 09,8 U
 06,8 06,9 07,9 08,9 09,9 L
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W F F Z Z L L L L
   W W F F Z L U U U
@@ -5006,7 +4814,6 @@ solution 193:
 04,6 04,7 04,8 04,9 05,8 Y
 05,9 06,7 06,8 06,9 07,7 Z
 
-
 W W L L Y Z Z U U U
   W W L Y Y Z U V U
     W L Y T Z Z V N
@@ -5031,7 +4838,6 @@ solution 194:
 04,5 05,5 05,6 05,7 06,5 T
 04,6 04,7 04,8 04,9 05,8 Y
 05,9 06,7 06,8 06,9 07,7 Z
-
 
 W W L L Y Z Z U U U
   W W L Y Y Z U N U
@@ -5058,7 +4864,6 @@ solution 195:
 07,8 08,6 08,7 08,8 09,6 Z
 07,9 08,9 09,7 09,8 09,9 V
 
-
 W W L L U U U V V V
   W W L U T U Z Z V
     W L N T T T Z V
@@ -5083,7 +4888,6 @@ solution 196:
 05,7 06,7 07,5 07,6 07,7 V
 04,6 04,7 04,8 05,6 05,8 U
 04,9 05,9 06,8 06,9 07,8 N
-
 
 W W L L N N N T T T
   W W L U U N N T Y
@@ -5110,7 +4914,6 @@ solution 197:
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,2 12,3 12,4 13,4 T
 
-
 W W L L U U U V V V
   W W L U F U Y N V
     W L F F F Y N V
@@ -5135,7 +4938,6 @@ solution 198:
 06,6 07,5 07,6 07,7 07,8 Y
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,2 12,3 12,4 13,4 T
-
 
 W W L L U U U V V V
   W W L U X U Y N V
@@ -5162,7 +4964,6 @@ solution 199:
 06,3 06,4 07,4 08,4 08,5 Z
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 W W L L U U X V V V
   W W L U X X X N V
     W L U U X T N V
@@ -5187,7 +4988,6 @@ solution 200:
 07,6 07,7 08,6 09,5 09,6 Z
 06,6 06,7 06,8 07,8 08,8 V
 08,7 08,9 09,7 09,8 09,9 U
-
 
 W W T T T N N N U U
   W W T N N V V V U
@@ -5214,7 +5014,6 @@ solution 201:
 07,7 08,5 08,6 08,7 09,5 Z
 08,9 09,6 09,7 09,8 09,9 L
 
-
 W W T T T N N N L L
   W W T N N V V V L
     W T F F V Z Z L
@@ -5239,7 +5038,6 @@ solution 202:
 05,5 05,6 06,5 07,5 08,5 L
 08,7 08,9 09,7 09,8 09,9 U
 07,6 07,7 08,6 09,5 09,6 Z
-
 
 W W T T T N N N U U
   W W T V V V N N U
@@ -5266,7 +5064,6 @@ solution 203:
 07,7 08,5 08,6 08,7 09,5 Z
 08,9 09,6 09,7 09,8 09,9 L
 
-
 W W T T T N N N L L
   W W T V V V N N L
     W T F F V Z Z L
@@ -5291,7 +5088,6 @@ solution 204:
 05,9 06,7 06,8 06,9 07,7 Z
 06,6 07,6 08,6 08,7 08,8 V
 07,8 07,9 08,9 09,8 09,9 U
-
 
 W W T T T Z Z U U U
   W W T Y L Z U V U
@@ -5318,7 +5114,6 @@ solution 205:
 05,8 05,9 06,8 07,7 07,8 Z
 06,9 07,9 08,9 09,8 09,9 L
 
-
 W W T T T Z L L L L
   W W T Y Z Z Z V L
     W T Y U U Z V N
@@ -5343,7 +5138,6 @@ solution 206:
 08,7 08,8 09,5 09,6 09,7 N
 05,9 06,7 06,8 06,9 07,7 Z
 07,8 07,9 08,9 09,8 09,9 U
-
 
 W W T T T Z Z U U U
   W W T Y L Z U N U
@@ -5370,7 +5164,6 @@ solution 207:
 05,8 05,9 06,8 07,7 07,8 Z
 06,9 07,9 08,9 09,8 09,9 L
 
-
 W W T T T Z L L L L
   W W T Y Z Z Z N L
     W T Y U U Z N N
@@ -5395,7 +5188,6 @@ solution 208:
 08,8 09,5 09,6 09,7 09,8 L
 07,7 07,8 07,9 08,9 09,9 V
 11,4 11,5 12,3 12,4 13,4 F
-
 
 W W T T T U U V V V
   W W T Z Z U V L L
@@ -5422,7 +5214,6 @@ solution 209:
 07,5 07,6 08,6 09,5 09,6 U
 11,4 11,5 12,3 12,4 13,4 F
 
-
 W W T T T L L L L V
   W W T Y Y Y Y L V
     W T X Y N V V V
@@ -5447,7 +5238,6 @@ solution 210:
 05,4 05,5 05,6 05,7 06,6 Y
 05,8 05,9 06,7 06,8 07,8 F
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 W W V V V F L L L L
   W W N V F F F X L
@@ -5474,7 +5264,6 @@ solution 211:
 08,9 09,6 09,7 09,8 09,9 L
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W Z Z U U U F L L
   W W Z U V U F F L
     W Z Z V F F T L
@@ -5499,7 +5288,6 @@ solution 212:
 06,7 07,7 07,8 07,9 08,8 F
 08,9 09,6 09,7 09,8 09,9 L
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W Z Z U U U F L L
   W W Z U V U F F L
@@ -5526,7 +5314,6 @@ solution 213:
 05,4 06,3 06,4 06,5 07,3 F
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W N N V V V U U U
   W W N N N V U X U
     W P P T V X X X
@@ -5551,7 +5338,6 @@ solution 214:
 05,7 06,7 07,7 08,6 08,7 L
 07,5 07,6 08,5 09,5 09,6 U
 06,3 06,4 06,5 07,3 07,4 P
-
 
 W W T T T N N V V V
   W W T Z Z N N N V
@@ -5578,7 +5364,6 @@ solution 215:
 07,9 08,9 09,7 09,8 09,9 V
 08,6 08,7 08,8 09,5 09,6 N
 
-
 W W T T T U U V V V
   W W T Z Z U L N V
     W T Z U U L N V
@@ -5603,7 +5388,6 @@ solution 216:
 07,5 07,6 08,6 08,7 08,8 N
 07,7 07,8 07,9 08,9 09,9 V
 08,5 09,5 09,6 09,7 09,8 L
-
 
 W W T T T U U V V V
   W W T Z Z U V N L
@@ -5630,7 +5414,6 @@ solution 217:
 07,8 07,9 08,6 08,7 08,8 N
 08,9 09,6 09,7 09,8 09,9 L
 
-
 W W T T T U U N L L
   W W T Z Z U N N L
     W T Z U U V N L
@@ -5655,7 +5438,6 @@ solution 218:
 07,5 08,5 09,5 09,6 09,7 V
 08,6 08,7 08,8 09,8 09,9 N
 07,6 07,7 07,8 07,9 08,9 L
-
 
 W W T T T U U L L N
   W W T Z Z U L N N
@@ -5682,7 +5464,6 @@ solution 219:
 06,3 07,3 07,4 07,5 08,5 Z
 11,4 11,5 11,6 12,4 12,6 U
 
-
 W W V V V L L L L F
   W W N V L X F F F
     W N V X X X F T
@@ -5707,7 +5488,6 @@ solution 220:
 06,3 07,3 07,4 07,5 08,5 Z
 07,6 08,6 08,7 09,5 09,6 F
 11,4 11,5 11,6 12,4 12,6 U
-
 
 W W V V V L L L L T
   W W N V L X T T T
@@ -5734,7 +5514,6 @@ solution 221:
 05,8 05,9 06,7 06,8 06,9 P
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W V V V P P U U U
   W W N V P P U X U
     W N V T P X X X
@@ -5759,7 +5538,6 @@ solution 222:
 07,6 08,4 08,5 08,6 09,4 Z
 09,5 09,6 09,7 09,8 09,9 I
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W Y Y Y Y X U U I
   W W T Y X X X U I
@@ -5786,7 +5564,6 @@ solution 223:
 06,7 06,8 06,9 07,8 08,8 T
 07,9 08,9 09,7 09,8 09,9 V
 
-
 W W F F U U T V V V
   W W F F U T T T V
     W F U U T L L V
@@ -5811,7 +5588,6 @@ solution 224:
 11,4 12,3 12,4 12,5 13,4 X
 06,7 06,8 06,9 07,9 08,9 V
 07,8 08,8 09,7 09,8 09,9 T
-
 
 W W F F U U V V V T
   W W F F U V T T T
@@ -5838,7 +5614,6 @@ solution 225:
 06,8 06,9 07,9 08,9 09,9 L
 11,4 11,5 11,6 12,4 13,4 V
 
-
 W W F F Z Z L L L L
   W W F F Z L U U U
     W F X Z Z U T U
@@ -5863,7 +5638,6 @@ solution 226:
 05,4 05,5 06,4 06,5 07,5 P
 06,6 06,7 07,6 08,5 08,6 Z
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W L L T T T X U U
   W W L Y T X X X U
@@ -5890,7 +5664,6 @@ solution 227:
 04,8 04,9 05,9 06,8 06,9 U
 11,4 12,2 12,3 12,4 13,4 T
 
-
 W W L L U U U V V V
   W W L U X U Z Z V
     W L X X X Z Y V
@@ -5915,7 +5688,6 @@ solution 228:
 04,6 04,7 05,7 05,8 06,7 F
 04,8 04,9 05,9 06,8 06,9 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 W W L L U U U V V V
   W W L U F U Z Z V
@@ -5942,7 +5714,6 @@ solution 229:
 06,6 06,7 07,6 08,5 08,6 Z
 11,4 11,5 11,6 12,4 12,6 U
 
-
 W W T T T L L L L V
   W W T Y Y Y Y L V
     W T X Y Z V V V
@@ -5967,7 +5738,6 @@ solution 230:
 05,4 05,5 06,4 06,5 07,5 P
 06,6 06,7 07,6 08,5 08,6 Z
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W T T T L L X U U
   W W T Y L X X X U
@@ -5994,7 +5764,6 @@ solution 231:
 07,8 07,9 08,9 09,8 09,9 U
 11,4 11,5 11,6 12,4 13,4 V
 
-
 W W T T T L L U U U
   W W T Z Z L U X U
     W T Z Y L X X X
@@ -6019,7 +5788,6 @@ solution 232:
 07,5 07,7 08,5 08,6 08,7 U
 06,7 06,8 06,9 07,8 08,8 T
 07,9 08,9 09,7 09,8 09,9 V
-
 
 W W Y Y Y Y T V V V
   W W Y L L T T T V
@@ -6046,7 +5814,6 @@ solution 233:
 06,7 06,8 06,9 07,9 08,9 V
 07,8 08,8 09,7 09,8 09,9 T
 
-
 W W Y Y Y Y V V V T
   W W Y L L V T T T
     W P P L V U U T
@@ -6071,7 +5838,6 @@ solution 234:
 11,4 12,3 12,4 12,5 13,4 X
 06,7 06,8 06,9 07,8 08,8 T
 07,9 08,9 09,7 09,8 09,9 V
-
 
 W W Y Y Y Y T V V V
   W W P Y L T T T V
@@ -6098,7 +5864,6 @@ solution 235:
 06,7 06,8 06,9 07,9 08,9 V
 07,8 08,8 09,7 09,8 09,9 T
 
-
 W W Y Y Y Y V V V T
   W W P Y L V T T T
     W P P L V U U T
@@ -6123,7 +5888,6 @@ solution 236:
 06,6 06,7 07,7 08,7 08,8 Z
 07,6 08,6 09,6 09,7 09,8 V
 11,4 11,5 11,6 12,4 12,6 U
-
 
 W W T T T I I I I I
   W W T Y Y Y Y Z V
@@ -6150,7 +5914,6 @@ solution 237:
 07,8 08,8 09,6 09,7 09,8 V
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W T T T I I I I I
   W W T F Z Z V V V
     W T F F Z U U V
@@ -6175,7 +5938,6 @@ solution 238:
 07,5 07,7 08,5 08,6 08,7 U
 07,8 08,8 09,6 09,7 09,8 V
 11,5 12,2 12,3 12,4 12,5 L
-
 
 W W T T T I I I I I
   W W T Z Z F V V V
@@ -6202,7 +5964,6 @@ solution 239:
 07,7 08,7 09,5 09,6 09,7 V
 11,4 12,2 12,3 12,4 13,4 T
 
-
 W W F F I I I I I L
   W W F F N L L L L
     W F X N N V V V
@@ -6227,7 +5988,6 @@ solution 240:
 06,3 07,2 07,3 08,3 09,3 Y
 07,6 08,4 08,5 08,6 09,4 Z
 11,5 12,2 12,3 12,4 12,5 L
-
 
 W W F F N N V V V I
   W W F F N N N V I
@@ -6254,7 +6014,6 @@ solution 241:
 05,4 05,5 06,4 07,4 08,4 L
 11,4 11,5 11,6 12,4 13,4 V
 
-
 W W F F N N N T T T
   W W F F Z N N T I
     W F X Z Z Z T I
@@ -6279,7 +6038,6 @@ solution 242:
 06,5 06,6 06,7 07,7 08,7 V
 08,6 08,8 09,6 09,7 09,8 U
 06,8 07,8 07,9 08,9 09,9 N
-
 
 W W F F T T T N N N
   W W F F T N N U U
@@ -6306,7 +6064,6 @@ solution 243:
 06,8 07,8 07,9 08,9 09,9 N
 08,8 09,5 09,6 09,7 09,8 L
 
-
 W W F F T T T N N N
   W W F F T N N L L
     W F X T V V V L
@@ -6331,7 +6088,6 @@ solution 244:
 06,7 06,8 06,9 07,9 08,9 V
 07,7 07,8 08,8 09,8 09,9 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W F F U U V V V Z
   W W F F U V Z Z Z
@@ -6358,7 +6114,6 @@ solution 245:
 06,7 06,8 06,9 07,9 08,9 V
 07,8 08,5 08,6 08,7 08,8 L
 
-
 W W F F U U V V V I
   W W F F U V L L I
     W F U U V T L I
@@ -6383,7 +6138,6 @@ solution 246:
 06,5 06,6 07,5 08,5 08,6 U
 05,4 05,5 06,4 07,4 08,4 L
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W F F Z Z N T T T
   W W F F Z N N T I
@@ -6410,7 +6164,6 @@ solution 247:
 07,7 08,7 08,8 08,9 09,9 Z
 07,6 08,6 09,6 09,7 09,8 V
 
-
 W W I I I I I L Z Z
   W W N L L L L Z V
     W N T T T Z Z V
@@ -6435,7 +6188,6 @@ solution 248:
 06,6 07,6 08,5 08,6 08,7 T
 07,7 07,8 07,9 08,9 09,9 V
 08,8 09,5 09,6 09,7 09,8 L
-
 
 W W I I I I I V V V
   W W N U U U V L L
@@ -6462,7 +6214,6 @@ solution 249:
 06,5 07,5 07,6 07,7 08,5 T
 05,4 05,5 05,6 06,4 07,4 V
 
-
 W W I I I I I Y U U
   W W N Z Y Y Y Y U
     W N Z Z Z T U U
@@ -6487,7 +6238,6 @@ solution 250:
 04,7 04,8 05,7 06,6 06,7 Z
 04,5 05,4 05,5 06,4 07,4 N
 06,5 07,5 07,6 07,7 08,5 T
-
 
 W W I I I I I Y U U
   W W V Z Y Y Y Y U
@@ -6514,7 +6264,6 @@ solution 251:
 03,6 03,7 03,8 04,8 05,8 V
 04,6 04,7 05,7 06,7 06,8 Z
 
-
 W W I I I I I U U U
   W W V V V Z U Y U
     W V Z Z Z Y Y L
@@ -6539,7 +6288,6 @@ solution 252:
 07,8 07,9 08,9 09,8 09,9 U
 07,7 08,5 08,6 08,7 08,8 Y
 08,4 09,4 09,5 09,6 09,7 L
-
 
 W W I I I I I U U U
   W W V V V Z U Y U
@@ -6566,7 +6314,6 @@ solution 253:
 06,7 07,7 08,7 08,8 09,7 Y
 07,8 07,9 08,9 09,8 09,9 U
 
-
 W W I I I I I U U U
   W W L L L L U Y U
     W L F F Y Y Y Y
@@ -6591,7 +6338,6 @@ solution 254:
 04,7 05,7 05,8 06,7 07,7 Y
 07,6 08,6 08,7 08,8 09,8 Z
 06,8 07,8 07,9 08,9 09,9 N
-
 
 W W I I I I I N N N
   W W U U Y N N Z Z
@@ -6618,7 +6364,6 @@ solution 255:
 06,5 07,5 08,4 08,5 09,4 N
 07,6 08,6 09,5 09,6 09,7 T
 
-
 W W I I I I I U U U
   W W L L L L U Z U
     W L F F Z Z Z T
@@ -6643,7 +6388,6 @@ solution 256:
 06,5 07,5 07,6 07,7 08,7 Z
 04,5 05,4 05,5 05,6 06,4 F
 04,6 04,7 05,7 06,6 06,7 U
-
 
 W W I I I I I N N N
   W W V V V N N L L
@@ -6670,7 +6414,6 @@ solution 257:
 04,5 05,4 05,5 05,6 06,4 F
 04,6 04,7 05,7 06,6 06,7 U
 
-
 W W I I I I I T T T
   W W V V V Z Z T L
     W V U U U Z T L
@@ -6695,7 +6438,6 @@ solution 258:
 06,6 07,6 08,5 08,6 08,7 T
 07,7 07,8 07,9 08,9 09,9 V
 08,8 09,5 09,6 09,7 09,8 L
-
 
 W W I I I I I V V V
   W W N U U U V L L
@@ -6722,7 +6464,6 @@ solution 259:
 03,6 03,7 03,8 04,8 05,8 V
 04,7 05,7 06,7 06,8 07,7 Y
 
-
 W W I I I I I U U U
   W W V V V Y U N U
     W V Y Y Y Y N N
@@ -6747,7 +6488,6 @@ solution 260:
 08,7 08,8 09,5 09,6 09,7 N
 05,7 06,7 06,8 07,6 07,7 F
 07,8 07,9 08,9 09,8 09,9 U
-
 
 W W I I I I I U U U
   W W V V V F U N U
@@ -6774,7 +6514,6 @@ solution 261:
 04,8 05,8 06,6 06,7 06,8 V
 11,4 12,2 12,3 12,4 13,4 T
 
-
 W W I I I I I U U U
   W W N V V V U F U
     W N L L V F F F
@@ -6799,7 +6538,6 @@ solution 262:
 03,6 03,7 03,8 04,8 05,8 V
 06,7 06,8 07,8 07,9 08,8 F
 11,4 11,5 12,2 12,3 12,4 N
-
 
 W W I I I I I F L L
   W W V V V F F F L
@@ -6826,7 +6564,6 @@ solution 263:
 03,6 03,7 03,8 04,5 04,6 N
 11,4 11,5 12,3 12,4 13,4 F
 
-
 W W I I I I I V V V
   W W N U U U V L L
     W N U T U V Y L
@@ -6851,7 +6588,6 @@ solution 264:
 03,6 04,5 04,6 04,7 05,5 F
 03,7 03,8 04,8 05,7 05,8 U
 11,4 11,5 12,2 12,3 12,4 N
-
 
 W W I I I I I V V V
   W W U U U T V L L
@@ -6878,7 +6614,6 @@ solution 265:
 06,3 06,4 07,2 07,3 08,3 F
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W I I I I I V V V
   W W U U N N N T V
     W U N N T T T V
@@ -6903,7 +6638,6 @@ solution 266:
 07,2 07,3 08,3 09,3 09,4 Z
 06,3 06,4 07,4 07,5 08,4 F
 11,4 12,2 12,3 12,4 13,4 T
-
 
 W W I I I I I N N N
   W W U U Y N N V L
@@ -6930,7 +6664,6 @@ solution 267:
 06,3 06,4 07,2 07,3 08,3 F
 11,4 12,2 12,3 12,4 13,4 T
 
-
 W W I I I I I N N N
   W W U U Y N N V L
     W U Y Y Y Y V L
@@ -6955,7 +6688,6 @@ solution 268:
 11,4 11,5 11,6 12,4 13,4 V
 07,2 07,3 08,3 09,3 09,4 Z
 06,3 06,4 07,4 07,5 08,4 F
-
 
 W W I I I I I N N N
   W W U U Y N N L L
@@ -6982,7 +6714,6 @@ solution 269:
 07,4 07,5 08,4 09,3 09,4 Z
 06,3 06,4 07,2 07,3 08,3 F
 
-
 W W I I I I I N N N
   W W U U Y N N L L
     W U Y Y Y Y T L
@@ -7007,7 +6738,6 @@ solution 270:
 08,9 09,6 09,7 09,8 09,9 L
 06,8 07,8 07,9 08,7 08,8 F
 11,4 12,2 12,3 12,4 13,4 T
-
 
 W W I I I I I F L L
   W W V V V F F F L
@@ -7034,7 +6764,6 @@ solution 271:
 06,6 07,6 08,5 08,6 08,7 T
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 W W I I I I I V V V
   W W L L L L N N V
     W L X N N N T V
@@ -7059,7 +6788,6 @@ solution 272:
 06,5 06,6 07,6 08,6 08,7 Z
 05,4 05,5 06,4 07,4 07,5 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 W W I I I I I V V V
   W W L L L L N N V
@@ -7086,7 +6814,6 @@ solution 273:
 05,4 05,5 06,5 07,5 07,6 Z
 11,4 11,5 11,6 12,4 13,4 V
 
-
 W W I I I I I N L L
   W W U U U N N Y L
     W U X U N Y Y L
@@ -7111,7 +6838,6 @@ solution 274:
 07,4 08,4 09,3 09,4 09,5 T
 06,3 06,4 07,2 07,3 08,3 F
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 W W I I I I I N N N
   W W U U U N N Z V
@@ -7138,7 +6864,6 @@ solution 275:
 05,4 05,5 06,3 06,4 07,4 F
 11,4 11,5 11,6 12,4 13,4 V
 
-
 W W I I I I I T T T
   W W U U U L L T Y
     W U X U L N T Y
@@ -7163,7 +6888,6 @@ solution 276:
 06,3 06,4 07,2 07,3 08,3 F
 07,4 08,4 09,3 09,4 09,5 T
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 W W I I I I I V V V
   W W U U U L L Y V
@@ -7190,7 +6914,6 @@ solution 277:
 06,4 07,4 08,4 09,4 09,5 L
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 W W I I I I I V V V
   W W U U U T T T V
     W U X U N T F V
@@ -7215,7 +6938,6 @@ solution 278:
 07,4 08,4 09,3 09,4 09,5 T
 06,3 06,4 07,2 07,3 08,3 F
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 W W I I I I I N Z Z
   W W U U U N N Z V
@@ -7242,7 +6964,6 @@ solution 279:
 06,3 06,4 07,4 07,5 08,4 F
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 W W L L L L V V V I
   W W U U L T N V I
     W U T T T N V I
@@ -7267,7 +6988,6 @@ solution 280:
 07,4 07,5 08,4 09,3 09,4 Z
 06,3 06,4 07,2 07,3 08,3 F
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 W W L L L L V V V I
   W W U U L T N V I
@@ -7294,7 +7014,6 @@ solution 281:
 05,4 06,3 06,4 06,5 07,4 X
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 W W L L Z I I I I I
   W W L Z Z Z V V V
     W L U U Z T N V
@@ -7319,7 +7038,6 @@ solution 282:
 07,6 07,8 08,6 08,7 08,8 U
 07,9 08,9 09,7 09,8 09,9 V
 11,4 11,5 12,2 12,3 12,4 N
-
 
 W W L L I Z Z V V V
   W W L I Y Z U U V
@@ -7346,7 +7064,6 @@ solution 283:
 07,8 08,8 09,6 09,7 09,8 V
 11,4 11,5 12,2 12,3 12,4 N
 
-
 W W L L Y I I I I I
   W W L Y Z Z V V V
     W L Y Y Z U U V
@@ -7371,7 +7088,6 @@ solution 284:
 04,6 04,7 04,8 04,9 05,8 Y
 05,9 06,7 06,8 06,9 07,7 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W L L Y Z Z U U U
   W W L Y Y Z U V U
@@ -7398,7 +7114,6 @@ solution 285:
 05,9 06,8 06,9 07,8 08,8 N
 05,6 05,7 05,8 06,7 07,7 T
 
-
 W W L L I N N V V V
   W W L I T N N N V
     W L I T T T Z V
@@ -7423,7 +7138,6 @@ solution 286:
 04,6 04,7 04,8 04,9 05,8 Y
 05,9 06,7 06,8 06,9 07,7 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W L L Y Z Z U U U
   W W L Y Y Z U V U
@@ -7450,7 +7164,6 @@ solution 287:
 07,6 07,7 08,7 09,7 09,8 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W L L Y I I I I I
   W W L Y Y N N N Z
     W L Y N N Z Z Z
@@ -7475,7 +7188,6 @@ solution 288:
 06,8 07,6 07,7 07,8 08,8 T
 08,7 08,9 09,7 09,8 09,9 U
 11,4 11,5 12,3 12,4 13,4 F
-
 
 W W L L I V V V U U
   W W L I V T T T U
@@ -7502,7 +7214,6 @@ solution 289:
 08,6 08,7 09,7 09,8 09,9 N
 11,4 11,5 12,3 12,4 13,4 F
 
-
 W W L L I V V V Z N
   W W L I V Z Z Z N
     W L I V Z T N N
@@ -7527,7 +7238,6 @@ solution 290:
 05,4 06,4 07,4 07,5 08,5 N
 06,7 06,8 07,6 07,7 08,7 F
 08,4 08,6 09,4 09,5 09,6 U
-
 
 W W L L I I I I I T
   W W L Z Z F T T T
@@ -7554,7 +7264,6 @@ solution 291:
 05,4 05,5 05,6 06,4 07,4 V
 06,5 06,6 07,5 08,4 08,5 Z
 
-
 W W L L U U U T T T
   W W L U N U F T I
     W L N N F F T I
@@ -7579,7 +7288,6 @@ solution 292:
 04,5 04,6 05,6 06,5 06,6 U
 05,4 05,5 06,3 06,4 07,4 F
 11,4 11,5 12,2 12,3 12,4 N
-
 
 W W L L T I I I I I
   W W L T T T V V V
@@ -7606,7 +7314,6 @@ solution 293:
 07,5 08,4 08,5 08,6 09,5 X
 11,4 11,5 11,6 12,4 13,4 V
 
-
 W W N N I I I I I Y
   W W N N N T T T Y
     W L L L L T Y Y
@@ -7631,7 +7338,6 @@ solution 294:
 07,5 07,7 08,5 08,6 08,7 U
 07,8 08,8 09,6 09,7 09,8 V
 11,4 11,5 12,2 12,3 12,4 N
-
 
 W W T T T I I I I I
   W W T F Z Z V V V
@@ -7658,7 +7364,6 @@ solution 295:
 05,8 05,9 06,9 07,8 07,9 U
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W T T T U U U Z Z
   W W T F U N U Z I
     W T F F N Z Z I
@@ -7683,7 +7388,6 @@ solution 296:
 07,2 07,3 08,3 09,3 09,4 Z
 05,4 06,3 06,4 07,4 08,4 Y
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W T T T X U U L I
   W W T X X X U L I
@@ -7710,7 +7414,6 @@ solution 297:
 07,5 07,7 08,5 08,6 08,7 U
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W T T T N N N Z I
   W W T N N Z Z Z I
     W T F F Z U U I
@@ -7735,7 +7438,6 @@ solution 298:
 06,6 06,7 06,8 07,8 08,8 V
 05,5 05,6 06,5 07,5 07,6 U
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W T T T N N N L L
   W W T N N V V V L
@@ -7762,7 +7464,6 @@ solution 299:
 07,6 07,7 08,6 09,5 09,6 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W T T T N N N U U
   W W T N N V V V U
     W T F F V Z U U
@@ -7787,7 +7488,6 @@ solution 300:
 05,4 06,3 06,4 06,5 07,4 X
 05,5 05,6 06,6 07,5 07,6 U
 11,5 12,2 12,3 12,4 12,5 L
-
 
 W W T T T I I I I I
   W W T N N N V V V
@@ -7814,7 +7514,6 @@ solution 301:
 07,2 07,3 08,3 09,3 09,4 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W T T T I I I I I
   W W T V V V N L L
     W T F F V N N L
@@ -7839,7 +7538,6 @@ solution 302:
 05,4 06,3 06,4 07,4 08,4 Y
 07,2 07,3 08,3 09,3 09,4 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W T T T L L L L I
   W W T V V V N L I
@@ -7866,7 +7564,6 @@ solution 303:
 05,4 06,4 07,4 08,4 09,4 I
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W T T T N N N L L
   W W T V V V N N L
     W T F F V Z Z L
@@ -7891,7 +7588,6 @@ solution 304:
 06,3 07,2 07,3 08,3 09,3 Y
 05,4 06,4 07,4 08,4 09,4 I
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W T T T N N N U U
   W W T V V V N N U
@@ -7918,7 +7614,6 @@ solution 305:
 05,4 05,5 05,6 06,4 06,6 U
 11,4 11,5 11,6 12,4 13,4 V
 
-
 W W T T T I I I I I
   W W T Y Y Y Y L L
     W T F F Y Z Z L
@@ -7943,7 +7638,6 @@ solution 306:
 06,5 07,5 07,6 07,7 08,7 Z
 05,4 05,5 05,6 06,4 06,6 U
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W T T T L L L L I
   W W T Y Y Y Y L I
@@ -7970,7 +7664,6 @@ solution 307:
 05,4 06,3 06,4 07,4 08,4 Y
 11,4 11,5 12,2 12,3 12,4 N
 
-
 W W T T T F V V V I
   W W T F F U U V I
     W T X F F U V I
@@ -7995,7 +7688,6 @@ solution 308:
 06,9 07,9 08,7 08,8 08,9 V
 08,6 09,6 09,7 09,8 09,9 L
 11,4 11,5 12,2 12,3 12,4 N
-
 
 W W T T T F V V V L
   W W T F F U U V L
@@ -8022,7 +7714,6 @@ solution 309:
 08,6 08,8 09,6 09,7 09,8 U
 06,8 07,8 07,9 08,9 09,9 N
 
-
 W W T T T F F N N N
   W W T F F N N U U
     W T X F V V V U
@@ -8047,7 +7738,6 @@ solution 310:
 07,6 08,4 08,5 08,6 09,4 Z
 06,8 07,8 07,9 08,9 09,9 N
 08,8 09,5 09,6 09,7 09,8 L
-
 
 W W T T T F F N N N
   W W T F F N N L L
@@ -8074,7 +7764,6 @@ solution 311:
 05,4 06,4 07,4 07,5 07,6 V
 06,3 07,2 07,3 08,3 09,3 Y
 
-
 W W T T T N N N F I
   W W T N N F F F I
     W T X U U F L I
@@ -8099,7 +7788,6 @@ solution 312:
 08,5 09,3 09,4 09,5 09,6 Y
 06,3 07,2 07,3 08,3 08,4 F
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W T T T I I I I I
   W W T N N L L L L
@@ -8126,7 +7814,6 @@ solution 313:
 07,2 07,3 08,3 09,3 09,4 Z
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W T T T Y V V V I
   W W T Y Y Y Y V I
     W T X U U N V I
@@ -8151,7 +7838,6 @@ solution 314:
 05,4 06,3 06,4 06,5 07,4 X
 05,5 05,6 06,6 07,6 07,7 Z
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W T T T U U N N N
   W W T Y U N N L I
@@ -8178,7 +7864,6 @@ solution 315:
 06,8 06,9 07,9 08,9 09,9 L
 11,4 11,5 12,2 12,3 12,4 N
 
-
 W W T T T I L L L L
   W W T Y I L V V V
     W T Y I U U U V
@@ -8203,7 +7888,6 @@ solution 316:
 05,9 06,9 07,9 08,9 09,9 I
 07,8 08,8 09,6 09,7 09,8 V
 11,4 11,5 12,2 12,3 12,4 N
-
 
 W W T T T I I I I I
   W W T Y L L V V V
@@ -8230,7 +7914,6 @@ solution 317:
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W T T T L L V V V
   W W T Y I L Z Z V
     W T Y I L N Z V
@@ -8255,7 +7938,6 @@ solution 318:
 06,6 07,6 08,6 08,7 08,8 V
 05,5 05,6 05,7 06,5 06,7 U
 05,4 06,4 07,4 07,5 08,5 N
-
 
 W W T T T Z L L L L
   W W T Y Z Z Z V L
@@ -8282,7 +7964,6 @@ solution 319:
 05,5 05,6 05,7 05,8 06,5 L
 05,4 06,4 07,4 07,5 08,5 N
 
-
 W W T T T Z Z U U U
   W W T Y L Z U V U
     W T Y L Z Z V I
@@ -8307,7 +7988,6 @@ solution 320:
 08,9 09,6 09,7 09,8 09,9 L
 06,7 06,8 07,7 08,6 08,7 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W T T T N N N L L
   W W T Y I Z N N L
@@ -8334,7 +8014,6 @@ solution 321:
 08,9 09,6 09,7 09,8 09,9 L
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W T T T Z Z N L L
   W W T Y I Z N N L
     W T Y I Z Z N L
@@ -8359,7 +8038,6 @@ solution 322:
 05,9 06,7 06,8 06,9 07,7 Z
 06,6 07,6 08,6 08,7 08,8 V
 07,8 07,9 08,9 09,8 09,9 U
-
 
 W W T T T Z Z U U U
   W W T Y L Z U V U
@@ -8386,7 +8064,6 @@ solution 323:
 05,8 05,9 06,8 07,7 07,8 Z
 06,9 07,9 08,9 09,8 09,9 L
 
-
 W W T T T Z L L L L
   W W T Y Z Z Z V L
     W T Y U U Z V I
@@ -8411,7 +8088,6 @@ solution 324:
 06,7 06,8 07,8 08,8 09,8 L
 05,6 05,7 05,8 06,5 06,6 N
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W T T T I I I I I
   W W T Y N L L L L
@@ -8438,7 +8114,6 @@ solution 325:
 05,9 06,9 07,9 08,9 09,9 I
 08,8 09,5 09,6 09,7 09,8 L
 
-
 W W T T T I I I I I
   W W T Y N N N L L
     W T Y U U N N L
@@ -8463,7 +8138,6 @@ solution 326:
 11,4 12,3 12,4 12,5 13,4 X
 05,9 06,9 07,9 08,8 08,9 L
 09,5 09,6 09,7 09,8 09,9 I
-
 
 W W T T T L L L L I
   W W T Y N N N L I
@@ -8490,7 +8164,6 @@ solution 327:
 06,8 06,9 07,9 08,9 09,9 L
 11,4 11,5 12,2 12,3 12,4 N
 
-
 W W T T T I L L L L
   W W T Y I L V V V
     W T Y I U U U V
@@ -8515,7 +8188,6 @@ solution 328:
 06,6 06,7 07,7 08,6 08,7 U
 07,8 08,8 09,6 09,7 09,8 V
 11,4 11,5 12,2 12,3 12,4 N
-
 
 W W T T T I I I I I
   W W T Y L L V V V
@@ -8542,7 +8214,6 @@ solution 329:
 06,3 07,2 07,3 08,3 09,3 Y
 08,6 08,7 09,4 09,5 09,6 N
 
-
 W W T T T I I I I I
   W W T Z Z L L L L
     W T Z V V V N L
@@ -8567,7 +8238,6 @@ solution 330:
 06,4 06,5 06,6 07,4 07,6 U
 06,7 07,7 08,6 08,7 09,6 N
 06,8 07,8 08,8 09,7 09,8 L
-
 
 W W T T T I I I I I
   W W T Z Z L L L L
@@ -8594,7 +8264,6 @@ solution 331:
 05,7 06,7 06,8 07,7 08,7 Y
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W T T T I I I I I
   W W T Z Z Y V V V
     W T Z Y Y Y Y V
@@ -8619,7 +8288,6 @@ solution 332:
 07,5 07,7 08,5 08,6 08,7 U
 07,8 08,8 09,6 09,7 09,8 V
 11,4 11,5 12,2 12,3 12,4 N
-
 
 W W T T T I I I I I
   W W T Z Z F V V V
@@ -8646,7 +8314,6 @@ solution 333:
 06,3 07,2 07,3 08,3 09,3 Y
 11,4 11,5 11,6 12,4 13,4 V
 
-
 W W T T T I I I I I
   W W T Z Z X U U L
     W T Z X X X U L
@@ -8671,7 +8338,6 @@ solution 334:
 06,4 06,5 07,5 08,4 08,5 U
 05,7 06,7 07,6 07,7 08,7 Y
 04,5 05,4 05,5 05,6 06,6 F
-
 
 W W T T T N N V V V
   W W T Z Z N N N V
@@ -8698,7 +8364,6 @@ solution 335:
 08,5 09,3 09,4 09,5 09,6 Y
 06,3 07,2 07,3 08,3 08,4 F
 
-
 W W T T T N N V V V
   W W T Z Z N N N V
     W T Z L L L L V
@@ -8723,7 +8388,6 @@ solution 336:
 05,4 06,3 06,4 06,5 07,4 X
 07,2 07,3 08,3 08,4 09,3 F
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 W W T T T U U V V V
   W W T Z Z U V L I
@@ -8750,7 +8414,6 @@ solution 337:
 06,5 06,6 07,6 07,7 07,8 N
 04,5 05,4 05,5 05,6 06,4 F
 
-
 W W T T T U U V V V
   W W T Z Z U N L V
     W T Z U U N L V
@@ -8775,7 +8438,6 @@ solution 338:
 07,8 08,5 08,6 08,7 08,8 L
 06,4 06,5 07,5 07,6 07,7 N
 04,5 05,4 05,5 05,6 06,6 F
-
 
 W W T T T U U V V V
   W W T Z Z U L L V
@@ -8802,7 +8464,6 @@ solution 339:
 06,3 07,2 07,3 07,4 07,5 Y
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W T T T U U V V V
   W W T Z Z U N I V
     W T Z U U N I V
@@ -8827,7 +8488,6 @@ solution 340:
 08,3 08,5 09,3 09,4 09,5 U
 07,5 07,6 08,6 08,7 08,8 N
 08,9 09,6 09,7 09,8 09,9 L
-
 
 W W T T T V V V L L
   W W T Z Z I V N L
@@ -8854,7 +8514,6 @@ solution 341:
 06,9 07,8 07,9 08,9 09,9 Y
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W V V V I Y Y Y Y
   W W N V I T Y U U
     W N V I T T T U
@@ -8879,7 +8538,6 @@ solution 342:
 07,7 07,9 08,7 08,8 08,9 U
 08,6 09,6 09,7 09,8 09,9 L
 11,4 12,2 12,3 12,4 13,4 T
-
 
 W W V V V I Y U U L
   W W N V I Y Y U L
@@ -8906,7 +8564,6 @@ solution 343:
 07,7 08,5 08,6 08,7 08,8 Y
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 W W V V V T L L L L
   W W N V T T T Y L
     W N V T X Y Y I
@@ -8931,7 +8588,6 @@ solution 344:
 05,6 05,7 05,8 06,7 07,7 T
 06,5 06,6 07,6 08,6 08,7 Z
 05,4 05,5 06,4 07,4 07,5 U
-
 
 W W V V V I I I I I
   W W N V T L L L L
@@ -8958,7 +8614,6 @@ solution 345:
 07,8 08,7 08,8 09,8 09,9 F
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W V V V Y Y Y Y F
   W W N V Z Y F F F
     W N V Z Z Z F I
@@ -8983,7 +8638,6 @@ solution 346:
 07,6 08,6 08,7 08,8 09,7 F
 07,8 07,9 08,9 09,8 09,9 U
 11,5 12,2 12,3 12,4 12,5 L
-
 
 W W V V V Z Z U U U
   W W N V I Z U F U
@@ -9010,7 +8664,6 @@ solution 347:
 07,8 07,9 08,9 09,8 09,9 U
 11,4 12,2 12,3 12,4 13,4 T
 
-
 W W V V V L L U U U
   W W N V I L U F U
     W N V I L F F F
@@ -9035,7 +8688,6 @@ solution 348:
 06,9 07,8 07,9 08,9 09,9 Y
 05,5 05,6 05,7 05,8 05,9 I
 06,6 06,7 06,8 07,7 08,7 T
-
 
 W W V V V I Y Y Y Y
   W W N V I T Y L L
@@ -9062,7 +8714,6 @@ solution 349:
 07,5 08,4 08,5 08,6 08,7 Y
 08,8 09,5 09,6 09,7 09,8 L
 
-
 W W V V V I I I I I
   W W N V U U U L L
     W N V U F U Y L
@@ -9087,7 +8738,6 @@ solution 350:
 07,5 08,4 08,5 08,6 08,7 Y
 09,5 09,6 09,7 09,8 09,9 I
 11,4 12,2 12,3 12,4 13,4 T
-
 
 W W V V V L L L L I
   W W N V U U U L I
@@ -9114,7 +8764,6 @@ solution 351:
 06,9 07,8 07,9 08,9 09,9 Y
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W V V V I Y Y Y Y
   W W N V I T Y U U
     W N V I T T T U
@@ -9139,7 +8788,6 @@ solution 352:
 07,7 07,9 08,7 08,8 08,9 U
 08,6 09,6 09,7 09,8 09,9 L
 11,4 12,2 12,3 12,4 13,4 T
-
 
 W W V V V I Y U U L
   W W N V I Y Y U L
@@ -9166,7 +8814,6 @@ solution 353:
 07,5 08,4 08,5 08,6 08,7 Y
 08,8 09,5 09,6 09,7 09,8 L
 
-
 W W V V V I I I I I
   W W N V U U U L L
     W N V U X U Y L
@@ -9191,7 +8838,6 @@ solution 354:
 07,5 08,4 08,5 08,6 08,7 Y
 09,5 09,6 09,7 09,8 09,9 I
 11,4 12,2 12,3 12,4 13,4 T
-
 
 W W V V V L L L L I
   W W N V U U U L I
@@ -9218,7 +8864,6 @@ solution 355:
 05,4 05,5 06,3 06,4 07,4 F
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 W W V V V I I I I I
   W W N V U U X L L
     W N V U X X X L
@@ -9243,7 +8888,6 @@ solution 356:
 06,5 07,5 08,4 08,5 08,6 T
 05,4 05,5 06,3 06,4 07,4 F
 11,4 12,2 12,3 12,4 12,5 Y
-
 
 W W V V V L L L L I
   W W N V U U X L I
@@ -9270,7 +8914,6 @@ solution 357:
 05,4 05,5 06,3 06,4 07,4 F
 11,4 12,2 12,3 12,4 12,5 Y
 
-
 W W V V V L U U U I
   W W N V L U X U I
     W N V L X X X I
@@ -9295,7 +8938,6 @@ solution 358:
 05,4 05,5 05,6 05,7 06,6 Y
 05,8 05,9 06,7 06,8 07,8 F
 12,2 12,3 12,4 12,5 12,6 I
-
 
 W W V V V F L L L L
   W W N V F F F X L
@@ -9322,7 +8964,6 @@ solution 359:
 06,9 07,9 08,7 08,8 08,9 V
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W Y Y Y Y V V V I
   W W N Y X U U V I
     W N X X X U V I
@@ -9347,7 +8988,6 @@ solution 360:
 05,4 05,5 06,3 06,4 07,4 F
 04,5 04,6 05,6 06,5 06,6 U
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W Y Y Y Y X L L I
   W W T Y X X X L I
@@ -9374,7 +9014,6 @@ solution 361:
 08,9 09,6 09,7 09,8 09,9 L
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W Z Z U U U F L L
   W W Z U V U F F L
     W Z Z V F F T L
@@ -9399,7 +9038,6 @@ solution 362:
 06,3 07,2 07,3 08,3 09,3 Y
 07,5 08,5 08,6 08,7 09,5 T
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W Z Z U U U F L L
   W W Z U V U F F L
@@ -9426,7 +9064,6 @@ solution 363:
 03,6 03,7 03,8 04,6 04,8 U
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 W W I I I I I V V V
   W W U U X T T T V
     W U X X X T N V
@@ -9451,7 +9088,6 @@ solution 364:
 04,7 05,7 05,8 06,6 06,7 F
 03,6 03,7 03,8 04,6 04,8 U
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 W W I I I I I V V V
   W W U U F T T T V
@@ -9478,7 +9114,6 @@ solution 365:
 08,9 09,6 09,7 09,8 09,9 L
 11,4 12,2 12,3 12,4 13,4 T
 
-
 W W I I I I I N L L
   W W V V V X N N L
     W V P X X X N L
@@ -9503,7 +9138,6 @@ solution 366:
 05,6 06,6 06,7 07,7 08,7 N
 04,5 04,6 04,7 05,5 05,7 U
 03,6 03,7 03,8 04,8 05,8 V
-
 
 W W I I I I I P P L
   W W V V V P P P L
@@ -9530,7 +9164,6 @@ solution 367:
 04,5 04,6 05,5 05,6 06,6 P
 03,6 03,7 03,8 04,8 05,8 V
 
-
 W W I I I I I U U L
   W W V V V N N U L
     W V N N N U U L
@@ -9555,7 +9188,6 @@ solution 368:
 07,4 07,5 07,6 08,5 09,5 T
 08,6 08,7 08,8 09,6 09,7 P
 07,8 07,9 08,9 09,8 09,9 U
-
 
 W W I I I I I U U U
   W W V V V F U P U
@@ -9582,7 +9214,6 @@ solution 369:
 07,5 08,5 08,6 08,7 09,5 T
 08,9 09,6 09,7 09,8 09,9 L
 
-
 W W I I I I I F L L
   W W V V V F F F L
     W V N U F U T L
@@ -9607,7 +9238,6 @@ solution 370:
 07,7 08,7 08,8 09,6 09,7 F
 07,8 07,9 08,9 09,8 09,9 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 W W I I I I I U U U
   W W L L L L U F U
@@ -9634,7 +9264,6 @@ solution 371:
 08,9 09,6 09,7 09,8 09,9 L
 11,4 11,5 11,6 12,4 12,6 U
 
-
 W W I I I I I N L L
   W W V V V X N N L
     W V P X X X N L
@@ -9659,7 +9288,6 @@ solution 372:
 07,8 08,8 09,7 09,8 09,9 T
 06,7 06,8 07,6 07,7 08,7 F
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W L L I I I I I T
   W W L Z Z F T T T
@@ -9686,7 +9314,6 @@ solution 373:
 05,8 06,8 07,7 07,8 08,7 N
 11,4 12,3 12,4 12,5 13,4 X
 
-
 W W L L V I I I I I
   W W L V N N N U U
     W L V V V N N U
@@ -9711,7 +9338,6 @@ solution 374:
 08,5 08,6 08,7 09,5 09,6 P
 07,8 08,8 09,7 09,8 09,9 T
 11,4 12,3 12,4 12,5 13,4 X
-
 
 W W L L I I I I I T
   W W L N N N T T T
@@ -9738,7 +9364,6 @@ solution 375:
 08,8 08,9 09,7 09,8 09,9 P
 11,4 11,5 11,6 12,4 13,4 V
 
-
 W W L L I U U U P P
   W W L I U X U P P
     W L I X X X F P
@@ -9763,7 +9388,6 @@ solution 376:
 06,7 07,6 07,7 07,8 08,7 X
 08,6 08,8 09,6 09,7 09,8 U
 11,4 11,5 12,2 12,3 12,4 N
-
 
 W W L L T I I I I I
   W W L T T T X U U
@@ -9790,7 +9414,6 @@ solution 377:
 08,6 08,8 09,6 09,7 09,8 U
 11,4 11,5 12,2 12,3 12,4 N
 
-
 W W L L F I I I I I
   W W L F F F X U U
     W L T F X X X U
@@ -9815,7 +9438,6 @@ solution 378:
 05,5 05,6 05,7 06,7 07,7 V
 06,6 07,4 07,5 07,6 08,6 T
 08,5 08,7 09,5 09,6 09,7 U
-
 
 W W N N I I I I I L
   W W N N N L L L L
@@ -9842,7 +9464,6 @@ solution 379:
 06,6 06,7 06,8 07,6 08,6 V
 11,4 11,5 12,2 12,3 12,4 N
 
-
 W W T T T U U U Z Z
   W W T F U V U Z I
     W T F F V Z Z I
@@ -9867,7 +9488,6 @@ solution 380:
 05,8 06,6 06,7 06,8 07,6 Z
 05,9 06,9 07,9 08,9 09,9 I
 11,4 11,5 11,6 12,4 13,4 V
-
 
 W W T T T I I I I I
   W W T F Z Z U U U
@@ -9894,7 +9514,6 @@ solution 381:
 07,8 08,8 09,6 09,7 09,8 V
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W T T T I I I I I
   W W T F Z Z V V V
     W T F F Z U U V
@@ -9919,7 +9538,6 @@ solution 382:
 11,4 11,5 11,6 12,4 13,4 V
 05,4 05,5 06,3 06,4 06,5 P
 06,6 07,3 07,4 07,5 07,6 L
-
 
 W W T T T F U U U I
   W W T F F U N U I
@@ -9946,7 +9564,6 @@ solution 383:
 07,2 08,2 08,3 08,4 09,4 Z
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W T T T F V V V I
   W W T F F U U V I
     W T X F F U V I
@@ -9971,7 +9588,6 @@ solution 384:
 11,4 11,5 11,6 12,4 13,4 V
 06,3 06,4 07,2 07,3 07,4 P
 07,5 08,2 08,3 08,4 08,5 L
-
 
 W W T T T I I I I I
   W W T Z Z F U U U
@@ -9998,7 +9614,6 @@ solution 385:
 08,2 08,3 08,4 09,4 09,5 N
 11,5 12,2 12,3 12,4 12,5 L
 
-
 W W T T T I I I I I
   W W T Z Z F V V V
     W T Z F F U U V
@@ -10023,7 +9638,6 @@ solution 386:
 07,5 07,6 08,6 08,7 08,8 N
 06,3 06,4 06,5 07,3 07,4 P
 07,2 08,2 08,3 08,4 08,5 L
-
 
 W W T T T U U V V V
   W W T Z Z U V N I
@@ -10050,7 +9664,6 @@ solution 387:
 06,7 06,8 07,7 07,8 08,8 P
 06,9 07,9 08,9 09,8 09,9 L
 
-
 W W V V V I L L L L
   W W N V I P P P L
     W N V I P P U U
@@ -10075,7 +9688,6 @@ solution 388:
 07,4 07,5 08,5 08,6 09,5 F
 07,6 07,7 08,7 09,6 09,7 U
 07,8 08,8 08,9 09,8 09,9 P
-
 
 W W V V V T T T P P
   W W N V I T P P P
@@ -10102,7 +9714,6 @@ solution 389:
 07,9 08,7 08,8 08,9 09,9 T
 11,4 11,5 11,6 12,4 12,6 U
 
-
 W W V V V F F T T T
   W W N V I F F T L
     W N V I F X T L
@@ -10127,7 +9738,6 @@ solution 390:
 05,9 06,7 06,8 06,9 07,9 T
 07,8 08,7 08,8 08,9 09,9 F
 11,4 11,5 11,6 12,4 12,6 U
-
 
 W W V V V T T T F F
   W W N V I T F F L
@@ -10154,7 +9764,6 @@ solution 391:
 08,7 08,9 09,7 09,8 09,9 U
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y Z V F F U U
   Y Z Z Z V T F F U
     Z V V V T F U U
@@ -10179,7 +9788,6 @@ solution 392:
 06,7 06,8 07,8 08,7 08,8 U
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y T T T V V V
   Y P P P T U U U V
@@ -10206,7 +9814,6 @@ solution 393:
 07,5 08,5 08,6 09,5 09,6 P
 08,7 08,9 09,7 09,8 09,9 U
 
-
 Y Y Y Y Z V F F U U
   Y Z Z Z V T F F U
     Z V V V T F U U
@@ -10231,7 +9838,6 @@ solution 394:
 04,9 05,9 06,9 07,8 07,9 L
 07,7 08,7 08,8 08,9 09,9 Z
 07,6 08,6 09,6 09,7 09,8 V
-
 
 Y Y Y Y L L L L Z Z
   Y P P U U U L Z V
@@ -10258,7 +9864,6 @@ solution 395:
 06,7 07,7 07,8 07,9 08,8 F
 08,7 08,9 09,7 09,8 09,9 U
 
-
 Y Y Y Y V V V F U U
   Y P P V Z Z F F U
     P P V Z F F U U
@@ -10283,7 +9888,6 @@ solution 396:
 02,7 02,8 03,6 03,7 03,8 P
 04,6 05,6 05,7 05,8 06,7 F
 11,4 11,5 11,6 12,4 12,6 U
-
 
 Y Y Y Y V V V X L L
   Y P P V F X X X L
@@ -10310,7 +9914,6 @@ solution 397:
 02,7 02,8 03,6 03,7 03,8 P
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 Y Y Y Y V V V X U U
   Y P P V F X X X U
     P P V F F X U U
@@ -10335,7 +9938,6 @@ solution 398:
 06,6 07,6 08,6 08,7 08,8 V
 05,5 05,6 05,7 06,5 06,7 U
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y T Z L L L L
   Y T T T Z Z Z V L
@@ -10362,7 +9964,6 @@ solution 399:
 05,9 06,7 06,8 06,9 07,7 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y T Z Z U U U
   Y T T T L Z U V U
     W W T L Z Z V N
@@ -10387,7 +9988,6 @@ solution 400:
 02,7 02,8 03,6 03,7 04,6 W
 03,8 04,7 04,8 04,9 05,8 X
 11,5 12,2 12,3 12,4 12,5 L
-
 
 Y Y Y Y X Z Z U U U
   Y W X X X Z U V U
@@ -10414,7 +10014,6 @@ solution 401:
 05,9 06,6 06,7 06,8 06,9 L
 11,4 11,5 11,6 12,4 12,6 U
 
-
 Y Y Y Y X L L V V V
   Y W X X X L V Z Z
     W W X T L V Z N
@@ -10439,7 +10038,6 @@ solution 402:
 02,8 03,8 04,7 04,8 04,9 T
 05,8 05,9 06,8 07,7 07,8 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y T Z L L L L
   Y T T T Z Z Z N L
@@ -10466,7 +10064,6 @@ solution 403:
 05,9 06,7 06,8 06,9 07,7 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y T Z Z U U U
   Y T T T L Z U N U
     W W T L Z Z N N
@@ -10491,7 +10088,6 @@ solution 404:
 02,7 02,8 03,6 03,7 04,6 W
 03,8 04,7 04,8 04,9 05,8 X
 11,5 12,2 12,3 12,4 12,5 L
-
 
 Y Y Y Y X Z Z U U U
   Y W X X X Z U N U
@@ -10518,7 +10114,6 @@ solution 405:
 07,5 07,6 08,5 09,5 09,6 U
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 Y Y Y Y X N N V V V
   Y W X X X N N N V
     W W X L L L L V
@@ -10543,7 +10138,6 @@ solution 406:
 07,9 08,9 09,7 09,8 09,9 V
 08,6 08,7 08,8 09,5 09,6 N
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 Y Y Y Y X U U V V V
   Y W X X X U L N V
@@ -10570,7 +10164,6 @@ solution 407:
 08,5 09,5 09,6 09,7 09,8 L
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 Y Y Y Y X U U V V V
   Y W X X X U V N L
     W W X U U V N L
@@ -10595,7 +10188,6 @@ solution 408:
 07,8 07,9 08,6 08,7 08,8 N
 08,9 09,6 09,7 09,8 09,9 L
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 Y Y Y Y X U U N L L
   Y W X X X U N N L
@@ -10622,7 +10214,6 @@ solution 409:
 07,6 07,7 07,8 07,9 08,9 L
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 Y Y Y Y X U U L L N
   Y W X X X U L N N
     W W X U U L N V
@@ -10647,7 +10238,6 @@ solution 410:
 06,9 07,9 08,9 09,8 09,9 L
 05,8 05,9 06,7 06,8 07,8 F
 11,4 11,5 11,6 12,4 13,4 V
-
 
 Y Y Y Y Z F L L L L
   Y Z Z Z F F F X L
@@ -10674,7 +10264,6 @@ solution 411:
 06,7 06,8 06,9 07,9 08,9 V
 11,4 12,2 12,3 12,4 13,4 T
 
-
 Y Y Y Y L L V V V Z
   Y U U U L V Z Z Z
     U W U L V Z N N
@@ -10699,7 +10288,6 @@ solution 412:
 06,7 06,8 06,9 07,9 08,9 V
 08,6 08,7 09,7 09,8 09,9 N
 11,4 12,2 12,3 12,4 13,4 T
-
 
 Y Y Y Y L L V V V N
   Y U U U L V Z Z N
@@ -10726,7 +10314,6 @@ solution 413:
 08,6 08,7 09,7 09,8 09,9 N
 11,5 12,2 12,3 12,4 12,5 L
 
-
 Y Y Y Y Z T U U U N
   Y Z Z Z T U V U N
     Z W T T T V N N
@@ -10751,7 +10338,6 @@ solution 414:
 04,9 05,6 05,7 05,8 05,9 L
 02,7 02,8 03,8 04,7 04,8 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 Y Y Y Y L L V V V Z
   Y U U U L V Z Z Z
@@ -10778,7 +10364,6 @@ solution 415:
 04,9 05,7 05,8 05,9 06,7 Z
 11,4 11,5 12,3 12,4 13,4 F
 
-
 Y Y Y Y Z Z L L L L
   Y U U U Z V V V L
     U W U Z Z T V N
@@ -10803,7 +10388,6 @@ solution 416:
 02,7 02,8 03,6 03,7 04,6 W
 05,7 05,9 06,7 06,8 06,9 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 Y Y Y Y X U U V V V
   Y W X X X U L N V
@@ -10830,7 +10414,6 @@ solution 417:
 05,8 06,6 06,7 06,8 07,8 T
 11,4 11,5 12,2 12,3 12,4 N
 
-
 Y Y Y Y F L L L L V
   Y W F F T T T L V
     W W F F T V V V
@@ -10855,7 +10438,6 @@ solution 418:
 05,9 06,8 06,9 07,8 08,8 N
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,2 12,3 12,4 13,4 T
-
 
 Y Y Y Y X N N V V V
   Y W X X X N N N V
@@ -10882,7 +10464,6 @@ solution 419:
 07,8 08,6 08,7 08,8 09,6 Z
 07,9 08,9 09,7 09,8 09,9 V
 
-
 Y Y Y Y T T T V V V
   Y P P L T N Z Z V
     P P L T N N Z V
@@ -10907,7 +10488,6 @@ solution 420:
 06,7 06,8 07,8 08,7 08,8 U
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y T T T V V V
   Y P P P T U U U V
@@ -10934,7 +10514,6 @@ solution 421:
 07,5 08,5 08,6 09,5 09,6 P
 08,7 08,9 09,7 09,8 09,9 U
 
-
 Y Y Y Y Z V F F U U
   Y Z Z Z V T F F U
     Z V V V T F U U
@@ -10959,7 +10538,6 @@ solution 422:
 06,7 07,7 08,6 08,7 08,8 T
 07,9 08,9 09,7 09,8 09,9 V
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 Y Y Y Y L L F V V V
   Y P P L F F F T V
@@ -10986,7 +10564,6 @@ solution 423:
 05,7 05,8 05,9 06,8 07,8 T
 06,9 07,9 08,9 09,8 09,9 L
 
-
 Y Y Y Y Z T L L L L
   Y Z Z Z T T T F L
     Z P P T U U F F
@@ -11011,7 +10588,6 @@ solution 424:
 04,6 04,7 04,8 04,9 05,9 L
 02,7 02,8 03,6 03,7 03,8 P
 11,4 11,5 12,2 12,3 12,4 N
-
 
 Y Y Y Y L L F V V V
   Y P P L F F F Z V
@@ -11038,7 +10614,6 @@ solution 425:
 03,6 03,7 04,6 04,7 05,7 P
 11,4 11,5 12,3 12,4 13,4 F
 
-
 Y Y Y Y N N N V V V
   Y L L L L N N Z V
     L P P P Z Z Z V
@@ -11063,7 +10638,6 @@ solution 426:
 04,6 04,7 04,8 04,9 05,9 L
 02,7 02,8 03,6 03,7 03,8 P
 11,4 11,5 12,2 12,3 12,4 N
-
 
 Y Y Y Y L L Z V V V
   Y P P L F Z Z Z V
@@ -11090,7 +10664,6 @@ solution 427:
 07,7 08,7 08,8 08,9 09,9 Z
 07,6 08,6 09,6 09,7 09,8 V
 
-
 Y Y Y Y L L L L Z Z
   Y P P U U U L Z V
     P P U F U Z Z V
@@ -11115,7 +10688,6 @@ solution 428:
 04,7 04,8 04,9 05,9 06,9 V
 06,7 07,7 07,8 07,9 08,8 F
 08,7 08,9 09,7 09,8 09,9 U
-
 
 Y Y Y Y V V V F U U
   Y P P V Z Z F F U
@@ -11142,7 +10714,6 @@ solution 429:
 04,6 05,6 05,7 05,8 06,7 F
 11,4 11,5 11,6 12,4 12,6 U
 
-
 Y Y Y Y V V V X L L
   Y P P V F X X X L
     P P V F F X Z L
@@ -11167,7 +10738,6 @@ solution 430:
 04,6 05,6 05,7 05,8 06,7 F
 02,7 02,8 03,6 03,7 03,8 P
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 Y Y Y Y V V V X U U
   Y P P V F X X X U
@@ -11194,7 +10764,6 @@ solution 431:
 06,7 07,7 08,7 08,8 08,9 V
 08,6 09,6 09,7 09,8 09,9 L
 
-
 Y Y Y Y N N N Z V L
   Y F N N Z Z Z V L
     F F F Z V V V L
@@ -11219,7 +10788,6 @@ solution 432:
 06,7 07,7 07,8 07,9 08,8 F
 08,9 09,6 09,7 09,8 09,9 L
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y U U U F L L
   Y P P U N U F F L
@@ -11246,7 +10814,6 @@ solution 433:
 06,7 07,7 08,6 08,7 08,8 T
 07,5 07,6 08,5 09,5 09,6 U
 
-
 Y Y Y Y N N N V V V
   Y L L L L N N T V
     L P P P T T T V
@@ -11271,7 +10838,6 @@ solution 434:
 04,6 04,7 04,8 05,7 06,7 T
 02,7 02,8 03,6 03,7 03,8 P
 11,4 11,5 11,6 12,4 13,4 V
-
 
 Y Y Y Y N N L L L L
   Y P P T N N N X L
@@ -11298,7 +10864,6 @@ solution 435:
 08,9 09,6 09,7 09,8 09,9 L
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y U U U F L L
   Y P P U V U F F L
     P P N V F F T L
@@ -11323,7 +10888,6 @@ solution 436:
 04,8 04,9 05,9 06,8 06,9 U
 06,7 07,7 07,8 07,9 08,8 F
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y U U U F L L
   Y P P U N U F F L
@@ -11350,7 +10914,6 @@ solution 437:
 07,6 08,4 08,5 08,6 09,4 Z
 11,4 12,2 12,3 12,4 13,4 T
 
-
 Y Y Y Y F F V V V I
   Y P P P F F N V I
     P P X F N N V I
@@ -11375,7 +10938,6 @@ solution 438:
 05,4 05,5 06,4 07,4 07,5 U
 03,6 04,5 04,6 04,7 05,6 X
 11,4 11,5 12,3 12,4 13,4 F
-
 
 Y Y Y Y N N V V V I
   Y P P P N N N V I
@@ -11402,7 +10964,6 @@ solution 439:
 06,4 07,4 08,4 08,5 08,6 V
 11,4 11,5 11,6 12,4 12,6 U
 
-
 Y Y Y Y N N N T T T
   Y P P P F N N T I
     P P X F F F T I
@@ -11427,7 +10988,6 @@ solution 440:
 06,4 07,4 08,4 08,5 08,6 V
 05,4 05,5 06,5 06,6 07,5 F
 11,4 11,5 11,6 12,4 12,6 U
-
 
 Y Y Y Y N N N T T T
   Y P P P Z N N T I
@@ -11454,7 +11014,6 @@ solution 441:
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y T T T V V V
   Y P P P T U U U V
     P P F T U Z U V
@@ -11479,7 +11038,6 @@ solution 442:
 07,9 08,7 08,8 08,9 09,9 T
 06,8 06,9 07,6 07,7 07,8 N
 11,4 11,5 11,6 12,4 12,6 U
-
 
 Y Y Y Y Z Z N T T T
   Y P P P Z N N T I
@@ -11506,7 +11064,6 @@ solution 443:
 06,7 06,8 07,6 07,7 08,7 F
 08,4 08,6 09,4 09,5 09,6 U
 
-
 Y Y Y Y I I I I I T
   Y P P Z Z F T T T
     P P V Z F F F T
@@ -11531,7 +11088,6 @@ solution 444:
 04,5 04,6 04,7 05,7 05,8 N
 05,4 05,5 05,6 06,4 07,4 V
 06,5 06,6 07,5 08,4 08,5 Z
-
 
 Y Y Y Y U U U T T T
   Y P P U N U F T I
@@ -11558,7 +11114,6 @@ solution 445:
 08,5 08,6 08,7 09,4 09,5 N
 11,4 11,5 11,6 12,4 12,6 U
 
-
 Y Y Y Y Z I I I I I
   Y Z Z Z F F V V V
     Z P P P F F N V
@@ -11583,7 +11138,6 @@ solution 446:
 07,5 08,5 08,6 09,5 09,6 P
 08,7 08,9 09,7 09,8 09,9 U
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y Z V F F U U
   Y Z Z Z V T F F U
@@ -11610,7 +11164,6 @@ solution 447:
 06,6 06,7 07,6 08,5 08,6 Z
 11,4 11,5 11,6 12,4 13,4 V
 
-
 Y Y Y Y T L L X U U
   Y T T T L X X X U
     W W T L Z X U U
@@ -11635,7 +11188,6 @@ solution 448:
 07,8 08,8 09,7 09,8 09,9 T
 06,6 06,7 06,8 07,6 07,7 P
 06,5 07,5 08,5 08,6 08,7 V
-
 
 Y Y Y Y Z L L L L T
   Y Z Z Z L P T T T
@@ -11662,7 +11214,6 @@ solution 449:
 05,8 06,6 06,7 06,8 07,8 T
 06,5 07,5 07,6 08,5 08,6 P
 
-
 Y Y Y Y Z L L L L V
   Y Z Z Z T T T L V
     Z U U U T V V V
@@ -11687,7 +11238,6 @@ solution 450:
 07,7 08,6 08,7 08,8 09,7 X
 07,8 07,9 08,9 09,8 09,9 U
 11,4 11,5 11,6 12,4 13,4 V
-
 
 Y Y Y Y Z L L U U U
   Y Z Z Z T L U X U
@@ -11714,7 +11264,6 @@ solution 451:
 07,8 07,9 08,9 09,8 09,9 U
 11,4 12,2 12,3 12,4 13,4 T
 
-
 Y Y Y Y Z V L U U U
   Y Z Z Z V L U X U
     Z V V V L X X X
@@ -11739,7 +11288,6 @@ solution 452:
 07,6 07,7 08,7 08,8 09,7 F
 07,8 07,9 08,9 09,8 09,9 U
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y Z V L U U U
   Y Z Z Z V L U F U
@@ -11766,7 +11314,6 @@ solution 453:
 04,7 05,7 06,6 06,7 06,8 T
 05,8 05,9 06,9 07,8 07,9 U
 
-
 Y Y Y Y Z U U U P P
   Y Z Z Z U T U P P
     Z F T T T V L P
@@ -11791,7 +11338,6 @@ solution 454:
 05,6 05,7 06,7 07,7 07,8 Z
 06,8 06,9 07,9 08,8 08,9 U
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y P P U U U I
   Y F P P P U Z U I
@@ -11818,7 +11364,6 @@ solution 455:
 06,8 06,9 07,9 08,9 09,9 L
 08,6 08,8 09,6 09,7 09,8 U
 
-
 Y Y Y Y Z Z L L L L
   Y P P P Z L F U U
     P P X Z Z F F U
@@ -11843,7 +11388,6 @@ solution 456:
 11,4 12,2 12,3 12,4 13,4 T
 06,8 06,9 07,9 08,8 08,9 U
 08,6 09,6 09,7 09,8 09,9 L
-
 
 Y Y Y Y Z Z U U U L
   Y P P P Z U F U L
@@ -11870,7 +11414,6 @@ solution 457:
 06,8 06,9 07,9 08,8 08,9 U
 11,4 12,2 12,3 12,4 13,4 T
 
-
 Y Y Y Y Z Z U U U I
   Y P P P Z U F U I
     P P X Z Z F F I
@@ -11895,7 +11438,6 @@ solution 458:
 06,8 06,9 07,9 08,9 09,9 L
 08,7 08,8 09,6 09,7 09,8 P
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y Z Z L L L L
   Y U U U Z L T P P
@@ -11922,7 +11464,6 @@ solution 459:
 06,9 07,9 08,9 09,8 09,9 L
 08,6 08,7 08,8 09,6 09,7 P
 
-
 Y Y Y Y Z T L L L L
   Y Z Z Z T U U P L
     Z F T T T U P P
@@ -11947,7 +11488,6 @@ solution 460:
 02,7 03,6 03,7 04,5 04,6 W
 02,8 03,8 04,7 04,8 04,9 T
 11,4 11,5 11,6 12,4 13,4 V
-
 
 Y Y Y Y T U U N N N
   Y T T T U N N L I
@@ -11974,7 +11514,6 @@ solution 461:
 04,5 04,7 05,5 05,6 05,7 U
 11,4 12,2 12,3 12,4 13,4 T
 
-
 Y Y Y Y N N N V V V
   Y W N N Z Z V L I
     W W U U Z V L I
@@ -11999,7 +11538,6 @@ solution 462:
 04,9 05,7 05,8 05,9 06,7 Z
 02,7 02,8 03,8 04,7 04,8 U
 12,2 12,3 12,4 12,5 12,6 I
-
 
 Y Y Y Y Z Z L L L L
   Y U U U Z L V V V
@@ -12026,7 +11564,6 @@ solution 463:
 06,7 06,8 06,9 07,9 08,9 V
 07,7 07,8 08,8 09,8 09,9 Z
 
-
 Y Y Y Y L L V V V Z
   Y U U U L V Z Z Z
     U W U L V Z N N
@@ -12051,7 +11588,6 @@ solution 464:
 06,6 07,6 07,7 07,8 08,8 Z
 06,7 06,8 06,9 07,9 08,9 V
 08,6 08,7 09,7 09,8 09,9 N
-
 
 Y Y Y Y L L V V V N
   Y U U U L V Z Z N
@@ -12078,7 +11614,6 @@ solution 465:
 04,5 04,7 05,5 05,6 05,7 U
 11,4 11,5 11,6 12,4 13,4 V
 
-
 Y Y Y Y I I I I I N
   Y W L L L L Z Z N
     W W U U L Z N N
@@ -12103,7 +11638,6 @@ solution 466:
 03,8 04,8 05,8 06,7 06,8 L
 04,5 04,7 05,5 05,6 05,7 U
 11,4 11,5 11,6 12,4 13,4 V
-
 
 Y Y Y Y I I I I I Z
   Y W L L L L Z Z Z
@@ -12130,7 +11664,6 @@ solution 467:
 02,8 03,8 04,7 04,8 04,9 T
 11,4 11,5 12,2 12,3 12,4 N
 
-
 Y Y Y Y T I I I I I
   Y T T T L L V V V
     W W T L U U U V
@@ -12155,7 +11688,6 @@ solution 468:
 02,7 03,6 03,7 04,5 04,6 W
 02,8 03,8 04,7 04,8 04,9 T
 11,4 11,5 12,2 12,3 12,4 N
-
 
 Y Y Y Y T I L L L L
   Y T T T I L V V V
@@ -12182,7 +11714,6 @@ solution 469:
 07,8 08,8 09,6 09,7 09,8 V
 11,5 12,2 12,3 12,4 12,5 L
 
-
 Y Y Y Y Z I I I I I
   Y Z Z Z N N V V V
     Z N N N X U U V
@@ -12207,7 +11738,6 @@ solution 470:
 05,6 06,5 06,6 07,5 08,5 N
 06,8 06,9 07,9 08,9 09,9 L
 08,6 08,8 09,6 09,7 09,8 U
-
 
 Y Y Y Y Z V L L L L
   Y Z Z Z V L X U U
@@ -12234,7 +11764,6 @@ solution 471:
 06,8 06,9 07,9 08,8 08,9 U
 08,6 09,6 09,7 09,8 09,9 L
 
-
 Y Y Y Y Z V U U U L
   Y Z Z Z V U X U L
     Z V V V X X X L
@@ -12259,7 +11788,6 @@ solution 472:
 05,6 05,7 05,8 06,6 07,6 V
 06,7 06,8 07,7 08,6 08,7 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y I I I I I T
   Y U U U V Z T T T
@@ -12286,7 +11814,6 @@ solution 473:
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y T L L V V V
   Y T T T I L Z Z V
     W W T I L N Z V
@@ -12311,7 +11838,6 @@ solution 474:
 07,5 07,6 08,6 08,7 08,8 N
 08,9 09,6 09,7 09,8 09,9 L
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y Z V V V L L
   Y Z Z Z T I V N L
@@ -12338,7 +11864,6 @@ solution 475:
 04,7 05,7 05,8 05,9 06,7 T
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y Z T L L L L
   Y Z Z Z T L V V V
     Z W T T T V N I
@@ -12363,7 +11888,6 @@ solution 476:
 05,5 05,6 05,7 06,5 06,7 U
 05,4 06,4 07,4 07,5 08,5 N
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y T Z L L L L
   Y T T T Z Z Z V L
@@ -12390,7 +11914,6 @@ solution 477:
 05,9 06,7 06,8 06,9 07,7 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y T Z Z U U U
   Y T T T L Z U V U
     W W T L Z Z V I
@@ -12415,7 +11938,6 @@ solution 478:
 02,7 02,8 03,6 03,7 04,6 W
 03,8 04,7 04,8 04,9 05,8 X
 11,5 12,2 12,3 12,4 12,5 L
-
 
 Y Y Y Y X Z Z U U U
   Y W X X X Z U V U
@@ -12442,7 +11964,6 @@ solution 479:
 05,9 06,6 06,7 06,8 06,9 L
 11,4 11,5 11,6 12,4 12,6 U
 
-
 Y Y Y Y X L L V V V
   Y W X X X L V Z Z
     W W X T L V Z I
@@ -12467,7 +11988,6 @@ solution 480:
 07,6 07,7 08,7 09,7 09,8 Z
 06,6 06,7 06,8 07,8 08,8 V
 11,4 11,5 11,6 12,4 12,6 U
-
 
 Y Y Y Y X I I I I I
   Y W X X X V V V Z
@@ -12494,7 +12014,6 @@ solution 481:
 02,7 02,8 03,6 03,7 04,6 W
 04,5 05,5 05,6 05,7 06,7 Z
 
-
 Y Y Y Y X N N V V V
   Y W X X X N N N V
     W W X Z Z U U V
@@ -12519,7 +12038,6 @@ solution 482:
 02,7 02,8 03,8 04,8 04,9 Z
 03,6 03,7 04,5 04,6 05,5 W
 04,7 05,6 05,7 05,8 06,7 X
-
 
 Y Y Y Y Z N N V V V
   Y Z Z Z X N N N V
@@ -12546,7 +12064,6 @@ solution 483:
 06,7 06,8 07,7 08,6 08,7 Z
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y T N N N L L
   Y T T T I Z N N L
     W W T I Z Z Z L
@@ -12571,7 +12088,6 @@ solution 484:
 07,8 07,9 08,6 08,7 08,8 N
 08,9 09,6 09,7 09,8 09,9 L
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y T Z Z N L L
   Y T T T I Z N N L
@@ -12598,7 +12114,6 @@ solution 485:
 06,8 07,8 08,8 09,7 09,8 L
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y Z I I I I I
   Y Z Z Z T L L L L
     Z T T T N N N L
@@ -12623,7 +12138,6 @@ solution 486:
 05,6 05,7 05,8 06,6 07,6 V
 06,7 06,8 07,7 08,6 08,7 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y I I I I I T
   Y U U U V Z T T T
@@ -12650,7 +12164,6 @@ solution 487:
 05,5 05,6 05,7 06,5 06,7 U
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y T Z L L L L
   Y T T T Z Z Z V L
     W W T U U Z V I
@@ -12675,7 +12188,6 @@ solution 488:
 02,8 03,8 04,7 04,8 04,9 T
 05,9 06,7 06,8 06,9 07,7 Z
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y T Z Z U U U
   Y T T T L Z U V U
@@ -12702,7 +12214,6 @@ solution 489:
 03,8 04,7 04,8 04,9 05,8 X
 11,5 12,2 12,3 12,4 12,5 L
 
-
 Y Y Y Y X Z Z U U U
   Y W X X X Z U V U
     W W X T Z Z V I
@@ -12727,7 +12238,6 @@ solution 490:
 04,5 05,5 05,6 05,7 06,5 T
 05,9 06,6 06,7 06,8 06,9 L
 11,4 11,5 11,6 12,4 12,6 U
-
 
 Y Y Y Y X L L V V V
   Y W X X X L V Z Z
@@ -12754,7 +12264,6 @@ solution 491:
 02,7 02,8 03,8 04,7 04,8 U
 11,4 12,2 12,3 12,4 13,4 T
 
-
 Y Y Y Y L L V V V Z
   Y U U U L V Z Z Z
     U W U L V Z F I
@@ -12779,7 +12288,6 @@ solution 492:
 02,7 02,8 03,8 04,7 04,8 U
 04,9 05,7 05,8 05,9 06,7 Z
 11,4 11,5 12,3 12,4 13,4 F
-
 
 Y Y Y Y Z Z L L L L
   Y U U U Z V V V L
@@ -12806,7 +12314,6 @@ solution 493:
 06,6 06,7 06,8 07,8 08,8 V
 11,4 11,5 11,6 12,4 12,6 U
 
-
 Y Y Y Y X I I I I I
   Y W X X X V V V Z
     W W X T V Z Z Z
@@ -12831,7 +12338,6 @@ solution 494:
 06,7 07,6 07,7 07,8 08,7 X
 06,8 06,9 07,9 08,8 08,9 U
 11,4 11,5 12,2 12,3 12,4 N
-
 
 Y Y Y Y Z V U U U I
   Y Z Z Z V U X U I
@@ -12858,7 +12364,6 @@ solution 495:
 05,7 06,7 06,8 07,8 08,8 N
 11,5 12,2 12,3 12,4 12,5 L
 
-
 Y Y Y Y X I I I I I
   Y W X X X N N N Z
     W W X N N Z Z Z
@@ -12883,7 +12388,6 @@ solution 496:
 06,7 07,6 07,7 07,8 08,7 X
 06,8 06,9 07,9 08,8 08,9 U
 11,4 11,5 12,2 12,3 12,4 N
-
 
 Y Y Y Y Z V U U U I
   Y Z Z Z V U X U I
@@ -12910,7 +12414,6 @@ solution 497:
 03,8 04,8 04,9 05,9 06,9 N
 02,7 02,8 03,6 03,7 04,7 F
 
-
 Y Y Y Y N N N V V V
   Y F N N U U U I V
     F F F U Z U I V
@@ -12935,7 +12438,6 @@ solution 498:
 02,7 02,8 03,8 04,8 04,9 Z
 04,7 05,7 05,8 05,9 06,7 T
 11,4 11,5 12,3 12,4 13,4 F
-
 
 Y Y Y Y Z T L L L L
   Y Z Z Z T V V V L
@@ -12962,7 +12464,6 @@ solution 499:
 03,7 04,7 05,7 05,8 05,9 V
 11,4 12,2 12,3 12,4 13,4 T
 
-
 Y Y Y Y Z V L L L L
   Y Z Z Z V U U U L
     Z V V V U N U I
@@ -12987,7 +12488,6 @@ solution 500:
 04,7 05,7 05,8 05,9 06,7 T
 06,9 07,9 08,7 08,8 08,9 V
 11,4 11,5 12,3 12,4 13,4 F
-
 
 Y Y Y Y Z T V V V I
   Y Z Z Z T L L V I
@@ -13014,7 +12514,6 @@ solution 501:
 06,9 07,9 08,7 08,8 08,9 V
 11,5 12,2 12,3 12,4 12,5 L
 
-
 Y Y Y Y N N V V V I
   Y N N N X U U V I
     W W X X X U V I
@@ -13039,7 +12538,6 @@ solution 502:
 06,7 06,8 07,8 08,8 09,8 L
 05,6 05,7 05,8 06,5 06,6 N
 11,4 11,5 11,6 12,4 13,4 V
-
 
 Y Y Y Y T I I I I I
   Y T T T N L L L L
@@ -13066,7 +12564,6 @@ solution 503:
 05,9 06,9 07,9 08,9 09,9 I
 08,8 09,5 09,6 09,7 09,8 L
 
-
 Y Y Y Y T I I I I I
   Y T T T N N N L L
     W W T U U N N L
@@ -13091,7 +12588,6 @@ solution 504:
 11,4 12,3 12,4 12,5 13,4 X
 05,9 06,9 07,9 08,8 08,9 L
 09,5 09,6 09,7 09,8 09,9 I
-
 
 Y Y Y Y T L L L L I
   Y T T T N N N L I
@@ -13118,7 +12614,6 @@ solution 505:
 06,8 06,9 07,9 08,9 09,9 L
 11,4 11,5 12,2 12,3 12,4 N
 
-
 Y Y Y Y T I L L L L
   Y T T T I L V V V
     W W T I U U U V
@@ -13143,7 +12638,6 @@ solution 506:
 06,6 06,7 07,7 08,6 08,7 U
 07,8 08,8 09,6 09,7 09,8 V
 11,4 11,5 12,2 12,3 12,4 N
-
 
 Y Y Y Y T I I I I I
   Y T T T L L V V V
@@ -13170,7 +12664,6 @@ solution 507:
 06,6 07,5 07,6 08,6 08,7 F
 08,4 08,5 09,5 09,6 09,7 N
 
-
 Y Y Y Y I I I I I L
   Y U U U T L L L L
     U W U T T T F N
@@ -13195,7 +12688,6 @@ solution 508:
 11,4 11,5 11,6 12,4 13,4 V
 06,6 07,6 08,6 08,7 09,7 N
 07,5 08,4 08,5 09,5 09,6 F
-
 
 Y Y Y Y I I I I I L
   Y U U U T L L L L
@@ -13222,7 +12714,6 @@ solution 509:
 05,4 06,3 06,4 06,5 07,4 X
 11,4 11,5 11,6 12,4 13,4 V
 
-
 Y Y Y Y I I I I I T
   Y U U U N N T T T
     U W U L N N N T
@@ -13247,7 +12738,6 @@ solution 510:
 05,7 06,7 07,7 08,6 08,7 L
 06,3 06,4 06,5 07,4 08,4 T
 07,5 07,6 08,5 09,5 09,6 U
-
 
 Y Y Y Y X N N V V V
   Y W X X X N N N V
@@ -13274,7 +12764,6 @@ solution 511:
 07,9 08,9 09,7 09,8 09,9 V
 08,6 08,7 08,8 09,5 09,6 N
 
-
 Y Y Y Y X U U V V V
   Y W X X X U L N V
     W W X U U L N V
@@ -13299,7 +12788,6 @@ solution 512:
 07,5 07,6 08,6 08,7 08,8 N
 07,7 07,8 07,9 08,9 09,9 V
 08,5 09,5 09,6 09,7 09,8 L
-
 
 Y Y Y Y X U U V V V
   Y W X X X U V N L
@@ -13326,7 +12814,6 @@ solution 513:
 07,8 07,9 08,6 08,7 08,8 N
 08,9 09,6 09,7 09,8 09,9 L
 
-
 Y Y Y Y X U U N L L
   Y W X X X U N N L
     W W X U U V N L
@@ -13351,7 +12838,6 @@ solution 514:
 07,5 08,5 09,5 09,6 09,7 V
 08,6 08,7 08,8 09,8 09,9 N
 07,6 07,7 07,8 07,9 08,9 L
-
 
 Y Y Y Y X U U L L N
   Y W X X X U L N N
@@ -13378,7 +12864,6 @@ solution 515:
 05,9 06,9 07,7 07,8 07,9 V
 11,4 12,2 12,3 12,4 13,4 T
 
-
 Y Y Y Y Z V V V L L
   Y P P Z Z Z V L I
     P P U U Z V L I
@@ -13403,7 +12888,6 @@ solution 516:
 02,7 02,8 03,6 03,7 03,8 P
 04,8 04,9 05,8 06,7 06,8 Z
 11,5 12,2 12,3 12,4 12,5 L
-
 
 Y Y Y Y Z I I I I I
   Y P P Z Z Z V V V
@@ -13430,7 +12914,6 @@ solution 517:
 02,7 02,8 03,6 03,7 03,8 P
 11,4 11,5 11,6 12,4 13,4 V
 
-
 Y Y Y Y I I I I I T
   Y P P L U U T T T
     P P L U Z Z N T
@@ -13455,7 +12938,6 @@ solution 518:
 05,6 06,6 07,6 07,7 07,8 V
 06,8 06,9 07,9 08,8 08,9 U
 08,6 08,7 09,7 09,8 09,9 N
-
 
 Y Y Y Y Z Z U U U N
   Y P P L Z U V U N
@@ -13482,7 +12964,6 @@ solution 519:
 05,9 06,9 07,9 08,8 08,9 L
 08,6 08,7 09,7 09,8 09,9 N
 
-
 Y Y Y Y Z L L L L N
   Y P P Z Z Z V L N
     P P U U Z V N N
@@ -13507,7 +12988,6 @@ solution 520:
 07,7 08,7 08,8 08,9 09,9 Z
 07,6 08,6 09,6 09,7 09,8 V
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y L L L L Z Z
   Y P P T T T L Z V
@@ -13534,7 +13014,6 @@ solution 521:
 05,8 06,8 07,8 08,7 08,8 L
 07,6 08,6 09,6 09,7 09,8 V
 
-
 Y Y Y Y Z I I I I I
   Y Z Z Z L L L L V
     Z P P T T T L V
@@ -13559,7 +13038,6 @@ solution 522:
 04,5 04,6 04,7 04,8 05,5 L
 02,7 02,8 03,6 03,7 03,8 P
 11,4 11,5 11,6 12,4 13,4 V
-
 
 Y Y Y Y I I I I I T
   Y P P L U U T T T
@@ -13586,7 +13064,6 @@ solution 523:
 06,3 06,4 07,3 08,3 08,4 U
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 Y Y Y Y N N N V V V
   Y L L L L N N T V
     L P P P T T T V
@@ -13611,7 +13088,6 @@ solution 524:
 06,6 07,4 07,5 07,6 08,5 F
 06,3 06,4 07,3 08,3 08,4 U
 11,6 12,4 12,5 12,6 13,4 Z
-
 
 Y Y Y Y N N N V V V
   Y L L L L N N T V
@@ -13638,7 +13114,6 @@ solution 525:
 06,7 06,8 06,9 07,9 08,9 V
 11,4 12,2 12,3 12,4 13,4 T
 
-
 Y Y Y Y L L V V V Z
   Y P P P L V Z Z Z
     P P F L V Z N N
@@ -13663,7 +13138,6 @@ solution 526:
 06,7 06,8 06,9 07,9 08,9 V
 08,6 08,7 09,7 09,8 09,9 N
 11,4 12,2 12,3 12,4 13,4 T
-
 
 Y Y Y Y L L V V V N
   Y P P P L V Z Z N
@@ -13690,7 +13164,6 @@ solution 527:
 06,3 07,3 08,3 08,4 08,5 V
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 Y Y Y Y N N L L L L
   Y P P P N N N F L
     P P X T T T F F
@@ -13715,7 +13188,6 @@ solution 528:
 07,5 07,6 07,7 08,7 08,8 N
 07,9 08,9 09,7 09,8 09,9 V
 11,4 11,5 11,6 12,4 12,6 U
-
 
 Y Y Y Y T T T V V V
   Y P P P T Z Z N V
@@ -13742,7 +13214,6 @@ solution 529:
 06,3 07,3 08,3 08,4 08,5 V
 11,4 12,2 12,3 12,4 13,4 T
 
-
 Y Y Y Y Z Z L L L L
   Y P P P Z N N N L
     P P X Z Z F N N
@@ -13767,7 +13238,6 @@ solution 530:
 04,5 04,6 04,7 05,5 06,5 V
 04,8 04,9 05,6 05,7 05,8 N
 05,9 06,7 06,8 06,9 07,9 T
-
 
 Y Y Y Y N T T T U U
   Y P P N N T Z Z U
@@ -13794,7 +13264,6 @@ solution 531:
 04,5 04,6 05,4 05,5 06,5 F
 06,4 06,6 07,4 07,5 07,6 U
 
-
 Y Y Y Y T L L L L N
   Y P P T T T Z L N
     P P T Z Z Z N N
@@ -13819,7 +13288,6 @@ solution 532:
 06,7 06,8 07,7 08,6 08,7 Z
 04,5 04,6 05,4 05,5 06,5 F
 06,4 06,6 07,4 07,5 07,6 U
-
 
 Y Y Y Y N L L L L T
   Y P P N L Z T T T
@@ -13846,7 +13314,6 @@ solution 533:
 07,9 08,9 09,7 09,8 09,9 V
 11,6 12,4 12,5 12,6 13,4 Z
 
-
 Y Y Y Y L L F V V V
   Y P P L F F F T V
     P P L F T T T V
@@ -13871,7 +13338,6 @@ solution 534:
 07,4 08,4 08,5 08,6 08,7 L
 05,4 06,3 06,4 07,3 08,3 N
 05,5 06,5 07,5 07,6 07,7 V
-
 
 Y Y Y Y Z U U U P P
   Y Z Z Z U T U P P
@@ -13898,7 +13364,6 @@ solution 535:
 06,7 07,5 07,6 07,7 08,6 F
 08,7 08,9 09,7 09,8 09,9 U
 
-
 Y Y Y Y Z N N N U U
   Y Z Z Z L L N N U
     Z P P L F F U U
@@ -13923,7 +13388,6 @@ solution 536:
 05,4 05,5 06,4 07,4 07,5 U
 07,6 08,4 08,5 08,6 09,4 Z
 11,4 12,2 12,3 12,4 13,4 T
-
 
 Y Y Y Y F F V V V I
   Y P P P F F N V I
@@ -13950,7 +13414,6 @@ solution 537:
 03,6 04,5 04,6 04,7 05,6 X
 11,4 11,5 12,3 12,4 13,4 F
 
-
 Y Y Y Y N N V V V I
   Y P P P N N N V I
     P P X T T T V I
@@ -13975,7 +13438,6 @@ solution 538:
 05,4 05,5 06,5 07,5 07,6 Z
 06,4 07,4 08,4 08,5 08,6 V
 11,4 11,5 11,6 12,4 12,6 U
-
 
 Y Y Y Y N N N T T T
   Y P P P F N N T I
@@ -14002,7 +13464,6 @@ solution 539:
 05,4 05,5 06,5 06,6 07,5 F
 11,4 11,5 11,6 12,4 12,6 U
 
-
 Y Y Y Y N N N T T T
   Y P P P Z N N T I
     P P X Z Z Z T I
@@ -14027,7 +13488,6 @@ solution 540:
 06,7 06,8 07,8 08,7 08,8 U
 07,9 08,9 09,7 09,8 09,9 V
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y T T T V V V
   Y P P P T U U U V
@@ -14054,7 +13514,6 @@ solution 541:
 06,8 06,9 07,6 07,7 07,8 N
 11,4 11,5 11,6 12,4 12,6 U
 
-
 Y Y Y Y Z Z N T T T
   Y P P P Z N N T I
     P P X Z Z N T I
@@ -14079,7 +13538,6 @@ solution 542:
 05,4 06,4 07,4 07,5 08,5 N
 06,7 06,8 07,6 07,7 08,7 F
 08,4 08,6 09,4 09,5 09,6 U
-
 
 Y Y Y Y I I I I I T
   Y P P Z Z F T T T
@@ -14106,7 +13564,6 @@ solution 543:
 05,4 05,5 05,6 06,4 07,4 V
 06,5 06,6 07,5 08,4 08,5 Z
 
-
 Y Y Y Y U U U T T T
   Y P P U N U F T I
     P P N N F F T I
@@ -14131,7 +13588,6 @@ solution 544:
 06,4 07,4 07,5 07,6 08,4 T
 08,5 08,6 08,7 09,4 09,5 N
 11,4 11,5 11,6 12,4 12,6 U
-
 
 Y Y Y Y Z I I I I I
   Y Z Z Z F F V V V
@@ -14158,7 +13614,6 @@ solution 545:
 08,7 08,9 09,7 09,8 09,9 U
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y Z V F F U U
   Y Z Z Z V T F F U
     Z V V V T F U U
@@ -14183,7 +13638,6 @@ solution 546:
 02,7 02,8 03,8 04,8 04,9 Z
 03,6 03,7 04,6 04,7 05,7 P
 11,4 12,2 12,3 12,4 13,4 T
-
 
 Y Y Y Y Z I I I I I
   Y Z Z Z F F V V V
@@ -14210,7 +13664,6 @@ solution 547:
 03,6 03,7 04,6 04,7 05,7 P
 11,4 11,5 12,3 12,4 13,4 F
 
-
 Y Y Y Y Z I I I I I
   Y Z Z Z N N V V V
     Z P P P N N N V
@@ -14235,7 +13688,6 @@ solution 548:
 11,4 11,5 11,6 12,4 13,4 V
 03,6 03,7 04,6 04,7 05,7 P
 02,7 02,8 03,8 04,8 05,8 L
-
 
 Y Y Y Y N N N U U I
   Y L L L L N N U I
@@ -14262,7 +13714,6 @@ solution 549:
 02,7 02,8 03,6 03,7 03,8 P
 11,4 11,5 12,2 12,3 12,4 N
 
-
 Y Y Y Y L L V V V I
   Y P P L U U U V I
     P P L U Z U V I
@@ -14287,7 +13738,6 @@ solution 550:
 04,6 04,7 04,8 05,8 06,8 V
 02,7 02,8 03,6 03,7 03,8 P
 11,5 12,2 12,3 12,4 12,5 L
-
 
 Y Y Y Y I I I I I Z
   Y P P V V V Z Z Z
@@ -14314,7 +13764,6 @@ solution 551:
 02,7 02,8 03,8 04,8 05,8 L
 11,4 11,5 12,2 12,3 12,4 N
 
-
 Y Y Y Y I I I I I Z
   Y L L L L V Z Z Z
     L P P P V Z U U
@@ -14339,7 +13788,6 @@ solution 552:
 02,7 02,8 03,8 04,8 04,9 Z
 03,6 03,7 04,7 05,7 06,7 L
 11,4 11,5 12,2 12,3 12,4 N
-
 
 Y Y Y Y Z I I I I I
   Y Z Z Z V V V P P
@@ -14366,7 +13814,6 @@ solution 553:
 02,7 02,8 03,8 04,8 04,9 Z
 11,4 11,5 11,6 12,4 13,4 V
 
-
 Y Y Y Y Z I I I I I
   Y Z Z Z N L L L L
     Z P P N L U U U
@@ -14391,7 +13838,6 @@ solution 554:
 04,5 05,5 06,5 06,6 06,7 V
 05,7 05,8 06,8 07,7 07,8 U
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y L I I I I I
   Y P P L U U U Z Z
@@ -14418,7 +13864,6 @@ solution 555:
 05,5 05,6 05,7 06,5 06,7 U
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y I Z L L L L
   Y P P I Z Z Z V L
     P P I U U Z V N
@@ -14443,7 +13888,6 @@ solution 556:
 04,5 04,6 04,7 04,8 04,9 I
 02,7 02,8 03,6 03,7 03,8 P
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y I Z Z U U U
   Y P P I L Z U V U
@@ -14470,7 +13914,6 @@ solution 557:
 05,8 06,8 07,7 07,8 08,7 N
 05,9 06,9 07,9 08,8 08,9 L
 
-
 Y Y Y Y Z L L L L I
   Y Z Z Z N N N L I
     Z P P U U N N I
@@ -14495,7 +13938,6 @@ solution 558:
 05,5 05,6 05,7 06,5 06,7 U
 03,6 03,7 04,5 04,6 04,7 P
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y Z I I I I I
   Y Z Z Z N N N L L
@@ -14522,7 +13964,6 @@ solution 559:
 02,7 02,8 03,6 03,7 03,8 P
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y I Z L L L L
   Y P P I Z Z Z N L
     P P I U U Z N N
@@ -14547,7 +13988,6 @@ solution 560:
 04,5 04,6 04,7 04,8 04,9 I
 02,7 02,8 03,6 03,7 03,8 P
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y I Z Z U U U
   Y P P I L Z U N U
@@ -14574,7 +14014,6 @@ solution 561:
 06,8 06,9 07,9 08,9 09,9 L
 11,4 11,5 12,2 12,3 12,4 N
 
-
 Y Y Y Y Z I L L L L
   Y Z Z Z I L V V V
     Z P P I U U U V
@@ -14599,7 +14038,6 @@ solution 562:
 11,4 11,5 11,6 12,4 13,4 V
 04,5 04,6 05,5 05,6 06,6 P
 03,6 03,7 04,7 05,7 06,7 L
-
 
 Y Y Y Y Z I I I I I
   Y Z Z Z N N N U U
@@ -14626,7 +14064,6 @@ solution 563:
 02,7 02,8 03,8 04,8 04,9 Z
 11,4 11,5 12,2 12,3 12,4 N
 
-
 Y Y Y Y Z I I I I I
   Y Z Z Z L L V V V
     Z P P L U U U V
@@ -14651,7 +14088,6 @@ solution 564:
 05,6 06,6 07,6 07,7 07,8 V
 06,8 06,9 07,9 08,8 08,9 U
 08,6 08,7 09,7 09,8 09,9 N
-
 
 Y Y Y Y Z Z U U U N
   Y P P L Z U V U N
@@ -14678,7 +14114,6 @@ solution 565:
 05,9 06,9 07,9 08,8 08,9 L
 08,6 08,7 09,7 09,8 09,9 N
 
-
 Y Y Y Y Z L L L L N
   Y P P Z Z Z V L N
     P P U U Z V N N
@@ -14703,7 +14138,6 @@ solution 566:
 11,6 12,4 12,5 12,6 13,4 Z
 05,9 06,9 07,9 08,9 09,9 I
 04,8 04,9 05,8 06,8 07,8 L
-
 
 Y Y Y Y L I I I I I
   Y P P L L L L F F
@@ -14730,7 +14164,6 @@ solution 567:
 03,6 03,7 04,6 04,7 05,7 P
 11,4 11,5 11,6 12,4 13,4 V
 
-
 Y Y Y Y N N N U U I
   Y L L L L N N U I
     L P P P F U U I
@@ -14755,7 +14188,6 @@ solution 568:
 03,6 03,7 04,7 05,6 05,7 U
 04,5 04,6 05,4 05,5 06,5 F
 11,4 11,5 12,2 12,3 12,4 N
-
 
 Y Y Y Y V V V P P I
   Y L L L L V P P I
@@ -14782,7 +14214,6 @@ solution 569:
 04,9 05,9 06,8 06,9 07,8 N
 07,9 08,6 08,7 08,8 08,9 L
 
-
 Y Y Y Y N N N L L I
   Y P P U U N N L I
     P P U V V V L I
@@ -14807,7 +14238,6 @@ solution 570:
 05,7 05,8 06,8 07,7 07,8 U
 06,9 07,9 08,7 08,8 08,9 V
 11,4 11,5 12,2 12,3 12,4 N
-
 
 Y Y Y Y L L V V V I
   Y P P L U U U V I
@@ -14834,7 +14264,6 @@ solution 571:
 04,5 04,6 05,4 05,5 06,5 F
 11,4 11,5 11,6 12,4 13,4 V
 
-
 Y Y Y Y N L L L L I
   Y P P N L U U U I
     P P N N U X U I
@@ -14859,7 +14288,6 @@ solution 572:
 05,7 05,8 06,8 07,8 08,8 L
 07,7 08,7 09,7 09,8 09,9 V
 11,4 11,5 12,3 12,4 13,4 F
-
 
 Y Y Y Y I I I I I V
   Y P P P L L L L V
@@ -14886,7 +14314,6 @@ solution 573:
 06,8 06,9 07,9 08,8 08,9 U
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y P P U U U I
   Y F P P P U Z U I
     F F F Z Z Z T I
@@ -14911,7 +14338,6 @@ solution 574:
 11,4 12,2 12,3 12,4 13,4 T
 06,8 06,9 07,9 08,9 09,9 L
 08,6 08,8 09,6 09,7 09,8 U
-
 
 Y Y Y Y Z Z L L L L
   Y P P P Z L F U U
@@ -14938,7 +14364,6 @@ solution 575:
 06,8 06,9 07,9 08,8 08,9 U
 08,6 09,6 09,7 09,8 09,9 L
 
-
 Y Y Y Y Z Z U U U L
   Y P P P Z U F U L
     P P X Z Z F F L
@@ -14963,7 +14388,6 @@ solution 576:
 06,6 07,6 07,7 07,8 08,7 F
 06,8 06,9 07,9 08,8 08,9 U
 11,4 12,2 12,3 12,4 13,4 T
-
 
 Y Y Y Y Z Z U U U I
   Y P P P Z U F U I
@@ -14990,7 +14414,6 @@ solution 577:
 08,7 08,8 09,6 09,7 09,8 P
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y Z Z L L L L
   Y U U U Z L T P P
     U F U Z Z T P P
@@ -15015,7 +14438,6 @@ solution 578:
 06,6 06,8 07,6 07,7 07,8 U
 06,9 07,9 08,9 09,8 09,9 L
 08,6 08,7 08,8 09,6 09,7 P
-
 
 Y Y Y Y Z T L L L L
   Y Z Z Z T U U P L
@@ -15042,7 +14464,6 @@ solution 579:
 07,6 07,7 08,7 08,8 09,7 F
 11,4 12,3 12,4 12,5 13,4 X
 
-
 Y Y Y Y I T L L L L
   Y P P I T T T F L
     P P I T V F F F
@@ -15067,7 +14488,6 @@ solution 580:
 06,9 07,9 08,9 09,8 09,9 L
 07,6 07,7 08,7 08,8 09,7 F
 11,4 12,3 12,4 12,5 13,4 X
-
 
 Y Y Y Y I T L L L L
   Y P P I T T T F L
