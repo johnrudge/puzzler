@@ -1,4 +1,4 @@
-solving HexatwigsHexagonRing:
+solving HexatwigsHexagonRing1:
 
 solution 1:
 5,0,0 5,0,1 5,1,0 5,1,2 6,0,1 6,0,2 O06
