@@ -126,7 +126,8 @@ Polyform Puzzler!):
 
 .. figure:: docs/images/hexiamonds-trefoil.png
 
-   Polyiamonds (`Hexiamonds: <docs/hexiamonds.html>`__ & `Heptiamonds
+   `Polyiamonds <docs/polyiamonds.html>`__ (`Hexiamonds:
+   <docs/hexiamonds.html>`__ & `Heptiamonds
    <docs/heptiamonds.html>`__): Hexiamond Trefoil
 
 .. figure:: docs/images/pentahex-10x11.png
