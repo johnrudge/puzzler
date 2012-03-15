@@ -122,7 +122,8 @@ Polyform Puzzler!):
 
 .. figure:: docs/images/pentominoes-6x10.png
 
-   `Pentominoes <docs/pentominoes.html>`__: 6 |x| 10 Rectangle
+   `Polyominoes <docs/polyominoes.html>`__ & `Pentominoes
+   <docs/pentominoes.html>`__: 6 |x| 10 Pentominoes Rectangle
 
 .. figure:: docs/images/hexiamonds-trefoil.png
 
@@ -137,7 +138,7 @@ Polyform Puzzler!):
 
 .. figure:: docs/images/solid-pentominoes-3x4x5.png
 
-   `Solid Pentominoes <docs/solid-pentominoes.html>`__): 3 |x| 4 |x| 5
+   `Solid Pentominoes <docs/solid-pentominoes.html>`__: 3 |x| 4 |x| 5
 
 .. figure:: docs/images/soma-long-wall.png
 
