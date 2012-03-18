@@ -25,7 +25,8 @@
 
    **(2010-09-26) Polyform Puzzler Talk (PyCon India 2010)**
        Gave a talk at `PyCon India 2010 <http://in.pycon.org/2010>`_
-       in Bangalore: "Polyform Puzzler and a Pythonic Algorithm X".
+       in Bangalore: `"Polyform Puzzler and a Pythonic Algorithm X"
+       <http://blip.tv/pyconindia/day2_hall1_part1-4552053>`_.
 
    **(2010-09-25) New Solver Backend**
        Added a second implementation of the exact cover solver, faster
