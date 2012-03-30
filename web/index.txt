@@ -132,7 +132,7 @@ Polyform Puzzler!):
    <docs/hexiamonds.html>`__ & `Heptiamonds
    <docs/heptiamonds.html>`__): Hexiamond Trefoil
 
-.. figure:: docs/images/pentahex-10x11.png
+.. figure:: docs/images/pentahexes-10x11.png
 
    `Polyhexes <docs/polyhexes.html>`__ & `Pentahexes
    <docs/pentahexes.html>`__: 10 |x| 11 Pentahex Parallelogram
