@@ -6,6 +6,10 @@
 
 .. sidebar:: News
 
+   **(2012-03-31) G4GX Puzzles**
+       `Puzzles designed for the 10th Gathering for Gardner
+       (G4GX). <docs/g4gX.html>`__
+
    **(2012-01-15) New Puzzle Type: Polytwigs! (Hexagonal-Grid Polysticks)**
        `Many polytwig puzzles added. <docs/polytwigs.html>`__
 
