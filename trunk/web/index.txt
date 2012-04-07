@@ -130,46 +130,64 @@ Here are some examples of polyform puzzles (all solved & drawn by
 Polyform Puzzler!):
 
 .. figure:: docs/images/pentominoes-6x10.png
+   :target: docs/polyominoes.html
+   :class: borderless
 
    `Polyominoes <docs/polyominoes.html>`__ & `Pentominoes
    <docs/pentominoes.html>`__: 6 |x| 10 Pentominoes Rectangle
 
 .. figure:: docs/images/hexiamonds-trefoil.png
+   :target: docs/polyiamonds.html
+   :class: borderless
 
    `Polyiamonds <docs/polyiamonds.html>`__ (`Hexiamonds:
    <docs/hexiamonds.html>`__ & `Heptiamonds
    <docs/heptiamonds.html>`__): Hexiamond Trefoil
 
 .. figure:: docs/images/pentahexes-10x11.png
+   :target: docs/polyhexes.html
+   :class: borderless
 
    `Polyhexes <docs/polyhexes.html>`__ & `Pentahexes
    <docs/pentahexes.html>`__: 10 |x| 11 Pentahex Parallelogram
 
 .. figure:: docs/images/solid-pentominoes-3x4x5.png
+   :target: docs/solid-pentominoes.html
+   :class: borderless
 
    `Solid Pentominoes <docs/solid-pentominoes.html>`__: 3 |x| 4 |x| 5
 
 .. figure:: docs/images/soma-long-wall.png
+   :target: docs/polycubes.html
+   :class: borderless
 
    `Polycubes <docs/polycubes.html>`__: Soma Cubes Long Wall
 
 .. figure:: docs/images/pentacubes-5x9x9-fortress.png
+   :target: docs/pentacubes.html
+   :class: borderless
 
    `Pentacubes <docs/pentacubes.html>`__: 5 |x| 9 |x| 9 Fortress
 
 .. figure:: docs/images/polysticks-3x7-diamond-lattice.png
+   :target: docs/polysticks.html
+   :class: borderless
 
    `Polysticks <docs/polysticks.html>`__: 3 |x| 7 Diamond Lattice
    (also, `An Introduction to Polysticks
    <docs/polysticks-intro.html>`_)
 
 .. figure:: docs/images/tritrigs-hex-3x1-ring.png
+   :target: docs/polytrigs.html
+   :class: borderless
 
    `Polytrigs (triangular-grid polysticks) <docs/polytrigs.html>`__:
    Tritrigs 3x1 Semi-Regular Hexagon Ring (also, `An Introduction to
    Polytrigs <docs/polytrigs-intro.html>`_)
 
 .. figure:: docs/images/pentatwigs-triangle.png
+   :target: docs/polytwigs.html
+   :class: borderless
 
    `Polytwigs (hexagonal-grid polysticks) <docs/polytwigs.html>`__:
    Pentatwigs Triangle (also, `An Introduction to Polytwigs
