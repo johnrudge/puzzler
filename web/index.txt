@@ -8,7 +8,7 @@
 
    **(2012-04-09) My account of G4G10 (blog article)**
         `I posted an account of the 10th Gathering for Gardner to my blog
-        (off-ste) <http://www.artima.com/weblogs/viewpost.jsp?thread=341893>`__
+        (off-site) <http://www.artima.com/weblogs/viewpost.jsp?thread=341893>`__
 
    **(2012-04-04) Talk from G4G10 Posted**
        `My talk presented at the 10th Gathering for Gardner (G4G10).
