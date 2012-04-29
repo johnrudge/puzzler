@@ -230,8 +230,8 @@ Download
 
   __ https://lists.sourceforge.net/mailman/listinfo/puzzler-checkins
 
-  (You can also `browse the repository [trunk]`__, including the
-  `solutions`__ and the `Python source code ("puzzler" package)`__.)
+  You can also `browse the repository trunk`__, including the
+  `solutions`__ and the `Python source code ("puzzler" package)`__.
 
   __ http://puzzler.svn.sourceforge.net/viewvc/puzzler/trunk/
   __ http://puzzler.svn.sourceforge.net/viewvc/puzzler/trunk/solutions/
