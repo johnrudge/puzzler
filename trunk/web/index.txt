@@ -154,6 +154,7 @@ Polyform Puzzler!):
 
    `Polyhexes <docs/polyhexes.html>`__ & `Pentahexes
    <docs/pentahexes.html>`__: 10 |x| 11 Pentahex Parallelogram
+   (also, `An Introduction to Polyhexes <docs/polyhexes-intro.html>`_)
 
 .. figure:: docs/images/solid-pentominoes-3x4x5.png
    :target: docs/solid-pentominoes.html
