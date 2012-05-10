@@ -1,16 +1,16 @@
-solving PentacubesZigZag1:
+solving NonConvexPentacubesZigZag1:
 
 Session interrupted by user.
 0 solutions, 514880 searches, duration 0:20:37.695802
 
 Resuming session (0 solutions, 514880 searches).
 
-solving PentacubesZigZag1:
+solving NonConvexPentacubesZigZag1:
 
 
 Resuming session (0 solutions, 862741 searches).
 
-solving PentacubesZigZag1:
+solving NonConvexPentacubesZigZag1:
 
 solution 1:
 15,02,0 16,01,0 16,02,0 16,03,0 17,02,0 X

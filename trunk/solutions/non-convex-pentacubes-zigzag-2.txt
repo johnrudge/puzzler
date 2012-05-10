@@ -1,4 +1,4 @@
-solving PentacubesZigZag2:
+solving NonConvexPentacubesZigZag2:
 
 solution 1:
 16,01,0 17,00,0 17,01,0 17,02,0 18,01,0 X
