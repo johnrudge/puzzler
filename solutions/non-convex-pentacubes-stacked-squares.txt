@@ -1,4 +1,4 @@
-solving PentacubesStackedSquares:
+solving NonConvexPentacubesStackedSquares:
 
 solution 1 (41,571 searches):
 0,5,4 0,6,4 0,6,5 0,6,6 1,6,5 J25

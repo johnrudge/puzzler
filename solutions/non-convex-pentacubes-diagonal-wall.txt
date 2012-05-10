@@ -1,4 +1,4 @@
-solving PentacubesDiagonalWall:
+solving NonConvexPentacubesDiagonalWall:
 
 solution 1 (194,146,442 searches):
 17,01,0 17,01,1 18,00,0 18,00,1 18,01,0 A5
