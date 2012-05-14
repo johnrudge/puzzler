@@ -1,0 +1,91 @@
+solving PentominoesCross5:
+
+solution 1 (3,584 searches):
+7,1 8,0 8,1 8,2 9,1 X
+8,5 9,2 9,3 9,4 9,5 L
+6,5 7,4 7,5 8,3 8,4 W
+4,6 5,6 6,6 7,6 8,6 I
+3,4 4,4 5,4 5,5 6,4 Y
+1,6 2,6 3,5 3,6 4,5 N
+6,0 6,1 6,2 7,0 7,2 U
+0,3 0,4 0,5 1,5 2,5 V
+0,2 1,2 1,3 1,4 2,4 Z
+0,1 1,0 1,1 2,1 2,2 F
+2,0 3,0 3,1 3,2 4,0 T
+4,1 4,2 5,0 5,1 5,2 P
+
+  N N N I I I I I
+V V V N N Y W W L L
+V Z Z Y Y Y Y W W L
+V Z             W L
+Z Z F T P P U U X L
+F F F T P P U X X X
+  F T T T P U U X
+
+solution 2 (4,901 searches):
+7,1 8,0 8,1 8,2 9,1 X
+7,4 8,3 8,4 9,2 9,3 W
+6,5 7,5 8,5 9,4 9,5 L
+4,6 5,6 6,6 7,6 8,6 I
+3,4 4,4 5,4 5,5 6,4 Y
+1,6 2,6 3,5 3,6 4,5 N
+6,0 6,1 6,2 7,0 7,2 U
+0,3 0,4 0,5 1,5 2,5 V
+0,2 1,2 1,3 1,4 2,4 Z
+0,1 1,0 1,1 2,1 2,2 F
+2,0 3,0 3,1 3,2 4,0 T
+4,1 4,2 5,0 5,1 5,2 P
+
+  N N N I I I I I
+V V V N N Y L L L L
+V Z Z Y Y Y Y W W L
+V Z             W W
+Z Z F T P P U U X W
+F F F T P P U X X X
+  F T T T P U U X
+
+solution 3 (8,969 searches):
+7,5 8,4 8,5 8,6 9,5 X
+7,2 8,2 8,3 9,3 9,4 W
+7,1 8,0 8,1 9,1 9,2 F
+5,0 6,0 6,1 6,2 7,0 T
+4,5 5,5 6,4 6,5 7,4 N
+3,6 4,6 5,6 6,6 7,6 I
+2,4 3,4 3,5 4,4 5,4 Y
+0,5 1,5 1,6 2,5 2,6 P
+0,4 1,2 1,3 1,4 2,2 Z
+0,1 0,2 0,3 1,1 2,1 V
+1,0 2,0 3,0 4,0 4,1 L
+3,1 3,2 4,2 5,1 5,2 U
+
+  P P I I I I I X
+P P P Y N N N X X X
+Z Z Y Y Y Y N N X W
+V Z             W W
+V Z Z U U U T W W F
+V V V U L U T F F F
+  L L L L T T T F
+
+solution 4 (9,075 searches):
+7,5 8,4 8,5 8,6 9,5 X
+7,2 8,2 8,3 9,3 9,4 W
+7,1 8,0 8,1 9,1 9,2 F
+5,0 6,0 6,1 6,2 7,0 T
+4,4 5,4 6,4 6,5 7,4 Y
+3,6 4,6 5,6 6,6 7,6 I
+2,4 3,4 3,5 4,5 5,5 N
+0,5 1,5 1,6 2,5 2,6 P
+0,4 1,2 1,3 1,4 2,2 Z
+0,1 0,2 0,3 1,1 2,1 V
+1,0 2,0 3,0 4,0 4,1 L
+3,1 3,2 4,2 5,1 5,2 U
+
+  P P I I I I I X
+P P P N N N Y X X X
+Z Z N N Y Y Y Y X W
+V Z             W W
+V Z Z U U U T W W F
+V V V U L U T F F F
+  L L L L T T T F
+
+4 solutions, 9,778 searches, duration 0:00:00.599560
