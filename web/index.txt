@@ -144,9 +144,9 @@ Polyform Puzzler!):
    :target: docs/polyiamonds.html
    :class: borderless
 
-   `Polyiamonds <docs/polyiamonds.html>`__ (`Hexiamonds:
+   `Polyiamonds <docs/polyiamonds.html>`__ & `Hexiamonds
    <docs/hexiamonds.html>`__ & `Heptiamonds
-   <docs/heptiamonds.html>`__): Hexiamond Trefoil
+   <docs/heptiamonds.html>`__: Hexiamonds Trefoil
 
 .. figure:: docs/images/pentahexes-10x11.png
    :target: docs/polyhexes.html
@@ -156,23 +156,14 @@ Polyform Puzzler!):
    <docs/pentahexes.html>`__: 10 |x| 11 Pentahex Parallelogram
    (also, `An Introduction to Polyhexes <docs/polyhexes-intro.html>`_)
 
-.. figure:: docs/images/solid-pentominoes-3x4x5.png
-   :target: docs/solid-pentominoes.html
-   :class: borderless
-
-   `Solid Pentominoes <docs/solid-pentominoes.html>`__: 3 |x| 4 |x| 5
-
-.. figure:: docs/images/soma-long-wall.png
-   :target: docs/polycubes.html
-   :class: borderless
-
-   `Polycubes <docs/polycubes.html>`__: Soma Cubes Long Wall
-
 .. figure:: docs/images/pentacubes-5x9x9-fortress.png
    :target: docs/pentacubes.html
    :class: borderless
 
-   `Pentacubes <docs/pentacubes.html>`__: 5 |x| 9 |x| 9 Fortress
+   `Polycubes <docs/polycubes.html>`__ & `Solid Pentominoes
+   <docs/solid-pentominoes.html>`__ & `Pentacubes
+   <docs/pentacubes.html>`__: Pentacubes 5 |x| 9 |x| 9 Fortress
+   (also, `An Introduction to Polycubes <docs/polycubes-intro.html>`_)
 
 .. figure:: docs/images/polysticks-3x7-diamond-lattice.png
    :target: docs/polysticks.html
