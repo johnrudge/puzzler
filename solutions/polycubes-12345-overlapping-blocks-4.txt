@@ -1,6 +1,6 @@
 solving Polycubes12345OverlappingBlocks4:
 
-solution 1 (493 searches):
+solution 1 (1,440 searches):
 1,1,0 1,1,1 1,1,2 1,1,3 1,1,4 I5
 0,0,0 0,0,1 0,1,1 1,0,0 A4
 0,1,0 0,2,0 1,2,0 1,2,1 B4
@@ -51,7 +51,7 @@ B4  B4  L15 N25 N25 O4  J15     A5  B4  L15 L45 L45 O4  J15     A5  A5  F5  L45 
 B4  I5  L25 L25 L25 I4  J15     A4  I5  L15 L25 L45 I4  Q5      D   I5  F5  F5  L35 I4  Q5          I5  L4  L4  J45 I4              I5  N5  S4  J45 J45
 A4  A4  L25     I3  J15 J15     A4  L15 L15     I3  M   Q5      D   F5  F5      I3  Q5  Q5
 
-solution 2 (545 searches):
+solution 2 (1,579 searches):
 1,1,0 1,1,1 1,1,2 1,1,3 1,1,4 I5
 0,0,0 0,0,1 0,1,1 1,0,0 A4
 0,1,0 0,2,0 1,2,0 1,2,1 B4
@@ -102,7 +102,7 @@ B4  B4  L15 N25 N25 O4  J15     A5  B4  L15 L45 L45 O4  J15     A5  A5  F5  L45 
 B4  I5  L25 L25 L25 I4  J15     A4  I5  L15 L25 L45 I4  Q5      D   I5  F5  F5  L35 I4  Q5          I5  L4  L4  J45 I4              I5  N5  S4  J45 J45
 A4  A4  L25     I3  J15 J15     A4  L15 L15     I3  M   Q5      D   F5  F5      I3  Q5  Q5
 
-solution 3 (593 searches):
+solution 3 (1,699 searches):
 1,1,0 1,1,1 1,1,2 1,1,3 1,1,4 I5
 0,0,0 0,0,1 0,1,1 1,0,0 A4
 0,1,0 0,2,0 1,2,0 1,2,1 B4
@@ -153,7 +153,7 @@ B4  B4  L15 N25 N25 O4  J15     A5  B4  L15 L45 L45 O4  J15     A5  A5  F5  L45 
 B4  I5  L25 L25 L25 I4  J15     A4  I5  L15 L25 L45 I4  Q5      D   I5  F5  F5  L35 I4  Q5          I5  L4  L4  J45 I4              I5  N5  S4  J45 J45
 A4  A4  L25     I3  J15 J15     A4  L15 L15     I3  M   Q5      D   F5  F5      I3  Q5  Q5
 
-solution 4 (1,030 searches):
+solution 4 (3,131 searches):
 1,1,0 1,1,1 1,1,2 1,1,3 1,1,4 I5
 0,0,0 0,0,1 0,1,1 1,0,0 A4
 0,1,0 0,2,0 1,2,0 1,2,1 B4
@@ -204,7 +204,7 @@ B4  B4  L15 N25 N25 O4  J15     A5  B4  L15 L45 L45 O4  J15     A5  A5  F5  L45 
 B4  I5  L25 L25 L25 I4  J15     A4  I5  L15 L25 L45 I4  Q5      D   I5  F5  F5  L35 I4  Q5          I5  L4  L4  J45 I4              I5  N5  S4  J45 J45
 A4  A4  L25     I3  J15 J15     A4  L15 L15     I3  M   Q5      D   F5  F5      I3  Q5  Q5
 
-solution 5 (2,577 searches):
+solution 5 (7,710 searches):
 1,1,0 1,1,1 1,1,2 1,1,3 1,1,4 I5
 0,0,0 0,0,1 0,1,1 1,0,0 A4
 0,1,0 0,2,0 1,2,0 1,2,1 B4
@@ -255,7 +255,7 @@ B4  B4  L15 N25 N25 O4  J15     A5  B4  L15 L45 L45 O4  J15     A5  A5  F5  L45 
 B4  I5  L25 L25 L25 I4  J15     A4  I5  L15 L25 L45 I4  Q5      D   I5  F5  F5  L35 I4  Q5          I5  L4  L4  J45 I4              I5  N5  S4  J45 J45
 A4  A4  L25     I3  J15 J15     A4  L15 L15     I3  M   Q5      D   F5  F5      I3  Q5  Q5
 
-solution 6 (2,587 searches):
+solution 6 (7,737 searches):
 1,1,0 1,1,1 1,1,2 1,1,3 1,1,4 I5
 0,0,0 0,0,1 0,1,1 1,0,0 A4
 0,1,0 0,2,0 1,2,0 1,2,1 B4
@@ -306,7 +306,7 @@ B4  B4  L15 N25 N25 O4  J15     A5  B4  L15 L45 L45 O4  J15     A5  A5  F5  L45 
 B4  I5  L25 L25 L25 I4  J15     A4  I5  L15 L25 L45 I4  Q5      D   I5  F5  F5  L35 I4  Q5          I5  L4  L4  J45 I4              I5  N5  S4  J45 J45
 A4  A4  L25     I3  J15 J15     A4  L15 L15     I3  M   Q5      D   F5  F5      I3  Q5  Q5
 
-solution 7 (2,988 searches):
+solution 7 (8,848 searches):
 1,1,0 1,1,1 1,1,2 1,1,3 1,1,4 I5
 0,0,0 0,0,1 0,1,1 1,0,0 A4
 0,1,0 0,2,0 1,2,0 1,2,1 B4
@@ -357,7 +357,7 @@ B4  B4  L15 N25 N25 O4  J15     A5  B4  L15 L45 L45 O4  J15     A5  A5  F5  L45 
 B4  I5  L25 L25 L25 I4  J15     A4  I5  L15 L25 L45 I4  Q5      D   I5  F5  F5  L35 I4  Q5          I5  L4  L4  J45 I4              I5  N5  S4  J45 J45
 A4  A4  L25     I3  J15 J15     A4  L15 L15     I3  M   Q5      D   F5  F5      I3  Q5  Q5
 
-solution 8 (2,998 searches):
+solution 8 (8,875 searches):
 1,1,0 1,1,1 1,1,2 1,1,3 1,1,4 I5
 0,0,0 0,0,1 0,1,1 1,0,0 A4
 0,1,0 0,2,0 1,2,0 1,2,1 B4
@@ -408,7 +408,7 @@ B4  B4  L15 N25 N25 O4  J15     A5  B4  L15 L45 L45 O4  J15     A5  A5  F5  L45 
 B4  I5  L25 L25 L25 I4  J15     A4  I5  L15 L25 L45 I4  Q5      D   I5  F5  F5  L35 I4  Q5          I5  L4  L4  J45 I4              I5  N5  S4  J45 J45
 A4  A4  L25     I3  J15 J15     A4  L15 L15     I3  M   Q5      D   F5  F5      I3  Q5  Q5
 
-solution 9 (3,220 searches):
+solution 9 (9,496 searches):
 1,1,0 1,1,1 1,1,2 1,1,3 1,1,4 I5
 0,0,0 0,0,1 0,1,1 1,0,0 A4
 0,1,0 0,2,0 1,2,0 1,2,1 B4
@@ -459,7 +459,7 @@ B4  B4  L15 N25 N25 O4  J15     A5  B4  L15 L45 L45 O4  J15     A5  A5  F5  L45 
 B4  I5  L25 L25 L25 I4  J15     A4  I5  L15 L25 L45 I4  Q5      D   I5  F5  F5  L35 I4  Q5          I5  L4  L4  J45 I4              I5  N5  S4  J45 J45
 A4  A4  L25     I3  J15 J15     A4  L15 L15     I3  M   Q5      D   F5  F5      I3  Q5  Q5
 
-solution 10 (3,474 searches):
+solution 10 (10,211 searches):
 1,1,0 1,1,1 1,1,2 1,1,3 1,1,4 I5
 0,0,0 0,0,1 0,1,1 1,0,0 A4
 0,1,0 0,2,0 1,2,0 1,2,1 B4
@@ -511,4 +511,4 @@ B4  I5  L25 L25 L25 I4  J15     A4  I5  L15 L25 L45 I4  Q5      D   I5  F5  F5  
 A4  A4  L25     I3  J15 J15     A4  L15 L15     I3  M   Q5      D   F5  F5      I3  Q5  Q5
 
 User-requested solution limit reached.
-10 solutions, 3,474 searches, duration 0:03:28.466290
+10 solutions, 10,211 searches, duration 0:00:10.050417
