@@ -149,10 +149,10 @@ fi
 if [ $skipsync -eq 0 ] ; then
     # copy files to sourceforge:
     if [ $quiet -eq 1 ] ; then
-        rsync -e ssh -r -u ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
+        rsync -e ssh -r -u --delete ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
     else
         echo 'rsyncing to SourceForge:'
-        rsync -v -e ssh -r -u ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
+        rsync -v -e ssh -r -u --delete ./ goodger,puzzler@web.sourceforge.net:$remotehtdocs
     fi
 fi
 
