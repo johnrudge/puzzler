@@ -6,6 +6,9 @@
 
 .. sidebar:: News
 
+   **(2012-10-04) Added Hexominoes**
+        `Many puzzles added <docs/hexominoes.html>`__
+
    **(2012-04-09) My account of G4G10 (blog article)**
         `I posted an account of the 10th Gathering for Gardner to my blog.
         <http://www.artima.com/weblogs/viewpost.jsp?thread=341893>`__
@@ -137,9 +140,10 @@ Polyform Puzzler!):
    :target: docs/polyominoes.html
    :class: borderless
 
-   `Polyominoes <docs/polyominoes.html>`__ & `Pentominoes
-   <docs/pentominoes.html>`__: 6 |x| 10 Pentominoes Rectangle
-   (also, `An Introduction to Polyominoes <docs/polyominoes-intro.html>`_)
+   `Polyominoes <docs/polyominoes.html>`__, `Pentominoes
+   <docs/pentominoes.html>`__, & `Hexominoes
+   <docs/hexominoes.html>`__: 6 |x| 10 Pentominoes Rectangle (also,
+   `An Introduction to Polyominoes <docs/polyominoes-intro.html>`_)
 
 .. figure:: docs/images/hexiamonds-trefoil.png
    :target: docs/polyiamonds.html

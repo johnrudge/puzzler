@@ -1,0 +1,63 @@
+solving Polyominoes123Square:
+
+solution 1 (5 searches):
+0,0 0,1 0,2 I3
+1,0 1,1 2,0 V3
+2,1 2,2 I2
+1,2 O1
+
+I3 O1 I2
+I3 V3 I2
+I3 V3 V3
+
+solution 2 (7 searches):
+0,0 0,1 0,2 I3
+1,0 1,1 2,0 V3
+1,2 2,2 I2
+2,1 O1
+
+I3 I2 I2
+I3 V3 O1
+I3 V3 V3
+
+solution 3 (10 searches):
+0,0 0,1 0,2 I3
+1,1 1,2 2,1 V3
+1,0 2,0 I2
+2,2 O1
+
+I3 V3 O1
+I3 V3 V3
+I3 I2 I2
+
+solution 4 (13 searches):
+0,0 0,1 0,2 I3
+1,1 2,0 2,1 V3
+1,2 2,2 I2
+1,0 O1
+
+I3 I2 I2
+I3 V3 V3
+I3 O1 V3
+
+solution 5 (16 searches):
+0,0 0,1 0,2 I3
+1,2 2,1 2,2 V3
+1,0 1,1 I2
+2,0 O1
+
+I3 V3 V3
+I3 I2 V3
+I3 I2 O1
+
+solution 6 (18 searches):
+0,0 0,1 0,2 I3
+1,2 2,1 2,2 V3
+1,0 2,0 I2
+1,1 O1
+
+I3 V3 V3
+I3 O1 V3
+I3 I2 I2
+
+6 solutions, 18 searches, duration 0:00:00.011740
