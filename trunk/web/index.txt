@@ -136,7 +136,7 @@ solving engine is used to solve Sudoku puzzles and polyform puzzles.
 Here are some examples of polyform puzzles (all solved & drawn by
 Polyform Puzzler!):
 
-.. figure:: docs/images/pentominoes-6x10.png
+.. figure:: docs/images/ominoes/pentominoes-6x10.png
    :target: docs/polyominoes.html
    :class: borderless
 
@@ -145,7 +145,7 @@ Polyform Puzzler!):
    <docs/hexominoes.html>`__: 6 |x| 10 Pentominoes Rectangle (also,
    `An Introduction to Polyominoes <docs/polyominoes-intro.html>`_)
 
-.. figure:: docs/images/hexiamonds-trefoil.png
+.. figure:: docs/images/iamonds/hexiamonds-trefoil.png
    :target: docs/polyiamonds.html
    :class: borderless
 
@@ -154,7 +154,7 @@ Polyform Puzzler!):
    <docs/heptiamonds.html>`__: Hexiamonds Trefoil
    (also, `An Introduction to Polyiamonds <docs/polyiamonds-intro.html>`_)
 
-.. figure:: docs/images/pentahexes-10x11.png
+.. figure:: docs/images/hexes/pentahexes-10x11.png
    :target: docs/polyhexes.html
    :class: borderless
 
@@ -162,7 +162,7 @@ Polyform Puzzler!):
    <docs/pentahexes.html>`__: 10 |x| 11 Pentahex Parallelogram
    (also, `An Introduction to Polyhexes <docs/polyhexes-intro.html>`_)
 
-.. figure:: docs/images/pentacubes-5x9x9-fortress.png
+.. figure:: docs/images/cubes/pentacubes-5x9x9-fortress.png
    :target: docs/pentacubes.html
    :class: borderless
 
@@ -171,7 +171,7 @@ Polyform Puzzler!):
    <docs/pentacubes.html>`__: Pentacubes 5 |x| 9 |x| 9 Fortress
    (also, `An Introduction to Polycubes <docs/polycubes-intro.html>`_)
 
-.. figure:: docs/images/polysticks-3x7-diamond-lattice.png
+.. figure:: docs/images/sticks/polysticks-3x7-diamond-lattice.png
    :target: docs/polysticks.html
    :class: borderless
 
@@ -179,7 +179,7 @@ Polyform Puzzler!):
    (also, `An Introduction to Polysticks
    <docs/polysticks-intro.html>`_)
 
-.. figure:: docs/images/tritrigs-hex-3x1-ring.png
+.. figure:: docs/images/trigs/tritrigs-hex-3x1-ring.png
    :target: docs/polytrigs.html
    :class: borderless
 
@@ -187,7 +187,7 @@ Polyform Puzzler!):
    Tritrigs 3x1 Semi-Regular Hexagon Ring (also, `An Introduction to
    Polytrigs <docs/polytrigs-intro.html>`_)
 
-.. figure:: docs/images/pentatwigs-triangle.png
+.. figure:: docs/images/twigs/pentatwigs-triangle.png
    :target: docs/polytwigs.html
    :class: borderless
 
