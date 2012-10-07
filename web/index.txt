@@ -171,7 +171,7 @@ Polyform Puzzler!):
    <docs/pentacubes.html>`__: Pentacubes 5 |x| 9 |x| 9 Fortress
    (also, `An Introduction to Polycubes <docs/polycubes-intro.html>`_)
 
-.. figure:: docs/images/sticks/polysticks-3x7-diamond-lattice.png
+.. figure:: docs/images/sticks/polysticks-1234-3x7-diamond-lattice.png
    :target: docs/polysticks.html
    :class: borderless
 
