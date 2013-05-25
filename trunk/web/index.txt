@@ -198,6 +198,8 @@ Polyform Puzzler!):
 All the details are in the `FAQ <docs/FAQ.html>`_ and the `Puzzles &
 Solutions`_ doc.
 
+Polyform Puzzler also solves `Sudoku puzzles! <README.html#sudoku>`__
+
 To get up & running quickly, see the Quick-Start_ section of the
 README_ file.
 
