@@ -31,7 +31,7 @@ dest=$projdir/htdocs
 
 function update_htdocs_source {
     cd working
-    cp -ruf puzzler/* puzzler/.[^.]* ../htdocs
+    cp -ruf puzzler/* ../htdocs
     cp -ruf misc solutions ../htdocs
     cp -ruf web/* web/.[^.]* ../htdocs
     # remove SVN crud
