@@ -2,7 +2,7 @@
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
-# Copyright: (C) 1998-2015 by David J. Goodger
+# Copyright: (C) 1998-2018 by David J. Goodger
 # License: GPL 2 (see __init__.py)
 
 """
@@ -792,6 +792,17 @@ class Polycubes12345p6(Polycubes12345):
         piece_data[_n] = copy.deepcopy(Hexacubes.piece_data[_n])
         piece_colors[_n] = Hexacubes.piece_colors[_n]
     del _n
+
+    # for format_solution:
+    piece_width = 4
+
+
+class Polycubes56(Pentacubes):
+
+    piece_data = copy.deepcopy(Pentacubes.piece_data)
+    piece_data.update(copy.deepcopy(Hexacubes.piece_data))
+    piece_colors = copy.deepcopy(Pentacubes.piece_colors)
+    piece_colors.update(Hexacubes.piece_colors)
 
     # for format_solution:
     piece_width = 4
