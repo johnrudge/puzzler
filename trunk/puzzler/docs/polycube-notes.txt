@@ -197,7 +197,7 @@ Aztec Pyramids (3-D versions of Aztec diamonds; stacked P_a(1, n ... 1))::
 
 ====  ==  ==  ==  ==  ===  ===  ===  ===  ===  ====  ====  ====
 n     1   2   3   4   5    6    7    8    9    10    11    12
-Az    4   16  40  80  140  224  336
+Ap    4   16  40  80  140  224  336  480  660  880   1144  1456
 ====  ==  ==  ==  ==  ===  ===  ===  ===  ===  ====  ====  ====
 
 Stepped Pyramids (stacked S(n, n, 1), S(n-2, n-2, 1), ...)::
@@ -293,22 +293,30 @@ Diamond Pyramids (parity imbalance likely).  Pyd(4)::
       ###       #
        #
 
-==  ===  ====
-n   Pyt  Pyd 
-==  ===  ====
- 1    1     1
- 2    4     6
- 3   10    19
- 4   20    44
- 5   35    85
- 6   56   146
- 7   84   231
- 8  120   344
- 9  165   489
-10  220   670
-11  286   891
-12  364  1156
-==  ===  ====
+==  ====  ====
+n   Pyt   Pyd 
+==  ====  ====
+ 1     1     1
+ 2     4     6
+ 3    10    19
+ 4    20    44
+ 5    35    85
+ 6    56   146
+ 7    84   231
+ 8   120   344
+ 9   165   489
+10   220   670
+11   286   891
+12   364  1156
+13   455  1469
+14   560  1834
+15   680  2255
+16   816  2736
+17   969  3281
+18  1140  3894
+19  1330  4579
+20  1540  5340
+==  ====  ====
 
 Open boxes:
 
@@ -895,6 +903,19 @@ Potential Puzzles
     possible if all soma cubes used for 3³; must be e.g. Q5 & V3)
 
 996: Hexacubes
+
+1141: Hexacubes + pentacubes
+
+* `Andy Niedermaier's Mega-Pyramid`__ is a Pyt(18) solid containing
+  1140 unit cubes. Have to add one more unit cube to the shape to fit
+  all the hexacubes & pentacubes.
+
+  * Add one unit cube to the top corner?
+  * Add one unit cube to the center of the stepped face?
+
+  __ http://gamepuzzles.com/megapyramid.htm
+
+1182: Polycubes of order 1 - 6
 
 
 Misc
