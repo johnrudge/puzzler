@@ -322,6 +322,23 @@ total of 278 equilateral triangles.
 
        -
 
+* `Kadon's "Iamond Ring" <http://www.gamepuzzles.com/esspoly.htm#IR>`_:
+  `solutions incomplete
+  <../solutions/iamonds/polyiamonds-1234567-iamond-ring.txt>`__
+
+  .. image:: images/iamonds/polyiamonds-1234567-iamond-ring.png
+
+  The configuration above has the order 1 through 5 polyiamonds
+  (moniamond, diamond, triamond, tetriamonds, & pentiamonds)
+  restricted to an inner ring; the hexiamonds restricted to an
+  intermediate ring; and the heptiamonds restricted to an outer ring.
+  The coloured version below shows the moniamond in black, the diamond
+  in gray, the triamond in purple, the tetriamonds in blue, the
+  pentiamonds in green, the hexiamonds in red, and the heptiamonds in
+  orange.
+
+  .. image:: images/iamonds/polyiamonds-1234567-iamond-ring-coloured.png
+
 * 2x10 elongated hexagon: `solutions incomplete
   <../solutions/iamonds/polyiamonds-1234567-elongated-hexagon-2x10-1.txt>`__
 
