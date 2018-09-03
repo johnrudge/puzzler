@@ -75,7 +75,7 @@ class Polyiamonds1234567IamondRing(Polyiamonds1234567Hexagon1):
     holes = (
         set(Polyiamonds1234567.coordinates_elongated_hexagon(1, 2, (5,5,0))))
 
-    svg_rotation = 90
+    svg_rotation = -90
 
     def coordinates(self):
         self.coords12345 = (
