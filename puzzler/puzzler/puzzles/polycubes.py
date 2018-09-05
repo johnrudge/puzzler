@@ -599,6 +599,7 @@ class Hexacubes(Polycubes):
         'Lg6': 'indigo',
         'Lh6': 'darkkhaki',
         'Li6': 'orangered',
+        'Lj6': 'yellowgreen',
         'Lk6': 'darkorchid',
         'Ll6': 'tomato',
         'Lm6': 'thistle',
