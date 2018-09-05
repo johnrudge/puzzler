@@ -759,6 +759,24 @@ For more on this curious equation and dissection puzzle, see:
   <http://mathworld.wolfram.com/CubicNumber.html>`_
 
 
+Hexacubes & Pentacubes
+======================
+
+These puzzles use the 29 pentacubes and 166 hexacubes, for a total of
+1141 unit cubes.
+
+* Crystal 1 (18×18×18 triangular pyramid, plus one unit cube centered
+  on the crystal face): `solutions incomplete
+  <../solutions/cubes/polycubes-56-crystal-1.txt>`__ (`X3D model
+  <images/cubes/polycubes-56-crystal-1.x3d>`__). Based on the
+  "`Mega-Pyramid`__" puzzle designed by Andy Niedermaier.
+
+  __ http://gamepuzzles.com/megapyramid.htm
+
+  .. image:: images/cubes/polycubes-56-crystal-1.png
+
+
+
 .. _Super Deluxe Quintillions:
    http://gamepuzzles.com/polycube.htm#SQd
 

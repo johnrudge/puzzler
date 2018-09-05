@@ -37,3 +37,19 @@ class Polycubes56Crystal1(Polycubes56):
                     total = x + y + z
                     if total < self.size or (x,y,z) == self.extra:
                         yield (x, y, z)
+
+"""
+C:\Users\goodgd1\projects\puzzler\puzzler>c:\Python27\python.exe bin\cubes\polycubes-56-crystal-1.py -n10 -N -s docs\images\cubes\polycubes-56-crystal-1.svg -x docs\images\cubes\polycubes-56-crystal-1.x3d > ..\solutions\cubes\polycubes-56-crystal-1.txt
+Traceback (most recent call last):
+  File "bin\cubes\polycubes-56-crystal-1.py", line 9, in <module>
+    puzzler.run(puzzle)
+  File "C:\Users\goodgd1\projects\puzzler\puzzler\puzzler\__init__.py", line 91, in run
+    return solve(puzzle_class, output_stream, settings)
+  File "C:\Users\goodgd1\projects\puzzler\puzzler\puzzler\__init__.py", line 246, in solve
+    puzzle.write_x3d(settings.x3d, solution)
+  File "C:\Users\goodgd1\projects\puzzler\puzzler\puzzler\puzzles\__init__.py", line 363, in write_x3d
+    x3d = self.format_x3d(solution, s_matrix)
+  File "C:\Users\goodgd1\projects\puzzler\puzzler\puzzler\puzzles\__init__.py", line 1004, in format_x3d
+    'color': colors.x3d[self.piece_colors[name]]})
+KeyError: 'Lj6'
+"""
