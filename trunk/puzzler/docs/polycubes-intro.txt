@@ -8,7 +8,7 @@
 :Date: $Date$
 :Revision: $Revision$
 :Web site: http://puzzler.sourceforge.net/
-:Copyright: |c| 1998-2015 by David J. Goodger
+:Copyright: ©1998-2018 by David J. Goodger
 :License: `GPL 2 <../COPYING.html>`__
 
 .. image:: images/puzzler.png
@@ -209,7 +209,8 @@ tetrominoes):
      - 3
      - planar
 
-   * - L4
+   * - | L4
+       | (Soma "L")
      - .. image:: images/pieces/polycubes/L4.png
      - 24
      - planar
@@ -231,7 +232,8 @@ tetrominoes):
      - 12
      - planar
 
-   * - T4
+   * - | T4
+       | (Soma "T")
      - .. image:: images/pieces/polycubes/T4.png
      - 12
      - planar
