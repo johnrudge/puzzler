@@ -906,12 +906,12 @@ Potential Puzzles
 
 1141: Hexacubes + pentacubes
 
-* `Andy Niedermaier's Mega-Pyramid`__ is a Pyt(18) solid containing
+* [DONE] `Andy Niedermaier's Mega-Pyramid`__ is a Pyt(18) solid containing
   1140 unit cubes. Have to add one more unit cube to the shape to fit
   all the hexacubes & pentacubes.
 
   * Add one unit cube to the top corner?
-  * Add one unit cube to the center of the stepped face?
+  * [DONE] Add one unit cube to the center of the stepped face?
 
   __ http://gamepuzzles.com/megapyramid.htm
 
