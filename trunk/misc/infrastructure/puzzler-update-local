@@ -89,7 +89,7 @@ if [ $setup -eq 1 ] ; then
     fi
     update_htdocs_source
     cd htdocs
-    buildhtml.py
+    python2 ~/projects/docutils/docutils/tools/buildhtml.py
     echo '...puzzler-update-local initial setup done.'
     exit
 fi
@@ -137,7 +137,7 @@ for htmlfile in `find .. -name '*.html'` ; do
             if [ $quiet -eq 0 ] ; then
                 echo $txtfile
             fi
-            rst2html.py --config=$dir/docutils.conf $txtfile $htmlfile
+            python2 ~/projects/docutils/docutils/tools/rst2html.py --config=$dir/docutils.conf $txtfile $htmlfile
         fi
     fi
 done
