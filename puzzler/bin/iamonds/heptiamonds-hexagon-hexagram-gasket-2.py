@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # $Id$
 
-"""many solutions"""
+"""9 solutions"""
 
 import puzzler
 from puzzler.puzzles.heptiamonds import HeptiamondsHexagonHexagramGasket2 \
