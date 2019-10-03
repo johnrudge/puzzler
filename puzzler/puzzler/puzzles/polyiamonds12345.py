@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -392,6 +393,44 @@ class Polyiamonds12345ElongatedHexOnHex2(Polyiamonds12345ElongatedHexOnHex1):
     """310 solutions"""
 
     holes = set(((4,0,1), (3,3,0)))
+
+
+class Polyiamonds12345Hexagon1(Polyiamonds12345):
+
+    """
+    75,070 solutions
+
+    The 2×1 semi-regular hexagon hole is the same as in `Kadon's Iamond Ring`_
+    puzzle.
+
+    .. _Kadon's Iamond Ring: http://gamepuzzles.com/esspoly.htm#IR
+    """
+
+    width = 6
+    height = 6
+
+    holes = (
+        set(Polyiamonds12345.coordinates_elongated_hexagon(1, 2, (3,1,0))))
+
+    def coordinates(self):
+        coords = set(self.coordinates_hexagon(3)) - self.holes
+        return sorted(coords)
+
+    def customize_piece_data(self):
+        self.piece_data['P5'][-1]['flips'] = None
+
+
+class Polyiamonds12345Hexagon2(Polyiamonds12345Hexagon1):
+
+    """
+    4,594 solutions
+
+    The 2×1 semi-regular hexagon hole is the same as in `Kadon's Iamond Ring`_
+    puzzle.
+    """
+
+    holes = (
+        set(Polyiamonds12345.coordinates_elongated_hexagon(1, 2, (2,1,0))))
 
 
 class OneSidedPolyiamonds12345Hexagon1(OneSidedPolyiamonds12345):
