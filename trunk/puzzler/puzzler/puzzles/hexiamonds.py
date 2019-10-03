@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -1901,7 +1902,34 @@ class HexiamondsTriLevel(Hexiamonds):
 
     def customize_piece_data(self):
         self.piece_data['P6'][-1]['rotations'] = (0,1,2)
-    
+
+
+class HexiamondsMostSolutionsConjecture1(Hexiamonds):
+
+    """
+    14,600 solutions
+
+    An irregular shape that is conjectured to have the most solutions:
+
+        Christopher Monckton (creator of Eternity) asked what shape had the
+        most solutions with the 12 hexiamonds. Michael Reid and Patrick Hamlyn
+        worked together to find the following shape, which has 14600
+        solutions. With that many solutions, it's very easy to find another.
+        Is there another shape with more solutions?
+
+        — http://www.mathpuzzle.com/iamond.htm
+    """
+
+    height = 6
+    width = 8
+
+    def coordinates(self):
+        coords = set(
+            list(self.coordinates_elongated_hexagon(4, 3))
+            + list(self.coordinates_hexagon(2, offset=(4,0,0)))
+            + [self.coordinate_offset(5, 4, 1, None)])
+        return sorted(coords)
+
 
 class OneSidedHexiamondsOBeirnesHexagon(OneSidedHexiamonds):
 

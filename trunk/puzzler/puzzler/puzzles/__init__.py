@@ -892,10 +892,14 @@ class Puzzle3D(Puzzle):
         z_reversed_fn = order_functions[z_reversed]
         #s_matrix = self.build_solution_matrix(solution)
         s_matrix = self.empty_solution_matrix()
+        import pdb
         for row in solution:
             name = row[-1]
             for cell_name in row[:-1]:
-                x, y, z = (int(d.strip()) for d in cell_name.split(','))
+                try:
+                    x, y, z = (int(d.strip()) for d in cell_name.split(','))
+                except:
+                    pdb.set_trace()
                 if xy_swapped:
                     x, y = y, x
                 if xz_swapped:

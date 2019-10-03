@@ -497,6 +497,21 @@ Miscellaneous
 
   .. image:: images/iamonds/hexiamonds-trilevel.png
 
+* Shape with the most solutions? `14,600 solutions
+  <../solutions/iamonds/hexiamonds-most-solutions-conjecture-1.txt>`__
+
+  An irregular shape that is conjectured to have the most solutions:
+
+      Christopher Monckton (creator of Eternity) asked what shape had the
+      most solutions with the 12 hexiamonds. Michael Reid and Patrick Hamlyn
+      worked together to find the following shape, which has 14600
+      solutions. With that many solutions, it's very easy to find another.
+      Is there another shape with more solutions?
+
+      — http://www.mathpuzzle.com/iamond.htm
+
+  .. image:: images/iamonds/hexiamonds-most-solutions-conjecture-1.png
+
 
 One-Sided Hexiamonds
 ====================
