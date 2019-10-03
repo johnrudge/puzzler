@@ -2576,9 +2576,12 @@ class HeptiamondsTrefoil9(HeptiamondsHexagonHexagramGasket1):
 
 class HeptiamondsHexagonHexagramGasket2(HeptiamondsHexagonHexagramGasket1):
 
-    """many solutions"""
+    """9 solutions"""
 
     hex_offsets = ((3,8,0), (8,7,0), (7,3,0))
+
+    def customize_piece_data(self):
+        self.piece_data['P7'][-1]['rotations'] = (0, 1,)
 
 
 class HeptiamondsHexagonHexagramGasket3(HeptiamondsHexagonHexagramGasket1):

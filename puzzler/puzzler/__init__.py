@@ -278,7 +278,7 @@ def solve(puzzle_class, output_stream, settings):
                thousands(solver.num_searches),
                duration))
         print >>output_stream, (
-            'end date & time: %s\n' % end.isoformat(sep=' ')[:-7])
+            '\nend date & time: %s' % end.isoformat(sep=' ')[:-7])
         if len(stats) > 1:
             for i, (solutions, searches) in enumerate(stats):
                 print >>output_stream, (

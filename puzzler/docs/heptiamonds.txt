@@ -809,7 +809,7 @@ Misc
 
        - .. figure:: images/iamonds/heptiamonds-hexagon-hexagram-gasket-2.png
 
-            `solutions incomplete
+            `9 solutions
             <../solutions/iamonds/heptiamonds-hexagon-hexagram-gasket-2.txt>`__
 
      * - .. figure:: images/iamonds/heptiamonds-hexagon-hexagram-gasket-3.png
