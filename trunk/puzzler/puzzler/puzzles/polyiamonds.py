@@ -144,7 +144,10 @@ class Polyiamonds(PuzzlePseudo3D):
 
     @classmethod
     def coordinates_diamond(cls, side_length, offset=None):
-        x, y, z = offset
+        if offset is None:
+            x, y, z = 0, 0, 0
+        else:
+            x, y, z = offset
         top_offset = (x, y + side_length, z)
         coords = (
             set(cls.coordinates_triangle(side_length, offset=top_offset))

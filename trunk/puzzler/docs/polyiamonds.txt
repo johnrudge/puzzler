@@ -159,6 +159,23 @@ triangles.
             `310 solutions
             <../solutions/iamonds/polyiamonds-12345-elongated-hex-on-hex-2.txt>`__
 
+* Hexagons with 2×1 semi-regular hexagon holes (the same as in Kadon's
+  `Iamond Ring`_ puzzle below):
+
+  .. list-table::
+     :class: borderless
+
+     * - .. figure:: images/iamonds/polyiamonds-12345-hexagon-1.png
+
+            `75,070 solutions.
+            <../solutions/iamonds/polyiamonds-12345-hexagon-1.txt>`__
+
+       - .. figure:: images/iamonds/polyiamonds-12345-hexagon-2.png
+
+            `4,594 solutions.
+            <../solutions/iamonds/polyiamonds-12345-hexagon-2.txt>`__
+
+
 
 One-Sided Polyiamonds of Order 1 Through 5
 ==========================================
@@ -172,7 +189,7 @@ equilateral triangles.
 
   .. image:: images/iamonds/one-sided-polyiamonds-12345-semi-regular-hexagon-4x2.png
 
-* Hexagons (with two triangles omitted):
+* Hexagons with two unit-triangle holes:
 
   .. list-table::
      :class: borderless
@@ -322,7 +339,9 @@ total of 278 equilateral triangles.
 
        -
 
-* `Kadon's "Iamond Ring" <http://www.gamepuzzles.com/esspoly.htm#IR>`_:
+* .. _iamond ring:
+
+  `Kadon's "Iamond Ring" <http://www.gamepuzzles.com/esspoly.htm#IR>`_:
   `solutions incomplete
   <../solutions/iamonds/polyiamonds-1234567-iamond-ring.txt>`__
 

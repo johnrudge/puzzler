@@ -422,6 +422,10 @@ class OneSidedHexominoes72x5(OneSidedHexominoes):
     height = 5
 
 
+# OneSidedHexominoes90x4 is not possible; see
+# http://recmath.com/PolyPages/PolyPages/hexopatts.htm
+
+
 class OneSidedHexominoesDiamond1(OneSidedHexominoes):
 
     """
@@ -521,7 +525,7 @@ class Cornucopia17x6(Cornucopia):
     """
     162,086 solutions
     """
-    
+
     width = 17
     height = 6
 

@@ -229,8 +229,12 @@ def solve(puzzle_class, output_stream, settings):
             last_solutions = state.last_solutions
             last_searches = state.last_searches
             for i, puzzle in enumerate(puzzles):
-                print >>output_stream, ('solving %s:\n'
-                                        % puzzle.__class__.__name__)
+                print >>output_stream, (
+                    'solving %s:\n' % puzzle.__class__.__name__)
+                print >>output_stream, (
+                    'using algorithm: %s\n' % settings.algorithm)
+                print >>output_stream, (
+                    'start date & time: %s\n' % start.isoformat(sep=' ')[:-7])
                 output_stream.flush()
                 solver.load_matrix(*matrices[i])
                 for solution in solver.solve():
@@ -273,6 +277,8 @@ def solve(puzzle_class, output_stream, settings):
                plural_s(solver.num_solutions),
                thousands(solver.num_searches),
                duration))
+        print >>output_stream, (
+            'end date & time: %s\n' % end.isoformat(sep=' ')[:-7])
         if len(stats) > 1:
             for i, (solutions, searches) in enumerate(stats):
                 print >>output_stream, (

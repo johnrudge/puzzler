@@ -761,6 +761,18 @@ Potential Puzzles
 
 60: Solid pentominoes
 
+125: 25 pentacubes. E.g. the "stubby" or compact pentacubes, where no
+dimension is longer than 3, i.e. the pentacubes that individually fit
+into a 3×3×3 cube: all pentacubes except the I5, L5, N5, & Y5.
+
+* Potential puzzles:
+
+  * 5×5×5 cube
+  * double-triangle prism P_dt(5,5)
+  * diamond prism P_d(5,4)
+  * rectangular pyramid Pyr(15,5)
+  * open box B_o(17,5,2)
+
 140: Non-convex pentacubes
 
 * Potential puzzles:
