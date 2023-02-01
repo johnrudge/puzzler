@@ -271,12 +271,12 @@ class Root(Datum):
 
     __slots__ = ('name',)
 
-    name = 'root'
     up = None
     down = None
     column = None
 
     def __init__(self, left=None, right=None):
+        self.name = 'root'
         self.left = left
         self.right = right
 
