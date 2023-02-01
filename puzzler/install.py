@@ -21,7 +21,7 @@ from distutils import core
 from setup import do_setup
 
 if __name__ == '__main__' :
-    print __doc__
+    print(__doc__)
     core._setup_stop_after = 'config'
     dist = do_setup()
     dist.commands = ['install']

@@ -55,7 +55,7 @@ class Polycubes12345p6Cubes345(Polycubes12345p6):
 
     def transform_solution_matrix(self, s_matrix):
         """Rearrange solution matrix for better rendering."""
-        y_range = range(self.height)
+        y_range = list(range(self.height))
         y_range = y_range[9:] + y_range[3:9] + y_range[:3]
         return [[[s_matrix[z][y][x] for y in y_range]
                  for z in range(self.depth)]

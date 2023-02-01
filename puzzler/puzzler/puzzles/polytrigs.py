@@ -271,8 +271,8 @@ class Polytrigs(Polysticks):
         s_matrix = self.build_solution_matrix(solution)
         if rotate_180:
             s_matrix = [[list(reversed(s_matrix[z][y]))
-                         for y in reversed(range(self.height))]
-                        for z in reversed(range(self.depth))]
+                         for y in reversed(list(range(self.height)))]
+                        for z in reversed(list(range(self.depth)))]
         return self.format_triangular_grid(s_matrix)
 
     _trigrid_parts = (
@@ -342,14 +342,14 @@ class Polytrigs(Polysticks):
         min_padding = width * 6
         output = []
         # highest y first, to render it at top:
-        for y in reversed(range(height)):
+        for y in reversed(list(range(height))):
             lines = [['   ' * y] for i in range(3)]
             # bottom line needs extra padding for initial z==2:
             lines[-1].append('  ')
             cell0_occupied = False
             for x in range(width):
                 # left to right, top to bottom order:
-                for z in reversed(range(self.depth)):
+                for z in reversed(list(range(self.depth))):
                     if z == 1:
                         # current z==2 is above previous cell0, so skip;
                         # cell0_occupied applies to current z==1 and next z==2:
@@ -395,7 +395,7 @@ class Polytrigs(Polysticks):
         paths = []
         for name in sorted(lines):
             path_data = []
-            for ((x0, y0), (x1, y1)) in lines[name].values():
+            for ((x0, y0), (x1, y1)) in list(lines[name].values()):
                 path_details = {
                     'x': x0, 'y': y0, 'dx': (x1 - x0), 'dy': (y1 - y0)}
                 path_data.append(self.svg_line % path_details)

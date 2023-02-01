@@ -314,7 +314,7 @@ class Root(Datum):
 
 
 if __name__ == '__main__':
-    print 'testing exact_cover_dlx.py:\n'
+    print('testing exact_cover_dlx.py:\n')
     matrix = [
         'A  B  C  D  E  F  G'.split(),
         [0, 0, 1, 0, 1, 1, 0],
@@ -324,8 +324,8 @@ if __name__ == '__main__':
         [0, 1, 0, 0, 0, 0, 1],
         [0, 0, 0, 1, 1, 0, 1]]
     puzzle = ExactCover(matrix)
-    print 'root (representation) =\n', puzzle.root, '\n'
+    print('root (representation) =\n', puzzle.root, '\n')
     for solution in puzzle.solve():
-        print puzzle.format_solution(), '\n'
-        print 'unformatted:\n', solution, '\n'
-    print puzzle.num_searches, 'searches'
+        print(puzzle.format_solution(), '\n')
+        print('unformatted:\n', solution, '\n')
+    print(puzzle.num_searches, 'searches')

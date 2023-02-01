@@ -338,7 +338,7 @@ class Cornucopia(Hexominoes):
     piece_colors = copy.deepcopy(Hexominoes.piece_colors)
 
 Cornucopia.piece_data = dict(
-    (_name, _value) for (_name, _value) in Hexominoes.piece_data.items()
+    (_name, _value) for (_name, _value) in list(Hexominoes.piece_data.items())
     if _name in Cornucopia.asymmetric_pieces)
 
 

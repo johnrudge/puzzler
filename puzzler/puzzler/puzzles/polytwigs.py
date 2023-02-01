@@ -379,8 +379,8 @@ class Polytwigs(Polytrigs):
         s_matrix = self.build_solution_matrix(solution)
         if rotate_180:                  # !!! ???
             s_matrix = [[list(reversed(s_matrix[z][y]))
-                         for y in reversed(range(self.height))]
-                        for z in reversed(range(self.depth))]
+                         for y in reversed(list(range(self.height)))]
+                        for z in reversed(list(range(self.depth)))]
         return self.format_hexagonal_grid(s_matrix)
 
     _hexgrid_parts = (
@@ -458,7 +458,7 @@ class Polytwigs(Polytrigs):
         for x in range(width):
             for y in range(height):
                 y_offset = y * 4 + x * 2
-                for z in reversed(range(self.depth)):
+                for z in reversed(list(range(self.depth))):
                     cell = s_matrix[z][y][x]
                     parts = self._hexgrid_parts[z][cell == self.empty_cell]
                     for i, part in enumerate(parts):

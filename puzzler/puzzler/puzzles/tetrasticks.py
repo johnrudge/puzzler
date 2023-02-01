@@ -67,7 +67,7 @@ class Tetrasticks6x6(Tetrasticks):
         self.build_regular_matrix(sorted(self.piece_data.keys()))
 
     def build_rows_for_omitted_pieces(self):
-        for key, coords in self.omitted_piece_positions.items():
+        for key, coords in list(self.omitted_piece_positions.items()):
             row = [0] * len(self.matrix[0])
             row[self.matrix_columns[key]] = key
             for (x,y,z) in coords:

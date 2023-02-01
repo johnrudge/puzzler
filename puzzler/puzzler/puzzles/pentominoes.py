@@ -475,7 +475,7 @@ class PentominoesTriangle(Pentominoes):
         self.build_regular_matrix(sorted(self.piece_data.keys()))
 
     def build_rows_for_omitted_pieces(self):
-        for key, coords in self.omitted_piece_positions.items():
+        for key, coords in list(self.omitted_piece_positions.items()):
             self.build_matrix_row(key, coords)
 
     def build_regular_matrix(self, keys):

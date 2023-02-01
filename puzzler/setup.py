@@ -10,23 +10,23 @@ try:
     from distutils.core import setup
     from distutils.command.build_py import build_py
 except ImportError:
-    print 'Error: The "distutils" standard module, which is required for the '
-    print 'installation of Docutils, could not be found.  You may need to '
-    print 'install a package called "python-devel" (or similar) on your '
-    print 'system using your package manager.'
+    print('Error: The "distutils" standard module, which is required for the ')
+    print('installation of Docutils, could not be found.  You may need to ')
+    print('install a package called "python-devel" (or similar) on your ')
+    print('system using your package manager.')
     sys.exit(1)
 
 # From <http://groups.google.de/groups?as_umsgid=f70e3538.0404141327.6cea58ca@posting.google.com>.
 from distutils.command.install import INSTALL_SCHEMES
-for scheme in INSTALL_SCHEMES.values():
+for scheme in list(INSTALL_SCHEMES.values()):
     scheme['data'] = scheme['purelib']
 
 
 def do_setup():
     if sys.hexversion < 0x02050000:    # Python 2.5
-        print """\
+        print(("""\
 Polyform Puzzler requires Python 2.5 or later
-(Python %s installed).""" % (sys.version.split()[0],)
+(Python %s installed).""" % (sys.version.split()[0],)))
         sys.exit(1)
     kwargs = package_data.copy()
     dist = setup(**kwargs)

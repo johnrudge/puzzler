@@ -34,7 +34,7 @@ import threading
 import copy
 import optparse
 import time
-import cPickle as pickle
+import pickle as pickle
 from datetime import datetime, timedelta
 from puzzler import exact_cover_dlx
 from puzzler import exact_cover_x2
@@ -69,7 +69,7 @@ except ImportError:
     pass
 
 
-class ApplicationError(StandardError):
+class ApplicationError(Exception):
 
     """Generic application-specific exception."""
 
@@ -148,9 +148,9 @@ def process_command_line():
         '-h', '--help', help='Show this help message and exit.', action='help')
     settings, args = parser.parse_args()
     if args:
-        print >>sys.stderr, (
+        print((
             '%s takes no command-line arguments; "%s" ignored.'
-            % (sys.argv[0], ' '.join(args)))
+            % (sys.argv[0], ' '.join(args))), file=sys.stderr)
     return settings
 
 def search_state_default():
@@ -179,11 +179,11 @@ def report_search_state(puzzle_class, output_stream, settings):
     solver.load_matrix(puzzle.matrix, puzzle.secondary_columns)
     solution = solver.full_solution()
     if state.num_searches:
-        print >>output_stream, (
+        print((
             '\nSession report: %s solution%s, %s searches.\n'
             % (thousands(state.num_solutions),
                plural_s(state.num_solutions),
-               thousands(state.num_searches)))
+               thousands(state.num_searches))), file=output_stream)
         output_stream.flush()
     puzzle.record_solution(
         solution, solver, stream=output_stream)
@@ -197,17 +197,17 @@ def solve(puzzle_class, output_stream, settings):
     start = datetime.now()
     try:
         state = SessionState.restore(settings.search_state_file)
-    except IOError, error:
-        print >>sys.stderr, 'Unable to initialize the search state file:'
-        print >>sys.stderr, '%s: %s' % (error.__class__.__name__, error)
+    except IOError as error:
+        print('Unable to initialize the search state file:', file=sys.stderr)
+        print('%s: %s' % (error.__class__.__name__, error), file=sys.stderr)
         sys.exit(1)
     solver = exact_cover_modules[settings.algorithm].ExactCover(state=state)
     if state.num_searches:
-        print >>output_stream, (
+        print((
             '\nResuming session (%s solution%s, %s searches).\n'
             % (thousands(state.num_solutions),
                plural_s(state.num_solutions),
-               thousands(state.num_searches)))
+               thousands(state.num_searches))), file=output_stream)
         output_stream.flush()
     starting_solutions = state.num_solutions
     matrices = []
@@ -229,12 +229,12 @@ def solve(puzzle_class, output_stream, settings):
             last_solutions = state.last_solutions
             last_searches = state.last_searches
             for i, puzzle in enumerate(puzzles):
-                print >>output_stream, (
-                    'solving %s:\n' % puzzle.__class__.__name__)
-                print >>output_stream, (
-                    'using algorithm: %s\n' % settings.algorithm)
-                print >>output_stream, (
-                    'start date & time: %s\n' % start.isoformat(sep=' ')[:-7])
+                print((
+                    'solving %s:\n' % puzzle.__class__.__name__), file=output_stream)
+                print((
+                    'using algorithm: %s\n' % settings.algorithm), file=output_stream)
+                print((
+                    'start date & time: %s\n' % start.isoformat(sep=' ')[:-7]), file=output_stream)
                 output_stream.flush()
                 solver.load_matrix(*matrices[i])
                 for solution in solver.solve():
@@ -257,36 +257,36 @@ def solve(puzzle_class, output_stream, settings):
                               solver.num_searches - last_searches))
                 if ( settings.stop_after
                      and solver.num_solutions == settings.stop_after):
-                    print >>output_stream, (
-                        'User-requested solution limit reached.')
+                    print((
+                        'User-requested solution limit reached.'), file=output_stream)
                     break
                 state.last_solutions = last_solutions = solver.num_solutions
                 state.last_searches = last_searches = solver.num_searches
                 state.completed_components.add(puzzle.__class__.__name__)
         except KeyboardInterrupt:
-            print >>output_stream, 'Session interrupted by user.'
+            print('Session interrupted by user.', file=output_stream)
             state.save(solver, final=True)
             state.close()
             sys.exit(1)
     finally:
         end = datetime.now()
         duration = end - start
-        print >>output_stream, (
+        print((
             '%s solution%s, %s searches, duration %s'
             % (thousands(solver.num_solutions),
                plural_s(solver.num_solutions),
                thousands(solver.num_searches),
-               duration))
-        print >>output_stream, (
-            '\nend date & time: %s' % end.isoformat(sep=' ')[:-7])
+               duration)), file=output_stream)
+        print((
+            '\nend date & time: %s' % end.isoformat(sep=' ')[:-7]), file=output_stream)
         if len(stats) > 1:
             for i, (solutions, searches) in enumerate(stats):
-                print >>output_stream, (
+                print((
                     '(%s: %s solution%s, %s searches)'
                     % (puzzles[i].__class__.__name__,
                        thousands(solutions),
                        plural_s(solutions),
-                       thousands(searches)))
+                       thousands(searches))), file=output_stream)
         output_stream.flush()
         state.cleanup()
     return solver.num_solutions
@@ -397,8 +397,8 @@ class SessionState(object):
                     state.init_state_file(path)
                 return state
             elif read_only:
-                print >>sys.stderr, (
+                print((
                     'The search state file "%s" does not exist; exiting.'
-                    % path)
+                    % path), file=sys.stderr)
                 sys.exit(1)
         return cls(path)

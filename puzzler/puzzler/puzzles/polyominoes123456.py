@@ -97,8 +97,8 @@ class Polyominoes123456Star(Polyominoes123456):
 
         def build_matrix(self):
             self.build_regular_matrix(
-                (polyominoes.Monomino.piece_data.keys()
-                 + polyominoes.Domino.piece_data.keys()
+                (list(polyominoes.Monomino.piece_data.keys())
+                 + list(polyominoes.Domino.piece_data.keys())
                  + sorted(polyominoes.Trominoes.piece_data.keys())),
                 sorted(self.inner_square_coords))
             self.build_regular_matrix(

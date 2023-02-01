@@ -90,12 +90,12 @@ def process_command_line():
         else:
             settings.start_position = read_start_position_from_file(args[0])
     else:
-        print >>sys.stderr, cmdline_problem_text % (sys.argv[0])
+        print(cmdline_problem_text % (sys.argv[0]), file=sys.stderr)
         sys.exit(1)
     return settings
 
 def read_start_position_from_stdin():
-    print >>sys.stderr, stdin_prompt
+    print(stdin_prompt, file=sys.stderr)
     data = sys.stdin.read()
     return data
 
@@ -103,14 +103,14 @@ def read_start_position_from_file(name):
     try:
         f = open(name)
     except IOError:
-        print >>sys.stderr, 'Unable to open file "%s".' % name
+        print('Unable to open file "%s".' % name, file=sys.stderr)
         sys.exit(1)
     try:
         try:
             data = f.read()
-        except Exception, error:
-            print >>sys.stderr, 'Problem reading data from file "%s":' % name
-            print >>sys.stderr, '%s: %s' % (error.__class__.__name__, error)
+        except Exception as error:
+            print('Problem reading data from file "%s":' % name, file=sys.stderr)
+            print('%s: %s' % (error.__class__.__name__, error), file=sys.stderr)
             sys.exit(1)
     finally:
         f.close()
@@ -124,9 +124,9 @@ def solve(puzzle_class, output_stream, settings):
         puzzle.matrix)
     try:
         try:
-            print >>output_stream, ('solving %s:\n'
-                                    % puzzle.__class__.__name__)
-            print >>output_stream, puzzle.start_position, '\n'
+            print(('solving %s:\n'
+                                    % puzzle.__class__.__name__), file=output_stream)
+            print(puzzle.start_position, '\n', file=output_stream)
             for solution in solver.solve():
                 puzzle.record_solution(
                     solution, solver, stream=output_stream)
@@ -134,15 +134,15 @@ def solve(puzzle_class, output_stream, settings):
                      and solver.num_solutions == settings.stop_after):
                     break
         except KeyboardInterrupt:
-            print >>output_stream, 'Session interrupted by user.'
+            print('Session interrupted by user.', file=output_stream)
             sys.exit(1)
     finally:
         end = datetime.now()
         duration = end - start
-        print >>output_stream, (
+        print((
             '%s solution%s, %s searches, duration %s'
             % (solver.num_solutions, ('s', '')[solver.num_solutions == 1],
-               solver.num_searches, duration))
+               solver.num_searches, duration)), file=output_stream)
 
 
 class DataError(RuntimeError): pass
@@ -197,11 +197,11 @@ class Puzzle(object):
         self.init_coordinate_blocks()
         try:
             self.build_matrix()
-        except DataError, error:
-            print 'Problem with start position: %s.' % (error,)
+        except DataError as error:
+            print('Problem with start position: %s.' % (error,))
             sys.exit(1)
-        except ValueError, error:
-            print 'Non-integer found in start position: %s.' % (error,)
+        except ValueError as error:
+            print('Non-integer found in start position: %s.' % (error,))
             sys.exit(1)
 
     def build_matrix_header(self):
@@ -347,9 +347,9 @@ class Puzzle(object):
         formatted = self.format_solution(solution)
         solver.num_solutions += 1
         if dated:
-            print >>stream, 'at %s,' % datetime.datetime.now(),
-        print >>stream, formatted
-        print >>stream
+            print('at %s,' % datetime.datetime.now(), end=' ', file=stream)
+        print(formatted, file=stream)
+        print(file=stream)
 
     def format_solution(self, solution):
         matrix = [[0] * self.order for i in range(self.order)]
@@ -633,21 +633,21 @@ class SudokuTest(object):
     @classmethod
     def run9x9(cls, settings):
         for i, pos in enumerate(cls.start_positions_9x9):
-            print 'SudokuTest.start_positions_9x9[%i]:\n' % i
+            print('SudokuTest.start_positions_9x9[%i]:\n' % i)
             run(Sudoku9x9, start_position=pos, settings=settings)
-            print
+            print()
 
     @classmethod
     def run_magictour(cls, settings):
         for i, pos in enumerate(cls.magictour.splitlines()):
-            print 'SudokuTest.magictour line %i:\n' % (i + 1)
+            print('SudokuTest.magictour line %i:\n' % (i + 1))
             run(Sudoku9x9, start_position=pos, settings=settings)
-            print
+            print()
 
 
 if __name__ == '__main__':
     settings, args = process_command_line_options()
     if args:
-        print 'Command line arguments ignored: %r' % args
+        print('Command line arguments ignored: %r' % args)
     SudokuTest.run9x9(settings)
     SudokuTest.run_magictour(settings)

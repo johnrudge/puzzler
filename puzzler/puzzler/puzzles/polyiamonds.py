@@ -198,8 +198,8 @@ class Polyiamonds(PuzzlePseudo3D):
         s_matrix = self.build_solution_matrix(solution)
         if rotate_180:
             s_matrix = [[list(reversed(s_matrix[z][y]))
-                         for y in reversed(range(self.height))]
-                        for z in reversed(range(self.depth))]
+                         for y in reversed(list(range(self.height)))]
+                        for z in reversed(list(range(self.depth)))]
         # row_reversed doesn't work for triangular coordinates:
         if row_reversed:
             out = [[], []]
@@ -246,20 +246,20 @@ class Polyiamonds(PuzzlePseudo3D):
                 'unable to match rotation (%s, flip=%s)' % (piece_name, flip))
         if not rotation and not flip:
             return s_matrix
-        for piece_name, coords in pieces.items():
+        for piece_name, coords in list(pieces.items()):
             coord_set = coordsys.Triangular3DCoordSet(coords)
             if flip:
                 coord_set = coord_set.flip0()
             coord_set = coord_set.rotate0(rotation)
             pieces[piece_name] = coord_set
         min_x = min(coord[0]
-                    for piece_coords in pieces.values()
+                    for piece_coords in list(pieces.values())
                     for coord in piece_coords)
         min_y = min(coord[1]
-                    for piece_coords in pieces.values()
+                    for piece_coords in list(pieces.values())
                     for coord in piece_coords)
         offset = coordsys.Triangular3D((-min_x, -min_y, 0))
-        for piece_name, coords in pieces.items():
+        for piece_name, coords in list(pieces.items()):
             pieces[piece_name] = coords.translate(offset)
         new_solution = [sorted(','.join(str(d) for d in coord)
                                for coord in pieces[piece[-1]]) + [piece[-1]]
@@ -471,7 +471,7 @@ class Moniamond(Polyiamonds):
     piece_data = {'T1': ((), {})}
     """(0,0) is implied."""
 
-    symmetric_pieces = piece_data.keys() # all of them
+    symmetric_pieces = list(piece_data.keys()) # all of them
 
     asymmetric_pieces = []
 
@@ -483,7 +483,7 @@ class Diamond(Polyiamonds):
     piece_data = {'D2': (((0, 0, 1),), {}),}
     """(0,0) is implied."""
 
-    symmetric_pieces = piece_data.keys() # all of them
+    symmetric_pieces = list(piece_data.keys()) # all of them
 
     asymmetric_pieces = []
 
@@ -495,7 +495,7 @@ class Triamond(Polyiamonds):
     piece_data = {'I3': (((0, 0, 1), (1, 0, 0)), {}),}
     """(0,0) is implied."""
 
-    symmetric_pieces = piece_data.keys() # all of them
+    symmetric_pieces = list(piece_data.keys()) # all of them
 
     asymmetric_pieces = []
 

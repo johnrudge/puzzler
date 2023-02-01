@@ -77,8 +77,8 @@ class Polyhexes12345HexagonRing1(Polyhexes12345):
 
     def build_matrix(self):
         self.build_regular_matrix(
-            (polyhexes.Monohex.piece_data.keys()
-             + polyhexes.Dihex.piece_data.keys()
+            (list(polyhexes.Monohex.piece_data.keys())
+             + list(polyhexes.Dihex.piece_data.keys())
              + sorted(polyhexes.Trihexes.piece_data.keys())
              + sorted(polyhexes.Tetrahexes.piece_data.keys())),
             self.polyhex_1234_coords)
@@ -117,9 +117,9 @@ class Polyhexes12345HexagonRing_X1(Polyhexes12345HexagonRing1):
 
     def build_matrix(self):
         self.build_regular_matrix(
-            polyhexes.Monohex.piece_data.keys(), self.monohex_coords)
+            list(polyhexes.Monohex.piece_data.keys()), self.monohex_coords)
         self.build_regular_matrix(
-            (polyhexes.Dihex.piece_data.keys()
+            (list(polyhexes.Dihex.piece_data.keys())
              + sorted(polyhexes.Trihexes.piece_data.keys())),
             self.dihex_trihex_coords)
         self.build_regular_matrix(
@@ -152,8 +152,8 @@ class Polyhexes12345HexagonRing_X2(Polyhexes12345HexagonRing1):
 
     def build_matrix(self):
         self.build_regular_matrix(
-            (polyhexes.Monohex.piece_data.keys()
-             + polyhexes.Dihex.piece_data.keys()
+            (list(polyhexes.Monohex.piece_data.keys())
+             + list(polyhexes.Dihex.piece_data.keys())
              + sorted(polyhexes.Trihexes.piece_data.keys())),
             self.polyhex_123_coords)
         self.build_regular_matrix(

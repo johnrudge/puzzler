@@ -131,8 +131,8 @@ class Polytrigs23ThreeCongruent1Combined1(Polytrigs23ThreeCongruent1):
 
     def build_matrix(self):
         pieces = sorted(
-            polytrigs.DitrigsData.piece_data.keys()
-            + polytrigs.TritrigsData.piece_data.keys())
+            list(polytrigs.DitrigsData.piece_data.keys())
+            + list(polytrigs.TritrigsData.piece_data.keys()))
         for shape in self.shapes:
             self.build_regular_matrix(pieces, shape)
 

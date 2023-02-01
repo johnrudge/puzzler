@@ -72,7 +72,7 @@ class CoordinateSystem:
         if not isinstance(other, tuple):
             other = other.coords
         return self.__class__(
-            tuple((self.coords[i] + other[i]) % (modulus or sys.maxint)
+            tuple((self.coords[i] + other[i]) % (modulus or sys.maxsize)
                   for i, modulus in enumerate(moduli)))
 
 

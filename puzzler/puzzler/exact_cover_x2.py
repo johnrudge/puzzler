@@ -90,7 +90,7 @@ class ExactCover(object):
         columns: columns which may, but need not, participate in the solution.
         """
         matrix_iter = iter(matrix)
-        column_names = matrix_iter.next()
+        column_names = next(matrix_iter)
         self.secondary_columns = set(
             column_names[(len(column_names) - secondary):])
         self.columns = dict((j, set()) for j in column_names)
@@ -168,7 +168,7 @@ class ExactCover(object):
 
 
 if __name__ == '__main__':
-    print 'testing exact_cover_x2.py:\n'
+    print('testing exact_cover_x2.py:\n')
     matrix = [
         'A  B  C  D  E  F  G'.split(),
         [0, 0, 1, 0, 1, 1, 0],
@@ -178,11 +178,11 @@ if __name__ == '__main__':
         [0, 1, 0, 0, 0, 0, 1],
         [0, 0, 0, 1, 1, 0, 1]]
     puzzle = ExactCover(matrix)
-    print 'columns ='
+    print('columns =')
     pprint(puzzle.columns)
-    print '\nrows ='
+    print('\nrows =')
     pprint(puzzle.rows)
     for solution in puzzle.solve():
-        print '\n', puzzle.format_solution(), '\n'
-        print 'unformatted:\n', solution, '\n'
-    print puzzle.num_searches, 'searches'
+        print('\n', puzzle.format_solution(), '\n')
+        print('unformatted:\n', solution, '\n')
+    print(puzzle.num_searches, 'searches')

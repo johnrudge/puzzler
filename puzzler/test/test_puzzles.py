@@ -8,7 +8,7 @@
 import sys
 import copy
 import unittest
-from cStringIO import StringIO
+from io import StringIO
 from pprint import pprint, pformat
 
 import puzzler
@@ -131,13 +131,13 @@ U U X I I I I I N N N F T W Y Y Y Y Z V"""
         p = MockPuzzle()
         s_matrix = copy.deepcopy(self.s_matrix_1)
         points = p.get_polygon_points(s_matrix, 3, 1)
-        self.assertEquals(points, self.polygon_points_1)
+        self.assertEqual(points, self.polygon_points_1)
 
     def test_build_polygon(self):
         p = MockPuzzle()
         s_matrix = copy.deepcopy(self.s_matrix_1)
         polygon = p.build_polygon(s_matrix, 3, 1)
-        self.assertEquals(polygon, self.polygon_1)
+        self.assertEqual(polygon, self.polygon_1)
 
     def test_format_svg(self):
         rows = [line.split() for line in self.pentominoes_solution.splitlines()]
@@ -147,7 +147,7 @@ U U X I I I I I N N N F T W Y Y Y Y Z V"""
                     + [[' '] * width])
         p = puzzles.Pentominoes3x20()
         svg = p.format_svg(s_matrix=s_matrix)
-        self.assertEquals(svg, self.pentominoes_svg)
+        self.assertEqual(svg, self.pentominoes_svg)
 
 
 class Polytrig_Test_Puzzle(puzzles.Polytrigs12):
@@ -171,20 +171,20 @@ class Test_Polytrigs(unittest.TestCase):
 
     def test_details(self):
         p = Polytrig_Test_Puzzle()
-        self.assertEquals(
+        self.assertEqual(
             sorted(p.solution_coords),
             [(0, 0, 0), (0, 0, 1), (0, 1, 0), (1, 0, 0), (1, 0, 1), (1, 0, 2),
              (2, 0, 2)])
-        self.assertEquals(len(p.pieces), 4)
+        self.assertEqual(len(p.pieces), 4)
         # number of aspects:
-        self.assertEquals(len(p.pieces['I1']), 3)
-        self.assertEquals(len(p.pieces['I2']), 3)
+        self.assertEqual(len(p.pieces['I1']), 3)
+        self.assertEqual(len(p.pieces['I2']), 3)
         # 3 because of customize_piece_data; normally 6
-        self.assertEquals(len(p.pieces['L2']), 3)
-        self.assertEquals(len(p.pieces['V2']), 6)
+        self.assertEqual(len(p.pieces['L2']), 3)
+        self.assertEqual(len(p.pieces['V2']), 6)
         # number of rows in the matrix
         # (normally 1 + 7 + 1 + 4 + 9 = 22 for the full puzzle):
-        self.assertEquals(len(p.matrix), 20)
+        self.assertEqual(len(p.matrix), 20)
 
     output = r"""solving Polytrig_Test_Puzzle:
 
@@ -241,10 +241,10 @@ V2  \ I1  \
 
     def test_solution(self):
         stream = StringIO()
-        self.assertEquals(
+        self.assertEqual(
             puzzler.run(Polytrig_Test_Puzzle, output_stream=stream), 2)
         output = stream.getvalue()
-        self.assert_(output.startswith(self.output))
+        self.assertTrue(output.startswith(self.output))
         stream.seek(0)
         svg_stream = StringIO()
         settings = Struct(
@@ -253,7 +253,7 @@ V2  \ I1  \
             x3d = None)
         puzzler.read_solution(Polytrig_Test_Puzzle, settings)
         svg_output = svg_stream.getvalue()
-        self.assertEquals(svg_output, self.svg_output)
+        self.assertEqual(svg_output, self.svg_output)
 
 
 if __name__ == '__main__':

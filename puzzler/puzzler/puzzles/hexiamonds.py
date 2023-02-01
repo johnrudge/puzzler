@@ -312,7 +312,7 @@ class HexiamondsIamondHexSeparatedColors(HexiamondsSnowflake):
             shapes[name] = coords
             for coord in coords:
                 coordmap[coord] = name
-        for name, coords in shapes.items():
+        for name, coords in list(shapes.items()):
             color = self.piece_colors[name]
             # find the neighbors of all coordinates in the shape:
             neighbors = set()
@@ -349,7 +349,7 @@ class HexiamondsIamondHexJoinedColors(HexiamondsIamondHexSeparatedColors):
             shapes[name] = coords
             for coord in coords:
                 coordmap[coord] = name
-        for name, coords in shapes.items():
+        for name, coords in list(shapes.items()):
             color = self.piece_colors[name]
             # find the neighbors of all coordinates in the shape:
             neighbors = set()
@@ -2081,7 +2081,7 @@ class OneSidedHexiamonds_TestHexagon(OneSidedHexiamonds):
         self.build_regular_matrix(keys)
 
     def customize_piece_data(self):
-        for key in self.piece_data.keys():
+        for key in list(self.piece_data.keys()):
             if key not in self._test_pieces:
                 del self.piece_data[key]
         OneSidedHexiamonds.customize_piece_data(self)

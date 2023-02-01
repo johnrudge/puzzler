@@ -177,16 +177,16 @@ class SolidPentominoesRing(SolidPentominoes):
         lines = []
         left_index = [0, -1][x_reversed]
         right_index = -1 - left_index
-        for y in y_reversed_fn(range(self.height)):
+        for y in y_reversed_fn(list(range(self.height))):
             back = ' '.join(x_reversed_fn(s_matrix[0][y]))
             front = ' '.join(x_reversed_fn(s_matrix[-1][y]))
             if z_reversed:
                 back, front = front, back
             left = ' '.join(s_matrix[z][y][left_index]
-                            for z in z_reversed_fn(range(self.depth)))
+                            for z in z_reversed_fn(list(range(self.depth))))
             right = ' '.join(
                 s_matrix[z][y][right_index]
-                for z in z_unreversed_fn(range(self.depth)))
+                for z in z_unreversed_fn(list(range(self.depth))))
             lines.append(('%s    %s    %s    %s'
                           % (left, front, right, back)).rstrip())
         return '\n'.join(lines)
@@ -1132,7 +1132,7 @@ class SolidPentominoes5x5x5QuarterPyramid(SolidPentominoes):
     def build_rows_for_omitted_pieces(self):
         #import pdb ; pdb.set_trace()
         dx, dy, dz = self.omitted_cover_offset
-        for key, coords in self.omitted_piece_positions.items():
+        for key, coords in list(self.omitted_piece_positions.items()):
             coords3d = [(x + dx, y + dy, dz) for (x, y) in coords]
             self.build_matrix_row(key, coords3d)
 

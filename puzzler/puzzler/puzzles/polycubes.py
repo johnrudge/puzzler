@@ -136,15 +136,15 @@ class SomaCubes(Polycubes):
                 s_matrix[z][y][x] = name
         return '\n'.join(
             '    '.join(' '.join(x_reversed_fn(s_matrix[z][y]))
-                        for z in z_reversed_fn(range(self.depth))).rstrip()
-            for y in y_reversed_fn(range(self.height)))
+                        for z in z_reversed_fn(list(range(self.depth)))).rstrip()
+            for y in y_reversed_fn(list(range(self.height))))
 
 
 class SolidPentominoes(Polycubes):
 
     piece_colors = copy.deepcopy(Pentominoes.piece_colors)
     piece_data = {}
-    for _name, (_data, _kwargs) in Pentominoes.piece_data.items():
+    for _name, (_data, _kwargs) in list(Pentominoes.piece_data.items()):
         piece_data[_name] = (tuple((_x, _y, 0) for (_x, _y) in _data), {})
     del _name, _data, _kwargs
 
@@ -194,7 +194,7 @@ class Pentacubes(Polycubes):
         '0':  'gray',
         '1':  'black'}
 
-    for _name, (_data, _kwargs) in SolidPentominoes.piece_data.items():
+    for _name, (_data, _kwargs) in list(SolidPentominoes.piece_data.items()):
         piece_data[_name + '5'] = (_data, _kwargs)
         piece_colors[_name + '5'] = SolidPentominoes.piece_colors[_name]
     del _name, _data, _kwargs
@@ -264,7 +264,7 @@ class SolidHexominoes(Polycubes):
 
     piece_colors = copy.deepcopy(Hexominoes.piece_colors)
     piece_data = {}
-    for _name, (_data, _kwargs) in Hexominoes.piece_data.items():
+    for _name, (_data, _kwargs) in list(Hexominoes.piece_data.items()):
         piece_data[_name] = (tuple((_x, _y, 0) for (_x, _y) in _data), {})
     del _name, _data, _kwargs
 
@@ -705,7 +705,7 @@ class Hexacubes(Polycubes):
         '1':  'black'}
 
     # add solid hexominoes:
-    for _name, (_data, _kwargs) in SolidHexominoes.piece_data.items():
+    for _name, (_data, _kwargs) in list(SolidHexominoes.piece_data.items()):
         piece_data[_name] = (_data, _kwargs)
         piece_colors[_name] = SolidHexominoes.piece_colors[_name]
     del _name, _data, _kwargs

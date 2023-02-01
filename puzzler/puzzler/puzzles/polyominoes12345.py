@@ -75,8 +75,8 @@ class Polyominoes12345Diamond2(Polyominoes12345Diamond):
             outer_ring_coords = sorted(
                 set(self.coordinates()) - set(inner_square_coords))
             self.build_regular_matrix(
-                (polyominoes.Monomino.piece_data.keys()
-                 + polyominoes.Domino.piece_data.keys()
+                (list(polyominoes.Monomino.piece_data.keys())
+                 + list(polyominoes.Domino.piece_data.keys())
                  + sorted(polyominoes.Trominoes.piece_data.keys())),
                 inner_square_coords)
             self.build_regular_matrix(

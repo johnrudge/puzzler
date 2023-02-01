@@ -39,7 +39,7 @@ class PolyominoesPuzzleArt(Polyominoes):
 
     def customize_piece_data(self):
         total_squares = 0
-        for name, art_data in self.piece_art.iteritems():
+        for name, art_data in self.piece_art.items():
             art, piece_aspect_restrictions = art_data
             aspect_restrictions = copy.deepcopy(self.base_aspect_restrictions)
             aspect_restrictions.update(piece_aspect_restrictions)

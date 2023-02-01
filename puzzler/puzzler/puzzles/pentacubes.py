@@ -535,7 +535,7 @@ class %s(Pentacubes2x3x2Chair):
         classes = []
         for i, p1 in enumerate(piece_names):
             for p2 in piece_names[i+1:]: # avoid duplicate combinations
-                exec cls.custom_class_template % locals()
+                exec(cls.custom_class_template % locals())
                 classes.append(locals()[cls.custom_class_name % locals()])
         return classes
 
@@ -547,7 +547,7 @@ class %s(Pentacubes2x3x2Chair):
     def customize_piece_data(self):
         """Restrict pieces to those listed in `self.custom_pieces`."""
         Pentacubes.customize_piece_data(self)
-        for name in self.piece_data.keys():
+        for name in list(self.piece_data.keys()):
             if name not in self.custom_pieces:
                 del self.piece_data[name]
 

@@ -156,7 +156,7 @@ class Polyhexes(Puzzle2D):
         s_matrix = self.build_solution_matrix(solution)
         if rotate_180:
             s_matrix = [list(reversed(s_matrix[y]))
-                        for y in reversed(range(self.height))]
+                        for y in reversed(list(range(self.height)))]
         if row_reversed:
             out = []
             trim = (self.height - 1) // 2
@@ -349,7 +349,7 @@ class Monohex(Polyhexes):
     piece_data = {'H1': ((), {})}
     """(0,0) is implied."""
 
-    symmetric_pieces = piece_data.keys() # all of them
+    symmetric_pieces = list(piece_data.keys()) # all of them
 
     asymmetric_pieces = []
 
@@ -361,7 +361,7 @@ class Dihex(Polyhexes):
     piece_data = {'I2': ((( 1, 0),), {})}
     """(0,0) is implied."""
 
-    symmetric_pieces = piece_data.keys() # all of them
+    symmetric_pieces = list(piece_data.keys()) # all of them
 
     asymmetric_pieces = []
 
@@ -376,7 +376,7 @@ class Trihexes(Polyhexes):
         'A3': ((( 1, 0), ( 0, 1)), {}),}
     """(0,0) is implied."""
 
-    symmetric_pieces = piece_data.keys() # all of them
+    symmetric_pieces = list(piece_data.keys()) # all of them
 
     asymmetric_pieces = []
 

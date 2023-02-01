@@ -274,8 +274,8 @@ class Polytwigs45FourCongruent3Combined(Polytwigs45):
 
     def build_matrix(self):
         pieces = sorted(
-            polytwigs.TetratwigsData.piece_data.keys()
-            + polytwigs.PentatwigsData.piece_data.keys())
+            list(polytwigs.TetratwigsData.piece_data.keys())
+            + list(polytwigs.PentatwigsData.piece_data.keys()))
         for i in range(4):
             self.build_regular_matrix(pieces, self.shapes[i])
 

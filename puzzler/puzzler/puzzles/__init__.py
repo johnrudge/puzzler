@@ -213,7 +213,7 @@ class Puzzle(object):
         for name in names:
             data, kwargs = self.piece_data[name]
             self.aspects[name] = self.make_aspects(data, **kwargs)
-        for name, aspects in self.aspects.items():
+        for name, aspects in list(self.aspects.items()):
             self.pieces[name] = tuple(
                 sorted((tuple(sorted(aspect)), aspect) for aspect in aspects))
 
@@ -290,11 +290,11 @@ class Puzzle(object):
             if self.store_solutions(solution, formatted):
                 return False
         if dated:
-            print >>stream, 'at %s,' % datetime.datetime.now(),
-        print >>stream, solver.format_solution()
-        print >>stream
-        print >>stream, self.format_solution(solution, normalized=False)
-        print >>stream
+            print('at %s,' % datetime.datetime.now(), end=' ', file=stream)
+        print(solver.format_solution(), file=stream)
+        print(file=stream)
+        print(self.format_solution(solution, normalized=False), file=stream)
+        print(file=stream)
         stream.flush()
         return True
 
@@ -332,8 +332,8 @@ class Puzzle(object):
             else:
                 svg = self.format_svg(solution, s_matrix)
         except NotImplementedError:
-            print >>sys.stderr, (
-                'Warning: SVG output not supported by this puzzle.\n')
+            print((
+                'Warning: SVG output not supported by this puzzle.\n'), file=sys.stderr)
         else:
             svg_file = None
             try:
@@ -362,8 +362,8 @@ class Puzzle(object):
         try:
             x3d = self.format_x3d(solution, s_matrix)
         except NotImplementedError:
-            print >>sys.stderr, (
-                'Warning: X3D output not supported by this puzzle.\n')
+            print((
+                'Warning: X3D output not supported by this puzzle.\n'), file=sys.stderr)
         else:
             x3d_file = None
             try:
@@ -575,7 +575,7 @@ class Puzzle2D(Puzzle):
         formatted = '\n'.join(
             ''.join('%-*s' % (self.piece_width, name)
                     for name in x_reversed_fn(s_matrix[y])).rstrip()
-            for y in y_reversed_fn(range(self.height)))
+            for y in y_reversed_fn(list(range(self.height))))
         return formatted
 
     def empty_solution_matrix(self, margin=0):
@@ -910,8 +910,8 @@ class Puzzle3D(Puzzle):
         return '\n'.join(
             '    '.join(''.join('%-*s' % (self.piece_width, name)
                                 for name in x_reversed_fn(s_matrix[z][y]))
-                        for z in z_reversed_fn(range(self.depth))).rstrip()
-            for y in y_reversed_fn(range(self.height)))
+                        for z in z_reversed_fn(list(range(self.depth)))).rstrip()
+            for y in y_reversed_fn(list(range(self.height))))
 
     def empty_solution_matrix(self, margin=0):
         s_matrix = [[[self.empty_cell] * (self.width + 2 * margin)
@@ -1016,7 +1016,7 @@ class Puzzle3D(Puzzle):
         """Common solution matrix transform: X, Z, reversed(Y)."""
         return [[[s_matrix[z][y][x] for x in range(self.width)]
                  for z in range(self.depth)]
-                for y in reversed(range(self.height))]
+                for y in reversed(list(range(self.height)))]
 
     def cycle_xyz_transform(self, s_matrix):
         """Common solution matrix transform: cycle X Y & Z dimensions."""
@@ -1093,7 +1093,7 @@ class OneSidedLowercaseMixin(object):
         pieces with lowercase names.
         """
         self.piece_colors = copy.deepcopy(self.piece_colors)
-        for key in self.piece_data.keys():
+        for key in list(self.piece_data.keys()):
             self.piece_data[key][-1]['flips'] = None
         for key in self.asymmetric_pieces:
             new_key = key.lower()
@@ -1105,6 +1105,6 @@ class OneSidedLowercaseMixin(object):
 if __name__ == '__main__':
     from puzzler.puzzles.pentominoes import Pentominoes6x10
     p = Pentominoes6x10()
-    print 'matrix length =', len(p.matrix)
-    print 'first 20 rows:'
+    print('matrix length =', len(p.matrix))
+    print('first 20 rows:')
     pprint(p.matrix[:20], width=720)
