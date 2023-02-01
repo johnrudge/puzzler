@@ -215,7 +215,7 @@ class Puzzle(object):
             self.aspects[name] = self.make_aspects(data, **kwargs)
         for name, aspects in list(self.aspects.items()):
             self.pieces[name] = tuple(
-                sorted((tuple(sorted(aspect)), aspect) for aspect in aspects))
+                (tuple(aspect), aspect) for aspect in aspects)
 
     def make_aspects(self, data, **kwargs):
         """
@@ -237,7 +237,7 @@ class Puzzle(object):
 
         Override e.g. to ensure that secondary columns are at the end.
         """
-        return sorted(self.solution_coords)
+        return self.solution_coords
 
     def build_matrix_header(self):
         """

@@ -274,7 +274,7 @@ class Cartesian2DView(Cartesian2DCoordSet):
         self._itranslate(-offset)
 
     def __hash__(self):
-        return hash(tuple(sorted(self)))
+        return hash(tuple(self))
 
     def calculate_offset_and_bounds(self):
         rowvals = [c[0] for c in self]
@@ -300,7 +300,7 @@ class Cartesian3DView(Cartesian3DCoordSet):
         self._itranslate(-offset)
 
     def __hash__(self):
-        return hash(tuple(sorted(self)))
+        return hash(tuple(self))
 
     def calculate_offset_and_bounds(self):
         rows = [c[0] for c in self]
