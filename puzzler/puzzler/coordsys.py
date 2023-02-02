@@ -11,8 +11,9 @@ Coordinates, coordinate sets, & views.
 """
 
 import sys
+from functools import total_ordering
 
-
+@total_ordering
 class CoordinateSystem:
 
     """
@@ -62,11 +63,20 @@ class CoordinateSystem:
         return self.__class__(
             tuple(self.coords[i] - other[i] for i in range(len(self.coords))))
 
-    def __cmp__(self, other):
+    def __lt__(self, other):
         if isinstance(other, tuple):
-            return cmp(self.coords, other)
+            return (self.coords < other)
         else:
-            return cmp(self.coords, other.coords)
+            return (self.coords < other.coords)
+        
+    def __eq__(self, other):
+        if isinstance(other, tuple):
+            return (self.coords == other)
+        else:
+            return (self.coords == other.coords)
+        
+
+
 
     def add_modulo(self, other, moduli):
         if not isinstance(other, tuple):
