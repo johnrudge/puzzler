@@ -14,6 +14,8 @@ from pprint import pprint, pformat
 import puzzler
 from puzzler import puzzles
 from puzzler import coordsys
+from puzzler.puzzles.polytrigs import Polytrigs12
+from puzzler.puzzles.pentominoes import Pentominoes3x20
 
 
 class Struct:
@@ -145,12 +147,11 @@ U U X I I I I I N N N F T W Y Y Y Y Z V"""
         s_matrix = ([[' '] * width]
                     + [[' '] + row + [' '] for row in rows]
                     + [[' '] * width])
-        p = puzzles.Pentominoes3x20()
+        p = Pentominoes3x20()
         svg = p.format_svg(s_matrix=s_matrix)
         self.assertEqual(svg, self.pentominoes_svg)
 
-
-class Polytrig_Test_Puzzle(puzzles.Polytrigs12):
+class Polytrig_Test_Puzzle(Polytrigs12):
 
     width = 3
     height = 2
@@ -162,9 +163,9 @@ class Polytrig_Test_Puzzle(puzzles.Polytrigs12):
         self.piece_data['L2'][-1]['flips'] = None
         self.piece_data['L2'][-1]['rotations'] = (0,1,2)
 
-#     def format_svg(self, solution=None, s_matrix=None):
-#         pprint(s_matrix)
-#         return 'test'
+    def format_svg(self, solution=None, s_matrix=None):
+        pprint(s_matrix)
+        return 'test'
 
 
 class Test_Polytrigs(unittest.TestCase):
