@@ -62,7 +62,7 @@ class ExactCover(object):
         if matrix:
             self.load_matrix(matrix, secondary)
 
-    def load_matrix(self, matrix, secondary=[]):
+    def load_matrix(self, matrix, secondary=0):
         """
         Convert the input `matrix` into a form compatible with the
         `exactcover` C extension and load it into an `exactcover.Coverings`
@@ -88,16 +88,16 @@ class ExactCover(object):
         The converted data structure consists of a list of lists of column
         names.
         """
-        if secondary==0:
-            # JFR: Workaround for new syntax of exactcover
-            secondary = []
-        
         if self.solver:
             # JFR: self.solver.num_searches does not exist
             #self._num_previous_searches += self.solver.num_searches
             self._num_previous_searches += 1
         rows = [sorted(item for item in row if item) for row in matrix[1:]]
-        self.solver = exactcover.Coverings(rows, secondary)
+        if secondary == 0:
+            secondary_cols = []
+        else:
+            secondary_cols = matrix[0][-secondary:] # last cols
+        self.solver = exactcover.Coverings(rows, secondary_cols)
         
     def solve(self, level=0):
         """
