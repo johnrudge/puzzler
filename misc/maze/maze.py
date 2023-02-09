@@ -57,7 +57,7 @@ class Maze:
                 current_cell = new_cell
                 visited_cells += 1
                 if self.debug:
-                    print self.grid.dfs_representation(current_cell)
+                    print(self.grid.dfs_representation(current_cell))
             else:
                 current_cell = cell_stack.pop()
 
@@ -84,7 +84,7 @@ class Maze:
             neighbor = random.choice(list(inner_neighbors))
             self.grid.remove_common_wall(cell, neighbor)
             if self.debug:
-                print self.grid.set_representation(inner, frontier, outer)
+                print(self.grid.set_representation(inner, frontier, outer))
 
     def generate_kruskal(self):
         """Kruskal's Algorithm"""
@@ -101,7 +101,7 @@ class Maze:
                 count -= 1
                 self.grid.remove_common_wall(wall[0], wall[1])
                 if self.debug:
-                    print self.grid.equivalence_representation(union_find)
+                    print(self.grid.equivalence_representation(union_find))
 
 
 class Cell:
@@ -558,7 +558,7 @@ if __name__ == '__main__':
     width = 25 ; height = 10
     maze1 = Maze(RectangleGrid(width, height), debug=debug)
     maze1.generate_dfs()
-    print str(maze1.grid)
+    print(str(maze1.grid))
 #     maze2 = Maze(RectangleGrid(width, height), debug=debug)
 #     maze2.generate_prim()
 #     print str(maze2.grid)
@@ -572,7 +572,7 @@ if __name__ == '__main__':
     width = 18 ; height = 6
     maze4 = Maze(LozengeGrid(width, height), debug=debug)
     maze4.generate_dfs()
-    print str(maze4.grid)
+    print(str(maze4.grid))
 #     maze5 = Maze(LozengeGrid(width, height), debug=debug)
 #     maze5.generate_prim()
 #     print str(maze5.grid)
@@ -586,7 +586,7 @@ if __name__ == '__main__':
     width = 18 ; height = 10
     maze7 = Maze(HoneycombGrid(width, height), debug=debug)
     maze7.generate_dfs()
-    print str(maze7.grid)
+    print(str(maze7.grid))
 #     maze8 = Maze(HoneycombGrid(width, height), debug=debug)
 #     maze8.generate_prim()
 #     print str(maze8.grid)
