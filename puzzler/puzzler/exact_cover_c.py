@@ -52,6 +52,7 @@ class ExactCover(object):
         """Keeps track of the total number of searches in previous
         sub-puzzles, since the C extension doesn't."""
 
+
         if state:
             # does nothing for now; requires support in exactcover C extension
             pass
@@ -61,7 +62,7 @@ class ExactCover(object):
         if matrix:
             self.load_matrix(matrix, secondary)
 
-    def load_matrix(self, matrix, secondary=0):
+    def load_matrix(self, matrix, secondary=[]):
         """
         Convert the input `matrix` into a form compatible with the
         `exactcover` C extension and load it into an `exactcover.Coverings`
@@ -87,12 +88,17 @@ class ExactCover(object):
         The converted data structure consists of a list of lists of column
         names.
         """
+        if secondary==0:
+            # JFR: Workaround for new syntax of exactcover
+            secondary = []
+        
         if self.solver:
-            self._num_previous_searches += self.solver.num_searches
+            # JFR: self.solver.num_searches does not exist
+            #self._num_previous_searches += self.solver.num_searches
+            self._num_previous_searches += 1
         rows = [sorted(item for item in row if item) for row in matrix[1:]]
-        self.solver = exactcover.Coverings(
-            rows, headers=matrix[0], secondary=secondary)
-
+        self.solver = exactcover.Coverings(rows, secondary)
+        
     def solve(self, level=0):
         """
         A generator that produces all solutions via the `exactcover.Coverings`
@@ -119,6 +125,9 @@ class ExactCover(object):
     def num_searches(self):
         """The number of search operations tried so far."""
         if self.solver:
-            return self._num_previous_searches + self.solver.num_searches
+            # JFR: self.solver.num_searches does not exist
+            #return self._num_previous_searches + self.solver.num_searches
+            return self._num_previous_searches + 1
         else:
             return self._num_previous_searches
+        
