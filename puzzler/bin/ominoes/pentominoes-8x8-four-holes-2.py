@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # $Id$
 
 """8x8 grid with four 1-square holes: 21 solutions"""

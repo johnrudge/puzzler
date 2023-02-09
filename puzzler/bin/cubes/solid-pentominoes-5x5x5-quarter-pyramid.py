@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # $Id: solid-pentominoes-5x5x4-steps.py 571 2012-10-06 21:14:57Z goodger $
 
 """ solutions"""

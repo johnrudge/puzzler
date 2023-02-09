@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # $Id: hexominoes-cross-1.py 571 2012-10-06 21:14:57Z goodger $
 
 """162,086 solutions"""

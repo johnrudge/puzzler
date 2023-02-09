@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # $Id: pentominoes-skewed-12x5.py 571 2012-10-06 21:14:57Z goodger $
 
 """? solutions"""

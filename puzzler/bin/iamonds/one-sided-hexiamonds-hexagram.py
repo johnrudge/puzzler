@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # $Id: one-sided-hexiamonds-truncated-hexagram-ring.py 636 2016-11-30 05:36:17Z goodger $
 
 """ solutions"""

@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # $Id: hexiamonds-4x11-trapezoid.py 572 2012-10-07 13:20:54Z goodger $
 
 """993 solutions"""

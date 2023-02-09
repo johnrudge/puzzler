@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # $Id$
 
 """3 solutions (perfect solutions, i.e. no pieces cross)"""
