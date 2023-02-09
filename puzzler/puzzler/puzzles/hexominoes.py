@@ -274,7 +274,7 @@ class HexominoesCross1(Hexominoes):
                                             offset=(0,1)))
             + list(self.coordinates_rectangle(self.width - 2, self.height,
                                               offset=(1,0))))
-        coords.remove((self.width / 2, self.height / 2))
+        coords.remove((self.width // 2, self.height // 2))
         return sorted(coords)
 
     def customize_piece_data(self):
