@@ -308,8 +308,10 @@ class Root(Datum):
         return '\n'.join(lines)
 
     def choose_column(self):
-        size, column = min((column.size, column)
-                           for column in self.right_siblings())
+        sizes = [column.size for column in self.right_siblings()]
+        min_size = min(sizes)
+        idx = sizes.index(min_size)
+        column = self.right_siblings()[idx]
         return column
 
 
