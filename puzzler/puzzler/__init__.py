@@ -340,7 +340,7 @@ class SessionState(object):
     def init_periodic_save(self, solver):
         if self.state_file:
             t = threading.Thread(target=self.save_periodically, args=(solver,))
-            t.setDaemon(True)
+            t.daemon = True
             t.start()
 
     def __getstate__(self):
