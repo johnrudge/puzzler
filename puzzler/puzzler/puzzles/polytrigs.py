@@ -291,12 +291,12 @@ class Polytrigs(Polysticks):
         solutions will have to be formatted at least this big::
 
                    __03__
-                  /\\    /\
+                  /\    /\
                  I  I1 I2 I3
-                /_12_\\/_01_\
-               /\\    /\\    /\
+                /_12_\/_01_\
+               /\    /\    /\
               02 Z  Z3 V  V2 01
-             /_02_\\/_01_\\/_01_\
+             /_02_\/_01_\/_01_\
 
         3 sections to each triangle:
 
@@ -324,17 +324,17 @@ class Polytrigs(Polysticks):
 
                    __03x_
                   /I1x  /I3x
-                III \\ I2x \
-                /_12x\\/_01x\
+                III \ I2x \
+                /_12x\/_01x\
 
         For 3 characters per segment, a larger representation would be better.
         For or 4 or even 5, it would be needed::
 
                    __03xx__
-                  /\\      /\
+                  /\      /\
                  /  I1xx /  I3xx
-                IIxx \\  I2xx \
-               /_12xx_\\/_01xx_\
+                IIxx \  I2xx \
+               /_12xx_\/_01xx_\
         """
         width = len(s_matrix[0][0])
         height = len(s_matrix[0])
@@ -505,8 +505,8 @@ class Polytrigs(Polysticks):
         Curve end-points (relative to intersection point)::
 
                (-dx1, +dy1).    .(+dx1, +dy1)
-                            \\  /
-                (-dx0, 0).___\\/___.(+dx0, 0)
+                            \  /
+                (-dx0, 0).___\/___.(+dx0, 0)
                              /\
                             /  \
                (-dx1, -dy1).    .(+dx1, -dy1)
