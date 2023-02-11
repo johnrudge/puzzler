@@ -8,7 +8,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = 'puzzler'
 description = 'Polyform Puzzler'
-version = '1+SVN'
+version = '1.1.0'
 license = {text ='GPL-2.0-or-later'}
 classifiers = [
     'Development Status :: 5 - Production/Stable',
