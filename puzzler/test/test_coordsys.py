@@ -243,7 +243,7 @@ class HexagonalGrid3DTests(unittest.TestCase):
             o = o.rotate0(1)
             self.assertEqual(
                 o, self.o_rotated[(r + 1) % 6],
-                '%r != %r ; r == %r' % (o, self.o_rotated[(r + 1) % 6], r))
+                f'{o!r} != {self.o_rotated[(r + 1) % 6]!r} ; r == {r!r}')
         c = self.c100
         for r in range(6):
             self.assertEqual(self.c100.rotate0(r), self.rotated['c100/0'][r])
@@ -261,7 +261,7 @@ class HexagonalGrid3DTests(unittest.TestCase):
             v = v.rotate0(1)
             self.assertEqual(
                 v, set(self.p_rotated[(r + 1) % 6]),
-                '%r != %r ; r == %r' % (v, set(self.p_rotated[(r + 1) % 6]), r))
+                f'{v!r} != {set(self.p_rotated[(r + 1) % 6])!r} ; r == {r!r}')
 
 
 if __name__ == '__main__':

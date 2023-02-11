@@ -134,7 +134,7 @@ class Pentacubes5x5x6Tower2(Pentacubes):
     depth = 5
 
     def coordinates(self):
-        hole = set(((2,5,2), (2,5,1), (1,5,2), (3,5,2), (2,5,3)))
+        hole = {(2,5,2), (2,5,1), (1,5,2), (3,5,2), (2,5,3)}
         for z in range(self.depth):
             for y in range(self.height):
                 for x in range(self.width):
@@ -405,10 +405,10 @@ class Pentacubes11x11x5Pyramid(Pentacubes):
     depth = 5
 
     def coordinates(self):
-        corners = set(((0,2),(0,1),(0,0),(1,0),(2,0),
+        corners = {(0,2),(0,1),(0,0),(1,0),(2,0),
                        (8,0),(9,0),(10,0),(10,1),(10,2),
                        (10,8),(10,9),(10,10),(9,10),(8,10),
-                       (2,10),(1,10),(0,10),(0,9),(0,8)))
+                       (2,10),(1,10),(0,10),(0,9),(0,8)}
         for z in range(self.depth):
             for y in range(self.height):
                 for x in range(self.width):
@@ -540,9 +540,8 @@ class %s(Pentacubes2x3x2Chair):
         return classes
 
     def coordinates(self):
-        for coord in ((0,0,0), (1,0,0), (0,1,0), (1,1,0), (0,2,0), (1,2,0),
-                      (0,0,1), (1,0,1), (0,1,1), (1,1,1)):
-            yield coord
+        yield from ((0,0,0), (1,0,0), (0,1,0), (1,1,0), (0,2,0), (1,2,0),
+                      (0,0,1), (1,0,1), (0,1,1), (1,1,1))
 
     def customize_piece_data(self):
         """Restrict pieces to those listed in `self.custom_pieces`."""
@@ -655,10 +654,10 @@ class PentacubesDiamondWall(Pentacubes):
         layer = (
             set(Puzzle2D.coordinates_diamond(5))
             - (set(Puzzle2D.coordinates_diamond(3, offset=(2,2)))
-               - set(((4,4),))))
-        coords = set(
+               - {(4,4)}))
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
 
@@ -680,12 +679,12 @@ class PentacubesRibbedWall(Pentacubes):
         layer = (
             set(Puzzle2D.coordinates_rectangle(5, 5, offset=(1,1)))
             - (set(Puzzle2D.coordinates_rectangle(3, 3, offset=(2,2)))
-               - set(((3,3),))))
+               - {(3,3)}))
         for i in (1, 3, 5):
             layer.update(((0,i), (i,0), (6,i), (i,6)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(5))
+            for x, y in layer for z in range(5)}
         return sorted(coords)
 
 
@@ -890,7 +889,7 @@ class PentacubesSteppedPyramid11x7_1(Pentacubes):
     height = 7
     depth = 4
 
-    holes = set(((4,3,0), (5,3,0), (6,3,0)))
+    holes = {(4,3,0), (5,3,0), (6,3,0)}
 
     transform_solution_matrix = Puzzle3D.swap_yz_transform
 
@@ -907,7 +906,7 @@ class PentacubesSteppedPyramid11x7_2(PentacubesSteppedPyramid11x7_1):
 
     """many solutions"""
 
-    holes = set(((4,3,3), (5,3,3), (6,3,3)))
+    holes = {(4,3,3), (5,3,3), (6,3,3)}
 
 
 class PentacubesPanorama(Pentacubes):
@@ -928,8 +927,8 @@ class PentacubesPanorama(Pentacubes):
     def coordinates(self):
         part = set()
         for i in range(self.depth):
-            part.update(set((x,y,i) for (x, y) in
-                Puzzle2D.coordinates_diamond(5 - i, offset=(i-2,i-2))))
+            part.update({(x,y,i) for (x, y) in
+                Puzzle2D.coordinates_diamond(5 - i, offset=(i-2,i-2))})
         part = Cartesian3DCoordSet(part)
         part.intersection_update(set(self.coordinates_cuboid(5, 5, 5)))
         coords = part.copy()
@@ -974,14 +973,14 @@ class PentacubesDiamondTower(Pentacubes):
     transform_solution_matrix = Puzzle3D.swap_yz_transform
 
     def coordinates(self):
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in Puzzle2D.coordinates_diamond(4) for z in range(5))
+            for x, y in Puzzle2D.coordinates_diamond(4) for z in range(5)}
         for i in range(3):
-            coords.update(set(
+            coords.update({
                 self.coordinate_offset(x, y, i+5, None)
                 for (x, y) in
-                Puzzle2D.coordinates_diamond(3 - i, offset=(i+1,i+1))))
+                Puzzle2D.coordinates_diamond(3 - i, offset=(i+1,i+1))})
         coords.add(self.coordinate_offset(3, 3, 8, None))
         return sorted(coords)
 
@@ -1324,9 +1323,9 @@ class PentacubesPlusDiamondPrism(PentacubesPlus):
     depth = 6
 
     def coordinates(self):
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in Puzzle2D.coordinates_diamond(4) for z in range(6))
+            for x, y in Puzzle2D.coordinates_diamond(4) for z in range(6)}
         return sorted(coords)
 
 
@@ -1342,9 +1341,9 @@ class PentacubesPlusDiagonalWall1(PentacubesPlus):
         layer = (
             set(Puzzle2D.coordinates_triangle(15))
             - set(Puzzle2D.coordinates_triangle(9)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(2))
+            for x, y in layer for z in range(2)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1362,9 +1361,9 @@ class PentacubesPlusDiagonalWall2(PentacubesPlus):
         layer = (
             set(Puzzle2D.coordinates_triangle(8))
             - set(Puzzle2D.coordinates_triangle(3)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(5))
+            for x, y in layer for z in range(5)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1382,9 +1381,9 @@ class PentacubesPlusDiagonalWall3(PentacubesPlus):
         layer = (
             set(Puzzle2D.coordinates_triangle(12))
             - set(Puzzle2D.coordinates_triangle(2)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(2))
+            for x, y in layer for z in range(2)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1402,9 +1401,9 @@ class PentacubesPlusDiagonalWall4(PentacubesPlus):
         layer = (
             set(Puzzle2D.coordinates_triangle(12))
             - set(Puzzle2D.coordinates_triangle(7)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1422,9 +1421,9 @@ class PentacubesPlusDiagonalWall5(PentacubesPlus):
         layer = (
             set(Puzzle2D.coordinates_triangle(9))
             - set(Puzzle2D.coordinates_triangle(5)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1442,9 +1441,9 @@ class PentacubesPlusDiagonalWall6(PentacubesPlus):
         layer = (
             set(Puzzle2D.coordinates_triangle(11))
             - set(Puzzle2D.coordinates_triangle(8)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1462,9 +1461,9 @@ class PentacubesPlusDiagonalWall7(PentacubesPlus):
         layer = (
             set(Puzzle2D.coordinates_triangle(7))
             - set(Puzzle2D.coordinates_triangle(2)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1482,9 +1481,9 @@ class PentacubesPlusDiagonalWall8(PentacubesPlus):
         layer = (
             set(Puzzle2D.coordinates_triangle(6))
             - set(Puzzle2D.coordinates_triangle(3)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1499,9 +1498,9 @@ class PentacubesPlus5x5x10Steps(PentacubesPlus):
     depth = 5
 
     def coordinates(self):
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for y, z in Puzzle2D.coordinates_triangle(5) for x in range(10))
+            for y, z in Puzzle2D.coordinates_triangle(5) for x in range(10)}
         return sorted(coords)
 
 
@@ -1516,10 +1515,10 @@ class PentacubesPlus9x5x6Steps(PentacubesPlus):
     transform_solution_matrix = Puzzle3D.swap_yz_transform
 
     def coordinates(self):
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
             for y, z in Puzzle2D.coordinates_double_triangle(5)
-            for x in range(6))
+            for x in range(6)}
         return sorted(coords)
 
 
@@ -1532,12 +1531,12 @@ class PentacubesPlusDiagonalBlock1(PentacubesPlus):
     depth = 2
 
     def coordinates(self):
-        layer = set(
+        layer = {
             (x, y) for (x, y) in Puzzle2D.coordinates_triangle(14)
-            if x < self.width and y < self.height)
-        coords = set(
+            if x < self.width and y < self.height}
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1551,7 +1550,7 @@ class PentacubesPlusSteppedPyramid1(PentacubesPlus):
     height = 9
     depth = 3
 
-    holes = set(((4,4,2), (3,4,2), (4,3,2), (5,4,2), (4,5,2)))
+    holes = {(4,4,2), (3,4,2), (4,3,2), (5,4,2), (4,5,2)}
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
 
@@ -1569,7 +1568,7 @@ class PentacubesPlusSteppedPyramid2(PentacubesPlusSteppedPyramid1):
 
     """many solutions"""
 
-    holes = set(((4,4,2), (2,2,2), (6,2,2), (2,6,2), (6,6,2)))
+    holes = {(4,4,2), (2,2,2), (6,2,2), (2,6,2), (6,6,2)}
 
 
 class NonConvexPentacubes2x5x14(NonConvexPentacubes):
@@ -1636,7 +1635,7 @@ class NonConvexPentacubesZigZag2(NonConvexPentacubes):
     duplicate_conditions = ({'x_reversed': True, 'y_reversed': True},)
 
     def coordinates(self):
-        ends = set([(0,16), (19,1)])
+        ends = {(0,16), (19,1)}
         for z in range(self.depth):
             for y in range(self.height):
                 for x in range(self.width):
@@ -1678,9 +1677,9 @@ class NonConvexPentacubesDiagonalWall2(NonConvexPentacubes):
         layer = (
             set(Puzzle2D.coordinates_triangle(9))
             - set(Puzzle2D.coordinates_triangle(4)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1698,9 +1697,9 @@ class NonConvexPentacubesDiagonalWall3(NonConvexPentacubes):
         layer = (
             set(Puzzle2D.coordinates_triangle(13))
             - set(Puzzle2D.coordinates_triangle(6)))
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1717,10 +1716,10 @@ class NonConvexPentacubesDiagonalWall4(NonConvexPentacubes):
     def coordinates(self):
         layer = (
             set(Puzzle2D.coordinates_triangle(8))
-            - set(((0,0),)))
-        coords = set(
+            - {(0,0)})
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1737,10 +1736,10 @@ class NonConvexPentacubesDiagonalWall5(NonConvexPentacubes):
     def coordinates(self):
         layer = (
             set(Puzzle2D.coordinates_triangle(6))
-            - set(((0,0),)))
-        coords = set(
+            - {(0,0)})
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for x, y in layer for z in range(self.depth))
+            for x, y in layer for z in range(self.depth)}
         return sorted(coords)
 
     transform_solution_matrix = Puzzle3D.cycle_xyz_transform
@@ -1787,9 +1786,9 @@ class NonConvexPentacubes4x4x14Steps(PentacubesPlus):
     depth = 4
 
     def coordinates(self):
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for y, z in Puzzle2D.coordinates_triangle(4) for x in range(14))
+            for y, z in Puzzle2D.coordinates_triangle(4) for x in range(14)}
         return sorted(coords)
 
 
@@ -1802,9 +1801,9 @@ class NonConvexPentacubes7x7x5Steps(PentacubesPlus):
     depth = 7
 
     def coordinates(self):
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for y, z in Puzzle2D.coordinates_triangle(7) for x in range(5))
+            for y, z in Puzzle2D.coordinates_triangle(7) for x in range(5)}
         return sorted(coords)
 
 
@@ -1857,10 +1856,10 @@ class NonConvexPentacubesDiamondPyramid1(NonConvexPentacubes):
     def coordinates(self):
         coords = set()
         for i in range(self.depth):
-            coords.update(set(
+            coords.update({
                 self.coordinate_offset(x, y, i, None)
                 for (x, y) in
-                Puzzle2D.coordinates_diamond(7 - 2 * i, offset=(2*i,2*i))))
+                Puzzle2D.coordinates_diamond(7 - 2 * i, offset=(2*i,2*i))})
         return sorted(coords)
 
 
@@ -1877,10 +1876,10 @@ class NonConvexPentacubes5x5x8CrystalTower(NonConvexPentacubes):
     def coordinates(self):
         coords = set(self.coordinates_cuboid(5, 5, 4))
         for i in range(4):
-            coords.update(set(
+            coords.update({
                 self.coordinate_offset(x, y, i+4, None)
                 for (x, y) in
-                Puzzle2D.coordinates_diamond(4 - i, offset=(i-1,i-1))))
+                Puzzle2D.coordinates_diamond(4 - i, offset=(i-1,i-1))})
         coords.intersection_update(set(self.coordinates_cuboid(5, 5, 8)))
         return sorted(coords)
 
@@ -2010,7 +2009,7 @@ class DorianCube5Towers(Pentacubes3x3x3):
 
     def build_regular_matrix(self, keys, solution_coords=None):
         tower_coords = [
-            set((x,y,z) for z in range(self.width) for (x,y) in base_coords)
+            {(x,y,z) for z in range(self.width) for (x,y) in base_coords}
             for base_coords in self.tower_bases]
         for key in keys:
             for coords, aspect in self.pieces[key]:

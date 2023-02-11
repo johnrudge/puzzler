@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -26,7 +25,7 @@ class Polyominoes12345Diamond(Polyominoes12345):
     width = 15
     height = 15
 
-    extras = set(((0,7), (7,0), (7,14), (14,7)))
+    extras = {(0,7), (7,0), (7,14), (14,7)}
 
     def coordinates(self):
         coords = set(self.coordinates_diamond(7, offset=(1,1)))

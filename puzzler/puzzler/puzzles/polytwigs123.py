@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>

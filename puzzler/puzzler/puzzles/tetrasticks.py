@@ -332,9 +332,9 @@ class OneSidedTetrasticks8x8ClippedCorners1(OneSidedTetrasticks):
     height = 8
 
     def coordinates(self):
-        hole = set(
-            ((0,5,1),(0,6,0),(0,6,1),(0,7,0),(1,6,1),(1,7,0),
-             (5,0,0),(6,0,0),(6,0,1),(6,1,0),(7,0,1),(7,1,1)))
+        hole = {
+            (0,5,1),(0,6,0),(0,6,1),(0,7,0),(1,6,1),(1,7,0),
+             (5,0,0),(6,0,0),(6,0,1),(6,1,0),(7,0,1),(7,1,1)}
         for coord in self.coordinates_bordered(self.width, self.height):
             if coord not in hole:
                 yield coord
@@ -350,9 +350,9 @@ class OneSidedTetrasticks8x8ClippedCorners2(OneSidedTetrasticks):
     height = 8
 
     def coordinates(self):
-        hole = set(
-            ((0,5,1),(0,6,0),(0,6,1),(0,7,0),(1,6,1),(1,7,0),
-             (5,7,0),(6,6,0),(6,6,1),(6,7,0),(7,5,1),(7,6,1)))
+        hole = {
+            (0,5,1),(0,6,0),(0,6,1),(0,7,0),(1,6,1),(1,7,0),
+             (5,7,0),(6,6,0),(6,6,1),(6,7,0),(7,5,1),(7,6,1)}
         for coord in self.coordinates_bordered(self.width, self.height):
             if coord not in hole:
                 yield coord
@@ -368,9 +368,9 @@ class OneSidedTetrasticks8x8ClippedCorner(OneSidedTetrasticks):
     height = 8
 
     def coordinates(self):
-        hole = set(
-            ((0,4,1),(0,5,0),(0,5,1),(0,6,0),(0,6,1),(0,7,0),
-             (1,5,1),(1,6,0),(1,6,1),(1,7,0),(2,6,1),(2,7,0)))
+        hole = {
+            (0,4,1),(0,5,0),(0,5,1),(0,6,0),(0,6,1),(0,7,0),
+             (1,5,1),(1,6,0),(1,6,1),(1,7,0),(2,6,1),(2,7,0)}
         for coord in self.coordinates_bordered(self.width, self.height):
             if coord not in hole:
                 yield coord
@@ -403,7 +403,7 @@ class OneSidedTetrasticks6x10Slot(OneSidedTetrasticks):
     height = 6
 
     def coordinates(self):
-        hole = set(((3,2,1),(4,2,1),(5,2,1),(6,2,1)))
+        hole = {(3,2,1),(4,2,1),(5,2,1),(6,2,1)}
         for coord in self.coordinates_bordered(self.width, self.height):
             if coord not in hole:
                 yield coord
@@ -419,7 +419,7 @@ class OneSidedTetrasticks6x10SideHoles(OneSidedTetrasticks):
     height = 6
 
     def coordinates(self):
-        hole = set(((0,2,1),(4,0,0),(4,5,0),(9,2,1)))
+        hole = {(0,2,1),(4,0,0),(4,5,0),(9,2,1)}
         for coord in self.coordinates_bordered(self.width, self.height):
             if coord not in hole:
                 yield coord
@@ -435,7 +435,7 @@ class OneSidedTetrasticks6x10ClippedCorners1(OneSidedTetrasticks):
     height = 6
 
     def coordinates(self):
-        hole = set(((0,4,1),(0,5,0),(8,0,0),(9,0,1)))
+        hole = {(0,4,1),(0,5,0),(8,0,0),(9,0,1)}
         for coord in self.coordinates_bordered(self.width, self.height):
             if coord not in hole:
                 yield coord
@@ -451,7 +451,7 @@ class OneSidedTetrasticks6x10ClippedCorners2(OneSidedTetrasticks):
     height = 6
 
     def coordinates(self):
-        hole = set(((0,4,1),(0,5,0),(8,5,0),(9,4,1)))
+        hole = {(0,4,1),(0,5,0),(8,5,0),(9,4,1)}
         for coord in self.coordinates_bordered(self.width, self.height):
             if coord not in hole:
                 yield coord
@@ -467,7 +467,7 @@ class OneSidedTetrasticks6x10ClippedCorners3(OneSidedTetrasticks):
     height = 6
 
     def coordinates(self):
-        hole = set(((8,0,0),(8,5,0),(9,0,1),(9,4,1)))
+        hole = {(8,0,0),(8,5,0),(9,0,1),(9,4,1)}
         for coord in self.coordinates_bordered(self.width, self.height):
             if coord not in hole:
                 yield coord
@@ -480,8 +480,8 @@ class OneSidedTetrasticksX1(OneSidedTetrasticks):
     height = 10
     width = 10
 
-    holes = set((
-        (3,4,0), (3,5,0), (4,3,1), (4,5,1), (5,3,1), (5,4,0), (5,5,0), (5,5,1)))
+    holes = {
+        (3,4,0), (3,5,0), (4,3,1), (4,5,1), (5,3,1), (5,4,0), (5,5,0), (5,5,1)}
 
     svg_rotation = 45
 
@@ -500,8 +500,8 @@ class OneSidedTetrasticksX2(OneSidedTetrasticksX1):
     height = 10
     width = 10
 
-    holes = set((
-        (3,5,0), (4,4,0), (4,4,1), (4,5,0), (4,5,1), (5,3,1), (5,4,0), (5,4,1)))
+    holes = {
+        (3,5,0), (4,4,0), (4,4,1), (4,5,0), (4,5,1), (5,3,1), (5,4,0), (5,4,1)}
 
 
 class OneSidedTetrasticksTrapezoid10x5(OneSidedTetrasticks):

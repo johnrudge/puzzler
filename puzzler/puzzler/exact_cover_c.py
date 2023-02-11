@@ -21,7 +21,7 @@ import exactcover
 from puzzler.utils import thousands
 
 
-class ExactCover(object):
+class ExactCover:
 
     """
     Given a sparse matrix of 0s and 1s, find every set of rows containing

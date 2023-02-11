@@ -230,10 +230,10 @@ class Polyiamonds(PuzzlePseudo3D):
         named piece is flipped (i.e. has a lowercase names), the puzzle is
         flipped first.
         """
-        pieces = dict(
-            (piece[-1], [tuple(int(d) for d in coord.split(','))
-                         for coord in piece[:-1]])
-            for piece in solution)
+        pieces = {
+            piece[-1]: [tuple(int(d) for d in coord.split(','))
+                         for coord in piece[:-1]]
+            for piece in solution}
         coords = set(pieces[piece_name])
         target = set(self.pieces[piece_name.upper()][0][1])
         flip = piece_name != piece_name.upper()
@@ -243,7 +243,7 @@ class Polyiamonds(PuzzlePseudo3D):
                 break
         else:
             raise Exception(
-                'unable to match rotation (%s, flip=%s)' % (piece_name, flip))
+                f'unable to match rotation ({piece_name}, flip={flip})')
         if not rotation and not flip:
             return s_matrix
         for piece_name, coords in list(pieces.items()):
@@ -367,7 +367,7 @@ class Polyiamonds(PuzzlePseudo3D):
         # Erase cells of this piece:
         for x, y, z in self.get_piece_cells(s_matrix, x, y, z):
             s_matrix[z][y][x] = self.empty_cell
-        points_str = ' '.join('%.3f,%.3f' % (x, y) for (x, y) in points)
+        points_str = ' '.join(f'{x:.3f},{y:.3f}' for (x, y) in points)
         return self.svg_polygon % {'color': color,
                                    'stroke': self.svg_stroke,
                                    'stroke_width': self.svg_stroke_width,
@@ -443,7 +443,7 @@ class Polyiamonds(PuzzlePseudo3D):
     def get_piece_cells(self, s_matrix, x, y, z):
         cell_content = s_matrix[z][y][x]
         coord = coordsys.Triangular3D((x, y, z))
-        cells = set([coord])
+        cells = {coord}
         if cell_content != '0':
             self._get_piece_cells(cells, coord, s_matrix, cell_content)
         return cells
@@ -654,7 +654,7 @@ class OneSidedHexiamonds(OneSidedLowercaseMixin, Hexiamonds):
     pass
 
 
-class HexiamondsMinimalCoverMixin(object):
+class HexiamondsMinimalCoverMixin:
 
     """
     Used to omit a single hexiamond from a puzzle.

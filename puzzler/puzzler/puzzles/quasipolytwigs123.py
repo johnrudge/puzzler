@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -38,7 +37,7 @@ class QuasiPolytwigs123HexagonRing1(QuasiPolytwigs123):
     width = 6
     height = 6
 
-    holes = set(((1,2,1), (4,2,1)))
+    holes = {(1,2,1), (4,2,1)}
 
     def coordinates(self):
         coords = (
@@ -56,7 +55,7 @@ class QuasiPolytwigs123HexagonRing2(QuasiPolytwigs123HexagonRing1):
 
     """many solutions"""
 
-    holes = set(((1,4,1), (2,4,1)))
+    holes = {(1,4,1), (2,4,1)}
 
     def customize_piece_data(self):
         self.piece_data['P13'][-1]['flips'] = None
@@ -66,7 +65,7 @@ class QuasiPolytwigs123HexagonRing3(QuasiPolytwigs123HexagonRing2):
 
     """many solutions"""
 
-    holes = set(((1,4,0), (2,4,2)))
+    holes = {(1,4,0), (2,4,2)}
 
     def customize_piece_data(self):
         self.piece_data['P13'][-1]['flips'] = None
@@ -76,7 +75,7 @@ class QuasiPolytwigs123HexagonRing4(QuasiPolytwigs123HexagonRing1):
 
     """many solutions"""
 
-    holes = set(((2,4,1), (3,4,2)))
+    holes = {(2,4,1), (3,4,2)}
 
     svg_rotation = 0
 

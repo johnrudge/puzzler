@@ -422,8 +422,7 @@ class SolidPentominoes6x6x6Crystal1(SolidPentominoes):
                 for x in range(self.width):
                     if x + y + z < 6:
                         yield (x, y, z)
-        for coord in self.extras:
-            yield coord
+        yield from self.extras
 
 
 class SolidPentominoes6x6x6Crystal2(SolidPentominoes6x6x6Crystal1):
@@ -541,8 +540,8 @@ class SolidPentominoesTower1(SolidPentominoes):
         coords = (
             set(self.coordinates_cuboid(3, 7, 3))
             - set(self.coordinates_cuboid(1, 7, 1, offset=(1,0,1))))
-        coords.update(set(self.coordinate_offset(x, y, z, None)
-                          for x, y, z in self.extras))
+        coords.update({self.coordinate_offset(x, y, z, None)
+                          for x, y, z in self.extras})
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -583,8 +582,8 @@ class SolidPentominoesTower3(SolidPentominoesTower1):
 
     def coordinates(self):
         coords = set(self.coordinates_cuboid(3, 6, 3))
-        coords.update(set(self.coordinate_offset(x, y, z, None)
-                          for x, y, z in self.extras))
+        coords.update({self.coordinate_offset(x, y, z, None)
+                          for x, y, z in self.extras})
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -611,8 +610,8 @@ class SolidPentominoesOhnosBlock(SolidPentominoes):
 
     def coordinates(self):
         coords = set(self.coordinates_cuboid(4, 4, 3, offset=(1,1,0)))
-        coords.update(set(self.coordinate_offset(x, y, z, None)
-                          for x, y in self.extras for z in range(3)))
+        coords.update({self.coordinate_offset(x, y, z, None)
+                          for x, y in self.extras for z in range(3)})
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -655,7 +654,7 @@ class SolidPentominoesCornerWalls(SolidPentominoes):
         coords = (
             set(self.coordinates_cuboid(5, 5, 5))
             - set(self.coordinates_cuboid(4, 4, 4, offset=(1,1,1)))
-            - set(((0,0,0),)))
+            - {(0,0,0)})
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -797,10 +796,10 @@ class SolidPentominoesCrossBlock1(SolidPentominoes):
         return (SolidPentominoesCrossBlock1A, SolidPentominoesCrossBlock1B)
 
     def coordinates(self):
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
             for x, y in Puzzle2D.coordinates_aztec_diamond(2)
-            for z in range(5))
+            for z in range(5)}
         return sorted(coords)
 
 

@@ -36,7 +36,7 @@ class Polysticks1234_10x5(Polysticks1234):
     width = 10
     height = 5
 
-    holes = set(((4,2,0),))
+    holes = {(4,2,0)}
 
     def coordinates(self):
         coords = (
@@ -239,9 +239,9 @@ class Polysticks1234_5x5DiamondLatticeRing(Polysticks1234):
     svg_rotation = -45
 
     def coordinates(self):
-        hole = set(
+        hole = {
             (coord + (3,3,0))
-            for coord in self.coordinates_diamond_lattice(2, 2))
+            for coord in self.coordinates_diamond_lattice(2, 2)}
         return sorted(set(self.coordinates_diamond_lattice(5, 5)) - hole)
 
     def customize_piece_data(self):

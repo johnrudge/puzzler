@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -78,7 +77,7 @@ class Polyiamonds12345StackedElongatedHexagons5x1_2(Polyiamonds12345):
     height = 4
     width = 7
 
-    holes = set(((2,1,1), (2,2,0), (3,1,1), (3,2,0), (4,1,1), (4,2,0)))
+    holes = {(2,1,1), (2,2,0), (3,1,1), (3,2,0), (4,1,1), (4,2,0)}
     
     def coordinates(self):
         coords = (
@@ -119,7 +118,7 @@ class Polyiamonds12345Peanut(Polyiamonds12345):
     height = 6
     width = 5
 
-    holes = set(((0,2,1), (0,3,0), (4,2,1), (4,3,0)))
+    holes = {(0,2,1), (0,3,0), (4,2,1), (4,3,0)}
 
     def coordinates(self):
         coords = set(self.coordinates_elongated_hexagon(2, 3)) - self.holes
@@ -137,7 +136,7 @@ class Polyiamonds12345Trapezoid1(Polyiamonds12345):
     height = 4
     width = 7
 
-    holes = set(((2,1,1), (2,2,0)))
+    holes = {(2,1,1), (2,2,0)}
 
     def coordinates(self):
         coords = set(self.coordinates_trapezoid(7, 4)) - self.holes
@@ -157,7 +156,7 @@ class Polyiamonds12345IrregularHexagon1(Polyiamonds12345Trapezoid1):
 
     width = 6
 
-    holes = set(((0,0,0), (6,0,0)))
+    holes = {(0,0,0), (6,0,0)}
 
 
 class Polyiamonds12345Snowflake1(Polyiamonds12345):
@@ -171,9 +170,9 @@ class Polyiamonds12345Snowflake1(Polyiamonds12345):
     height = 6
     width = 6
 
-    holes = set((
+    holes = {
         (-1,4,1), (1,1,0), (1,6,0), (4,-1,1), (4,4,1), (6,1,0),
-        (2,4,0), (2,2,1), (3,2,0), (3,2,1)))
+        (2,4,0), (2,2,1), (3,2,0), (3,2,1)}
 
     def coordinates(self):
         coords = (
@@ -188,9 +187,9 @@ class Polyiamonds12345Snowflake2(Polyiamonds12345Snowflake1):
 
     """1,240 solutions"""
 
-    holes = set((
+    holes = {
         (-1,4,1), (1,1,0), (1,6,0), (4,-1,1), (4,4,1), (6,1,0),
-        (2,2,1), (2,3,0), (3,2,1), (3,3,0)))
+        (2,2,1), (2,3,0), (3,2,1), (3,3,0)}
 
     def customize_piece_data(self):
         self.piece_data['P5'][-1]['flips'] = None
@@ -201,18 +200,18 @@ class Polyiamonds12345Snowflake3(Polyiamonds12345Snowflake2):
 
     """466 solutions"""
 
-    holes = set((
+    holes = {
         (-1,4,1), (1,1,0), (1,6,0), (4,-1,1), (4,4,1), (6,1,0),
-        (3,1,1), (3,2,0), (2,3,1), (2,4,0)))
+        (3,1,1), (3,2,0), (2,3,1), (2,4,0)}
 
 
 class Polyiamonds12345Snowflake_x1(Polyiamonds12345Snowflake2):
 
     """0 solutions"""
 
-    holes = set((
+    holes = {
         (-1,4,1), (1,1,0), (1,6,0), (4,-1,1), (4,4,1), (6,1,0),
-        (2,2,0), (1,3,1), (4,2,0), (3,3,1)))
+        (2,2,0), (1,3,1), (4,2,0), (3,3,1)}
 
 
 class Polyiamonds12345Bat(Polyiamonds12345):
@@ -300,7 +299,7 @@ class Polyiamonds12345Crab(Polyiamonds12345):
     width = 8
     height = 6
 
-    holes = set(((2,0,0), (7,0,0)))
+    holes = {(2,0,0), (7,0,0)}
 
     def coordinates(self):
         coords = set(
@@ -325,7 +324,7 @@ class Polyiamonds12345Dog1(Polyiamonds12345):
     width = 6
     height = 6
 
-    holes = set(((2,4,0), (3,1,1)))
+    holes = {(2,4,0), (3,1,1)}
 
     extras = ((0,5,1), (3,0,0))
 
@@ -351,7 +350,7 @@ class Polyiamonds12345X1(Polyiamonds12345):
     height = 6
     width = 8
 
-    holes = set(((2,5,1), (3,3,1), (4,2,0), (5,0,0)))
+    holes = {(2,5,1), (3,3,1), (4,2,0), (5,0,0)}
 
     def coordinates(self):
         for coord in self.coordinates_butterfly(5, 3):
@@ -374,7 +373,7 @@ class Polyiamonds12345ElongatedHexOnHex1(Polyiamonds12345):
     width = 8
     height = 4
 
-    holes = set(((4,1,0), (3,2,1)))
+    holes = {(4,1,0), (3,2,1)}
 
     def coordinates(self):
         coords = set(
@@ -392,7 +391,7 @@ class Polyiamonds12345ElongatedHexOnHex2(Polyiamonds12345ElongatedHexOnHex1):
 
     """310 solutions"""
 
-    holes = set(((4,0,1), (3,3,0)))
+    holes = {(4,0,1), (3,3,0)}
 
 
 class Polyiamonds12345Hexagon1(Polyiamonds12345):
@@ -440,7 +439,7 @@ class OneSidedPolyiamonds12345Hexagon1(OneSidedPolyiamonds12345):
     height = 6
     width = 6
 
-    holes = set(((3,2,0), (2,3,1)))
+    holes = {(3,2,0), (2,3,1)}
 
     def coordinates(self):
         coords = set(self.coordinates_hexagon(3)) - self.holes
@@ -455,7 +454,7 @@ class OneSidedPolyiamonds12345Hexagon2(OneSidedPolyiamonds12345Hexagon1):
 
     """6,407,224 solutions"""
 
-    holes = set(((3,1,1), (2,4,0)))
+    holes = {(3,1,1), (2,4,0)}
 
 
 class OneSidedPolyiamonds12345SemiRegularHexagon4x2(OneSidedPolyiamonds12345):
@@ -480,10 +479,10 @@ class OneSidedPolyiamonds12345X1(OneSidedPolyiamonds12345):
     height = 8
     width = 8
 
-    holes = set((
+    holes = {
         (-1,7,1), (3,0,0), (4,7,1), (8,0,0),
         (1,7,1), (2,6,1), (2,7,0), (2,7,1),
-        (5,0,0), (5,0,1), (5,1,0), (6,0,0)))
+        (5,0,0), (5,0,1), (5,1,0), (6,0,0)}
 
     def coordinates(self):
         for coord in self.coordinates_butterfly(6, 4, offset=(-1,0,0)):

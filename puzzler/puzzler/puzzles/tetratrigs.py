@@ -20,7 +20,7 @@ class TetratrigsElongatedHex11x3(Tetratrigs):
     height = 7
 
     def coordinates(self):
-        holes = set([(6, 4, 0), (7, 2, 0)])
+        holes = {(6, 4, 0), (7, 2, 0)}
         for coord in self.coordinates_elongated_hexagon(11, 3):
             if coord not in holes:
                 yield coord

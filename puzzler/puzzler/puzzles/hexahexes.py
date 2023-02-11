@@ -38,7 +38,7 @@ class HexahexesTriangle1(HexahexesTriangle):
     Design from Andrew Clarke's Poly Pages.
     """
 
-    holes = set(((10,10), (5,5), (5,20), (20,5)))
+    holes = {(10,10), (5,5), (5,20), (20,5)}
 
     _find_known_solution = True
 
@@ -92,7 +92,7 @@ class HexahexesTriangle2(HexahexesTriangle):
     width = 30
     height = 30
 
-    holes = set(((10,10), (0,0), (0,30), (30,0)))
+    holes = {(10,10), (0,0), (0,30), (30,0)}
 
     _find_known_solution = True
 
@@ -143,7 +143,7 @@ class HexahexesTriangle3(HexahexesTriangle):
 
     """ solutions"""
 
-    holes = set(((10,10), (9,9), (9,12), (12,9)))
+    holes = {(10,10), (9,9), (9,12), (12,9)}
 
     def customize_piece_data(self):
         self.piece_data['P06'][-1]['rotations'] = (0, 1)
@@ -167,7 +167,7 @@ class HexahexesHexagonRing1(Hexahexes):
             set(self.coordinates_hexagon(14))
             - set(self.coordinates_hexagon(5, offset=(9,9))))
         coords.update(
-            set(self.coordinates_hexagon(2, offset=(12,12))) - set(((13,13),)))
+            set(self.coordinates_hexagon(2, offset=(12,12))) - {(13,13)})
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -182,14 +182,14 @@ class HexahexesHexagonRing_x1(Hexahexes):
     width = 27
     height = 27
 
-    extras = set(((9,13), (9,17), (13,9), (13,17), (17,9), (17,13)))
+    extras = {(9,13), (9,17), (13,9), (13,17), (17,9), (17,13)}
 
     def coordinates(self):
         coords = (
             set(self.coordinates_hexagon(14))
             - set(self.coordinates_hexagon(5, offset=(9,9))))
         coords.update(
-            set(self.coordinate_offset(x, y, None) for x, y in self.extras))
+            {self.coordinate_offset(x, y, None) for x, y in self.extras})
         return sorted(coords)
 
     def customize_piece_data(self):

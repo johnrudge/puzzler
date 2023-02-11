@@ -70,7 +70,7 @@ class Polyhexes12345HexagonRing1(Polyhexes12345):
         coords = set(self.coordinates_hexagon(8)) - self.hole
         inner_ring = (
             set(self.coordinates_hexagon(5, offset=(3,3))) - self.hole
-            - set(((3,7), (11,7))))
+            - {(3,7), (11,7)})
         self.pentahex_coords = sorted(coords - inner_ring)
         self.polyhex_1234_coords = sorted(inner_ring)
         return sorted(coords)
@@ -102,7 +102,7 @@ class Polyhexes12345HexagonRing_X1(Polyhexes12345HexagonRing1):
         self.monohex_coords = [self.coordinate_offset(5, 5, None)]
         inner_ring = (
             set(self.coordinates_hexagon(5, offset=(3,3))) - self.hole
-            - set(((3,7), (11,7))))
+            - {(3,7), (11,7)})
         self.pentahex_coords = sorted(coords - inner_ring)
         self.dihex_trihex_coords = sorted(
             inner_ring.intersection(
@@ -138,7 +138,7 @@ class Polyhexes12345HexagonRing_X2(Polyhexes12345HexagonRing1):
         coords = set(self.coordinates_hexagon(8)) - self.hole
         inner_ring = (
             set(self.coordinates_hexagon(5, offset=(3,3))) - self.hole
-            - set(((3,7), (11,3))))
+            - {(3,7), (11,3)})
         self.pentahex_coords = sorted(coords - inner_ring)
         self.polyhex_123_coords = sorted(
             inner_ring.intersection(

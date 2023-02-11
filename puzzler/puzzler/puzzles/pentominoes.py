@@ -268,7 +268,7 @@ class Pentominoes8x8FourHoles1(Pentominoes8x8WithoutCorners):
 
     """188 solutions"""
 
-    holes = set(((1,1), (1,6), (6,1), (6,6)))
+    holes = {(1,1), (1,6), (6,1), (6,6)}
 
     def coordinates(self):
         for x in range(self.width):
@@ -282,14 +282,14 @@ class Pentominoes8x8FourHoles2(Pentominoes8x8FourHoles1):
 
     """21 solutions"""
 
-    holes = set(((2,2), (2,5), (5,2), (5,5)))
+    holes = {(2,2), (2,5), (5,2), (5,5)}
 
 
 class Pentominoes8x8FourHoles3(Pentominoes8x8FourHoles1):
 
     """126 solutions"""
 
-    holes = set(((2,3), (3,5), (4,2), (5,4)))
+    holes = {(2,3), (3,5), (4,2), (5,4)}
 
     def customize_piece_data(self):
         self.piece_data['P'][-1]['rotations'] = None
@@ -299,7 +299,7 @@ class Pentominoes8x8FourHoles4(Pentominoes8x8FourHoles1):
 
     """74 solutions"""
 
-    holes = set(((2,2), (3,3), (4,4), (5,5)))
+    holes = {(2,2), (3,3), (4,4), (5,5)}
 
     def customize_piece_data(self):
         self.piece_data['P'][-1]['rotations'] = (0, 1)
@@ -464,8 +464,7 @@ class PentominoesTriangle(Pentominoes):
             for x in range(self.height):
                 if x + y >= (self.height - 1) and x < self.height:
                     yield (x, y)
-        for coord in self.omitted_piece_coordinates:
-            yield coord
+        yield from self.omitted_piece_coordinates
 
     def customize_piece_data(self):
         self.piece_data['P'][-1]['flips'] = None
@@ -496,7 +495,7 @@ class PentominoesTriangle2(Pentominoes):
     height = 8
     width = 15
 
-    hole = set(((7,1), (7,2), (7,3), (7,4)))
+    hole = {(7,1), (7,2), (7,3), (7,4)}
 
     def coordinates(self):
         for coord in self.coordinates_rectangle(self.width, self.height):
@@ -575,7 +574,7 @@ class PentominoesPlusSquareTetrominoDiamond1(PentominoesPlusSquareTetromino):
     height = 12
     width = 13
 
-    extras = set(((0,6), (6,0), (12,6)))
+    extras = {(0,6), (6,0), (12,6)}
 
     def coordinates(self):
         coords = set(self.coordinates_diamond(6, offset=(1,1)))
@@ -594,7 +593,7 @@ class PentominoesPlusSquareTetrominoDiamond_x1(PentominoesPlusSquareTetromino):
     height = 14
     width = 11
 
-    extras = set(((5,0), (5,1), (5,2)))
+    extras = {(5,0), (5,1), (5,2)}
 
     def coordinates(self):
         coords = set(self.coordinates_diamond(6, offset=(0,3)))
@@ -610,7 +609,7 @@ class PentominoesPlusSquareTetrominoDiamond_x2(PentominoesPlusSquareTetromino):
     height = 13
     width = 13
 
-    extras = set(((0,6), (6,0), (6,12), (12,6)))
+    extras = {(0,6), (6,0), (6,12), (12,6)}
 
     hole = (6,6)
 
@@ -844,7 +843,7 @@ class PentominoesCross3(Pentominoes):
     height = 9
     width = 9
 
-    hole = set(((3,4), (4,3), (4,4), (4,5), (5,4)))
+    hole = {(3,4), (4,3), (4,4), (4,5), (5,4)}
 
     def coordinates(self):
         coords = set(self.coordinates_rectangle(9, 5, offset=(0,2)))
@@ -962,7 +961,7 @@ class PentominoesCross_X3(Pentominoes):
     height = 10
     width = 10
 
-    holes = set(((3,3), (3,6), (6,3), (6,6)))
+    holes = {(3,3), (3,6), (6,3), (6,6)}
 
     def coordinates(self):
         coords = set(self.coordinates_rectangle(10, 4, offset=(0,3)))
@@ -978,7 +977,7 @@ class PentominoesCross_X4(Pentominoes):
     height = 9
     width = 9
 
-    hole = set(((3,3), (3,5), (4,4), (5,3), (5,5)))
+    hole = {(3,3), (3,5), (4,4), (5,3), (5,5)}
 
     def coordinates(self):
         coords = set(self.coordinates_rectangle(9, 5, offset=(0,2)))
@@ -1152,9 +1151,9 @@ class PentominoesArch1(Pentominoes):
     height = 7
     width = 11
 
-    holes = set((
+    holes = {
         (0,3), (0,4), (0,5), (0,6), (1,5), (1,6), (2,6), (3,6), (5,0),
-        (10,3), (10,4), (10,5), (10,6), (9,5), (9,6), (8,6), (7,6)))
+        (10,3), (10,4), (10,5), (10,6), (9,5), (9,6), (8,6), (7,6)}
 
     def coordinates(self):
         coords = set(self.coordinates_rectangle(self.width, self.height))
@@ -1172,10 +1171,10 @@ class PentominoesArch2(PentominoesArch1):
     height = 7
     width = 12
 
-    holes = set((
+    holes = {
         (0,3), (0,4), (0,5), (0,6), (1,5), (1,6), (2,6), (3,6),
         (4,0), (5,0), (6,0), (7,0), (4,1), (5,1), (6,1), (7,1),
-        (11,3), (11,4), (11,5), (11,6), (10,5), (10,6), (9,6), (8,6)))
+        (11,3), (11,4), (11,5), (11,6), (10,5), (10,6), (9,6), (8,6)}
 
 
 class PentominoesArch3(PentominoesArch1):
@@ -1185,12 +1184,12 @@ class PentominoesArch3(PentominoesArch1):
     height = 7
     width = 13
 
-    holes = set((
+    holes = {
         (0,3), (0,4), (0,5), (0,6), (1,5), (1,6), (2,6), (3,6),
         (4,0), (5,0), (6,0), (7,0), (8,0),
         (4,1), (5,1), (6,1), (7,1), (8,1),
         (4,2), (5,2), (6,2), (7,2), (8,2),
-        (12,3), (12,4), (12,5), (12,6), (11,5), (11,6), (10,6), (9,6)))
+        (12,3), (12,4), (12,5), (12,6), (11,5), (11,6), (10,6), (9,6)}
 
 
 class PentominoesSkewed20x3(Pentominoes):
@@ -1323,7 +1322,7 @@ class PentominoesHoleySpinner(Pentominoes):
     height = 9
     width = 9
 
-    holes = set(((1,2), (2,4), (2,7), (4,2), (4,4), (4,6), (6,1), (6,4), (7,6)))
+    holes = {(1,2), (2,4), (2,7), (4,2), (4,4), (4,6), (6,1), (6,4), (7,6)}
 
     def coordinates(self):
         coords = (set(

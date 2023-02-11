@@ -197,9 +197,9 @@ def solve(puzzle_class, output_stream, settings):
     start = datetime.now()
     try:
         state = SessionState.restore(settings.search_state_file)
-    except IOError as error:
+    except OSError as error:
         print('Unable to initialize the search state file:', file=sys.stderr)
-        print('%s: %s' % (error.__class__.__name__, error), file=sys.stderr)
+        print(f'{error.__class__.__name__}: {error}', file=sys.stderr)
         sys.exit(1)
     solver = exact_cover_modules[settings.algorithm].ExactCover(state=state)
     if state.num_searches:
@@ -311,7 +311,7 @@ def check_matrix_for_duplicate_rows(puzzle):
                 duplicate_rows))
 
 
-class SessionState(object):
+class SessionState:
 
     """Saves & restores the state of the session."""
 

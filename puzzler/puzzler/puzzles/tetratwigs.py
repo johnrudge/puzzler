@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -58,7 +57,7 @@ class OneSidedTetratwigs3x2_1(OneSidedTetratwigs):
     height = 3
     width = 4
 
-    holes = set(((0,1,0), (1,1,0), (2,1,0)))
+    holes = {(0,1,0), (1,1,0), (2,1,0)}
 
     def coordinates(self):
         for coord in self.coordinates_bordered(3, 2):
@@ -70,7 +69,7 @@ class OneSidedTetratwigs3x2_2(OneSidedTetratwigs3x2_1):
 
     """0 solutions"""
 
-    holes = set(((1,1,0), (1,1,2), (2,1,2)))
+    holes = {(1,1,0), (1,1,2), (2,1,2)}
 
 
 class OneSidedTetratwigsTriangle(OneSidedTetratwigs):
@@ -88,7 +87,7 @@ class OneSidedTetratwigsTriangle_1(OneSidedTetratwigsTriangle):
 
     """2 solutions"""
 
-    holes = set(((1,1,0), (1,1,1), (1,1,2)))
+    holes = {(1,1,0), (1,1,1), (1,1,2)}
 
     def customize_piece_data(self):
         OneSidedTetratwigs.customize_piece_data(self)
@@ -99,7 +98,7 @@ class OneSidedTetratwigsTriangle_2(OneSidedTetratwigsTriangle):
 
     """1 solution"""
 
-    holes = set(((0,2,0), (1,1,1), (1,2,2)))
+    holes = {(0,2,0), (1,1,1), (1,2,2)}
 
     def customize_piece_data(self):
         OneSidedTetratwigs.customize_piece_data(self)
@@ -110,21 +109,21 @@ class OneSidedTetratwigsTriangle_3(OneSidedTetratwigsTriangle):
 
     """2 solutions"""
 
-    holes = set(((1,0,1), (1,1,1), (2,0,1)))
+    holes = {(1,0,1), (1,1,1), (2,0,1)}
 
 
 class OneSidedTetratwigsTriangle_4(OneSidedTetratwigsTriangle):
 
     """1 solution"""
 
-    holes = set(((0,1,0), (1,2,2), (2,1,2)))
+    holes = {(0,1,0), (1,2,2), (2,1,2)}
 
 
 class OneSidedTetratwigsTriangle_5(OneSidedTetratwigsTriangle):
 
     """0 solutions"""
 
-    holes = set(((0,2,0), (1,0,1), (2,1,2)))
+    holes = {(0,2,0), (1,0,1), (2,1,2)}
 
 
 class OneSidedTetratwigsArch(OneSidedTetratwigs):
@@ -144,7 +143,7 @@ class OneSidedTetratwigsArch_1(OneSidedTetratwigsArch):
 
     """1 solution"""
 
-    holes = set(((0,2,0), (1,1,0), (2,1,0)))
+    holes = {(0,2,0), (1,1,0), (2,1,0)}
 
     def customize_piece_data(self):
         OneSidedTetratwigs.customize_piece_data(self)
@@ -155,7 +154,7 @@ class OneSidedTetratwigsArch_2(OneSidedTetratwigsArch):
 
     """1 solution"""
 
-    holes = set(((1,2,1), (1,1,0), (2,2,2)))
+    holes = {(1,2,1), (1,1,0), (2,2,2)}
 
     def customize_piece_data(self):
         OneSidedTetratwigs.customize_piece_data(self)
@@ -166,18 +165,18 @@ class OneSidedTetratwigsArch_3(OneSidedTetratwigsArch):
 
     """1 solution"""
 
-    holes = set(((1,2,1), (1,1,0), (2,1,0)))
+    holes = {(1,2,1), (1,1,0), (2,1,0)}
 
 
 class OneSidedTetratwigsArch_4(OneSidedTetratwigsArch):
 
     """1 solution"""
 
-    holes = set(((1,1,0), (2,1,0), (2,2,2)))
+    holes = {(1,1,0), (2,1,0), (2,2,2)}
 
 
 class OneSidedTetratwigsArch_5(OneSidedTetratwigsArch):
 
     """0 solutions"""
 
-    holes = set(((0,2,0), (1,2,0), (2,1,0)))
+    holes = {(0,2,0), (1,2,0), (2,1,0)}

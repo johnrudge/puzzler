@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -56,105 +55,105 @@ class Polytwigs12345_6x4_1(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((4,1,2), (3,2,2), (2,3,2)))
+    holes = {(4,1,2), (3,2,2), (2,3,2)}
 
 
 class Polytwigs12345_6x4_2(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((1,2,0), (3,2,2), (4,2,0)))
+    holes = {(1,2,0), (3,2,2), (4,2,0)}
 
 
 class Polytwigs12345_6x4_3(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((2,2,0), (3,2,2), (3,2,0)))
+    holes = {(2,2,0), (3,2,2), (3,2,0)}
 
 
 class Polytwigs12345_6x4_4(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((3,1,1), (3,2,2), (3,2,1)))
+    holes = {(3,1,1), (3,2,2), (3,2,1)}
 
 
 class Polytwigs12345_6x4_5(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((2,2,2), (3,2,2), (4,2,2)))
+    holes = {(2,2,2), (3,2,2), (4,2,2)}
 
 
 class Polytwigs12345_6x4_6(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((2,1,1), (3,2,2), (4,2,1)))
+    holes = {(2,1,1), (3,2,2), (4,2,1)}
 
 
 class Polytwigs12345_6x4_7(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((2,1,2), (3,2,2), (4,3,2)))
+    holes = {(2,1,2), (3,2,2), (4,3,2)}
 
 
 class Polytwigs12345_6x4_8(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((1,2,2), (3,2,2), (5,2,2)))
+    holes = {(1,2,2), (3,2,2), (5,2,2)}
 
 
 class Polytwigs12345_6x4_9(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((1,1,2), (3,2,2), (5,3,2)))
+    holes = {(1,1,2), (3,2,2), (5,3,2)}
 
 
 class Polytwigs12345_6x4_10(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((3,0,1), (3,2,2), (3,3,1)))
+    holes = {(3,0,1), (3,2,2), (3,3,1)}
 
 
 class Polytwigs12345_6x4_11(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((4,0,1), (3,2,2), (2,3,1)))
+    holes = {(4,0,1), (3,2,2), (2,3,1)}
 
 
 class Polytwigs12345_6x4_12(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((5,0,1), (3,2,2), (1,3,1)))
+    holes = {(5,0,1), (3,2,2), (1,3,1)}
 
 
 class Polytwigs12345_6x4_13(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((2,0,1), (3,2,2), (4,3,1)))
+    holes = {(2,0,1), (3,2,2), (4,3,1)}
 
 
 class Polytwigs12345_6x4_14(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((1,0,1), (3,2,2), (5,3,1)))
+    holes = {(1,0,1), (3,2,2), (5,3,1)}
 
 
 class Polytwigs12345_6x4_15(Polytwigs12345_6x4):
 
     """many solutions"""
 
-    holes = set(((1,2,1), (3,2,2), (5,1,1)))
+    holes = {(1,2,1), (3,2,2), (5,1,1)}
 
 
 class Polytwigs12345TrapezoidRing9x3(Polytwigs12345):
@@ -198,7 +197,7 @@ class Polytwigs12345Butterfly8x2_1(Polytwigs12345):
     height = 4
     width = 10
 
-    holes = set(((4,1,1), (5,1,1)))
+    holes = {(4,1,1), (5,1,1)}
 
     def coordinates(self):
         for coord in self.coordinates_butterfly(8, 2):
@@ -214,21 +213,21 @@ class Polytwigs12345Butterfly8x2_2(Polytwigs12345Butterfly8x2_1):
 
     """many solutions"""
 
-    holes = set(((3,1,1), (6,1,1)))
+    holes = {(3,1,1), (6,1,1)}
 
 
 class Polytwigs12345Butterfly8x2_3(Polytwigs12345Butterfly8x2_1):
 
     """many solutions"""
 
-    holes = set(((2,1,1), (7,1,1)))
+    holes = {(2,1,1), (7,1,1)}
 
 
 class Polytwigs12345Butterfly8x2_4(Polytwigs12345Butterfly8x2_1):
 
     """many solutions"""
 
-    holes = set(((1,1,1), (8,1,1)))
+    holes = {(1,1,1), (8,1,1)}
 
 
 class OneSidedPolytwigs12345Butterfly12x2(OneSidedPolytwigs12345):
@@ -249,7 +248,7 @@ class OneSidedPolytwigs12345_12x3_1(OneSidedPolytwigs12345):
     height = 4
     width = 13
 
-    holes = set(((5,1,1), (6,1,1), (7,1,1)))
+    holes = {(5,1,1), (6,1,1), (7,1,1)}
 
     def coordinates(self):
         for coord in self.coordinates_bordered(12, 3):
@@ -261,35 +260,35 @@ class OneSidedPolytwigs12345_12x3_2(OneSidedPolytwigs12345_12x3_1):
 
     """many solutions"""
 
-    holes = set(((4,1,1), (6,1,1), (8,1,1)))
+    holes = {(4,1,1), (6,1,1), (8,1,1)}
 
 
 class OneSidedPolytwigs12345_12x3_3(OneSidedPolytwigs12345_12x3_1):
 
     """many solutions"""
 
-    holes = set(((3,1,1), (6,1,1), (9,1,1)))
+    holes = {(3,1,1), (6,1,1), (9,1,1)}
 
 
 class OneSidedPolytwigs12345_12x3_4(OneSidedPolytwigs12345_12x3_1):
 
     """many solutions"""
 
-    holes = set(((2,1,1), (6,1,1), (10,1,1)))
+    holes = {(2,1,1), (6,1,1), (10,1,1)}
 
 
 class OneSidedPolytwigs12345_12x3_5(OneSidedPolytwigs12345_12x3_1):
 
     """many solutions"""
 
-    holes = set(((1,1,1), (6,1,1), (11,1,1)))
+    holes = {(1,1,1), (6,1,1), (11,1,1)}
 
 
 class OneSidedPolytwigs12345_12x3_6(OneSidedPolytwigs12345_12x3_1):
 
     """many solutions"""
 
-    holes = set(((6,0,1), (6,1,1), (6,2,1)))
+    holes = {(6,0,1), (6,1,1), (6,2,1)}
 
 
 class OneSidedPolytwigs12345Trapezoid13x3_1(OneSidedPolytwigs12345):
@@ -299,7 +298,7 @@ class OneSidedPolytwigs12345Trapezoid13x3_1(OneSidedPolytwigs12345):
     height = 4
     width = 14
 
-    holes = set(((5,2,0), (6,1,1), (6,2,2)))
+    holes = {(5,2,0), (6,1,1), (6,2,2)}
 
     def coordinates(self):
         for coord in self.coordinates_trapezoid(13, 3):
@@ -312,7 +311,7 @@ class OneSidedPolytwigs12345Trapezoid13x3_2(
 
     """many solutions"""
 
-    holes = set(((6,1,0), (6,1,1), (6,1,2)))
+    holes = {(6,1,0), (6,1,1), (6,1,2)}
 
 
 class OneSidedPolytwigs12345Trapezoid13x3_3(
@@ -320,7 +319,7 @@ class OneSidedPolytwigs12345Trapezoid13x3_3(
 
     """many solutions"""
 
-    holes = set(((5,1,1), (6,1,1), (7,1,1)))
+    holes = {(5,1,1), (6,1,1), (7,1,1)}
 
 
 class OneSidedPolytwigs12345Trapezoid13x3_4(
@@ -328,7 +327,7 @@ class OneSidedPolytwigs12345Trapezoid13x3_4(
 
     """many solutions"""
 
-    holes = set(((4,1,1), (6,1,1), (8,1,1)))
+    holes = {(4,1,1), (6,1,1), (8,1,1)}
 
 
 class OneSidedPolytwigs12345Trapezoid13x3_5(
@@ -336,7 +335,7 @@ class OneSidedPolytwigs12345Trapezoid13x3_5(
 
     """many solutions"""
 
-    holes = set(((3,1,1), (6,1,1), (9,1,1)))
+    holes = {(3,1,1), (6,1,1), (9,1,1)}
 
 
 class OneSidedPolytwigs12345Trapezoid13x3_6(
@@ -344,4 +343,4 @@ class OneSidedPolytwigs12345Trapezoid13x3_6(
 
     """many solutions"""
 
-    holes = set(((2,1,1), (6,1,1), (10,1,1)))
+    holes = {(2,1,1), (6,1,1), (10,1,1)}

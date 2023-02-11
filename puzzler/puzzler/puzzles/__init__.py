@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -32,7 +31,7 @@ from puzzler import colors
 class DataError(RuntimeError): pass
 
 
-class Puzzle(object):
+class Puzzle:
 
     """
     Abstract base class for puzzles.
@@ -388,7 +387,7 @@ class Puzzle(object):
         elif hasattr(input_path, 'readline'):
             input_file = input_path
         else:
-            input_file = open(input_path, 'rU')
+            input_file = open(input_path)
         try:
             for line in input_file:
                 match = self.solution_header.match(line)
@@ -432,7 +431,7 @@ class Puzzle(object):
         self.solutions.add(formatted)
         # keep track of formatted variants of *this* solution, to
         # differentiate from previous solutions:
-        solutions = set([formatted])
+        solutions = {formatted}
         for conditions in self.duplicate_conditions:
             formatted = self.format_solution(solution, **conditions)
             if formatted in self.solutions:
@@ -590,7 +589,7 @@ class Puzzle2D(Puzzle):
             for cell_name in row[:-1]:
                 if cell_name.endswith('i') or cell_name == '!':
                     continue            # skip intersections & omitted pieces
-                x, y = [int(d.strip()) for d in cell_name.split(',')]
+                x, y = (int(d.strip()) for d in cell_name.split(','))
                 s_matrix[y + margin][x + margin] = name
         return s_matrix
 
@@ -621,7 +620,7 @@ class Puzzle2D(Puzzle):
             else:
                 g_start = self.svg_g_start
         header = self.svg_header % {'height': height, 'width': width}
-        return '%s%s%s%s%s' % (
+        return '{}{}{}{}{}'.format(
             header, g_start, ''.join(shapes), self.svg_g_end, self.svg_footer)
 
     def format_svg_shapes(self, s_matrix):
@@ -649,7 +648,7 @@ class Puzzle2D(Puzzle):
         # Erase cells of this piece:
         for x, y in self.get_piece_cells(s_matrix, x, y):
             s_matrix[y][x] = self.empty_cell
-        points_str = ' '.join('%.3f,%.3f' % (x, y) for (x, y) in points)
+        points_str = ' '.join(f'{x:.3f},{y:.3f}' for (x, y) in points)
         return self.svg_polygon % {'color': color,
                                    'stroke': self.svg_stroke,
                                    'stroke_width': self.svg_stroke_width,
@@ -702,7 +701,7 @@ class Puzzle2D(Puzzle):
     def get_piece_cells(self, s_matrix, x, y):
         cell_content = s_matrix[y][x]
         coord = self.coord_class((x, y))
-        cells = set([coord])
+        cells = {coord}
         if cell_content != '0':
             self._get_piece_cells(cells, coord, s_matrix, cell_content)
         return cells
@@ -924,7 +923,7 @@ class Puzzle3D(Puzzle):
         for row in solution:
             name = row[-1]
             for cell_name in row[:-1]:
-                x, y, z = [int(d.strip()) for d in cell_name.split(',')]
+                x, y, z = (int(d.strip()) for d in cell_name.split(','))
                 s_matrix[z + margin][y + margin][x + margin] = name
         return s_matrix
 
@@ -972,9 +971,9 @@ class Puzzle3D(Puzzle):
                                     + (x - s_width) * self.svg_x_height
                                     + 2 * self.svg_unit_length))})
         header = self.svg_header % {'height': height, 'width': width}
-        defs = '%s%s%s' % (self.svg_defs_start, ''.join(cube_defs),
+        defs = '{}{}{}'.format(self.svg_defs_start, ''.join(cube_defs),
                            self.svg_defs_end)
-        return '%s%s%s%s%s%s' % (header, defs, self.svg_g_start,
+        return '{}{}{}{}{}{}'.format(header, defs, self.svg_g_start,
                                  ''.join(cubes), self.svg_g_end,
                                  self.svg_footer)
 
@@ -1006,7 +1005,7 @@ class Puzzle3D(Puzzle):
                         self.x3d_box
                         % {'name': name, 'x': x, 'y': y, 'z': z,
                            'color': colors.x3d[self.piece_colors[name]]})
-        return '%s%s%s' % (self.x3d_header, ''.join(cubes), self.x3d_footer)
+        return '{}{}{}'.format(self.x3d_header, ''.join(cubes), self.x3d_footer)
 
     def transform_solution_matrix(self, s_matrix):
         """Transform for rendering `s_matrix`.  Override in subclasses."""
@@ -1064,7 +1063,7 @@ class PuzzlePseudo3D(Puzzle3D, Puzzle2D):
         for row in solution:
             name = row[-1]
             for cell_name in row[:-1]:
-                x, y, z = [int(d.strip()) for d in cell_name.split(',')]
+                x, y, z = (int(d.strip()) for d in cell_name.split(','))
                 s_matrix[z][y + margin][x + margin] = name
         return s_matrix
 
@@ -1080,7 +1079,7 @@ class PuzzlePseudo3D(Puzzle3D, Puzzle2D):
         raise NotImplementedError
 
 
-class OneSidedLowercaseMixin(object):
+class OneSidedLowercaseMixin:
 
     """
     Must be the first base class listed in client subclass definitions for

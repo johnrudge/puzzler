@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id: polyominoes45.py 452 2012-03-31 12:25:25Z goodger $
 
 # Author: David Goodger <goodger@python.org>
@@ -68,8 +67,7 @@ class PolyominoesPuzzleArt(Polyominoes):
         self.width = width
         coordinates.sort()
         assert len(coordinates) == squares
-        for coord in coordinates:
-            yield coord
+        yield from coordinates
 
 
 class PolyominoesPuzzleArtFixed(PolyominoesPuzzleArt):

@@ -22,7 +22,7 @@ class Polysticks123_4x4ClippedCorners1(Polysticks123):
     width = 4
     height = 4
 
-    holes = set(((0,0,0), (0,0,1), (2,3,0), (3,2,1)))
+    holes = {(0,0,0), (0,0,1), (2,3,0), (3,2,1)}
 
     """
     no solutions:
@@ -48,7 +48,7 @@ class Polysticks123_4x4ClippedCorners2(Polysticks123_4x4ClippedCorners1):
     132 solutions
     """
 
-    holes = set(((0,3,0), (0,2,1), (2,3,0), (3,2,1)))
+    holes = {(0,3,0), (0,2,1), (2,3,0), (3,2,1)}
 
     def customize_piece_data(self):
         self.piece_data['L3'][-1]['flips'] = None

@@ -22,7 +22,7 @@ except ImportError:
     pass
 
 
-class ExactCover(object):
+class ExactCover:
 
     """
     Given a sparse matrix of 0s and 1s, find every set of rows containing
@@ -152,8 +152,7 @@ class ExactCover(object):
                 self.solution.append(row)
             for j in r.right_siblings():
                 j.column.cover()
-            for solution in self.solve(level+1):
-                yield solution
+            yield from self.solve(level+1)
             self.solution.pop()
             for j in r.left_siblings():
                 j.column.uncover()
@@ -171,7 +170,7 @@ class ExactCover(object):
         return '\n'.join(parts)
 
 
-class Datum(object):
+class Datum:
 
     """
     A four-way linked data node in the exact cover sparse matrix.
@@ -286,7 +285,7 @@ class Root(Datum):
         columns = {}
         width = 0
         for i, column in enumerate(self.right_siblings()):
-            datum = '%s/%s' % (column.name, column.size)
+            datum = f'{column.name}/{column.size}'
             header.append(datum)
             width = max(width, len(datum))
             columns[column] = i

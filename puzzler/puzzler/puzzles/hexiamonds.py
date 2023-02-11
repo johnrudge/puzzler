@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -593,7 +592,7 @@ class HexiamondsTrefoil2(Hexiamonds):
     height = 10
     width = 10
 
-    holes = set(((0,3,0),(0,5,0),(3,0,0),(5,0,0),(3,5,0),(5,3,0)))
+    holes = {(0,3,0),(0,5,0),(3,0,0),(5,0,0),(3,5,0),(5,3,0)}
 
     def coordinates(self):
         return sorted(
@@ -637,7 +636,7 @@ class HexiamondsCoin(Hexiamonds):
     duplicate_conditions = ({'rotate_180': True},)
 
     def coordinates(self):
-        hole = set(((3,2,1), (3,3,0), (3,3,1), (4,2,0), (4,2,1), (4,3,0)))
+        hole = {(3,2,1), (3,3,0), (3,3,1), (4,2,0), (4,2,1), (4,3,0)}
         for z in range(self.depth):
             for y in range(self.height):
                 for x in range(self.width):
@@ -956,9 +955,9 @@ class HexiamondsX1(Hexiamonds):
     height = 8
     width = 11
 
-    holes = set((
+    holes = {
         (3,7,1), (5,4,0), (5,3,1), (7,0,0),
-        (0,7,1), (6,7,1), (4,0,0), (10,0,0)))
+        (0,7,1), (6,7,1), (4,0,0), (10,0,0)}
 
     def coordinates(self):
         for coord in self.coordinates_butterfly(7, 4):
@@ -994,10 +993,10 @@ class HexiamondsX_x2(Hexiamonds):
     height = 10
     width = 15
 
-    holes = set((
+    holes = {
         (2,9,1), (3,8,1), (3,9,0), (3,9,1), (4,7,1), (4,8,0),
         (4,8,1), (4,9,0), (4,9,1), (7,0,0), (7,0,1), (7,1,0),
-        (7,1,1), (7,2,0), (8,0,0), (8,0,1), (8,1,0), (9,0,0)))
+        (7,1,1), (7,2,0), (8,0,0), (8,0,1), (8,1,0), (9,0,0)}
 
     def coordinates(self):
         for coord in self.coordinates_butterfly(7, 5):
@@ -1131,7 +1130,7 @@ class Hexiamonds4x3SemiregularHexagon(Hexiamonds):
     width = 7
     height = 7
 
-    holes = set(((3,3,0),))
+    holes = {(3,3,0)}
 
     def coordinates(self):
         coords = set(self.coordinates_semiregular_hexagon(4, 3)) - self.holes
@@ -1262,7 +1261,7 @@ class HexiamondsSpinner4(Hexiamonds):
                 + list(self.coordinates_hexagon(2, offset=(3,4,0)))
                 + list(self.coordinates_semiregular_hexagon(3, 2,
                                                             offset=(2,2,0))))
-            - set(((4,4,0), (3,5,1), (3,3,1), (5,3,1))))
+            - {(4,4,0), (3,5,1), (3,3,1), (5,3,1)})
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -1280,7 +1279,7 @@ class HexiamondsSpinner5(Hexiamonds):
     height = 8
     width = 8
 
-    holes = set(((0,2,0),(2,3,0),(2,6,0),(3,2,0),(3,3,0),(6,0,0)))
+    holes = {(0,2,0),(2,3,0),(2,6,0),(3,2,0),(3,3,0),(6,0,0)}
 
     def coordinates(self):
         return sorted(
@@ -1302,12 +1301,12 @@ class HexiamondsSpinner6(Hexiamonds):
     height = 8
     width = 8
 
-    holes = set(((0,2,0),(2,3,0),(2,6,0),(3,2,0),(3,3,0),(6,0,0)))
+    holes = {(0,2,0),(2,3,0),(2,6,0),(3,2,0),(3,3,0),(6,0,0)}
 
     def coordinates(self):
         holes = set
         coords = (set(self.coordinates_semiregular_hexagon(5, 3))
-                  - set(((2,3,1),))
+                  - {(2,3,1)}
                   - set(self.coordinates_parallelogram(1, 2, offset=(3,3,0)))
                   - set(self.coordinates_diamond(1, offset=(4,2,0))))
         for offset in ((-3,5,0), (3,-3,0), (5,3,0)):
@@ -1686,7 +1685,7 @@ class HexiamondsInfinity2(Hexiamonds):
         coords = (
             set(list(self.coordinates_elongated_hexagon(2, 3, offset=(3,0,0)))
                 + list(self.coordinates_elongated_hexagon(2, 3)))
-            - set(((2,2,1), (2,3,0), (5,2,1), (5,3,0))))
+            - {(2,2,1), (2,3,0), (5,2,1), (5,3,0)})
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -1732,7 +1731,7 @@ class HexiamondsTrefoil3(HexiamondsTrefoil2):
     height = 8
     width = 8
 
-    holes = set(((0,4,0),(2,2,0),(2,4,0),(4,0,0),(4,2,0),(4,4,0)))
+    holes = {(0,4,0),(2,2,0),(2,4,0),(4,0,0),(4,2,0),(4,4,0)}
 
 
 class HexiamondsKnobbyBone(Hexiamonds):
@@ -1788,8 +1787,8 @@ class Hexiamonds5x2SemiregularHexagon2(Hexiamonds5x2SemiregularHexagon1):
 
     """993 solutions"""
 
-    extras = set(Hexiamonds.coordinate_offset(x, y, z, None)
-                 for (x, y, z) in ((0,6,1), (4,0,1), (6,4,1)))
+    extras = {Hexiamonds.coordinate_offset(x, y, z, None)
+                 for (x, y, z) in ((0,6,1), (4,0,1), (6,4,1))}
     holes = set()
 
     def coordinates(self):
@@ -1818,7 +1817,7 @@ class HexiamondsNearHexagram1(Hexiamonds):
         coords = (
             set(list(self.coordinates_semiregular_hexagon(6, 1, offset=(2,2,0)))
                 + list(self.coordinates_inverted_triangle(7)))
-            - set(((4,4,1),)))
+            - {(4,4,1)})
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -1857,8 +1856,8 @@ class HexiamondsNotchedHexagon1(Hexiamonds):
     width = 8
 
     holes = (set(Hexiamonds.coordinates_hexagon(1, offset=(3,3,0)))
-             .union(set(((1,5,1), (2,3,0), (3,6,0),
-                         (4,1,1), (5,4,1), (6,2,0)))))
+             .union({(1,5,1), (2,3,0), (3,6,0),
+                         (4,1,1), (5,4,1), (6,2,0)}))
 
     def coordinates(self):
         coords = (set(
@@ -1962,10 +1961,10 @@ class OneSidedHexiamondsOBeirnesHexagon(OneSidedHexiamonds):
                 OneSidedHexiamondsOBeirnesHexagon_G,)
 
     def coordinates(self):
-        bumps = set((
+        bumps = {
             (0,6,1), (0,7,0), (0,7,1), (9,2,0), (9,2,1), (9,3,0),
             (6,0,1), (7,0,0), (7,0,1), (2,9,0), (2,9,1), (3,9,0),
-            (2,3,0), (2,2,1), (3,2,0), (6,7,1), (7,7,0), (7,6,1)))
+            (2,3,0), (2,2,1), (3,2,0), (6,7,1), (7,7,0), (7,6,1)}
         for z in range(self.depth):
             for y in range(self.height):
                 for x in range(self.width):
@@ -2045,7 +2044,7 @@ class OneSidedHexiamonds_TestHexagon(OneSidedHexiamonds):
     height = 6
     width = 6
 
-    _test_pieces = set(['I6', 'P6', 'J6', 'V6', 'C6', 'O6'])
+    _test_pieces = {'I6', 'P6', 'J6', 'V6', 'C6', 'O6'}
 
     symmetric_pieces = 'V6 C6 O6'.split()
     """Pieces with reflexive symmetry, identical to their mirror images."""
@@ -2278,11 +2277,11 @@ class OneSidedHexiamondsTriangle_x1(OneSidedHexiamonds):
     height = 11
     width = 11
 
-    holes = set(((2,2,0), (2,6,0), (6,2,0)))
-    holes = set(((1,4,1), (4,1,1), (4,4,1)))
-    holes = set(((2,4,0), (4,2,0), (4,4,0)))
-    holes = set(((2,2,1), (2,5,1), (5,2,1)))
-    holes = set(((2,4,1), (3,2,1), (4,3,1)))
+    holes = {(2,2,0), (2,6,0), (6,2,0)}
+    holes = {(1,4,1), (4,1,1), (4,4,1)}
+    holes = {(2,4,0), (4,2,0), (4,4,0)}
+    holes = {(2,2,1), (2,5,1), (5,2,1)}
+    holes = {(2,4,1), (3,2,1), (4,3,1)}
 
     def coordinates(self):
         coords = (
@@ -2316,7 +2315,7 @@ class OneSidedHexiamondsCompoundTriangle_x1(OneSidedHexiamonds):
         coords = set()
         for offset in ((0,1,0), (1,0,0), (1,1,0)):
             coords.update(set(self.coordinates_triangle(9, offset=offset)))
-        coords -= set(((3,3,1),))
+        coords -= {(3,3,1)}
         return sorted(coords)
 
 
@@ -2382,7 +2381,7 @@ class OneSidedHexiamondsTrefoil4(OneSidedHexiamonds):
     height = 12
     width = 12
 
-    holes = set(((5,1,1), (5,2,0)))
+    holes = {(5,1,1), (5,2,0)}
 
     svg_rotation = 30
 
@@ -2402,49 +2401,49 @@ class OneSidedHexiamondsTrefoil5(OneSidedHexiamondsTrefoil4):
 
     """many solutions"""
 
-    holes = set(((4,3,0), (5,0,1)))
+    holes = {(4,3,0), (5,0,1)}
 
 
 class OneSidedHexiamondsTrefoil6(OneSidedHexiamondsTrefoil4):
 
     """many solutions"""
 
-    holes = set(((3,3,1), (5,0,0)))
+    holes = {(3,3,1), (5,0,0)}
 
 
 class OneSidedHexiamondsTrefoil7(OneSidedHexiamondsTrefoil4):
 
     """many solutions"""
 
-    holes = set(((2,3,1), (4,0,0)))
+    holes = {(2,3,1), (4,0,0)}
 
 
 class OneSidedHexiamondsTrefoil8(OneSidedHexiamondsTrefoil4):
 
     """many solutions"""
 
-    holes = set(((1,3,1), (3,0,0)))
+    holes = {(1,3,1), (3,0,0)}
 
 
 class OneSidedHexiamondsTrefoil9(OneSidedHexiamondsTrefoil4):
 
     """many solutions"""
 
-    holes = set(((0,3,1), (2,0,0)))
+    holes = {(0,3,1), (2,0,0)}
 
 
 class OneSidedHexiamondsTrefoil10(OneSidedHexiamondsTrefoil4):
 
     """many solutions"""
 
-    holes = set(((0,2,1), (1,1,0)))
+    holes = {(0,2,1), (1,1,0)}
 
 
 class OneSidedHexiamondsTrefoil11(OneSidedHexiamondsTrefoil4):
 
     """many solutions"""
 
-    holes = set(((0,2,0), (0,1,1)))
+    holes = {(0,2,0), (0,1,1)}
 
 
 class OneSidedHexiamondsTrefoil_x1(OneSidedHexiamonds):
@@ -2544,7 +2543,7 @@ class OneSidedHexiamondsTrefoil_x7(OneSidedHexiamondsTrefoil4):
 
     """0 solutions"""
 
-    holes = set(((0,3,0), (1,0,1)))
+    holes = {(0,3,0), (1,0,1)}
 
 
 class OneSidedHexiamondsBumpyTriangle(OneSidedHexiamonds):
@@ -2629,9 +2628,9 @@ class OneSidedHexiamondsKnobbedHexagon_x1(OneSidedHexiamondsKnobbedHexagon1):
 
     """0 solutions"""
 
-    holes = set(((3,5,1), (4,4,0), (4,6,0), (5,3,1), (5,5,1), (6,4,0)))
-    holes = set(((2,6,0), (3,3,1), (3,7,1), (6,2,0), (6,6,0), (7,3,1)))
-    holes = set(((1,6,1), (3,3,0), (3,8,0), (6,1,1), (6,6,1), (8,3,0)))
+    holes = {(3,5,1), (4,4,0), (4,6,0), (5,3,1), (5,5,1), (6,4,0)}
+    holes = {(2,6,0), (3,3,1), (3,7,1), (6,2,0), (6,6,0), (7,3,1)}
+    holes = {(1,6,1), (3,3,0), (3,8,0), (6,1,1), (6,6,1), (8,3,0)}
 
 
 class OneSidedHexiamondsTruncatedHexagramRing(OneSidedHexiamonds):
@@ -2698,18 +2697,18 @@ class OneSidedHexiamondsHexagramHexagon2(OneSidedHexiamondsHexagramHexagon1):
     Design from `Thimo Rosenkranz's pentoma.de`_.
     """
 
-    holes = set(OneSidedHexiamonds.coordinate_offset(x, y, z, None)
+    holes = {OneSidedHexiamonds.coordinate_offset(x, y, z, None)
                 for (x, y, z) in ((2,7,1), (4,4,0), (4,9,0), (7,2,1), (7,7,1),
-                                  (9,4,0)))
+                                  (9,4,0))}
 
 
 class OneSidedHexiamondsHexagramHexagon3(OneSidedHexiamondsHexagramHexagon1):
 
     """many solutions"""
 
-    holes = set(OneSidedHexiamonds.coordinate_offset(x, y, z, None)
+    holes = {OneSidedHexiamonds.coordinate_offset(x, y, z, None)
                 for (x, y, z) in ((2,5,1), (2,6,0), (5,9,1), (6,9,0),
-                                  (9,2,0), (9,2,1)))
+                                  (9,2,0), (9,2,1))}
 
     def customize_piece_data(self):
         OneSidedHexiamonds.customize_piece_data(self)

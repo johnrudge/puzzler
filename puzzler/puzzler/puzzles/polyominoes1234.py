@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -24,7 +23,7 @@ class Polyominoes1234SquarePlus(Polyominoes1234):
     width = 7
     height = 7
 
-    extras = set(((0,3), (3,0), (3,6), (6,3)))
+    extras = {(0,3), (3,0), (3,6), (6,3)}
 
     def coordinates(self):
         coords = set(self.coordinates_rectangle(5, 5, offset=(1,1)))
@@ -91,7 +90,7 @@ class Polyominoes1234Astroid(Polyominoes1234):
     width = 9
     height = 9
 
-    holes = set(((2,2), (2,6), (6,2), (6,6)))
+    holes = {(2,2), (2,6), (6,2), (6,6)}
 
     def coordinates(self):
         coords = (
@@ -113,9 +112,9 @@ class Polyominoes1234Cross_x(Polyominoes1234):
     width = 7
     height = 7
 
-    holes = set(((3,4), (4,3), (4,5), (5,4)))
+    holes = {(3,4), (4,3), (4,5), (5,4)}
 
-    holes = set(((3,3), (3,5), (5,3), (5,5)))
+    holes = {(3,3), (3,5), (5,3), (5,5)}
 
     def coordinates(self):
         coords = (
@@ -199,7 +198,7 @@ class Polyominoes1234_7x5CrossHole(Polyominoes1234):
     width = 7
     height = 5
 
-    holes = set(((1,2), (2,2), (3,1), (3,3), (4,2), (5,2)))
+    holes = {(1,2), (2,2), (3,1), (3,3), (4,2), (5,2)}
 
     def coordinates(self):
         coords = set(self.coordinates_rectangle(7, 5)) - self.holes
@@ -217,7 +216,7 @@ class OneSidedPolyominoes1234Octagon(OneSidedPolyominoes1234):
     width = 7
     height = 7
 
-    holes = set(((-1,3), (3,-1), (3,7), (7,3)))
+    holes = {(-1,3), (3,-1), (3,7), (7,3)}
 
     def coordinates(self):
         coords = (

@@ -68,7 +68,7 @@ class TetrahexesElongatedHexagon3x4_1(Tetrahexes):
     width = 6
     height = 7
 
-    holes = set(((2,4), (3,2)))
+    holes = {(2,4), (3,2)}
 
     def coordinates(self):
         coords = set(self.coordinates_elongated_hexagon(3, 4)) - self.holes
@@ -88,7 +88,7 @@ class TetrahexesElongatedHexagon3x4_2(TetrahexesElongatedHexagon3x4_1):
     <http://www.gamedecor.com/abasworld/Puzzles/Polyhex/Tetrahex%20Bisymmetry.htm>`_
     """
 
-    holes = set(((2,3), (3,3)))
+    holes = {(2,3), (3,3)}
 
 
 class TetrahexesElongatedHexagon3x4_3(TetrahexesElongatedHexagon3x4_1):
@@ -100,7 +100,7 @@ class TetrahexesElongatedHexagon3x4_3(TetrahexesElongatedHexagon3x4_1):
     <http://www.gamedecor.com/abasworld/Puzzles/Polyhex/Tetrahex%20Bisymmetry.htm>`_
     """
 
-    holes = set(((1,3), (4,3)))
+    holes = {(1,3), (4,3)}
 
 
 class TetrahexesElongatedHexagon3x4_4(TetrahexesElongatedHexagon3x4_1):
@@ -112,7 +112,7 @@ class TetrahexesElongatedHexagon3x4_4(TetrahexesElongatedHexagon3x4_1):
     <http://www.gamedecor.com/abasworld/Puzzles/Polyhex/Tetrahex%20Bisymmetry.htm>`_
     """
 
-    holes = set(((0,3), (5,3)))
+    holes = {(0,3), (5,3)}
 
 
 class TetrahexesCoin(Tetrahexes):
@@ -195,9 +195,9 @@ class TetrahexesTwoDiamonds_x1(Tetrahexes):
     width = 7
     height = 7
 
-    holes = set(((0,4), (0,5), (1,4), (3,2), (3,3), (3,4), (5,2), (6,1), (6,2)))
+    holes = {(0,4), (0,5), (1,4), (3,2), (3,3), (3,4), (5,2), (6,1), (6,2)}
 
-    holes = set(((0,4), (0,5), (1,4), (3,1), (3,3), (3,5), (5,2), (6,1), (6,2)))
+    holes = {(0,4), (0,5), (1,4), (3,1), (3,3), (3,5), (5,2), (6,1), (6,2)}
 
     def coordinates(self):
         coords = set(self.coordinates_hexagon(4)) - self.holes
@@ -294,7 +294,7 @@ class TetrahexesFlower1(Tetrahexes):
     width = 7
     height = 7
 
-    holes = set(((0,3), (0,6), (3,0), (3,6), (6,0), (6,3), (2,2), (2,5), (5,2)))
+    holes = {(0,3), (0,6), (3,0), (3,6), (6,0), (6,3), (2,2), (2,5), (5,2)}
 
     def coordinates(self):
         coords = set(self.coordinates_hexagon(4)) - self.holes
@@ -313,7 +313,7 @@ class TetrahexesFlower2(TetrahexesFlower1):
     Design by George Sicherman
     """
 
-    holes = set(((0,3), (0,6), (3,0), (3,6), (6,0), (6,3), (2,5), (3,3), (4,1)))
+    holes = {(0,3), (0,6), (3,0), (3,6), (6,0), (6,3), (2,5), (3,3), (4,1)}
 
     def customize_piece_data(self):
         self.piece_data['P4'][-1]['rotations'] = (0, 1, 2)
@@ -330,7 +330,7 @@ class TetrahexesFlower3(TetrahexesFlower1):
 
     svg_rotation = -30
 
-    holes = set(((0,6), (3,0), (6,3), (1,4), (2,2), (2,5), (4,1), (4,4), (5,2)))
+    holes = {(0,6), (3,0), (6,3), (1,4), (2,2), (2,5), (4,1), (4,4), (5,2)}
 
 
 class TetrahexesBumpyTriangle(Tetrahexes):
@@ -382,7 +382,7 @@ class TetrahexesHoleyStar1(Tetrahexes):
     height = 9
     width = 9
 
-    holes = set(((2,4), (3,6), (4,4), (5,2), (6,4)))
+    holes = {(2,4), (3,6), (4,4), (5,2), (6,4)}
 
     svg_rotation = 90
 

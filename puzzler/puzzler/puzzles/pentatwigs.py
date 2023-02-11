@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -36,8 +35,8 @@ class PentatwigsTriangle2(PentatwigsTriangle):
     Puzzle design by Colin F. Brown.
     """
 
-    holes = set(((1,2,0), (2,1,1), (2,2,2)))
-    extras = set(((0,0,2), (0,5,1), (5,0,0)))
+    holes = {(1,2,0), (2,1,1), (2,2,2)}
+    extras = {(0,0,2), (0,5,1), (5,0,0)}
 
     def coordinates(self):
         for coord in self.coordinates_triangle(5):
@@ -55,7 +54,7 @@ class PentatwigsTriangle3(PentatwigsTriangle2):
     Puzzle design by Colin F. Brown.
     """
 
-    holes = set(((1,1,2), (1,3,1), (3,1,0)))
+    holes = {(1,1,2), (1,3,1), (3,1,0)}
 
 
 class Pentatwigs5x3(Pentatwigs):
@@ -160,9 +159,9 @@ class PentatwigsWaveStaggeredRectangle5x3(Pentatwigs):
     height = 6
     width = 6
 
-    holes = set(((3,4,0), (3,4,2), (4,3,1)))
+    holes = {(3,4,0), (3,4,2), (4,3,1)}
 
-    extras = set(((3,0,0), (3,0,1), (4,0,2)))
+    extras = {(3,0,0), (3,0,1), (4,0,2)}
 
     svg_rotation = 0
 
@@ -170,8 +169,8 @@ class PentatwigsWaveStaggeredRectangle5x3(Pentatwigs):
         coords = set(self.coordinates_vertically_staggered_rectangle(5, 3))
         coords.difference_update(self.holes)
         coords.update(
-            set(self.coordinate_offset(*coord, offset=None)
-                for coord in self.extras))
+            {self.coordinate_offset(*coord, offset=None)
+                for coord in self.extras})
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -185,7 +184,7 @@ class PentatwigsButterfly1(Pentatwigs):
     height = 6
     width = 7
 
-    hole = set(((2,3,0), (3,2,0), (3,2,1), (3,2,2), (3,3,2)))
+    hole = {(2,3,0), (3,2,0), (3,2,1), (3,2,2), (3,3,2)}
 
     svg_rotation = -60
 
@@ -203,7 +202,7 @@ class PentatwigsButterfly_X(PentatwigsButterfly1):
 
     """0 solutions"""
 
-    hole = set(((2,4,0), (2,4,2), (3,1,0), (4,0,1), (4,1,2)))
+    hole = {(2,4,0), (2,4,2), (3,1,0), (4,0,1), (4,1,2)}
 
 
 class PentatwigsTrefoil(Pentatwigs):
@@ -217,10 +216,10 @@ class PentatwigsTrefoil(Pentatwigs):
     height = 6
     width = 6
 
-    hole = set((
+    hole = {
         (2,0,0), (2,0,1), (3,0,2), (2,1,0),
         (0,4,1), (0,5,0), (0,5,2), (1,4,2),
-        (4,2,1), (4,3,0), (5,2,1), (5,2,2)))
+        (4,2,1), (4,3,0), (5,2,1), (5,2,2)}
 
     svg_rotation = 0
 
@@ -275,10 +274,10 @@ class PentatwigsTrefoil_x1(PentatwigsTrefoil):
 
     """0 solutions"""
 
-    hole = set((
+    hole = {
         (2,0,0), (2,0,1), (3,0,2), (2,2,0),
         (0,4,1), (0,5,0), (0,5,2), (2,3,2),
-        (3,2,1), (4,3,0), (5,2,1), (5,2,2)))
+        (3,2,1), (4,3,0), (5,2,1), (5,2,2)}
 
 
 class PentatwigsTrefoil_x2(Pentatwigs):
@@ -288,7 +287,7 @@ class PentatwigsTrefoil_x2(Pentatwigs):
     height = 6
     width = 6
 
-    holes = set(((1,2,1), (2,4,0), (4,1,2)))
+    holes = {(1,2,1), (2,4,0), (4,1,2)}
 
     def coordinates(self):
         coords = set(
@@ -306,7 +305,7 @@ class PentatwigsTrefoilRing_x(Pentatwigs):
     height = 6
     width = 6
 
-    holes = set(((2,2,1), (2,3,0), (3,2,2)))
+    holes = {(2,2,1), (2,3,0), (3,2,2)}
 
     def coordinates(self):
         coords = set(
@@ -328,7 +327,7 @@ class PentatwigsMobiusStrip1(Pentatwigs):
     height = 5
     width = 12
 
-    holes = set(((0,0,0), (0,0,1), (0,1,2), (8,0,1), (8,1,1), (8,1,2), (7,2,0)))
+    holes = {(0,0,0), (0,0,1), (0,1,2), (8,0,1), (8,1,1), (8,1,2), (7,2,0)}
 
     def coordinates(self):
         for coord in self.coordinates_bordered(8, 2):
@@ -347,7 +346,7 @@ class Pentatwigs4x4_1(Pentatwigs):
     width = 5
     height = 5
 
-    holes = set(((1,3,2), (2,2,2), (3,1,2)))
+    holes = {(1,3,2), (2,2,2), (3,1,2)}
 
     svg_rotation = 60
 
@@ -365,7 +364,7 @@ class Pentatwigs4x4_2(Pentatwigs4x4_1):
 
     """8 solutions"""
 
-    holes = set(((1,1,2), (2,2,2), (3,3,2)))
+    holes = {(1,1,2), (2,2,2), (3,3,2)}
 
 
 class PentatwigsElongatedRoundedRectangle1(Pentatwigs):
@@ -406,7 +405,7 @@ class PentatwigsRosetteCluster1(Pentatwigs):
     height = 6
 
     extras = ((3,2,0), (3,3,0))
-    holes = set(((2,3,0), (4,2,0)))
+    holes = {(2,3,0), (4,2,0)}
 
     svg_rotation = 0
 
@@ -432,7 +431,7 @@ class PentatwigsRosetteCluster2(PentatwigsRosetteCluster1):
     Design by Colin F. Brown.
     """
 
-    holes = set(((0,4,0), (6,1,0)))
+    holes = {(0,4,0), (6,1,0)}
 
 
 class PentatwigsTwoHexagons(Pentatwigs):
@@ -472,7 +471,7 @@ class PentatwigsX1(PentatwigsButterfly1):
 
     """32 solutions"""
 
-    hole = set(((1,5,0), (1,5,2), (2,4,1), (2,5,0), (2,5,2)))
+    hole = {(1,5,0), (1,5,2), (2,4,1), (2,5,0), (2,5,2)}
 
     svg_rotation = 30
 
@@ -515,7 +514,7 @@ class PentatwigsElongatedHexagon5x2_1(Pentatwigs):
     width = 7
     height = 4
 
-    holes = set(((1,1,1), (3,1,1), (5,1,1)))
+    holes = {(1,1,1), (3,1,1), (5,1,1)}
 
     def coordinates(self):
         coords = set(self.coordinates_elongated_hexagon(5, 2)) - self.holes
@@ -605,7 +604,7 @@ class OneSidedPentatwigsElongatedHexagon8x2_1(OneSidedPentatwigs):
     width = 10
     height = 4
 
-    hole = set(((4,2,1),))
+    hole = {(4,2,1)}
 
     def coordinates(self):
         coords = set(self.coordinates_elongated_hexagon(8, 2))
@@ -618,7 +617,7 @@ class OneSidedPentatwigsElongatedHexagon8x2_2(
 
     """many solutions"""
 
-    hole = set(((1,1,1),))
+    hole = {(1,1,1)}
 
 
 class OneSidedPentatwigsElongatedHexagon3x4_1(OneSidedPentatwigs):
@@ -711,7 +710,7 @@ class OneSidedPentatwigsPeanut1(OneSidedPentatwigs):
     hex_offsets = (
         (0,3,0), (1,2,0), (1,3,0), (2,2,0), (5,0,0), (5,1,0), (6,0,0))
 
-    holes = set(((0,5,0), (2,4,0), (6,2,0), (8,1,0)))
+    holes = {(0,5,0), (2,4,0), (6,2,0), (8,1,0)}
 
     svg_rotation = 0
 
@@ -727,18 +726,18 @@ class OneSidedPentatwigsPeanut2(OneSidedPentatwigsPeanut1):
 
     """many solutions"""
 
-    holes = set(((2,3,0), (2,5,0), (6,1,0), (6,3,0)))
+    holes = {(2,3,0), (2,5,0), (6,1,0), (6,3,0)}
 
 
 class OneSidedPentatwigsPeanut3(OneSidedPentatwigsPeanut1):
 
     """many solutions"""
 
-    holes = set(((3,3,0), (3,4,0), (5,2,0), (5,3,0)))
+    holes = {(3,3,0), (3,4,0), (5,2,0), (5,3,0)}
 
 
 class OneSidedPentatwigsPeanut4(OneSidedPentatwigsPeanut1):
 
     """many solutions"""
 
-    holes = set(((1,4,0), (1,5,0), (7,1,0), (7,2,0)))
+    holes = {(1,4,0), (1,5,0), (7,1,0), (7,2,0)}

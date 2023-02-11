@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -121,7 +120,7 @@ class OneSidedPolytwigs1234ElongatedHexagon3x2_1(OneSidedPolytwigs1234):
     height = 4
     width = 5
 
-    holes = set(((1,1,1), (3,1,1)))
+    holes = {(1,1,1), (3,1,1)}
 
     def coordinates(self):
         for coord in self.coordinates_elongated_hexagon(3, 2):
@@ -139,7 +138,7 @@ class OneSidedPolytwigs1234ElongatedHexagon3x2_2(
 
     """many solutions"""
 
-    holes = set(((1,1,2), (0,2,0)))
+    holes = {(1,1,2), (0,2,0)}
 
     def customize_piece_data(self):
         OneSidedPolytwigs1234.customize_piece_data(self)
@@ -151,7 +150,7 @@ class OneSidedPolytwigs1234ElongatedHexagon3x2_3(
 
     """many solutions"""
 
-    holes = set(((2,0,1), (1,2,1)))
+    holes = {(2,0,1), (1,2,1)}
 
 
 class OneSidedPolytwigs1234ElongatedHexagon3x2_4(
@@ -159,7 +158,7 @@ class OneSidedPolytwigs1234ElongatedHexagon3x2_4(
 
     """many solutions"""
 
-    holes = set(((3,0,1), (1,2,1)))
+    holes = {(3,0,1), (1,2,1)}
 
     def customize_piece_data(self):
         OneSidedPolytwigs1234.customize_piece_data(self)
@@ -171,7 +170,7 @@ class OneSidedPolytwigs1234ElongatedHexagon3x2_5(
 
     """many solutions"""
 
-    holes = set(((1,1,2), (3,2,2)))
+    holes = {(1,1,2), (3,2,2)}
 
 
 class OneSidedPolytwigs1234ElongatedHexagon3x2_6(
@@ -179,7 +178,7 @@ class OneSidedPolytwigs1234ElongatedHexagon3x2_6(
 
     """many solutions"""
 
-    holes = set(((2,2,1), (1,2,1)))
+    holes = {(2,2,1), (1,2,1)}
 
 
 class OneSidedPolytwigs1234ElongatedHexagon3x2_7(
@@ -187,7 +186,7 @@ class OneSidedPolytwigs1234ElongatedHexagon3x2_7(
 
     """many solutions"""
 
-    holes = set(((1,3,0), (1,3,2)))
+    holes = {(1,3,0), (1,3,2)}
 
 
 class OneSidedPolytwigs1234ElongatedHexagon3x2_8(
@@ -195,7 +194,7 @@ class OneSidedPolytwigs1234ElongatedHexagon3x2_8(
 
     """many solutions"""
 
-    holes = set(((0,2,0), (3,2,2)))
+    holes = {(0,2,0), (3,2,2)}
 
 
 class OneSidedPolytwigs1234Triangle1(OneSidedPolytwigs1234):
@@ -205,7 +204,7 @@ class OneSidedPolytwigs1234Triangle1(OneSidedPolytwigs1234):
     height = 5
     width = 5
 
-    holes = set(((1,1,2), (1,2,1), (2,1,0)))
+    holes = {(1,1,2), (1,2,1), (2,1,0)}
 
     def coordinates(self):
         return sorted(set(self.coordinates_triangle(4)) - self.holes)
@@ -215,18 +214,18 @@ class OneSidedPolytwigs1234Triangle2(OneSidedPolytwigs1234Triangle1):
 
     """many solutions"""
 
-    holes = set(((0,2,0), (2,0,1), (2,2,2)))
+    holes = {(0,2,0), (2,0,1), (2,2,2)}
 
 
 class OneSidedPolytwigs1234Triangle3(OneSidedPolytwigs1234Triangle1):
 
     """many solutions"""
 
-    holes = set(((0,3,0), (1,2,1), (1,3,2)))
+    holes = {(0,3,0), (1,2,1), (1,3,2)}
 
 
 class OneSidedPolytwigs1234Triangle4(OneSidedPolytwigs1234Triangle1):
 
     """many solutions"""
 
-    holes = set(((1,2,0), (1,2,1), (1,2,2)))
+    holes = {(1,2,0), (1,2,1), (1,2,2)}

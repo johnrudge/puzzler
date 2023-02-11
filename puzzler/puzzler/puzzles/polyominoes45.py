@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -48,7 +47,7 @@ class Polyominoes45Square(Polyominoes45):
     width = 9
     height = 9
 
-    hole = set(((4,4),))
+    hole = {(4,4)}
 
     def coordinates(self):
         coords = set(self.coordinates_rectangle(9, 9)) - self.hole
@@ -66,7 +65,7 @@ class Polyominoes45Diamond(Polyominoes45):
     width = 13
     height = 13
 
-    holes = set(((5,6), (6,5), (6,6), (6,7), (7,6)))
+    holes = {(5,6), (6,5), (6,6), (6,7), (7,6)}
 
     def coordinates(self):
         coords = set(self.coordinates_diamond(7)) - self.holes

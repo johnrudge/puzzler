@@ -319,9 +319,9 @@ class PentahexesHexagram1(Pentahexes):
                     yield (x, y)
 
     def hole_coordinates(self):
-        return set(((7,7), (8,7), (9,7), (10,7),
+        return {(7,7), (8,7), (9,7), (10,7),
                     (7,8), (8,8), (9,8),
-                    (6,9), (7,9), (8,9), (9,9)))
+                    (6,9), (7,9), (8,9), (9,9)}
 
     def customize_piece_data(self):
         self.piece_data['P5'][-1]['rotations'] = (0, 1, 2)
@@ -331,61 +331,61 @@ class PentahexesHexagram1(Pentahexes):
 class PentahexesHexagram2(PentahexesHexagram1):
 
     def hole_coordinates(self):
-        return set(((8,6), (10,6),
+        return {(8,6), (10,6),
                     (8,7), (9,7),
                     (7,8), (8,8), (9,8),
                     (7,9), (8,9),
-                    (6,10), (8,10)))
+                    (6,10), (8,10)}
 
 
 class PentahexesHexagram3(PentahexesHexagram1):
 
     def hole_coordinates(self):
-        return set(((9,6),
+        return {(9,6),
                     (8,7), (9,7),
                     (6,8), (7,8), (8,8), (9,8), (10,8),
                     (7,9), (8,9),
-                    (7,10)))
+                    (7,10)}
 
 
 class PentahexesHexagram4(PentahexesHexagram1):
 
     def hole_coordinates(self):
-        return set(((8,6), (9,6), (10,6),
+        return {(8,6), (9,6), (10,6),
                     (8,7), (9,7),
                     (8,8),
                     (7,9), (8,9),
-                    (6,10), (7,10), (8,10)))
+                    (6,10), (7,10), (8,10)}
 
 
 class PentahexesHexagram5(PentahexesHexagram1):
 
     def hole_coordinates(self):
-        return set(((9,6),
+        return {(9,6),
                     (7,7), (8,7), (9,7), (10,7),
                     (8,8),
                     (6,9), (7,9), (8,9), (9,9),
-                    (7,10)))
+                    (7,10)}
 
 
 class PentahexesHexagram6(PentahexesHexagram1):
 
     def hole_coordinates(self):
-        return set(((8,7), (9,7),
+        return {(8,7), (9,7),
                     (5,8), (6,8), (7,8), (8,8), (9,8), (10,8), (11,8),
-                    (7,9), (8,9)))
+                    (7,9), (8,9)}
 
 
 class PentahexesHexagram7(PentahexesHexagram1):
 
     def hole_coordinates(self):
-        return set(((9,5), (10,5),
+        return {(9,5), (10,5),
                     (9,6),
                     (8,7), (9,7),
                     (8,8),
                     (7,9), (8,9),
                     (7,10),
-                    (6,11), (7,11)))
+                    (6,11), (7,11)}
 
 
 class OneSidedPentahexesTriangle1(OneSidedPentahexes):

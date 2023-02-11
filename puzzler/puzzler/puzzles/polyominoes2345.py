@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -20,7 +19,7 @@ class Polyominoes2345X1(Polyominoes2345):
     height = 14
     width = 14
 
-    holes = set(((5,6), (5,7), (6,5), (6,8), (7,5), (7,8), (8,6), (8,7)))
+    holes = {(5,6), (5,7), (6,5), (6,8), (7,5), (7,8), (8,6), (8,7)}
 
     svg_rotation = 45
 

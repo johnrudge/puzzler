@@ -53,7 +53,7 @@ class Polyhexes34TrilobedCrown1(Polyhexes34):
 
     extras = ((1,4), (7,1), (4,7))
 
-    holes = set(((3,5), (4,3), (5,4)))
+    holes = {(3,5), (4,3), (5,4)}
 
     svg_rotation = -30
 
@@ -73,4 +73,4 @@ class Polyhexes34TrilobedCrown2(Polyhexes34TrilobedCrown1):
 
     """159 solutions"""
 
-    holes = set(((3,4), (4,5), (5,3)))
+    holes = {(3,4), (4,5), (5,3)}

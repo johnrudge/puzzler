@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -40,7 +39,7 @@ class HexatwigsHexagonRing1(Hexatwigs):
     height = 10
     width = 10
 
-    holes = set(((4,0,0), (4,0,1), (5,0,2), (5,8,1), (4,9,0), (4,9,2)))
+    holes = {(4,0,0), (4,0,1), (5,0,2), (5,8,1), (4,9,0), (4,9,2)}
 
     svg_rotation = 0
 
@@ -60,7 +59,7 @@ class HexatwigsHexagonRing2(HexatwigsHexagonRing1):
 
     """many solutions"""
 
-    holes = set(((2,4,1), (2,7,2), (4,2,0), (4,7,0), (7,2,2), (7,4,1)))
+    holes = {(2,4,1), (2,7,2), (4,2,0), (4,7,0), (7,2,2), (7,4,1)}
 
     def customize_piece_data(self):
         self.piece_data['R06'][-1]['flips'] = None
@@ -71,14 +70,14 @@ class HexatwigsHexagonRing3(HexatwigsHexagonRing2):
 
     """many solutions"""
 
-    holes = set(((1,4,1), (1,8,2), (4,1,0), (4,8,0), (8,1,2), (8,4,1)))
+    holes = {(1,4,1), (1,8,2), (4,1,0), (4,8,0), (8,1,2), (8,4,1)}
 
 
 class HexatwigsHexagonRing4(HexatwigsHexagonRing2):
 
     """many solutions"""
 
-    holes = set(((1,6,0), (3,3,2), (3,7,1), (6,1,1), (6,6,2), (7,3,0)))
+    holes = {(1,6,0), (3,3,2), (3,7,1), (6,1,1), (6,6,2), (7,3,0)}
 
 
 class HexatwigsElongatedHexagonRing(Hexatwigs):
@@ -126,9 +125,9 @@ class HexatwigsX1(Hexatwigs):
     height = 10
     width = 12
 
-    holes = set((
+    holes = {
         (3,9,0), (3,9,2), (7,0,0), (8,0,2),
-        (4,5,0), (5,4,2), (5,5,1), (6,3,1), (6,4,0), (6,5,2)))
+        (4,5,0), (5,4,2), (5,5,1), (6,3,1), (6,4,0), (6,5,2)}
 
     def coordinates(self):
         for coord in self.coordinates_butterfly(7,5):
@@ -144,45 +143,45 @@ class HexatwigsX2(HexatwigsX1):
 
     """many solutions"""
 
-    holes = set((
+    holes = {
         (3,9,0), (3,9,2), (3,8,0), (4,8,2), (4,7,1),
-        (7,0,0), (8,0,2), (7,1,0), (7,1,1), (7,1,2)))
+        (7,0,0), (8,0,2), (7,1,0), (7,1,1), (7,1,2)}
 
 
 class HexatwigsX3(HexatwigsX1):
 
     """many solutions"""
 
-    holes = set((
+    holes = {
         (3,9,0), (3,9,2), (7,0,0), (8,0,2),
-        (4,6,0), (5,5,1), (5,6,2), (6,3,0), (6,3,1), (6,3,2)))
+        (4,6,0), (5,5,1), (5,6,2), (6,3,0), (6,3,1), (6,3,2)}
 
 
 class HexatwigsX4(HexatwigsX1):
 
     """many solutions"""
 
-    holes = set((
+    holes = {
         (4,5,0), (4,6,0), (5,4,2), (5,5,1), (5,6,2),
-        (6,3,0), (6,3,1), (6,3,2), (6,4,0), (6,5,2)))
+        (6,3,0), (6,3,1), (6,3,2), (6,4,0), (6,5,2)}
 
 
 class HexatwigsX5(HexatwigsX1):
 
     """many solutions"""
 
-    holes = set((
+    holes = {
         (3,8,0), (4,8,2), (4,7,0), (4,7,1), (4,7,2),
-        (6,2,0), (7,1,0), (7,1,1), (7,1,2), (7,2,2)))
+        (6,2,0), (7,1,0), (7,1,1), (7,1,2), (7,2,2)}
 
 
 class HexatwigsX6(HexatwigsX1):
 
     """many solutions"""
 
-    holes = set((
+    holes = {
         (3,9,0), (3,9,2), (7,0,0), (8,0,2),
-        (5,4,0), (5,5,0), (5,5,1), (5,5,2), (6,3,1), (6,4,2)))
+        (5,4,0), (5,5,0), (5,5,1), (5,5,2), (6,3,1), (6,4,2)}
 
 
 class HexatwigsSemiregularHexagon6x3(Hexatwigs):
@@ -231,7 +230,7 @@ class HexatwigsTriangleRing1(Hexatwigs):
     width = 10
     height = 10
 
-    holes = set(((2,2,2), (2,6,1), (6,2,0),))
+    holes = {(2,2,2), (2,6,1), (6,2,0)}
 
     def coordinates(self):
         coords = (
@@ -256,7 +255,7 @@ class HexatwigsTriangleRing2(Hexatwigs):
     width = 10
     height = 10
 
-    holes = set(((1,5,0), (2,2,2), (2,7,1), (5,1,1), (5,5,2), (7,2,0),))
+    holes = {(1,5,0), (2,2,2), (2,7,1), (5,1,1), (5,5,2), (7,2,0)}
 
     def coordinates(self):
         coords = (

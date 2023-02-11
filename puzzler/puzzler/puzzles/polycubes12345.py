@@ -400,10 +400,10 @@ class Polycubes12345DiamondWall(Polycubes12345):
     depth = 6
 
     def coordinates(self):
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
             for x, y in Puzzle2D.coordinates_diamond(5)
-            for z in range(self.depth))
+            for z in range(self.depth)}
         coords -= set(self.coordinates_cuboid(3, 3, 6, offset=(3,3,0)))
         coords -= set(self.coordinates_cuboid(5, 1, 3, offset=(2,4,3)))
         return sorted(coords)

@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -22,7 +21,7 @@ class Polytwigs45Triangle1(Polytwigs45):
     width = 7
     height = 7
 
-    holes = set(((1,3,0), (2,2,0), (2,2,1), (2,2,2), (2,3,2)))
+    holes = {(1,3,0), (2,2,0), (2,2,1), (2,2,2), (2,3,2)}
 
     def coordinates(self):
         coords = set(self.coordinates_triangle(6)) - self.holes
@@ -40,7 +39,7 @@ class Polytwigs45DiamondRing(Polytwigs45):
     width = 6
     height = 6
 
-    holes = set(((1,1,2), (4,4,2)))
+    holes = {(1,1,2), (4,4,2)}
 
     svg_rotation = 60
 
@@ -120,16 +119,16 @@ class Polytwigs45FourCongruent1(Polytwigs45):
               ____
              /    \
         ____/      \
-            \      /
-             \____/
+            \\      /
+             \\____/
              /    \
             /      \
-            \      /
-             \____/
+            \\      /
+             \\____/
              /    \
-            /      \____
-            \      /    \
-             \____/      \
+            /      \\____
+            \\      /    \
+             \\____/      \
     """
 
     width = 16
@@ -169,16 +168,16 @@ class Polytwigs45FourCongruent2(Polytwigs45FourCongruent1):
           ____/
          /    \
         /      \
-        \      /
-         \____/
+        \\      /
+         \\____/
          /    \
         /      \
-        \      /
-         \____/
+        \\      /
+         \\____/
          /    \
-        /      \____
-        \      /    \
-         \____/      \
+        /      \\____
+        \\      /    \
+         \\____/      \
     """
 
     width = 15
@@ -208,15 +207,15 @@ class Polytwigs45FourCongruent3(Polytwigs45FourCongruent1):
          /
         /
         \
-         \____        ____
-         /    \      /
-        /      \____/
-        \      /    \
-         \____/      \
-         /    \      /
-        /      \____/
-        \      /
-         \____/
+         \\____        ____
+         /    \\      /
+        /      \\____/
+        \\      /    \
+         \\____/      \
+         /    \\      /
+        /      \\____/
+        \\      /
+         \\____/
     """
 
     width = 15
@@ -287,17 +286,17 @@ class Polytwigs45FourCongruent_x1(Polytwigs45FourCongruent1):
 
           ____
          /    \
-        /      \____
-        \      /
-         \____/
+        /      \\____
+        \\      /
+         \\____/
          /    \
         /      \
-        \      /
-         \____/
-         /    \      /
-        /      \____/
-        \      /
-         \____/
+        \\      /
+         \\____/
+         /    \\      /
+        /      \\____/
+        \\      /
+         \\____/
     """
 
     width = 12
@@ -328,19 +327,19 @@ class Polytwigs45FourCongruent_x2(Polytwigs45FourCongruent1):
          /
         /
         \
-         \____
+         \\____
          /    \
         /      \
-        \      /
-         \____/
+        \\      /
+         \\____/
          /    \
         /      \
-        \      /
-         \____/
+        \\      /
+         \\____/
          /    \
         /      \
-        \      /
-         \____/
+        \\      /
+         \\____/
     """
 
     width = 8
@@ -367,18 +366,18 @@ class Polytwigs45FourCongruent_x3(Polytwigs45FourCongruent1):
     """
     0 solutions::
 
-              \      /
-               \____/
+              \\      /
+               \\____/
                /    \
               /      \
-              \      /
-               \____/
-        \      /    \
-         \____/      \
-         /    \      /
-        /      \____/
-        \      /
-         \____/
+              \\      /
+               \\____/
+        \\      /    \
+         \\____/      \
+         /    \\      /
+        /      \\____/
+        \\      /
+         \\____/
     """
 
     width = 15
@@ -406,16 +405,16 @@ class Polytwigs45FourCongruent_x4(Polytwigs45FourCongruent1):
     """
     0 solutions::
 
-        \      /
-         \____/
+        \\      /
+         \\____/
          /    \
-        /      \____
-        \      /    \
-         \____/      \____
-         /    \      /
-        /      \____/
-        \      /
-         \____/
+        /      \\____
+        \\      /    \
+         \\____/      \\____
+         /    \\      /
+        /      \\____/
+        \\      /
+         \\____/
          /
         /
     """
@@ -447,15 +446,15 @@ class Polytwigs45FourCongruent_x5(Polytwigs45FourCongruent_x4):
          /
         /
         \
-         \____
+         \\____
          /    \
-        /      \____
-        \      /    \
-         \____/      \____
-         /    \      /
-        /      \____/
-        \      /
-         \____/
+        /      \\____
+        \\      /    \
+         \\____/      \\____
+         /    \\      /
+        /      \\____/
+        \\      /
+         \\____/
          /
         /
     """
@@ -473,16 +472,16 @@ class Polytwigs45FourCongruent_x6(Polytwigs45FourCongruent3):
 
          /
         /
-        \      /
-         \____/
-         /    \      /
-        /      \____/
-        \      /    \
-         \____/      \
-         /    \      /
-        /      \____/
-        \      /
-         \____/
+        \\      /
+         \\____/
+         /    \\      /
+        /      \\____/
+        \\      /    \
+         \\____/      \
+         /    \\      /
+        /      \\____/
+        \\      /
+         \\____/
     """
 
     width = 15

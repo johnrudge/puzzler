@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -82,18 +81,18 @@ class Polytrigs23ThreeCongruent1(Polytrigs23ThreeCongruent):
     4 solutions::
 
            ______
-          /\    /\
-         /  \  /  \
-        /____\/____\______
-        \    /\    /
-         \  /  \  /
-          \/____\/_____
+          /\\    /\
+         /  \\  /  \
+        /____\\/____\\______
+        \\    /\\    /
+         \\  /  \\  /
+          \\/____\\/_____
     """
 
     width = 12
     height = 3
 
-    extras = set(((2,0,0), (2,1,0)))
+    extras = {(2,0,0), (2,1,0)}
 
     shape_pitch = 4
 
@@ -169,12 +168,12 @@ class Polytrigs23ThreeCongruent_x1(Polytrigs23ThreeCongruent):
              /\
             /  \
            /____\
-          /\    /\
-         /  \  /  \
-        /____\/____\
-        \    /\
-         \  /  \
-          \/____\
+          /\\    /\
+         /  \\  /  \
+        /____\\/____\
+        \\    /\
+         \\  /  \
+          \\/____\
            \
             \
              \
@@ -183,7 +182,7 @@ class Polytrigs23ThreeCongruent_x1(Polytrigs23ThreeCongruent):
     width = 9
     height = 4
 
-    holes = set(((2,0,1), (2,1,1)))
+    holes = {(2,0,1), (2,1,1)}
 
     def coordinates_shape(self):
         s = TriangularGrid3DCoordSet(
@@ -199,21 +198,21 @@ class Polytrigs23ThreeCongruent_x2(Polytrigs23ThreeCongruent):
     0 solutions::
 
               ______
-             /\    /
-            /  \  /
-           /____\/_____
-          /\    /\
-         /  \  /  \
-        /____\/____\
-        \    /
-         \  /
-          \/
+             /\\    /
+            /  \\  /
+           /____\\/_____
+          /\\    /\
+         /  \\  /  \
+        /____\\/____\
+        \\    /
+         \\  /
+          \\/
     """
 
     width = 9
     height = 4
 
-    holes = set(((0,0,0), (0,0,1), (2,1,1)))
+    holes = {(0,0,0), (0,0,1), (2,1,1)}
 
     def coordinates_shape(self):
         s = TriangularGrid3DCoordSet(
@@ -232,18 +231,18 @@ class Polytrigs23ThreeCongruent_x3(Polytrigs23ThreeCongruent):
              /\
             /  \
            /____\
-          /\    /\
-         /  \  /  \
-        /____\/____\
-        \    /\
-         \  /  \
-          \/____\
+          /\\    /\
+         /  \\  /  \
+        /____\\/____\
+        \\    /\
+         \\  /  \
+          \\/____\
     """
 
     width = 9
     height = 4
 
-    holes = set(((1,2,1), (2,0,1)))
+    holes = {(1,2,1), (2,0,1)}
 
     def coordinates_shape(self):
         s = TriangularGrid3DCoordSet(
@@ -259,12 +258,12 @@ class Polytrigs23ThreeCongruent_x4(Polytrigs23ThreeCongruent):
     0 solutions (impossible: I3)::
 
               ______
-             /\    /\
-            /  \  /  \
-           /____\/____\
-          /\    /\
-         /  \  /  \
-        /____\/____\
+             /\\    /\
+            /  \\  /  \
+           /____\\/____\
+          /\\    /\
+         /  \\  /  \
+        /____\\/____\
         \
          \
           \
@@ -289,18 +288,18 @@ class Polytrigs23ThreeCongruent_x5(Polytrigs23ThreeCongruent):
                 /\
                /  \
               /____\
-             /\    /
-            /  \  /
-           /____\/_____
-          /\    /\
-         /  \  /  \
-        /____\/____\
+             /\\    /
+            /  \\  /
+           /____\\/_____
+          /\\    /\
+         /  \\  /  \
+        /____\\/____\
     """
 
     width = 9
     height = 3
 
-    holes = set(((2,1,2),))
+    holes = {(2,1,2)}
 
     def coordinates_shape(self):
         s = TriangularGrid3DCoordSet(
@@ -315,21 +314,21 @@ class Polytrigs23ThreeCongruent_x6(Polytrigs23ThreeCongruent):
     """
     0 solutions::
 
-                /\    /
-               /  \  /
-              /____\/
-             /\    /
-            /  \  /
-           /____\/
-          /\    /\
-         /  \  /  \
-        /____\/____\
+                /\\    /
+               /  \\  /
+              /____\\/
+             /\\    /
+            /  \\  /
+           /____\\/
+          /\\    /\
+         /  \\  /  \
+        /____\\/____\
     """
 
     width = 9
     height = 3
 
-    holes = set(((0,3,0),))
+    holes = {(0,3,0)}
 
     def coordinates_shape(self):
         s = TriangularGrid3DCoordSet(
@@ -341,7 +340,7 @@ class Polytrigs23ThreeCongruent_x6(Polytrigs23ThreeCongruent):
 
 class Polytrigs23ThreeCongruent_x7(Polytrigs23ThreeCongruent):
 
-    """
+    r"""
     0 solutions::
 
                 /
@@ -368,7 +367,7 @@ class Polytrigs23ThreeCongruent_x7(Polytrigs23ThreeCongruent):
 
 class Polytrigs23ThreeCongruent_x8(Polytrigs23ThreeCongruent):
 
-    """
+    r"""
     0 solutions::
 
               \    /
@@ -399,7 +398,7 @@ class Polytrigs23ThreeCongruent_x8(Polytrigs23ThreeCongruent):
 
 class Polytrigs23ThreeCongruent_x9(Polytrigs23ThreeCongruent):
 
-    """
+    r"""
     0 solutions::
 
               \    /
@@ -433,15 +432,15 @@ class Polytrigs23ThreeCongruent_x10(Polytrigs23ThreeCongruent1):
     0 solutions::
 
            ______
-          /\    /\
-         /  \  /  \
-        /____\/____\______
-        \    /\    /\
-         \  /  \  /  \
-          \/____\/    \
+          /\\    /\
+         /  \\  /  \
+        /____\\/____\\______
+        \\    /\\    /\
+         \\  /  \\  /  \
+          \\/____\\/    \
     """
 
-    extras = set(((3,0,2), (2,1,0)))
+    extras = {(3,0,2), (2,1,0)}
 
 
 class Polytrigs23ThreeCongruent_x11(Polytrigs23ThreeCongruent1):
@@ -450,15 +449,15 @@ class Polytrigs23ThreeCongruent_x11(Polytrigs23ThreeCongruent1):
     0 solutions (impossible: I3)::
 
            ______
-          /\    /\
-         /  \  /  \
-        /____\/____\
-        \    /\    /\
-         \  /  \  /  \
-          \/____\/____\
+          /\\    /\
+         /  \\  /  \
+        /____\\/____\
+        \\    /\\    /\
+         \\  /  \\  /  \
+          \\/____\\/____\
     """
 
-    extras = set(((2,0,0), (3,0,2)))
+    extras = {(2,0,0), (3,0,2)}
 
 
 class Polytrigs23ThreeCongruent_x12(Polytrigs23ThreeCongruent):
@@ -467,12 +466,12 @@ class Polytrigs23ThreeCongruent_x12(Polytrigs23ThreeCongruent):
     0 solutions::
 
                  ______
-                /\    /\
-               /  \  /  \
-        ______/____\/____\______
-              \    /\    /
-               \  /  \  /
-                \/____\/
+                /\\    /\
+               /  \\  /  \
+        ______/____\\/____\\______
+              \\    /\\    /
+               \\  /  \\  /
+                \\/____\\/
     """
 
     width = 15
@@ -494,16 +493,16 @@ class Polytrigs23ThreeCongruent_x13(Polytrigs23ThreeCongruent1):
 
          \
           \
-           \______
-           /\    /\
-          /  \  /  \
-         /____\/____\______
-         \    /\    /
-          \  /  \  /
-           \/____\/
+           \\______
+           /\\    /\
+          /  \\  /  \
+         /____\\/____\\______
+         \\    /\\    /
+          \\  /  \\  /
+           \\/____\\/
     """
 
-    extras = set(((0,2,2), (2,1,0)))
+    extras = {(0,2,2), (2,1,0)}
 
 
 class Polytrigs23ThreeCongruent_x14(Polytrigs23ThreeCongruent1):
@@ -514,15 +513,15 @@ class Polytrigs23ThreeCongruent_x14(Polytrigs23ThreeCongruent1):
                     /
                    /
             ______/
-           /\    /\
-          /  \  /  \
-         /____\/____\______
-         \    /\    /
-          \  /  \  /
-           \/____\/
+           /\\    /\
+          /  \\  /  \
+         /____\\/____\\______
+         \\    /\\    /
+          \\  /  \\  /
+           \\/____\\/
     """
 
-    extras = set(((1,2,1), (2,1,0)))
+    extras = {(1,2,1), (2,1,0)}
 
 
 class Polytrigs23ThreeCongruent_x15(Polytrigs23ThreeCongruent1):
@@ -531,12 +530,12 @@ class Polytrigs23ThreeCongruent_x15(Polytrigs23ThreeCongruent1):
     0 solutions::
 
            ______
-          /\    /\
-         /  \  /  \
-        /____\/____\____________
-        \    /\    /
-         \  /  \  /
-          \/____\/
+          /\\    /\
+         /  \\  /  \
+        /____\\/____\\____________
+        \\    /\\    /
+         \\  /  \\  /
+          \\/____\\/
     """
 
     width = 14
@@ -544,7 +543,7 @@ class Polytrigs23ThreeCongruent_x15(Polytrigs23ThreeCongruent1):
 
     shape_pitch = 5
 
-    extras = set(((2,1,0), (3,1,0)))
+    extras = {(2,1,0), (3,1,0)}
 
 
 class Polytrigs23Trefoil1(Polytrigs23ThreeCongruent1Combined1):
@@ -572,7 +571,7 @@ class Polytrigs23Trefoil_x1(Polytrigs23ThreeCongruent1Combined1):
 
     """0 solutions"""
 
-    extras = set(((2,0,0), (3,0,2)))
+    extras = {(2,0,0), (3,0,2)}
 
     offsets = ((0,1,0), None, (6,0,0), None, (1,6,0))
 

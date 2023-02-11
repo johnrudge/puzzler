@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -292,12 +291,12 @@ class Polytrigs(Polysticks):
         solutions will have to be formatted at least this big::
 
                    __03__
-                  /\    /\
+                  /\\    /\
                  I  I1 I2 I3
-                /_12_\/_01_\
-               /\    /\    /\
+                /_12_\\/_01_\
+               /\\    /\\    /\
               02 Z  Z3 V  V2 01
-             /_02_\/_01_\/_01_\
+             /_02_\\/_01_\\/_01_\
 
         3 sections to each triangle:
 
@@ -325,17 +324,17 @@ class Polytrigs(Polysticks):
 
                    __03x_
                   /I1x  /I3x
-                III \ I2x \
-                /_12x\/_01x\
+                III \\ I2x \
+                /_12x\\/_01x\
 
         For 3 characters per segment, a larger representation would be better.
         For or 4 or even 5, it would be needed::
 
                    __03xx__
-                  /\      /\
+                  /\\      /\
                  /  I1xx /  I3xx
-                IIxx \  I2xx \
-               /_12xx_\/_01xx_\
+                IIxx \\  I2xx \
+               /_12xx_\\/_01xx_\
         """
         width = len(s_matrix[0][0])
         height = len(s_matrix[0])
@@ -506,8 +505,8 @@ class Polytrigs(Polysticks):
         Curve end-points (relative to intersection point)::
 
                (-dx1, +dy1).    .(+dx1, +dy1)
-                            \  /
-                (-dx0, 0).___\/___.(+dx0, 0)
+                            \\  /
+                (-dx0, 0).___\\/___.(+dx0, 0)
                              /\
                             /  \
                (-dx1, -dy1).    .(+dx1, -dy1)
@@ -542,7 +541,7 @@ class Polytrigs(Polysticks):
         return svg_deltas, svg_radii
 
 
-class MonotrigsData(object):
+class MonotrigsData:
 
     piece_data = {
         'I1': (((0,0,0),), {}),}
@@ -557,7 +556,7 @@ class MonotrigsData(object):
         'I1': 'steelblue',}
 
 
-class DitrigsData(object):
+class DitrigsData:
 
     piece_data = {
         'I2': (((0,0,0), (1,0,0)), {}),
@@ -587,7 +586,7 @@ class Polytrigs12(Polytrigs):
     piece_colors.update(DitrigsData.piece_colors)
 
 
-class TritrigsData(object):
+class TritrigsData:
 
     piece_data = {
         'I3': (((0,0,0), (1,0,0), (2,0,0)), {}),
@@ -668,7 +667,7 @@ class OneSidedPolytrigs123(OneSidedLowercaseMixin, Polytrigs123):
     pass
 
 
-class TetratrigsData(object):
+class TetratrigsData:
 
     piece_data = {
         'B04': (((0,0,0), (1,0,1), (1,1,0), (2,0,1)), {}),
@@ -826,7 +825,7 @@ class Polytrigs1234(Polytrigs123):
     piece_colors.update(TetratrigsData.piece_colors)
 
 
-class QuasiDitrigsData(object):
+class QuasiDitrigsData:
 
     piece_data = {
         'I02': (((0,0,0), (1,0,0)), {}),

@@ -47,7 +47,7 @@ class Polyhexes1234_6x7(Polyhexes1234):
     height = 6
     width = 7
 
-    hole = set(((3,2), (3,3)))
+    hole = {(3,2), (3,3)}
 
     def coordinates(self):
         for coord in self.coordinates_parallelogram(self.width, self.height):
@@ -84,7 +84,7 @@ class Polyhexes1234ElongatedHexagon3x5(Polyhexes1234):
     height = 9
     width = 7
 
-    holes = set(((2,5), (3,3), (4,4)))
+    holes = {(2,5), (3,3), (4,4)}
 
     svg_rotation = 90
 
@@ -107,7 +107,7 @@ class Polyhexes1234IrregularHexagon1(Polyhexes1234):
     width = 8
     height = 7
 
-    holes = set(((0,0), (8,0)))
+    holes = {(0,0), (8,0)}
 
     def coordinates(self):
         for coord in self.coordinates_trapezoid(9, 7):
@@ -125,7 +125,7 @@ class Polyhexes1234IrregularHexagon2(Polyhexes1234):
     height = 4
     width = 11
 
-    holes = set(((0,0), (11,0)))
+    holes = {(0,0), (11,0)}
 
     def coordinates(self):
         for coord in self.coordinates_trapezoid(12, 4):
@@ -147,7 +147,7 @@ class Polyhexes1234Trapezoid9x8(Polyhexes1234):
     height = 8
     width = 9
 
-    holes = set(((2,3), (2,4), (3,2), (3,3)))
+    holes = {(2,3), (2,4), (3,2), (3,3)}
 
     def coordinates(self):
         for coord in self.coordinates_trapezoid(9, 8):
@@ -165,7 +165,7 @@ class Polyhexes1234Triangle(Polyhexes1234):
     height = 9
     width = 9
 
-    holes = set(((2,2), (2,3), (3,2), (3,3), (4,2)))
+    holes = {(2,2), (2,3), (3,2), (3,3), (4,2)}
 
     def coordinates(self):
         for coord in self.coordinates_triangle(9):
@@ -210,8 +210,7 @@ class Polyhexes1234TrilobedCrown(Polyhexes1234):
     svg_rotation = -30
 
     def coordinates(self):
-        for coord in self.coordinates_hexagram(3):
-            yield coord
+        yield from self.coordinates_hexagram(3)
         for (x,y) in self.extras:
             yield self.coordinate_offset(x, y, None)
 
@@ -231,7 +230,7 @@ class Polyhexes1234JaggedHexagon1(Polyhexes1234):
     height = 9
     width = 9
 
-    holes = set(((3,5), (4,3), (5,4)))
+    holes = {(3,5), (4,3), (5,4)}
 
     def coordinates(self):
         coords = (
@@ -253,7 +252,7 @@ class Polyhexes1234JaggedHexagon2(Polyhexes1234JaggedHexagon1):
     Design by Kate Jones.
     """
 
-    holes = set(((3,6), (3,3), (6,3)))
+    holes = {(3,6), (3,3), (6,3)}
 
 
 class Polyhexes1234JaggedHexagon3(Polyhexes1234JaggedHexagon1):
@@ -264,7 +263,7 @@ class Polyhexes1234JaggedHexagon3(Polyhexes1234JaggedHexagon1):
     Design by Kate Jones.
     """
 
-    holes = set(((2,4), (4,6), (6,2)))
+    holes = {(2,4), (4,6), (6,2)}
 
 
 class Polyhexes1234KnobbedHexagon1(Polyhexes1234):
@@ -278,7 +277,7 @@ class Polyhexes1234KnobbedHexagon1(Polyhexes1234):
     height = 9
     width = 9
 
-    holes = set(((3,5), (4,3), (5,4)))
+    holes = {(3,5), (4,3), (5,4)}
 
     extras = ((0,4), (0,8), (4,0), (4,8), (8,0), (8,4))
 
@@ -299,14 +298,14 @@ class Polyhexes1234KnobbedHexagon2(Polyhexes1234KnobbedHexagon1):
 
     """9,398 solutions"""
 
-    holes = set(((3,6), (3,3), (6,3)))
+    holes = {(3,6), (3,3), (6,3)}
 
 
 class Polyhexes1234KnobbedHexagon3(Polyhexes1234KnobbedHexagon1):
 
     """12,714 solutions"""
 
-    holes = set(((2,4), (4,6), (6,2)))
+    holes = {(2,4), (4,6), (6,2)}
 
 
 class Polyhexes1234KnobbedHexagon4(Polyhexes1234KnobbedHexagon1):

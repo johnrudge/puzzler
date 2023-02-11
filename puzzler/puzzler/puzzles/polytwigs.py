@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -403,19 +402,19 @@ class Polytwigs(Polytrigs):
                              /    \
                         _R05/      \
                        R05  R05    /
-                  _I1_/      \_R05/
+                  _I1_/      \\_R05/
                  L2   C3     R05  W4
-                /      \_S3_/      \
+                /      \\_S3_/      \
                 L2     C3   S3     W4
-                 \_C3_/      \_S3_/
+                 \\_C3_/      \\_S3_/
                  P4   Y3     /    W4
-                /      \_Y3_/      \
+                /      \\_Y3_/      \
                 P4     Y3   Y4     W4
-                 \_P4_/      \_Y4_/
+                 \\_P4_/      \\_Y4_/
                  C4   P4     Y4
-                /      \_Y4_/
+                /      \\_Y4_/
                 C4     C4
-                 \_C4_/
+                 \\_C4_/
 
         3 sections for each intersection:
 
@@ -439,16 +438,16 @@ class Polytwigs(Polytrigs):
                             _C002_
                            /      \
                           C002     S05
-                   _S05__/          \_Q05__
-                  /      \          /      \
+                   _S05__/          \\_Q05__
+                  /      \\          /      \
                  S05      S05      S05      Q06
-                /          \_S05__/          \
-                \          /      \          /
+                /          \\_S05__/          \
+                \\          /      \\          /
                  T05      T05      Q06      Q06
-                  \_T05__/          \_Q06__/
-                         \          /
+                  \\_T05__/          \\_Q06__/
+                         \\          /
                           T05      Q06
-                           \_T05__/
+                           \\_T05__/
         """
         width = len(s_matrix[0][0])
         height = len(s_matrix[0])
@@ -566,7 +565,7 @@ class Polytwigs(Polytrigs):
 
                (-dx1, +dy1).
                             \
-                             \____.(+dx0, 0)
+                             \\____.(+dx0, 0)
                              /
                             /
                (-dx1, -dy1).
@@ -596,7 +595,7 @@ class Polytwigs(Polytrigs):
         return svg_deltas, svg_radii
 
 
-class MonotwigsData(object):
+class MonotwigsData:
 
     piece_data = {
         'I1': (((0,0,0),), {}),}
@@ -611,7 +610,7 @@ class MonotwigsData(object):
         'I1': 'steelblue',}
 
 
-class DitwigsData(object):
+class DitwigsData:
 
     piece_data = {
         'L2': (((0,0,0), (0,0,1)), {}),}
@@ -626,7 +625,7 @@ class DitwigsData(object):
         'L2': 'khaki',}
 
 
-class TritwigsData(object):
+class TritwigsData:
 
     piece_data = {
         'Y3': (((0, 0, 0), (0, 0, 1), (0, 0, 2)), {}),
@@ -647,7 +646,7 @@ class TritwigsData(object):
         '1': 'black'}
 
 
-class TetratwigsData(object):
+class TetratwigsData:
 
     piece_data = {
         'Y4': (((0, 1, 0), (1, 0, 0), (1, 0, 1), (1, 0, 2)), {}),
@@ -670,7 +669,7 @@ class TetratwigsData(object):
         '1': 'black'}
 
 
-class PentatwigsData(object):
+class PentatwigsData:
 
     piece_data = {
         'C5': (((0, 0, 0), (0, 0, 1), (0, 1, 2), (1, 0, 1), (1, 0, 2)), {}),
@@ -709,7 +708,7 @@ class PentatwigsData(object):
         '1': 'black'}
 
 
-class HexatwigsData(object):
+class HexatwigsData:
 
     piece_data = {
         'C06': (((0, 1, 0), (1, 1, 0), (1, 1, 2),
@@ -932,7 +931,7 @@ class OneSidedPolytwigs123456(OneSidedLowercaseMixin, Polytwigs123456):
     pass
 
 
-class QuasiDitwigsData(object):
+class QuasiDitwigsData:
 
     piece_data = {
         'L2': (((0,0,0), (0,0,1)), {}),
@@ -951,7 +950,7 @@ class QuasiDitwigsData(object):
         'S2': 'darkred',}
 
 
-class QuasiTritwigsData(object):
+class QuasiTritwigsData:
 
     piece_data = {
         'C03': (((0, 0, 0), (0, 0, 1), (0, 1, 2)), {}),

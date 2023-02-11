@@ -348,8 +348,8 @@ class SomaScrew(SomaCubes):
     depth = 3
 
     def coordinates(self):
-        holes = set(((0,0,1), (0,0,2), (1,0,2), (1,1,2), (2,1,2), (2,1,1),
-                     (2,2,1), (2,2,0), (1,2,0), (1,3,0), (0,3,0), (0,3,1)))
+        holes = {(0,0,1), (0,0,2), (1,0,2), (1,1,2), (2,1,2), (2,1,1),
+                     (2,2,1), (2,2,0), (1,2,0), (1,3,0), (0,3,0), (0,3,1)}
         top = ((2,4,2), (2,4,1), (1,4,1))
         for z in range(self.depth):
             for y in range(self.height - 1):
@@ -403,7 +403,7 @@ class SomaPyramid(SomaCubes):
             + [self.coordinate_offset(x+1, y+1, 1, None)
                for (x, y) in Puzzle2D.coordinates_diamond(2)]
             + [self.coordinate_offset(2, 2, 2, None)])
-        coords -= set(((0,0,0), (0,4,0), (4,0,0), (4,4,0)))
+        coords -= {(0,0,0), (0,4,0), (4,0,0), (4,4,0)}
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -432,7 +432,7 @@ class SomaCastle1(SomaCubes):
             list(self.coordinates_cuboid(5, 5, 1))
             + [self.coordinate_offset(x, y, 1, None)
                for x in (0, 4) for y in (0, 4)])
-        coords -= set(((4,4,0), (4,4,1)))
+        coords -= {(4,4,0), (4,4,1)}
         return sorted(coords)
 
 
@@ -461,5 +461,5 @@ class SomaCastle2(SomaCubes):
             list(self.coordinates_cuboid(5, 5, 1))
             + [self.coordinate_offset(x, y, 1, None)
                for x in (0, 4) for y in (0, 4)])
-        coords -= set(((2,0,0), (2,4,0)))
+        coords -= {(2,0,0), (2,4,0)}
         return sorted(coords)

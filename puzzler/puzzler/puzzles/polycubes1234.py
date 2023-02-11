@@ -66,7 +66,7 @@ class Polycubes1234_7x3x2_1(Polycubes1234Solid):
     height = 3
     depth = 2
 
-    holes = set(((3,1,1),))
+    holes = {(3,1,1)}
 
     transform_solution_matrix = Puzzle3D.swap_yz_transform
 
@@ -79,7 +79,7 @@ class Polycubes1234_3x3x5_1(Polycubes1234Solid):
     height = 3
     depth = 5
 
-    holes = set(((0,0,4), (0,2,4), (2,0,4), (2,2,4)))
+    holes = {(0,0,4), (0,2,4), (2,0,4), (2,2,4)}
 
     transform_solution_matrix = Puzzle3D.swap_yz_transform
 
@@ -88,7 +88,7 @@ class Polycubes1234_3x3x5_2(Polycubes1234_3x3x5_1):
 
     """many solutions"""
 
-    holes = set(((0,1,4), (1,0,4), (1,2,4), (2,1,4)))
+    holes = {(0,1,4), (1,0,4), (1,2,4), (2,1,4)}
 
 
 class Polycubes1234OpenBox3x3x5(Polycubes1234):
@@ -128,9 +128,9 @@ class Polycubes1234DiamondMound_x(Polycubes1234Solid):
         coords = set(self.coordinates_cuboid(3, 1, 1, offset=(2,3,2)))
         for z in range(2):
             coords.update(
-                set((self.coordinate_offset(x, y, z, None)
+                {self.coordinate_offset(x, y, z, None)
                      for (x, y) in
-                     Puzzle2D.coordinates_diamond(4 - z, offset=(z,z)))))
+                     Puzzle2D.coordinates_diamond(4 - z, offset=(z,z))})
         return sorted(coords)
 
 
@@ -146,11 +146,11 @@ class Polycubes1234DiamondCheckerboard_x(Polycubes1234Solid):
 
     def coordinates(self):
         diamond = list(Puzzle2D.coordinates_diamond(4))
-        coords = set(
-            self.coordinate_offset(x, y, 0, None) for (x, y) in diamond)
+        coords = {
+            self.coordinate_offset(x, y, 0, None) for (x, y) in diamond}
         coords.update(
-            set(self.coordinate_offset(x, y, 1, None) for (x, y) in diamond
-                if ((x + y) % 2)))
+            {self.coordinate_offset(x, y, 1, None) for (x, y) in diamond
+                if ((x + y) % 2)})
         return sorted(coords)
 
 

@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -38,7 +37,7 @@ class OneSidedPolyominoes234Octagon(OneSidedPolyominoes234):
     width = 7
     height = 7
 
-    holes = set(((-1,3), (3,-1), (3,7), (7,3), (3,3)))
+    holes = {(-1,3), (3,-1), (3,7), (7,3), (3,3)}
 
     def coordinates(self):
         coords = (

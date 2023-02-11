@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -106,7 +105,7 @@ class QuasiTritwigsSnowflake1(QuasiTritwigs):
     width = 6
     height = 6
 
-    holes = set(((2,2,2), (2,3,1), (3,2,0)))
+    holes = {(2,2,2), (2,3,1), (3,2,0)}
 
     def coordinates(self):
         coords = set(self.coordinates_hexagram(2)) - self.holes
@@ -121,16 +120,16 @@ class QuasiTritwigsSnowflake2(QuasiTritwigsSnowflake1):
 
     """many solutions"""
 
-    holes = set(((2,2,0), (2,3,2), (3,2,1)))
+    holes = {(2,2,0), (2,3,2), (3,2,1)}
 
 
 class QuasiTritwigsSnowflake3(QuasiTritwigsSnowflake1):
 
     """many solutions"""
 
-    holes = set((
+    holes = {
         (1,2,1), (1,4,2), (2,1,0), (2,2,1), (2,3,0), (2,4,0), (3,2,2),
-        (4,1,2), (4,2,1)))
+        (4,1,2), (4,2,1)}
 
     hex_offsets = ((0,2,0), (0,4,0), (2,0,0), (2,4,0), (4,0,0), (4,2,0))
 
@@ -150,7 +149,7 @@ class QuasiTritwigsElongatedHexagon2x3_1(QuasiTritwigs):
     width = 5
     height = 6
 
-    holes = set(((1,2,1), (1,4,1), (3,0,1), (3,2,1)))
+    holes = {(1,2,1), (1,4,1), (3,0,1), (3,2,1)}
 
     def coordinates(self):
         coords = set(self.coordinates_elongated_hexagon(2, 3)) - self.holes
@@ -165,35 +164,35 @@ class QuasiTritwigsElongatedHexagon2x3_2(QuasiTritwigsElongatedHexagon2x3_1):
 
     """many solutions"""
 
-    holes = set(((1,3,1), (2,1,1), (2,3,1), (3,1,1)))
+    holes = {(1,3,1), (2,1,1), (2,3,1), (3,1,1)}
 
 
 class QuasiTritwigsElongatedHexagon2x3_3(QuasiTritwigsElongatedHexagon2x3_1):
 
     """many solutions"""
 
-    holes = set(((0,3,0), (1,2,2), (3,2,0), (3,3,2)))
+    holes = {(0,3,0), (1,2,2), (3,2,0), (3,3,2)}
 
 
 class QuasiTritwigsElongatedHexagon2x3_4(QuasiTritwigsElongatedHexagon2x3_1):
 
     """many solutions"""
 
-    holes = set(((1,3,0), (2,2,2), (2,2,0), (2,3,2)))
+    holes = {(1,3,0), (2,2,2), (2,2,0), (2,3,2)}
 
 
 class QuasiTritwigsElongatedHexagon2x3_5(QuasiTritwigsElongatedHexagon2x3_1):
 
     """many solutions"""
 
-    holes = set(((0,4,0), (2,1,2), (2,4,2), (3,1,0)))
+    holes = {(0,4,0), (2,1,2), (2,4,2), (3,1,0)}
 
 
 class QuasiTritwigsElongatedHexagon2x3_6(QuasiTritwigsElongatedHexagon2x3_1):
 
     """many solutions"""
 
-    holes = set(((1,2,0), (1,3,2), (2,3,0), (3,2,2)))
+    holes = {(1,2,0), (1,3,2), (2,3,0), (3,2,2)}
 
 
 class QuasiTritwigsTrefoil1(QuasiTritwigs):

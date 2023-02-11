@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -52,8 +51,8 @@ class Polyiamonds1234567Hexagon4(Polyiamonds1234567Hexagon1):
         (set(Polyiamonds1234567.coordinates_elongated_hexagon(1, 2, (4,5,0)))
          - set(set(Polyiamonds1234567.coordinates_diamond(2, (4,5,0)))))
         .union(
-        (set(Polyiamonds1234567.coordinates_elongated_hexagon(1, 2, (7,5,0)))
-         - set(set(Polyiamonds1234567.coordinates_diamond(2, (8,5,0)))))))
+        set(Polyiamonds1234567.coordinates_elongated_hexagon(1, 2, (7,5,0)))
+         - set(set(Polyiamonds1234567.coordinates_diamond(2, (8,5,0))))))
 
 
 class Polyiamonds1234567Hexagon5(Polyiamonds1234567Hexagon1):
@@ -149,7 +148,7 @@ class Polyiamonds1234567IamondRing(Polyiamonds1234567Hexagon1):
             sorted(self.coords7))
 
 
-class IamondRingColoringMixin(object):
+class IamondRingColoringMixin:
 
     iamond_ring_colors = {
         '1': 'black',
@@ -183,7 +182,7 @@ class Polyiamonds1234567ElongatedHexagon2x10_1(Polyiamonds1234567):
 
     svg_rotation = 90
 
-    holes = set(((5,10,1), (6,9,0)))
+    holes = {(5,10,1), (6,9,0)}
 
     def coordinates(self):
         coords = set(self.coordinates_elongated_hexagon(2, 10)) - self.holes
@@ -203,7 +202,7 @@ class Polyiamonds1234567Butterfly12x10_1(Polyiamonds1234567):
 
     svg_rotation = 90
 
-    holes = set(((10,10,1), (11,9,0)))
+    holes = {(10,10,1), (11,9,0)}
 
     def coordinates(self):
         coords = set(self.coordinates_butterfly(12, 10)) - self.holes

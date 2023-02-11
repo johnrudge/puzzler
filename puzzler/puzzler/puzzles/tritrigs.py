@@ -21,7 +21,7 @@ class TritrigsHex2Ring(Tritrigs):
     height = 5
 
     def coordinates(self):
-        hole = set([(2,2,0), (2,2,1), (2,2,2), (1,2,0), (2,1,1), (3,1,2)])
+        hole = {(2,2,0), (2,2,1), (2,2,2), (1,2,0), (2,1,1), (3,1,2)}
         for coord in self.coordinates_hexagon(2):
             if coord not in hole:
                 yield coord
@@ -39,7 +39,7 @@ class TritrigsHex3x1Ring(Tritrigs):
     height = 5
 
     def coordinates(self):
-        hole = set([(1,2,0), (2,1,1), (2,1,2)])
+        hole = {(1,2,0), (2,1,1), (2,1,2)}
         for coord in self.coordinates_semiregular_hexagon(3, 1):
             if coord not in hole:
                 yield coord
@@ -57,7 +57,7 @@ class TritrigsTrapezoid5x3Ring(Tritrigs):
     height = 4
 
     def coordinates(self):
-        hole = set([(2,1,1), (2,1,2)])
+        hole = {(2,1,1), (2,1,2)}
         for coord in self.coordinates_trapezoid(5, 3):
             if coord not in hole:
                 yield coord
@@ -74,7 +74,7 @@ class TritrigsStackedElongatedHexagons2x2x1(Tritrigs):
     height = 5
 
     def coordinates(self):
-        hole = set([(1,1,2), (0,2,0), (0,2,1), (4,1,1), (3,2,0), (4,2,2)])
+        hole = {(1,1,2), (0,2,0), (0,2,1), (4,1,1), (3,2,0), (4,2,2)}
         for coord in self.coordinates_hexagon(2):
             if coord not in hole:
                 yield coord
@@ -173,7 +173,7 @@ class TritrigsTrefoil1(Tritrigs):
     height = 5
 
     def coordinates(self):
-        holes = set([(1,0,2), (4,0,1), (0,4,0)])
+        holes = {(1,0,2), (4,0,1), (0,4,0)}
         for coord in self.coordinates_semiregular_hexagon(3, 1):
             if coord not in holes:
                 yield coord
@@ -187,7 +187,7 @@ class TritrigsTrefoil2(Tritrigs):
     height = 5
 
     def coordinates(self):
-        holes = set([(2,0,0), (0,2,1), (3,2,2)])
+        holes = {(2,0,0), (0,2,1), (3,2,2)}
         for coord in self.coordinates_semiregular_hexagon(3, 1):
             if coord not in holes:
                 yield coord
@@ -201,7 +201,7 @@ class TritrigsWhorl(Tritrigs):
     height = 5
 
     def coordinates(self):
-        holes = set([(1,0,0), (0,3,1), (4,1,2)])
+        holes = {(1,0,0), (0,3,1), (4,1,2)}
         for coord in self.coordinates_semiregular_hexagon(3, 1):
             if coord not in holes:
                 yield coord
@@ -235,7 +235,7 @@ class TritrigsTriangle2(TritrigsTriangle1):
     """4 solutions."""
 
     def coordinates_hole(self):
-        hole = set(((2,0,2), (3,0,1), (0,4,0)))
+        hole = {(2,0,2), (3,0,1), (0,4,0)}
         hole.update(
             set(self.coordinates_hexagon_unbordered(1, offset=(1, 0, 0))))
         return hole
@@ -246,7 +246,7 @@ class TritrigsTriangle3(TritrigsTriangle1):
     """6 solutions."""
 
     def coordinates_hole(self):
-        hole = set(((1,1,1), (2,1,0), (2,2,2), (0,3,0), (2,0,2), (3,1,1)))
+        hole = {(1,1,1), (2,1,0), (2,2,2), (0,3,0), (2,0,2), (3,1,1)}
         hole.update(
             set(self.coordinates_triangle_unbordered(2, offset=(1, 1, 0))))
         return hole
@@ -261,7 +261,7 @@ class TritrigsTriangle4(TritrigsTriangle3):
     """1 solution."""
 
     def coordinates_hole(self):
-        hole = set(((1,1,1), (2,1,0), (2,2,2), (0,1,0), (1,3,1), (4,0,2)))
+        hole = {(1,1,1), (2,1,0), (2,2,2), (0,1,0), (1,3,1), (4,0,2)}
         hole.update(
             set(self.coordinates_triangle_unbordered(2, offset=(1, 1, 0))))
         return hole
@@ -314,12 +314,12 @@ class TritrigsHeart1(Tritrigs):
     width = 5
     height = 5
 
-    hole = set(((2,1,1), (2,2,0), (2,2,2)))
+    hole = {(2,1,1), (2,2,0), (2,2,2)}
 
     svg_rotation = -30
 
     def coordinates(self):
-        hole = set(((2,3,1), (1,4,0), (3,3,2)))
+        hole = {(2,3,1), (1,4,0), (3,3,2)}
         hole.update(self.hole)
         for coord in self.coordinates_hexagon(2):
             if coord not in hole:
@@ -337,7 +337,7 @@ class TritrigsHeart2(TritrigsHeart1):
     Design by Leslie E. Shader
     """
 
-    hole = set(((2,2,1), (1,2,0), (3,1,2)))
+    hole = {(2,2,1), (1,2,0), (3,1,2)}
 
 
 class TritrigsSpinner(Tritrigs):
@@ -373,7 +373,7 @@ class TritrigsHexagon1(Tritrigs):
     width = 5
     height = 5
 
-    holes = set(((0,3,0), (1,1,0), (1,3,1), (3,0,2), (3,2,1), (4,1,2)))
+    holes = {(0,3,0), (1,1,0), (1,3,1), (3,0,2), (3,2,1), (4,1,2)}
 
     def coordinates(self):
         for coord in self.coordinates_hexagon(2):
@@ -390,14 +390,14 @@ class TritrigsHexagon2(TritrigsHexagon1):
 
     """10 solutions."""
 
-    holes = set(((0,2,0), (2,3,1), (4,0,2), (1,2,0), (3,1,2), (2,2,1)))
+    holes = {(0,2,0), (2,3,1), (4,0,2), (1,2,0), (3,1,2), (2,2,1)}
 
 
 class TritrigsHexagon3(TritrigsHexagon1):
 
     """9 solutions."""
 
-    holes = set(((1,3,2), (2,0,1), (3,2,0), (1,2,0), (3,1,2), (2,2,1)))
+    holes = {(1,3,2), (2,0,1), (3,2,0), (1,2,0), (3,1,2), (2,2,1)}
 
     """
     no solutions:
@@ -416,8 +416,7 @@ class OneSidedTritrigsSemiRegularHexagon4x1(OneSidedTritrigs):
     height = 6
 
     def coordinates(self):
-        for coord in self.coordinates_semiregular_hexagon(4,1):
-            yield coord
+        yield from self.coordinates_semiregular_hexagon(4,1)
 
     def customize_piece_data(self):
         """Limit I3 piece to one aspect."""
@@ -484,7 +483,7 @@ class OneSidedTritrigsChevron2x4_1(OneSidedTritrigs):
     width = 7
     height = 9
 
-    hole = set([(4,4,0)])
+    hole = {(4,4,0)}
 
     def coordinates(self):
         for coord in self.coordinates_chevron(2, 4):
@@ -496,7 +495,7 @@ class OneSidedTritrigsChevron2x4_2(OneSidedTritrigsChevron2x4_1):
 
     """many solutions."""
 
-    hole = set([(5,4,0)])
+    hole = {(5,4,0)}
 
 
 class OneSidedTritrigsChevron8x1(OneSidedTritrigs):
@@ -506,7 +505,7 @@ class OneSidedTritrigsChevron8x1(OneSidedTritrigs):
     width = 10
     height = 3
 
-    hole = set([(8,1,0)])
+    hole = {(8,1,0)}
 
     def coordinates(self):
         for coord in self.coordinates_chevron(8, 1):
@@ -521,7 +520,7 @@ class OneSidedTritrigsTrapezoid7x3_1(OneSidedTritrigs):
     width = 8
     height = 4
 
-    hole = set([(2,2,0)])
+    hole = {(2,2,0)}
 
     def coordinates(self):
         for coord in self.coordinates_trapezoid(self.width - 1,
@@ -534,7 +533,7 @@ class OneSidedTritrigsTrapezoid7x3_2(OneSidedTritrigsTrapezoid7x3_1):
 
     """many solutions."""
 
-    hole = set([(3,0,0)])
+    hole = {(3,0,0)}
 
 
 class OneSidedTritrigsTrapezoid9x2_1(OneSidedTritrigsTrapezoid7x3_1):
@@ -544,14 +543,14 @@ class OneSidedTritrigsTrapezoid9x2_1(OneSidedTritrigsTrapezoid7x3_1):
     width = 10
     height = 3
 
-    hole = set([(4,0,0)])
+    hole = {(4,0,0)}
 
 
 class OneSidedTritrigsTrapezoid9x2_2(OneSidedTritrigsTrapezoid9x2_1):
 
     """many solutions."""
 
-    hole = set([(3,2,0)])
+    hole = {(3,2,0)}
 
 
 class OneSidedTritrigsTrilobedCuboid(OneSidedTritrigs):
@@ -561,13 +560,13 @@ class OneSidedTritrigsTrilobedCuboid(OneSidedTritrigs):
     width = 7
     height = 7
 
-    holes = set((
+    holes = {
         (0,3,0), (0,4,0), (0,5,0), (1,2,0), (1,3,0), (1,4,0), (2,1,0), (2,2,0),
         (1,5,1), (2,5,1), (3,5,1), (2,4,1), (3,4,1), (4,4,1), (4,3,1), (5,3,1),
         (4,0,2), (4,1,2), (5,0,2), (5,1,2), (5,2,2), (6,0,2), (6,1,2), (6,2,2),
         (0,5,1), (0,6,0), (1,5,2),
         (3,0,0), (3,0,1), (3,0,2),
-        (5,3,0), (6,2,1), (6,3,2),))
+        (5,3,0), (6,2,1), (6,3,2)}
 
     i_offsets = ((2,3,0), (3,1,0), (3,2,0))
 
@@ -597,11 +596,11 @@ class OneSidedTritrigsTrilobedCuboid_x(OneSidedTritrigsTrilobedCuboid):
     """0 solutions"""
 
     #no place for O3 piece:
-    holes = set((
+    holes = {
         (0,3,1), (1,2,2), (2,6,0), (4,5,2), (5,0,0), (6,0,1),
         (0,3,0), (0,4,0), (0,5,0), (1,2,0), (1,3,0), (1,4,0),
         (2,1,0), (2,2,0), (2,3,0),
         (1,5,1), (2,5,1), (3,5,1), (2,4,1), (3,4,1), (4,4,1),
         (3,3,1), (4,3,1), (5,3,1),
         (4,0,2), (4,1,2), (4,2,2), (5,0,2), (5,1,2), (5,2,2),
-        (6,0,2), (6,1,2), (6,2,2),))
+        (6,0,2), (6,1,2), (6,2,2)}

@@ -113,9 +113,9 @@ class Polycubes234Steps4x4x4(Polycubes234):
     depth = 4
 
     def coordinates(self):
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
-            for y, z in Puzzle2D.coordinates_triangle(4) for x in range(4))
+            for y, z in Puzzle2D.coordinates_triangle(4) for x in range(4)}
         return sorted(coords)
 
 
@@ -145,11 +145,11 @@ class Polycubes234Steps6x5x2(Polycubes234):
     depth = 2
 
     def coordinates(self):
-        coords = set(
+        coords = {
             self.coordinate_offset(x, y, z, None)
             for x, y in Puzzle2D.coordinates_triangle(6)
             for z in range(2)
-            if y < 5)
+            if y < 5}
         return sorted(coords)
 
 
@@ -331,7 +331,7 @@ class Polycubes234Tower2(Polycubes234Solid):
     height = 3
     depth = 5
 
-    holes = set(((0,0,4), (0,2,4), (1,1,4), (2,0,4), (2,2,4)))
+    holes = {(0,0,4), (0,2,4), (1,1,4), (2,0,4), (2,2,4)}
 
     transform_solution_matrix = Puzzle3D.swap_yz_transform
 
@@ -340,4 +340,4 @@ class Polycubes234Tower3(Polycubes234Tower2):
 
     """many solutions"""
 
-    holes = set(((0,1,4), (1,0,4), (1,1,4), (1,2,4), (2,1,4)))
+    holes = {(0,1,4), (1,0,4), (1,1,4), (1,2,4), (2,1,4)}

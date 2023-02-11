@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -102,7 +101,7 @@ def read_start_position_from_stdin():
 def read_start_position_from_file(name):
     try:
         f = open(name)
-    except IOError:
+    except OSError:
         print('Unable to open file "%s".' % name, file=sys.stderr)
         sys.exit(1)
     try:
@@ -110,7 +109,7 @@ def read_start_position_from_file(name):
             data = f.read()
         except Exception as error:
             print('Problem reading data from file "%s":' % name, file=sys.stderr)
-            print('%s: %s' % (error.__class__.__name__, error), file=sys.stderr)
+            print(f'{error.__class__.__name__}: {error}', file=sys.stderr)
             sys.exit(1)
     finally:
         f.close()
@@ -148,7 +147,7 @@ def solve(puzzle_class, output_stream, settings):
 class DataError(RuntimeError): pass
 
 
-class Settings(object):
+class Settings:
 
     algorithm = 'x2'
     stop_after = 0
@@ -158,9 +157,9 @@ class Settings(object):
         self.__dict__.update(keywordargs)
 
 
-class Puzzle(object):
+class Puzzle:
 
-    empties = set(['.', '0'])
+    empties = {'.', '0'}
 
     def __init__(self, start_position, init_puzzle=True):
         self.start_position = start_position
@@ -198,10 +197,10 @@ class Puzzle(object):
         try:
             self.build_matrix()
         except DataError as error:
-            print('Problem with start position: %s.' % (error,))
+            print(f'Problem with start position: {error}.')
             sys.exit(1)
         except ValueError as error:
-            print('Non-integer found in start position: %s.' % (error,))
+            print(f'Non-integer found in start position: {error}.')
             sys.exit(1)
 
     def build_matrix_header(self):
@@ -221,8 +220,8 @@ class Puzzle(object):
             raise RuntimeError(
                 'Problem with matrix columns: expecting %s columns, %s created'
                 % (self.order ** 2 * 4, len(headers)))
-        self.matrix_columns = dict((name, i)
-                                   for (i, name) in enumerate(headers))
+        self.matrix_columns = {name: i
+                                   for (i, name) in enumerate(headers)}
         self.matrix.append(headers)
 
     def init_coordinate_blocks(self):
@@ -355,7 +354,7 @@ class Puzzle(object):
         matrix = [[0] * self.order for i in range(self.order)]
         for row in solution:
             coord_id, block_id, column_id, row_id = row
-            x, y = [int(part) for part in coord_id[1:].split(',')]
+            x, y = (int(part) for part in coord_id[1:].split(','))
             value = int(block_id.split('b')[0])
             matrix[y][x] = value
         return '\n'.join([' '.join([str(cell) for cell in row])
@@ -372,7 +371,7 @@ class Sudoku9x9(Puzzle):
     order = 9
 
 
-class SudokuTest(object):
+class SudokuTest:
 
     start_positions_9x9 = [
 """\

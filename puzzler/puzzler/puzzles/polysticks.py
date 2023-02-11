@@ -298,7 +298,7 @@ class Polysticks(PuzzlePseudo3D):
             for cell_name in row[:-1]:
                 if cell_name.endswith('i') or cell_name == '!':
                     continue
-                x, y, z = [int(d.strip()) for d in cell_name.split(',')]
+                x, y, z = (int(d.strip()) for d in cell_name.split(','))
                 s_matrix[z][y + margin][x + margin] = name
         return s_matrix
 
@@ -337,7 +337,7 @@ class Polysticks(PuzzlePseudo3D):
     def get_piece_cells(self, s_matrix, x, y, z):
         cell_content = s_matrix[z][y][x]
         coord = coordsys.SquareGrid3D((x, y, z))
-        cells = set([coord])
+        cells = {coord}
         if cell_content != '0':
             self._get_piece_cells(cells, coord, s_matrix, cell_content)
         return cells
@@ -501,7 +501,7 @@ class OneSidedTetrasticks(OneSidedLowercaseMixin, Tetrasticks):
     pass
 
 
-class Polysticks123Data(object):
+class Polysticks123Data:
 
     piece_data = {
         'I1': (((0,0,0),), {}),
@@ -586,7 +586,7 @@ class SevenSegmentDigits(Polysticks):
     unwelded_pieces = 'd0 d1 d2 d5 d7'.split()
     """Pieces without junction points (max. 2 segments join)."""
 
-    intersection_exceptions = set(('d0',))
+    intersection_exceptions = {'d0'}
 
     piece_colors = {
         'd0': 'blue',

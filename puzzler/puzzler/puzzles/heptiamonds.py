@@ -117,12 +117,12 @@ class HeptiamondsSnowflake2(Heptiamonds):
     width = 16
 
     def coordinates(self):
-        holes = set(((7,4,0),(7,4,1),(8,4,0),(8,3,1),
+        holes = {(7,4,0),(7,4,1),(8,4,0),(8,3,1),
                      (11,3,1),(11,4,0),(11,4,1),(12,4,0),
                      (11,7,1),(12,7,0),(11,8,0),(11,8,1),
                      (7,12,0),(7,11,1),(8,11,0),(8,11,1),
                      (3,11,1),(4,11,0),(4,11,1),(4,12,0),
-                     (3,8,1),(4,8,0),(4,7,1),(4,7,0),))
+                     (3,8,1),(4,8,0),(4,7,1),(4,7,0)}
         coords = set()
         for y in range(4, 16):
             for x in range(4, 16):
@@ -158,7 +158,7 @@ class HeptiamondsSnowflake3(Heptiamonds):
 
     hex_offsets = ((0,5,0), (0,10,0), (5,0,0), (5,10,0), (10,0,0), (10,5,0))
 
-    holes = set(((1,8,0), (3,3,1), (3,10,1), (8,1,0), (8,8,0), (10,3,1)))
+    holes = {(1,8,0), (3,3,1), (3,10,1), (8,1,0), (8,8,0), (10,3,1)}
 
     svg_rotation = 30
 
@@ -768,7 +768,7 @@ class HeptiamondsHexagon12(Heptiamonds):
 
     hex_offsets = (
         (1,7,0), (3,3,0), (3,9,0), (5,5,0), (7,1,0), (7,7,0), (9,3,0))
-    holes = set(((3,7,0), (4,4,1), (4,8,1), (7,3,0), (7,7,0), (8,4,1)))
+    holes = {(3,7,0), (4,4,1), (4,8,1), (7,3,0), (7,7,0), (8,4,1)}
 
     def coordinates(self):
         coords = set(self.coordinates_hexagon(6))
@@ -795,7 +795,7 @@ class HeptiamondsHexagon13(HeptiamondsHexagon12):
 
     hex_offsets = (
         (2,5,0), (2,8,0), (5,2,0), (5,5,0), (5,8,0), (8,2,0), (8,5,0))
-    holes = set(((3,6,1), (4,8,0), (5,4,0), (6,7,1), (7,3,1), (8,5,0)))
+    holes = {(3,6,1), (4,8,0), (5,4,0), (6,7,1), (7,3,1), (8,5,0)}
 
     def customize_piece_data(self):
         self.piece_data['P7'][-1]['rotations'] = None
@@ -813,7 +813,7 @@ class HeptiamondsHexagon14(HeptiamondsHexagon12):
 
     hex_offsets = (
         (1,5,0), (1,9,0), (5,1,0), (5,5,0), (5,9,0), (9,1,0), (9,5,0))
-    holes = set(((2,6,1), (3,9,0), (5,3,0), (6,8,1), (8,2,1), (9,5,0)))
+    holes = {(2,6,1), (3,9,0), (5,3,0), (6,8,1), (8,2,1), (9,5,0)}
 
     def customize_piece_data(self):
         self.piece_data['P7'][-1]['rotations'] = None
@@ -971,10 +971,10 @@ class HeptiamondsJaggedHexagon_x3(HeptiamondsJaggedHexagon_x1):
 
     """0 solutions"""
 
-    holes = set((
+    holes = {
         (2,6,1), (2,8,1), (3,5,0), (3,9,0),
         (5,3,0), (5,9,0), (6,2,1), (6,8,1),
-        (8,2,1), (8,6,1), (9,3,0), (9,5,0)))
+        (8,2,1), (8,6,1), (9,3,0), (9,5,0)}
 
 
 class HeptiamondsDiamondRing(Heptiamonds):
@@ -1328,7 +1328,7 @@ class HeptiamondsHexgridHexagon2(HeptiamondsHexgridHexagon1):
 
     """many solutions"""
 
-    holes = set(((1,3), (2,2), (2,3), (2,5), (3,4), (3,5), (4,2), (5,1), (5,2)))
+    holes = {(1,3), (2,2), (2,3), (2,5), (3,4), (3,5), (4,2), (5,1), (5,2)}
 
     def coordinates(self):
         hcoords = set(Polyhexes.coordinates_hexagon(4)) - self.holes
@@ -1392,21 +1392,21 @@ class HeptiamondsHexgridHexagon_x1(HeptiamondsHexgridHexagon2):
 
     """0 solutions"""
 
-    holes = set(((1,3), (1,5), (2,3), (3,1), (3,4), (3,5), (4,2), (5,1), (5,3)))
+    holes = {(1,3), (1,5), (2,3), (3,1), (3,4), (3,5), (4,2), (5,1), (5,3)}
 
 
 class HeptiamondsHexgridHexagon_x2(HeptiamondsHexgridHexagon2):
 
     """0 solutions"""
 
-    holes = set(((1,3), (1,5), (2,2), (2,5), (3,1), (3,5), (5,1), (5,2), (5,3)))
+    holes = {(1,3), (1,5), (2,2), (2,5), (3,1), (3,5), (5,1), (5,2), (5,3)}
 
 
 class HeptiamondsHexgridHexagon_x3(HeptiamondsHexgridHexagon2):
 
     """0 solutions"""
 
-    holes = set(((1,4), (1,5), (2,4), (2,5), (3,3), (4,1), (4,2), (5,1), (5,2)))
+    holes = {(1,4), (1,5), (2,4), (2,5), (3,3), (4,1), (4,2), (5,1), (5,2)}
 
 
 class HeptiamondsHexgridTwoDiamonds1(Heptiamonds):
@@ -1416,7 +1416,7 @@ class HeptiamondsHexgridTwoDiamonds1(Heptiamonds):
     width = 14
     height = 14
 
-    holes = set(((0,4), (0,5), (1,4), (3,2), (3,3), (3,4), (5,2), (6,1), (6,2)))
+    holes = {(0,4), (0,5), (1,4), (3,2), (3,3), (3,4), (5,2), (6,1), (6,2)}
 
     def coordinates(self):
         hcoords = set(Polyhexes.coordinates_hexagon(4)) - self.holes
@@ -1432,7 +1432,7 @@ class HeptiamondsHexgridTwoDiamonds2(HeptiamondsHexgridTwoDiamonds1):
 
     """many solutions"""
 
-    holes = set(((0,4), (0,5), (1,4), (3,1), (3,3), (3,5), (5,2), (6,1), (6,2)))
+    holes = {(0,4), (0,5), (1,4), (3,1), (3,3), (3,5), (5,2), (6,1), (6,2)}
 
 
 class HeptiamondsHexgridTwoDiamonds3(Heptiamonds):
@@ -1692,7 +1692,7 @@ class HeptiamondsHexgridFlower1(Heptiamonds):
 
     svg_rotation = 30
 
-    holes = set(((0,3), (0,6), (3,0), (3,6), (6,0), (6,3), (2,2), (2,5), (5,2)))
+    holes = {(0,3), (0,6), (3,0), (3,6), (6,0), (6,3), (2,2), (2,5), (5,2)}
 
     def coordinates(self):
         hcoords = set(Polyhexes.coordinates_hexagon(4)) - self.holes
@@ -1708,7 +1708,7 @@ class HeptiamondsHexgridFlower2(HeptiamondsHexgridFlower1):
 
     """many solutions"""
 
-    holes = set(((0,3), (0,6), (3,0), (3,6), (6,0), (6,3), (3,2), (2,4), (4,3)))
+    holes = {(0,3), (0,6), (3,0), (3,6), (6,0), (6,3), (3,2), (2,4), (4,3)}
 
     svg_rotation = 0
 
@@ -1906,7 +1906,7 @@ class HeptiamondsTriangleRing2(Heptiamonds):
     height = 14
     width = 14
 
-    holes = set(((1,6,0), (6,1,0), (6,6,0)))
+    holes = {(1,6,0), (6,1,0), (6,6,0)}
 
     def coordinates(self):
         coords = (
@@ -1931,7 +1931,7 @@ class HeptiamondsTriangleHexRing(Heptiamonds):
     height = 15
     width = 15
 
-    holes = set(((2,2,0), (2,10,0), (10,2,0)))
+    holes = {(2,2,0), (2,10,0), (10,2,0)}
 
     def coordinates(self):
         coords = (
@@ -1952,7 +1952,7 @@ class HeptiamondsTriangleHexRing2(HeptiamondsTriangleHexRing):
     height = 14
     width = 14
 
-    holes = set(((0,0,0), (0,14,0), (14,0,0)))
+    holes = {(0,0,0), (0,14,0), (14,0,0)}
 
 
 class HeptiamondsSemiregularHexagon8x3(Heptiamonds):
@@ -2113,8 +2113,8 @@ class HeptiamondsSemiregularHexagons6x2(Heptiamonds):
     width = 13
 
     def coordinates(self):
-        holes = set([(2,3,1), (3,2,1), (3,3,0), (3,3,1),
-                     (9,4,0), (9,4,1), (9,5,0), (10,4,0)])
+        holes = {(2,3,1), (3,2,1), (3,3,0), (3,3,1),
+                     (9,4,0), (9,4,1), (9,5,0), (10,4,0)}
         for z in range(self.depth):
             for y in range(self.height):
                 for x in range(self.width):
@@ -2235,7 +2235,7 @@ class HeptiamondsTrefoil5(Heptiamonds):
     height = 12
     width = 12
 
-    holes = set(((4,4,1), (4,5,1), (5,4,1),))
+    holes = {(4,4,1), (4,5,1), (5,4,1)}
 
     def coordinates(self):
         coords = set(
@@ -2255,7 +2255,7 @@ class HeptiamondsTrefoil6(HeptiamondsTrefoil5):
 
     """many solutions"""
 
-    holes = set(((4,5,0), (5,4,0), (5,5,0),))
+    holes = {(4,5,0), (5,4,0), (5,5,0)}
 
 
 class HeptiamondsTrefoil7(Heptiamonds):
@@ -2403,8 +2403,8 @@ class HeptiamondsQuintupleTrefoil(Heptiamonds):
             + list(self.coordinates_triangle(5, offset=(0,10,0)))
             + list(self.coordinates_triangle(5, offset=(10,5,0)))
             + list(self.coordinates_inverted_triangle(5, offset=(0,5,0))))
-        coords -= set(
-            ((5,6,1), (6,6,0), (6,6,1), (6,7,0), (6,7,1), (7,5,1), (7,6,0)))
+        coords -= {
+            (5,6,1), (6,6,0), (6,6,1), (6,7,0), (6,7,1), (7,5,1), (7,6,0)}
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -2439,8 +2439,8 @@ class HeptiamondsQuintupleJewel(Heptiamonds):
         coords = set(
             list(self.coordinates_hexagon(5))
             + list(self.coordinates_triangle(5, offset=(0,10,0))))
-        coords -= set(
-            ((4,4,1), (4,5,0), (4,5,1), (4,6,0), (5,4,0), (5,4,1), (5,5,0)))
+        coords -= {
+            (4,4,1), (4,5,0), (4,5,1), (4,6,0), (5,4,0), (5,4,1), (5,5,0)}
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -2460,8 +2460,8 @@ class HeptiamondsQuintupleC7(Heptiamonds):
             + list(self.coordinates_triangle(5, offset=(0,5,0)))
             + list(self.coordinates_triangle(5, offset=(10,5,0)))
             + list(self.coordinates_inverted_triangle(5)))
-        coords -= set(
-            ((7,2,1), (7,3,0), (8,2,0), (8,2,1), (9,2,0), (9,2,1), (9,3,0)))
+        coords -= {
+            (7,2,1), (7,3,0), (8,2,0), (8,2,1), (9,2,0), (9,2,1), (9,3,0)}
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -2479,8 +2479,8 @@ class HeptiamondsQuintupleM7(Heptiamonds):
         coords = set(
             list(self.coordinates_triangle(10))
             + list(self.coordinates_triangle(10, offset=(5,0,0))))
-        coords -= set(
-            ((5,2,0), (5,2,1), (5,3,0), (6,2,0), (6,2,1), (6,3,0), (7,2,0)))
+        coords -= {
+            (5,2,0), (5,2,1), (5,3,0), (6,2,0), (6,2,1), (6,3,0), (7,2,0)}
         return sorted(coords)
 
     def customize_piece_data(self):
@@ -2500,9 +2500,9 @@ class HeptiamondsQuintupleV7(Heptiamonds):
             + list(self.coordinates_inverted_triangle(5, offset=(0,5,0)))
             + list(self.coordinates_inverted_triangle(5, offset=(5,0,0)))
             + list(self.coordinates_triangle(5, offset=(5,5,0))))
-        coords -= set(
-            ((9,3,1), (10,2,1), (10,3,0),
-             (11,2,0), (11,2,1), (11,3,0), (11,3,1)))
+        coords -= {
+            (9,3,1), (10,2,1), (10,3,0),
+             (11,2,0), (11,2,1), (11,3,0), (11,3,1)}
         return sorted(coords)
 
     def customize_piece_data(self):

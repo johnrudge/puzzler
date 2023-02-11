@@ -26,7 +26,7 @@ except ImportError:
     pass
 
 
-class ExactCover(object):
+class ExactCover:
 
     """
     Given a sparse matrix of 0s and 1s, find every set of rows containing
@@ -93,7 +93,7 @@ class ExactCover(object):
         column_names = next(matrix_iter)
         self.secondary_columns = set(
             column_names[(len(column_names) - secondary):])
-        self.columns = dict((j, set()) for j in column_names)
+        self.columns = {j: set() for j in column_names}
         self.rows = [
             [column_names[j] for j in range(len(column_names)) if row[j]]
             for row in matrix_iter]
@@ -120,8 +120,7 @@ class ExactCover(object):
             else:
                 self.solution.append(r)
             covered = self.cover(r)
-            for s in self.solve(level+1):
-                yield s
+            yield from self.solve(level+1)
             self.uncover(r, covered)
             self.solution.pop()
 

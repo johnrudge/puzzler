@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 # $Id$
 
 # Author: David Goodger <goodger@python.org>
@@ -526,19 +525,19 @@ class Hexagonal2D(Cartesian2D):
 
                         __
                      __/  \
-                  __/  \__/
-               __/  \__/  \
-            __/  \__/  \__/
-           /  \__/  \__/  \
-          4\__/  \__/  \__/
-           /  \__/  \__/  \
-          3\__/  \__/  \__/
-           /  \__/  \__/  \
-          2\__/  \__/  \__/
-           /  \__/  \__/ 4
-          1\__/  \__/ 3
-           /  \__/ 2
-        y=0\__/ 1
+                  __/  \\__/
+               __/  \\__/  \
+            __/  \\__/  \\__/
+           /  \\__/  \\__/  \
+          4\\__/  \\__/  \\__/
+           /  \\__/  \\__/  \
+          3\\__/  \\__/  \\__/
+           /  \\__/  \\__/  \
+          2\\__/  \\__/  \\__/
+           /  \\__/  \\__/ 4
+          1\\__/  \\__/ 3
+           /  \\__/ 2
+        y=0\\__/ 1
            x=0
 
     The x-axis could also be considered horizontal, with the y-axis slanted up
@@ -617,7 +616,7 @@ class Hexagonal2DView(Cartesian2DView):
 
 class Triangular3D(Cartesian3D):
 
-    """
+    r"""
     Pseudo-3D (2D + orientation) triangular coordinate system: (x, y, z).
     The x and y axes are not perpendicular, but separated by 60 degrees::
 
@@ -726,7 +725,7 @@ class Triangular3DView(CartesianPseudo3DView):
 
 class TriangularGrid3D(Cartesian3D):
 
-    """
+    r"""
     Pseudo-3D (2D + orientation) triangular coordinate system for gridlines:
     (x, y, z).  The Z dimension is for orientation:
 
@@ -883,8 +882,8 @@ class TriangularGrid3DCoordSetMixin:
         (x,y)::
 
               2    1
-               \  /
-            3___\/___0
+               \\  /
+            3___\\/___0
                 /\
                /  \
               4    5
@@ -1131,7 +1130,7 @@ class HexagonalGrid3D(Cartesian3D):
 
         z=1
           \
-           \____z=0
+           \\____z=0
            /
           /
         z=2
