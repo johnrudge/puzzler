@@ -1,0 +1,44 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'puzzler'
+description = 'Polyform Puzzler'
+version = '1+SVN'
+license = {text ='GPL-2.0-or-later'}
+classifiers = [
+    'Development Status :: 5 - Production/Stable',
+    'Environment :: Console',
+    'Intended Audience :: End Users/Desktop',
+    'Intended Audience :: Education',
+    'Intended Audience :: Science/Research',
+    'License :: OSI Approved :: GNU General Public License (GPL)',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Topic :: Games/Entertainment :: Puzzle Games',
+    'Topic :: Scientific/Engineering :: Mathematics',]
+requires-python = ">=3.7"
+
+[tools.setuptools]
+packages = ['puzzler', 'puzzler.puzzles']
+package_dir = 'puzzler'
+long_description = """
+Polyform Puzzler is a set of solvers for many polyform
+puzzles (like Pentominoes and Soma Cubes), and a software
+toolkit for exploring & solving polyform puzzles.  It
+consists of a set of front-end applications for specific
+polyform puzzles and a Python library that does the heavy
+lifting.  New polyforms and new puzzles can easily be
+defined and added.  Requires Python 3.7 or higher.
+"""
+author_email = 'goodger@python.org'
+author = 'David Goodger'
+url = 'http://puzzler.sourceforge.net/'
+platforms = 'OS-independent'
+
+
+
