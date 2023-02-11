@@ -6,4 +6,4 @@ This is a fork of David Goodger's polyform puzzler code (https://puzzler.sourcef
 pip install -r requirements.txt
 pip install .
 ```
-Polyform puzzle uses the `exactcover` package, which can be found at https://github.com/Seemee/exactcover.
+Polyform puzzler uses the `exactcover` package, which can be found at https://github.com/Seemee/exactcover.
