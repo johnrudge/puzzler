@@ -4,6 +4,6 @@
 """? solutions"""
 
 import puzzler
-from puzzler.puzzles.polyominoes_misc import PuzzleBits as puzzle
+from puzzler.puzzles.polyominoes_misc import PuzzleBits56 as puzzle
 
 puzzler.run(puzzle)
