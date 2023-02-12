@@ -48,7 +48,7 @@ except:
     pass
 
 
-__version__ = '1+SVN'
+__version__ = '1.1.0'
 
 version_template = (
     '%%prog\nPolyform Puzzler version %s [%s], Python %s, on %s'
