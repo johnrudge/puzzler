@@ -519,7 +519,7 @@ class QuasiSquareGrid3DView(SquareGrid3DView):
 
 class Hexagonal2D(Cartesian2D):
 
-    """
+    r"""
     2D hexagonal coordinate system: (x, y).
     The x and y axes are not perpendicular, but separated by 60 degrees::
 
@@ -875,7 +875,7 @@ class TriangularGrid3DCoordSetMixin:
     intersection_coord_class = TriangularGrid3D
 
     def intersections(self):
-        """
+        r"""
         Represent contstraints on intersections via up to 6 additional columns
         per intersection [*]_, in the form i(x,y,z) (or "x,y,zi").  The
         segment in direction "z" (below) cannot go through the intersection
@@ -1113,7 +1113,7 @@ class QuasiTriangularGrid3DView(TriangularGrid3DView):
 
 class HexagonalGrid3D(Cartesian3D):
 
-    """
+    r"""
     Pseudo-3D (2D + orientation) hexagonal coordinate system for gridlines:
     (x, y, z).  (x, y) = lower-left corner of (x, y) hexagon in polyhex grid.
     The Z dimension is for orientation:
