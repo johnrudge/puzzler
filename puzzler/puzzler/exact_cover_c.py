@@ -17,7 +17,7 @@ technique [3]_ ('DLX').
 .. [3] http://en.wikipedia.org/wiki/Dancing_Links
 """
 
-import exactcover
+from xcover import covers
 from puzzler.utils import thousands
 
 
@@ -97,7 +97,8 @@ class ExactCover:
             secondary_cols = []
         else:
             secondary_cols = matrix[0][-secondary:] # last cols
-        self.solver = exactcover.Coverings(rows, secondary_cols)
+        self.solver = covers(rows, secondary = secondary_cols)
+        self.rows = rows
         
     def solve(self, level=0):
         """
@@ -105,8 +106,8 @@ class ExactCover:
         solver, using Algorithm X.
         """
         for solution in self.solver:
-            self.solution = solution
-            yield solution
+            self.solution = [self.rows[j] for j in solution]
+            yield self.solution
 
     def format_solution(self):
         """Return a simple formatted string representation of the solution."""
